@@ -1,0 +1,237 @@
+[
+    {
+        "formatted_address": "C. Jacinto Benavente 2545, Casas Grandes, 32600 Cd Ju\u00e1rez, Chih., Mexico",
+        "geometry": {
+            "location": {
+                "lat": 31.7055094,
+                "lng": -106.4311667
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 31.70685478029149,
+                    "lng": -106.4297642697085
+                },
+                "southwest": {
+                    "lat": 31.70415681970849,
+                    "lng": -106.4324622302915
+                }
+            }
+        },
+        "name": "Burciaga Juardo Jesis Dabiel",
+        "types": [
+            "veterinary_care",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "formatted_address": "Av. Ej\u00e9rcito Nacional 6905, Partido Iglesias, 32536 Cd Ju\u00e1rez, Chih., Mexico",
+        "geometry": {
+            "location": {
+                "lat": 31.70647469999999,
+                "lng": -106.4236297
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 31.7074909802915,
+                    "lng": -106.4224532197085
+                },
+                "southwest": {
+                    "lat": 31.7047930197085,
+                    "lng": -106.4251511802915
+                }
+            }
+        },
+        "name": "Veterinaria del \u00c1ngel",
+        "opening_hours": {
+            "open_now": true,
+            "periods": [
+                {
+                    "close": {
+                        "day": 0,
+                        "time": "1400"
+                    },
+                    "open": {
+                        "day": 0,
+                        "time": "1000"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 1,
+                        "time": "1700"
+                    },
+                    "open": {
+                        "day": 1,
+                        "time": "1000"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 2,
+                        "time": "1700"
+                    },
+                    "open": {
+                        "day": 2,
+                        "time": "1000"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 3,
+                        "time": "1700"
+                    },
+                    "open": {
+                        "day": 3,
+                        "time": "1000"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 4,
+                        "time": "1700"
+                    },
+                    "open": {
+                        "day": 4,
+                        "time": "1000"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 5,
+                        "time": "1700"
+                    },
+                    "open": {
+                        "day": 5,
+                        "time": "1000"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 6,
+                        "time": "1700"
+                    },
+                    "open": {
+                        "day": 6,
+                        "time": "1000"
+                    }
+                }
+            ],
+            "weekday_text": [
+                "Monday: 10:00 AM \u2013 5:00 PM",
+                "Tuesday: 10:00 AM \u2013 5:00 PM",
+                "Wednesday: 10:00 AM \u2013 5:00 PM",
+                "Thursday: 10:00 AM \u2013 5:00 PM",
+                "Friday: 10:00 AM \u2013 5:00 PM",
+                "Saturday: 10:00 AM \u2013 5:00 PM",
+                "Sunday: 10:00 AM \u2013 2:00 PM"
+            ]
+        },
+        "rating": 4.8,
+        "types": [
+            "veterinary_care",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "formatted_address": "Segunda de Quer\u00e9taro 6535-1, Lomas de San Jos\u00e9, 32680 Cd Ju\u00e1rez, Chih., Mexico",
+        "geometry": {
+            "location": {
+                "lat": 31.6601213,
+                "lng": -106.4293481
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 31.6614794802915,
+                    "lng": -106.4279557197085
+                },
+                "southwest": {
+                    "lat": 31.6587815197085,
+                    "lng": -106.4306536802915
+                }
+            }
+        },
+        "name": "Vet&Grooming",
+        "opening_hours": {
+            "open_now": true,
+            "periods": [
+                {
+                    "close": {
+                        "day": 1,
+                        "time": "1800"
+                    },
+                    "open": {
+                        "day": 1,
+                        "time": "1000"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 2,
+                        "time": "1800"
+                    },
+                    "open": {
+                        "day": 2,
+                        "time": "1000"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 3,
+                        "time": "1800"
+                    },
+                    "open": {
+                        "day": 3,
+                        "time": "1000"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 4,
+                        "time": "1800"
+                    },
+                    "open": {
+                        "day": 4,
+                        "time": "1000"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 5,
+                        "time": "1800"
+                    },
+                    "open": {
+                        "day": 5,
+                        "time": "1000"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 6,
+                        "time": "1800"
+                    },
+                    "open": {
+                        "day": 6,
+                        "time": "1000"
+                    }
+                }
+            ],
+            "weekday_text": [
+                "Monday: 10:00 AM \u2013 6:00 PM",
+                "Tuesday: 10:00 AM \u2013 6:00 PM",
+                "Wednesday: 10:00 AM \u2013 6:00 PM",
+                "Thursday: 10:00 AM \u2013 6:00 PM",
+                "Friday: 10:00 AM \u2013 6:00 PM",
+                "Saturday: 10:00 AM \u2013 6:00 PM",
+                "Sunday: Closed"
+            ]
+        },
+        "rating": 4.4,
+        "types": [
+            "veterinary_care",
+            "point_of_interest",
+            "establishment"
+        ]
+    }
+]
