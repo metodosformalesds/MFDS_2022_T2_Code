@@ -9,7 +9,7 @@ headers = {
 }
 
 search_query = 'zep'.replace(' ', '+')
-base_url = 'https://www.amazon.com/s?k={0}'.format(search_query)
+base_url = 'https://www.amazon.com/s?k={mascotas}'.format(search_query)
 
 items = []
 for i in range(1, 5):
