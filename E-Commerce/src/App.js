@@ -9,7 +9,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 export default function App() {
   return (
     <div className="App">
-      <nav className="navbar navbar-expand-lg fixed-top  background-color: #264ECA">
+      <nav className="navbar navbar-expand-lg fixed-top  background-color: #264ECA li.active color">
         <div className="container"> 
           <a className="navbar-brand activate Tcolor activate Tsize" href="/" >VetPet</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,9 +41,9 @@ export default function App() {
     <BrowserRouter>
       
     </BrowserRouter>
-    <Container><Homescreen></Homescreen></Container>
+    
           
-        
+        <Container><Homescreen></Homescreen></Container>
     </div>
   );
 }
