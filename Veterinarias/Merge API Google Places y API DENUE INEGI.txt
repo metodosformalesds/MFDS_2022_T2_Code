@@ -1,0 +1,31 @@
+let
+    Source = Excel.Workbook(File.Contents("C:\Users\Adrian-PC\Desktop\Libro2APi.xlsx"), null, true),
+    Hoja1_Sheet = Source{[Item="Hoja1",Kind="Sheet"]}[Data],
+    #"Promoted Headers" = Table.PromoteHeaders(Hoja1_Sheet, [PromoteAllScalars=true]),
+    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"place_name", type text}, {"formatted_address", type text}, {"latitud", type number}, {"longitud", type number}, {"Schedule", type text}, {"rating", type number}, {"types", type text}}),
+    #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"place_name", "Nombre"}}),
+    #"Merged Queries" = Table.NestedJoin(#"Renamed Columns", {"Nombre"}, #"DENUE API", {"Nombre"}, "DENUE API", JoinKind.LeftOuter),
+    #"Removed Columns" = Table.RemoveColumns(#"Merged Queries",{"DENUE API"})
+    Source = Excel.Workbook(File.Contents("C:\Users\Adrian-PC\Desktop\Libro2APi.xlsx"), null, true),
+    Hoja1_Sheet = Source{[Item="Hoja1",Kind="Sheet"]}[Data],
+    #"Promoted Headers" = Table.PromoteHeaders(Hoja1_Sheet, [PromoteAllScalars=true]),
+    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"place_name", type text}, {"formatted_address", type text}, {"latitud", type number}, {"longitud", type number}, {"Schedule", type text}, {"rating", type number}, {"types", type text}}),
+    #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"place_name", "Nombre"}}),
+    #"Merged Queries" = Table.NestedJoin(#"Renamed Columns", {"Nombre"}, #"DENUE API", {"Nombre"}, "DENUE API", JoinKind.LeftOuter),
+    #"Removed Columns" = Table.RemoveColumns(#"Merged Queries",{"DENUE API"})
+    Source = Table.NestedJoin(#"DENUE API", {"Nombre"}, Merge1, {"Nombre"}, "Merge1", JoinKind.LeftOuter),
+    #"Expanded Merge1" = Table.ExpandTableColumn(Source, "Merge1", {"Nombre", "formatted_address", "latitud", "longitud", "Schedule", "rating", "types", "DENUE API"}, {"Merge1.Nombre", "Merge1.formatted_address", "Merge1.latitud", "Merge1.longitud", "Merge1.Schedule", "Merge1.rating", "Merge1.types", "Merge1.DENUE API"}),
+    #"Removed Columns" = Table.RemoveColumns(#"Expanded Merge1",{"Merge1.DENUE API", "Merge1.Nombre", "Merge1.formatted_address", "Merge1.latitud", "Merge1.longitud", "Merge1.types"}),
+    #"Renamed Columns" = Table.RenameColumns(#"Removed Columns",{{"Merge1.Schedule", "Schedule"}, {"Merge1.rating", "rating"}})
+    Source = Table.NestedJoin(Hoja1, {"Nombre"}, #"DENUE API", {"Nombre"}, "DENUE API", JoinKind.LeftAnti),
+    #"Renamed Columns" = Table.RenameColumns(Source,{{"formatted_address", "Direccion"}, {"types", "Clase_actividad"}, {"latitud", "Latitud"}, {"longitud", "Longitud"}}),
+    #"Removed Columns" = Table.RemoveColumns(#"Renamed Columns",{"DENUE API"})
+    Source = Table.Combine({Merge2, Merge3}),
+    #"Replaced Value" = Table.ReplaceValue(Source,null,"",Replacer.ReplaceValue,{"Schedule"}),
+    #"Renamed Columns" = Table.RenameColumns(#"Replaced Value",{{"Nombre", "place_name"}, {"Direccion", "address_vet"}}),
+    #"Reordered Columns" = Table.ReorderColumns(#"Renamed Columns",{"place_name", "address_vet", "Schedule", "Clase_actividad", "rating", "Latitud", "Longitud"}),
+    #"Renamed Columns1" = Table.RenameColumns(#"Reordered Columns",{{"Clase_actividad", "class_activity_vet"}, {"rating", "rating_vet"}}),
+    #"Replaced Value1" = Table.ReplaceValue(#"Renamed Columns1","Closed","Cerrado",Replacer.ReplaceText,{"Schedule"}),
+    #"Replaced Value2" = Table.ReplaceValue(#"Replaced Value1","Open 24 hours","Abierto las 24 horas",Replacer.ReplaceText,{"Schedule"})	 
+in
+    #"Removed Columns"
