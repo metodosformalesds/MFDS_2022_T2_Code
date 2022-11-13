@@ -1,0 +1,8 @@
+Documentación psra utilizar el navbar------------
+
+Instalar boostrap en consola con el comando:
+npm install bootstrap@3
+
+Mover los 
+
+

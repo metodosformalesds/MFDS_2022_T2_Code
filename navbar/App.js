@@ -1,8 +1,6 @@
 import React from 'react'
 import "./App.scss"
-import {ClientLayout} from "./layouts"
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
-//no terminada aun
+import {BrowserRouter} from 'react-router-dom'
 export default function App() {
   return (
     <div className="App">
