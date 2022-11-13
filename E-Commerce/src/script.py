@@ -29,17 +29,17 @@ for result in results:
         continue
 
     try:
-        description = result.find('span', {'class': 'a-list-item'}).text
+
         price1 = result.find('span', {'class': 'a-price-whole'}).text
         price2 = result.find('span', {'class': 'a-price-fraction'}).text
         price = float(price1 + price2)
         product_url = 'https://amazon.com' + result.h2.a['href']
     # print(rating_count, product_url)
-        print(description)
-        items.append([product_name, rating, description, price, product_url])
+     
+        items.append([product_name, rating, price, product_url])
     except AttributeError:
         continue
     sleep(1.5)
 
-df = pd.DataFrame(items, columns=['product', 'rating', 'description', 'price', 'product url'])
+df = pd.DataFrame(items, columns=['product', 'rating', 'price', 'product url'])
 df.to_csv('{0}.csv'.format(search_query), index=False)
