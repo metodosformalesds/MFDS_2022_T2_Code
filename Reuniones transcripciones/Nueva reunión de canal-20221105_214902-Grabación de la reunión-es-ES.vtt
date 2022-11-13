@@ -1,0 +1,1969 @@
+﻿WEBVTT
+
+df5b409f-a6e4-4e69-84a4-1b06f6dd5911-0
+00:00:02.540 --> 00:00:03.290
+Para empezar.
+
+13b5f9b0-b5b7-49b6-b25f-39afe66644d7-0
+00:00:08.200 --> 00:00:08.590
+Aia.
+
+f15da0c6-d793-411d-8205-bab3a854c31c-0
+00:00:14.450 --> 00:00:18.293
+Buenas tardes. Vamos a explicar
+nuestro diagrama de Business
+
+f15da0c6-d793-411d-8205-bab3a854c31c-1
+00:00:18.293 --> 00:00:19.490
+process Management.
+
+9e8c96b3-87e7-45f7-8c42-441eb7db8836-0
+00:00:20.230 --> 00:00:20.720
+En.
+
+46f369fc-96d3-4881-adb4-75369d62c325-0
+00:00:21.330 --> 00:00:26.290
+Nuestro proyecto que es sobre
+Beth, una página web donde tiene
+
+46f369fc-96d3-4881-adb4-75369d62c325-1
+00:00:26.290 --> 00:00:31.171
+integrados varias funciones y
+vamos a explicar cada 1 de esos
+
+46f369fc-96d3-4881-adb4-75369d62c325-2
+00:00:31.171 --> 00:00:31.880
+procesos.
+
+00378144-2fd1-456e-a608-2943e03cec76-0
+00:00:33.600 --> 00:00:37.180
+Mi compañero paúl, a explicar en
+Explicare.
+
+e1dda9e5-612e-4d6b-8ac9-3430a74c3d51-0
+00:00:37.230 --> 00:00:40.628
+No todo el proceso que hace el
+customer, que es 1 de nuestros
+
+e1dda9e5-612e-4d6b-8ac9-3430a74c3d51-1
+00:00:40.628 --> 00:00:41.560
+tipos de usuario.
+
+ce9beeb5-0dcd-40c9-8e72-623e2fd6e160-0
+00:00:43.260 --> 00:00:45.340
+Bueno, para empezar el customer.
+
+eee77262-0000-40d3-a167-f3bf2f24baac-0
+00:00:45.940 --> 00:00:49.683
+Al momento de que entre en
+contacto con la página, le va a
+
+eee77262-0000-40d3-a167-f3bf2f24baac-1
+00:00:49.683 --> 00:00:53.300
+aparecer la página de inicio
+home Page, pero sin ninguna
+
+eee77262-0000-40d3-a167-f3bf2f24baac-2
+00:00:53.300 --> 00:00:57.235
+sesión iniciada. Para eso el
+sistema le va a preguntar que si
+
+eee77262-0000-40d3-a167-f3bf2f24baac-3
+00:00:57.235 --> 00:00:58.060
+tiene cuenta.
+
+0206725d-0170-449c-8e0b-61994c472c6b-0
+00:00:58.970 --> 00:01:00.140
+Sí, sí tiene cuenta.
+
+15399d7e-b3fc-4bd4-bbf9-9b395339e0c5-0
+00:01:00.860 --> 00:01:05.922
+Va a ser el login iniciar la
+sesión con la cuenta que ya haya
+
+15399d7e-b3fc-4bd4-bbf9-9b395339e0c5-1
+00:01:05.922 --> 00:01:11.148
+creado, pero en este caso, como
+el usuario no tiene una cuenta,
+
+15399d7e-b3fc-4bd4-bbf9-9b395339e0c5-2
+00:01:11.148 --> 00:01:12.700
+se va a regresar y.
+
+8051f993-852e-45d7-8e97-ab98209d0f12-0
+00:01:13.330 --> 00:01:16.141
+Y se va a ir por el apartado de
+que no tiene cuenta, el sistema
+
+8051f993-852e-45d7-8e97-ab98209d0f12-1
+00:01:16.141 --> 00:01:17.460
+le va a pedir que se registre.
+
+d8fe8273-37d0-4a70-a7df-fde37c428351-0
+00:01:19.210 --> 00:01:23.781
+Iban a haber dos opciones, un
+registro con una cuenta ya
+
+d8fe8273-37d0-4a70-a7df-fde37c428351-1
+00:01:23.781 --> 00:01:28.592
+creada con anterioridad de
+Hotmail o una cuenta original en
+
+d8fe8273-37d0-4a70-a7df-fde37c428351-2
+00:01:28.592 --> 00:01:31.480
+el caso de la cuenta de Hotmail
+le.
+
+f6bbbe6e-cdce-4244-b91c-b6b98b0026a3-0
+00:01:32.220 --> 00:01:34.170
+Le le va a pedir a.
+
+632ead4e-2bf3-40fc-8f01-5a073c050550-0
+00:01:34.970 --> 00:01:36.020
+¿Tú información?
+
+71669502-bf06-440a-8419-af0cb6140e9f-0
+00:01:39.010 --> 00:01:39.520
+Mhm.
+
+c84ae126-95c0-408b-a43e-c1c1c3ff3b62-0
+00:01:40.570 --> 00:01:42.230
+Para iniciar sesión.
+
+1d4727d8-5da3-42a3-9450-5ddbc15759cb-0
+00:01:43.220 --> 00:01:47.842
+¿Y en el caso de que al momento
+de registrarse no cuente con una
+
+1d4727d8-5da3-42a3-9450-5ddbc15759cb-1
+00:01:47.842 --> 00:01:48.340
+cuenta?
+
+1f90ff6b-ff10-4552-bae9-1ba4b77e5999-0
+00:01:49.490 --> 00:01:52.231
+Se va a ir hacia el apartado en
+el que le va a pedir todos los
+
+1f90ff6b-ff10-4552-bae9-1ba4b77e5999-1
+00:01:52.231 --> 00:01:52.710
+requisitos.
+
+90db3d26-edad-4387-99f6-86280efe034a-0
+00:01:54.970 --> 00:01:57.730
+¿Quién necesita el usuario para
+poder registrarse?
+
+184be930-3e4b-4e54-9863-9d070288cde2-0
+00:02:01.920 --> 00:02:06.176
+Iban a ser el nombre su
+apellido, número de teléfono,
+
+184be930-3e4b-4e54-9863-9d070288cde2-1
+00:02:06.176 --> 00:02:07.910
+email y su contraseña.
+
+b25d65e7-530b-4434-b0cd-5f0060f5bb6b-0
+00:02:08.950 --> 00:02:12.569
+Bueno, ya habiendo iniciar
+sesión el usuario se van a
+
+b25d65e7-530b-4434-b0cd-5f0060f5bb6b-1
+00:02:12.569 --> 00:02:16.791
+verificar sus credenciales de
+los datos almacenados en la base
+
+b25d65e7-530b-4434-b0cd-5f0060f5bb6b-2
+00:02:16.791 --> 00:02:19.540
+de datos dentro de la tabla de
+customer.
+
+09b108d4-5870-459e-be4a-4bcc5fe3882e-0
+00:02:21.040 --> 00:02:24.922
+Sí, si no se validan. Si el
+algún dato que ingresó es
+
+09b108d4-5870-459e-be4a-4bcc5fe3882e-1
+00:02:24.922 --> 00:02:28.230
+incorrecto o si no, si no existe
+el registro.
+
+1bce408c-f16d-4876-8fc5-088587eeee5c-0
+00:02:29.240 --> 00:02:32.530
+Se va a regresar al apartado de
+login hasta que el usuario.
+
+1773add4-5fd3-4a8a-9015-3e0d01a6e1e4-0
+00:02:33.300 --> 00:02:33.910
+A.
+
+f72c3cd4-ef30-4678-9757-060750a9aef2-0
+00:02:35.290 --> 00:02:39.091
+Acredite el inicio de sesión y
+sus datos sean correctos cuando
+
+f72c3cd4-ef30-4678-9757-060750a9aef2-1
+00:02:39.091 --> 00:02:40.540
+sus datos son correctos.
+
+b20202bb-ba9e-4496-b1f2-4fb7f885a6be-0
+00:02:41.700 --> 00:02:44.966
+Se va a regresar a la página de
+inicio, pero esta vez va a
+
+b20202bb-ba9e-4496-b1f2-4fb7f885a6be-1
+00:02:44.966 --> 00:02:46.350
+aparecer su estatus como.
+
+43f668a5-e602-4aae-a978-f253f6d565ae-0
+00:02:47.380 --> 00:02:50.810
+Cuenta con con la sesión
+iniciada, OO Logueado, mejor
+
+43f668a5-e602-4aae-a978-f253f6d565ae-1
+00:02:50.810 --> 00:02:54.050
+dicho, y le va a permitir
+acceder a las funciones.
+
+baab4c58-189f-4acd-b275-8a45146c2727-0
+00:02:55.250 --> 00:02:56.840
+Las cuales van a ser.
+
+134bdf3a-ae65-4d3a-ad54-c8faa759e5cb-0
+00:02:57.510 --> 00:03:01.566
+Que el usuario va va a poder
+buscar las las veterinarias, va
+
+134bdf3a-ae65-4d3a-ad54-c8faa759e5cb-1
+00:03:01.566 --> 00:03:05.490
+a poder acceder al ecommerce de
+los productos de mascotas.
+
+e7078189-9ce2-4083-933b-5251d08ae296-0
+00:03:06.230 --> 00:03:09.800
+¿Va a poder ir hacia el panel de
+los post de adopción?
+
+93c3131a-e266-4c79-8502-5887e596ec3f-0
+00:03:10.470 --> 00:03:10.960
+Oh.
+
+352d1840-75f3-490c-bfd8-6d72550a5651-0
+00:03:11.860 --> 00:03:16.346
+¿O si el usuario quiere cerrar
+la sesión puede hacer un log out
+
+352d1840-75f3-490c-bfd8-6d72550a5651-1
+00:03:16.346 --> 00:03:18.450
+YY sucesión, se va a eliminar?
+
+c0e1e28b-cdb2-45f8-b4b6-30da5bf3b940-0
+00:03:20.200 --> 00:03:22.950
+En el primer apartado de las
+funciones.
+
+4efedb49-2b5b-4cb1-bf93-9b8632fd6701-0
+00:03:24.100 --> 00:03:26.340
+Como expliqué, es el de buscar
+veterinaria.
+
+6a5ebb8c-885a-4940-975e-653598f9b12b-0
+00:03:29.240 --> 00:03:32.548
+Es horario, va a ingresar la
+locación y después va a
+
+6a5ebb8c-885a-4940-975e-653598f9b12b-1
+00:03:32.548 --> 00:03:33.110
+aparecer.
+
+2e268218-bc6b-4cbf-8b54-2f5e34f389ec-0
+00:03:33.720 --> 00:03:37.410
+Un conjunto de veterinarias que
+podrían estar cerca de su
+
+2e268218-bc6b-4cbf-8b54-2f5e34f389ec-1
+00:03:37.410 --> 00:03:40.020
+ubicación, ya sea una
+veterinaria o más.
+
+7226e786-b9c0-42b6-8b84-7904cb37ad93-0
+00:03:40.840 --> 00:03:43.883
+O, por ejemplo, si no hay
+ninguna veterinaria, no le
+
+7226e786-b9c0-42b6-8b84-7904cb37ad93-1
+00:03:43.883 --> 00:03:47.500
+parecería nada, pero en el caso
+de que se haya veterinarias le
+
+7226e786-b9c0-42b6-8b84-7904cb37ad93-2
+00:03:47.500 --> 00:03:49.510
+va a aparecer toda la
+información.
+
+4b70261f-ac35-4e26-9700-4c3eefd55c08-0
+00:03:51.950 --> 00:03:54.941
+YY el usuario la puede
+seleccionar para verla más
+
+4b70261f-ac35-4e26-9700-4c3eefd55c08-1
+00:03:54.941 --> 00:03:55.600
+específica.
+
+043f20db-92d8-4c24-bedb-8f47c0b577bf-0
+00:03:57.370 --> 00:03:58.060
+Y sí, sí.
+
+53e593a3-d6e0-4e4e-ba18-af454647f11c-0
+00:04:02.120 --> 00:04:03.210
+Dale poquito para la derecha.
+
+ba8bf6a6-bd61-4ae5-b4f6-bf372bb195e3-0
+00:04:08.380 --> 00:04:09.650
+El usuario puede.
+
+4c3dcf35-8386-4da8-8081-890313f0249d-0
+00:04:13.560 --> 00:04:17.371
+¿Me puede realizar una cita
+dentro de las veterinarias que
+
+4c3dcf35-8386-4da8-8081-890313f0249d-1
+00:04:17.371 --> 00:04:19.310
+se le muestran en el catálogo?
+
+1755ad29-a5b3-4bba-9b8c-f9a482505762-0
+00:04:21.560 --> 00:04:26.117
+Y en el caso de que eso suceda,
+el usuario va a seleccionar la
+
+1755ad29-a5b3-4bba-9b8c-f9a482505762-1
+00:04:26.117 --> 00:04:28.070
+fecha y la hora de la cita.
+
+35ae507d-65d9-4910-a2a2-31563a2b78fb-0
+00:04:28.920 --> 00:04:30.190
+YY se va a generar.
+
+da16ba86-6c62-4813-9d77-4063f4fe6b56-0
+00:04:31.450 --> 00:04:36.080
+La asita y se va a guardar en la
+tabla de beta point.
+
+5d80bed4-bc53-4c50-b75f-7440111343bf-0
+00:04:39.470 --> 00:04:43.280
+Y al momento de de que el
+usuario realiza la cita, se va a
+
+5d80bed4-bc53-4c50-b75f-7440111343bf-1
+00:04:43.280 --> 00:04:47.220
+regresar hacia la el apartado
+anterior de las funciones para
+
+5d80bed4-bc53-4c50-b75f-7440111343bf-2
+00:04:47.220 --> 00:04:50.773
+que el usuario pueda realizar
+más funciones dentro del
+
+5d80bed4-bc53-4c50-b75f-7440111343bf-3
+00:04:50.773 --> 00:04:51.290
+sistema.
+
+dcaec8d0-7942-4486-92c3-836045e11bb9-0
+00:04:52.980 --> 00:04:56.361
+Ahora nos vamos con la función
+de E commerce, el usuario puede
+
+dcaec8d0-7942-4486-92c3-836045e11bb9-1
+00:04:56.361 --> 00:04:58.830
+acceder al catálogo de la venta
+de productos.
+
+cda88e76-8bbd-40cb-9ad2-6867411714f2-0
+00:04:59.480 --> 00:05:00.240
+Paul.
+
+3d5e0ef7-b822-4a2b-80c0-a990945b6383-0
+00:05:01.520 --> 00:05:02.860
+Es que creo que estamos mal.
+
+736d9285-0aee-414b-9279-ad64a94b542a-0
+00:05:03.520 --> 00:05:04.030
+¿Por qie?
+
+5565d559-f92d-4fbe-911d-1fd6495248c1-0
+00:05:05.100 --> 00:05:08.530
+¿Por qué no estás mencionando
+todas las líneas?
+
+a7cd9dd6-9583-439c-b4a8-697e8fb0e186-0
+00:05:09.750 --> 00:05:10.440
+¿Por ejemplo?
+
+ac46e1ff-7a4e-4250-9791-4476194889f1-0
+00:05:11.190 --> 00:05:15.729
+No mencionaste lápiz de Google
+Maps, sí es cierto, y luego aquí
+
+ac46e1ff-7a4e-4250-9791-4476194889f1-1
+00:05:15.729 --> 00:05:16.510
+esta línea.
+
+9a65bc7b-8724-4955-9277-c587e337b248-0
+00:05:17.590 --> 00:05:18.990
+Desconectar.
+
+66052392-dc98-4bd6-b6ba-c2a080068d0a-0
+00:05:19.870 --> 00:05:21.020
+¿A las veterinarias?
+
+7da92d57-ebe8-460b-b881-288126a26654-0
+00:05:22.220 --> 00:05:23.220
+Y luego aquí.
+
+67c52211-9cb0-410a-97b2-39282095a95c-0
+00:05:24.220 --> 00:05:28.104
+¿Después solo puede hacer una
+cita así de la información, mira
+
+67c52211-9cb0-410a-97b2-39282095a95c-1
+00:05:28.104 --> 00:05:31.866
+qué te parece si le damos y yo
+selecciono las flechitas y tú
+
+67c52211-9cb0-410a-97b2-39282095a95c-2
+00:05:31.866 --> 00:05:35.689
+dices que hace cada una? ¿Sí,
+sí, para que por ejemplo, no te
+
+67c52211-9cb0-410a-97b2-39282095a95c-3
+00:05:35.689 --> 00:05:39.204
+pierdas esa selección, esta
+flechita y tú dices a eso es
+
+67c52211-9cb0-410a-97b2-39282095a95c-4
+00:05:39.204 --> 00:05:42.657
+bueno para yomo ver aquí el
+cursor y que no te pierdas,
+
+67c52211-9cb0-410a-97b2-39282095a95c-5
+00:05:42.657 --> 00:05:46.542
+puede ser mejor para que ajá?
+Porque no, no ves, todo, yo creo
+
+67c52211-9cb0-410a-97b2-39282095a95c-6
+00:05:46.542 --> 00:05:50.426
+ahorita en la parte donde había
+un montón de de flechitas y de
+
+67c52211-9cb0-410a-97b2-39282095a95c-7
+00:05:50.426 --> 00:05:53.509
+cuadritos, se confundían, las
+estaba viendo bien.
+
+cec554b2-681a-4de4-a359-0d99744b0b37-0
+00:05:54.140 --> 00:05:57.190
+¿Sí, mejor yo, la selección o,
+por ejemplo, Checa bien si
+
+cec554b2-681a-4de4-a359-0d99744b0b37-1
+00:05:57.190 --> 00:05:59.400
+seleccionó esta y dices, Ah,
+estaba aquí?
+
+e04ebd4e-9445-4335-bc9e-825fd616371d-0
+00:05:59.980 --> 00:06:03.490
+Y luego aquí sería haber que
+darle un repaso rápido.
+
+bae7319a-f17a-4e7c-ab9b-cff422303959-0
+00:06:04.350 --> 00:06:05.570
+Sería.
+
+b7f9bf0a-0621-4277-9a8c-129728bed7e9-0
+00:06:06.500 --> 00:06:10.030
+Buscar veterinarias y luego ver
+la información.
+
+b1992652-4194-40d0-aec4-ab42fe169027-0
+00:06:11.600 --> 00:06:12.870
+Quiere agendar cita.
+
+e8a4a1e1-fd52-4e33-a6bc-ab4925a1a33a-0
+00:06:15.910 --> 00:06:17.140
+No, kino, esto.
+
+139a8733-4a14-4810-a682-5332d2ab320c-0
+00:06:19.820 --> 00:06:23.972
+Aquí está veterinaria recibe
+citas si quieres generar una
+
+139a8733-4a14-4810-a682-5332d2ab320c-1
+00:06:23.972 --> 00:06:24.330
+cita.
+
+381640f7-5ca8-4bae-9c86-d7c8ef29f55d-0
+00:06:25.060 --> 00:06:25.610
+Sí, sí.
+
+055e7593-54b5-4928-94ad-0e8e99c0dc45-0
+00:06:26.780 --> 00:06:28.730
+Aquí vamos, yes.
+
+ae56701b-e446-4d0e-970a-6c0f31dc2e56-0
+00:06:31.100 --> 00:06:35.948
+Sí, sí quiere generar cita o que
+si no regresa la informaba
+
+ae56701b-e446-4d0e-970a-6c0f31dc2e56-1
+00:06:35.948 --> 00:06:40.716
+buscar veterinaria, sí, sí,
+ahora hay fecha y se genera la
+
+ae56701b-e446-4d0e-970a-6c0f31dc2e56-2
+00:06:40.716 --> 00:06:46.049
+cita, la hora y fecha se guardan
+en la base de datos de ver user.
+
+e2cd606b-3ad1-46b5-b6da-8df3214d83e6-0
+00:06:49.060 --> 00:06:53.800
+Y la cita generada se guarda en
+beta Point.
+
+f5f58fc1-6619-4283-93f7-25f20fd2d8ef-0
+00:06:56.080 --> 00:06:58.380
+Ok, si estas siestas bien.
+
+c46dcc5f-baca-4f10-a655-9f9cd9bab30c-0
+00:06:59.040 --> 00:06:59.490
+Sí, sí.
+
+265682d9-731a-4d55-85e3-145e7ec5e4e8-0
+00:07:00.360 --> 00:07:01.710
+Y luego.
+
+66234332-b52a-4192-8876-8f932adb5b43-0
+00:07:02.770 --> 00:07:04.910
+Qué rápido del ecommerce.
+
+8ed7af3a-0623-4e52-aa1d-a172f9c54303-0
+00:07:05.960 --> 00:07:09.800
+Y comer les sale las opciones.
+
+351ed092-8255-41f2-bea6-005dff17c9c2-0
+00:07:11.000 --> 00:07:16.150
+Filtrar productos son estos
+productos, son estos.
+
+cbf67d5f-44ba-443f-a5ca-2089ab700a7c-0
+00:07:17.220 --> 00:07:21.485
+Ver productos se guardar, ver
+productos y buscar productos. Se
+
+cbf67d5f-44ba-443f-a5ca-2089ab700a7c-1
+00:07:21.485 --> 00:07:23.990
+guarda en la base de datos
+products.
+
+36568991-6897-494a-94d7-0e371a72d80b-0
+00:07:24.770 --> 00:07:30.104
+Y luego selecciona productos.
+¿Quieres añadirlo al carrito? Y
+
+36568991-6897-494a-94d7-0e371a72d80b-1
+00:07:30.104 --> 00:07:35.610
+si se añade, si no busca, siguen
+los productos. ¿Quieres editar
+
+36568991-6897-494a-94d7-0e371a72d80b-2
+00:07:35.610 --> 00:07:39.740
+carrito? Si a añadir carrito se
+guarda en Carl.
+
+520b3a11-d327-49d7-ad13-6c91fd2a52e4-0
+00:07:41.250 --> 00:07:44.544
+¿Quieres editar carrito? ¿Si se
+cambian y se remueven los
+
+520b3a11-d327-49d7-ad13-6c91fd2a52e4-1
+00:07:44.544 --> 00:07:45.340
+productos, no?
+
+53135813-ede1-4b9e-85b1-5ba7842349e2-0
+00:07:47.120 --> 00:07:50.550
+¿Qué es esto? ¿Quieres hacer el
+check out o seguir comprando?
+
+80edf7d1-ec2b-4b87-95aa-1b81982265f9-0
+00:07:51.440 --> 00:07:55.950
+Si quieres seguir comprando, te
+regresa a todas las opciones.
+
+e27e2634-c7f8-4c17-ab50-6d174f4d52d5-0
+00:07:56.720 --> 00:07:58.040
+Si quieres estar checando.
+
+1d03eac7-8a72-4e71-ae5b-fd5cda3888e1-0
+00:07:59.060 --> 00:08:02.570
+El check out se conecta a.
+
+d029ae43-c80a-4508-bd3c-683e708ffe9d-0
+00:08:03.360 --> 00:08:05.000
+Orden mhm.
+
+746cc527-3e6d-494b-85f0-7a090358da3a-0
+00:08:06.270 --> 00:08:10.340
+Y luego rellenas la información
+que sería supinadores.
+
+753e5488-36fe-4be9-87e4-1acbc24debac-0
+00:08:11.430 --> 00:08:12.540
+Y luego.
+
+219b26c9-bc15-45d3-b5db-ca64b73e4156-0
+00:08:13.570 --> 00:08:16.070
+¿Con este sería un no?
+
+43686b65-df01-4586-a337-71f88439eb11-0
+00:08:18.950 --> 00:08:20.000
+Firmar p.
+
+0a013e01-a674-4771-98b6-380739893cfd-0
+00:08:20.740 --> 00:08:22.670
+¿Este sería sui no?
+
+48ec6a74-6a4f-423f-95af-ce4158059fde-0
+00:08:24.890 --> 00:08:26.810
+Se regresa editar carrito.
+
+0f6ded15-2381-4757-83d4-fa9965c3766b-0
+00:08:27.510 --> 00:08:31.912
+¿Quieres pagar? Si entonces
+pagas, no te regresa a editar
+
+0f6ded15-2381-4757-83d4-fa9965c3766b-1
+00:08:31.912 --> 00:08:34.190
+carrito. Sí, si quieres pagar.
+
+d2c769bf-2c86-4740-96d1-3a8f3e6a9075-0
+00:08:34.960 --> 00:08:37.190
+Pago se conecta a.
+
+76feab55-edc6-4ee4-9794-c1de9692d02a-0
+00:08:38.470 --> 00:08:39.680
+Validar pago.
+
+781570d7-243b-4e3c-ba5b-8c854c6b2e2e-0
+00:08:41.790 --> 00:08:44.120
+A ver, aquí está complicado
+validar pago.
+
+37f1f4af-8276-425b-ac36-98d25d79c257-0
+00:08:44.760 --> 00:08:51.060
+Sí, sí se completa el pago se
+conecta no a que se genera una
+
+37f1f4af-8276-425b-ac36-98d25d79c257-1
+00:08:51.060 --> 00:08:52.300
+orden orden.
+
+57cab12a-d9f4-4689-ab53-0648619eda7f-0
+00:08:53.400 --> 00:08:55.830
+Si no se genera el pago.
+
+f6fa3f51-d626-4c2d-8295-81cfa1af4519-0
+00:08:58.650 --> 00:09:00.540
+Te manda a.
+
+00cf8838-296b-4b61-89d1-224276001561-0
+00:09:01.760 --> 00:09:03.950
+Pago otra vez que vuelvas a
+hacer tu pago.
+
+237c02aa-e438-499c-bd7c-10514caa59e7-0
+00:09:07.510 --> 00:09:08.360
+¿Y esta línea?
+
+955fa802-948c-461b-b6a6-f933c9158324-0
+00:09:10.310 --> 00:09:15.201
+¿A después de pagar, te regresa
+al ecommerce? Entonces estas
+
+955fa802-948c-461b-b6a6-f933c9158324-1
+00:09:15.201 --> 00:09:18.490
+líneas los voy a seleccionar,
+así pagas.
+
+564e7483-9945-4b63-a1ef-e4d5414fb582-0
+00:09:19.400 --> 00:09:20.990
+Te envía a.
+
+fbb3783a-54bb-4569-97fa-59db59aed7e2-0
+00:09:25.850 --> 00:09:27.940
+Voy a cenar primero. Esta es la
+correcta.
+
+9afa3e48-a354-4c42-a01a-8933c6cf459c-0
+00:09:29.410 --> 00:09:30.880
+Lo de vivir primero.
+
+942b3613-6b94-4168-954b-84a0fc0074ae-0
+00:09:34.510 --> 00:09:35.140
+¿El pago?
+
+f3bed3a0-ca08-4ec2-9822-40208a011957-0
+00:09:36.460 --> 00:09:39.630
+Se valida el pago si si se
+guarda en.
+
+688ed848-da09-4830-9acb-5a892d4abdd4-0
+00:09:40.270 --> 00:09:43.490
+Generar órdenes y generar
+órdenes.
+
+49105233-71f1-4940-970f-71c557c73204-0
+00:09:47.190 --> 00:09:49.450
+¿Dónde estamos guardando la
+orden generada?
+
+23c9271f-ff77-42a3-8941-3d53f19043c4-0
+00:09:53.120 --> 00:09:54.900
+Esto debería guardarse en
+orders.
+
+057f2972-a0a7-4503-b006-5a725593fe5b-0
+00:09:56.620 --> 00:10:00.856
+¿Saben que creo que esto está
+mal porque, miren, tenemos
+
+057f2972-a0a7-4503-b006-5a725593fe5b-1
+00:10:00.856 --> 00:10:01.600
+gordo, no?
+
+52223271-632a-4636-a078-8b8b79a67a79-0
+00:10:05.080 --> 00:10:06.150
+Miren, porque estamos.
+
+c672ec8c-f9b2-4338-9542-3e171b4a9a75-0
+00:10:10.380 --> 00:10:11.750
+No, no creo que sí, está bien.
+
+0ddc8033-4928-4968-8073-e36eece951d8-0
+00:10:12.540 --> 00:10:17.458
+Miren, estamos rellenando esta
+información y se guarda en
+
+0ddc8033-4928-4968-8073-e36eece951d8-1
+00:10:17.458 --> 00:10:23.056
+órdenes, pero independientemente
+si se genera el pago o no, ya se
+
+0ddc8033-4928-4968-8073-e36eece951d8-2
+00:10:23.056 --> 00:10:23.650
+guardó.
+
+e7f9e4a4-9763-43b5-85ee-776a0c6e6f12-0
+00:10:24.410 --> 00:10:26.540
+¿Que IA se generó la orden?
+
+680954e2-12cd-4131-9a1a-d5bb58f29442-0
+00:10:27.360 --> 00:10:31.530
+Ajá se está guardando en órdenes
+y los, y si se genera el pago.
+
+6299a407-d0c4-4af7-aaeb-cfb7aba1d1a3-0
+00:10:32.880 --> 00:10:35.940
+¿Creo que deben generar orden,
+deberíamos guardar esto, no?
+
+5d70a0f9-babe-44ba-a2ca-ff6b88f6802d-0
+00:10:37.400 --> 00:10:38.200
+1, sí.
+
+0e44266f-2f95-4037-b54d-f2762b322fab-0
+00:10:40.470 --> 00:10:41.840
+Orders order.
+
+08d82f64-6853-4b3e-b29c-80811c76b2f9-0
+00:10:43.950 --> 00:10:47.911
+Es que si si se completa el pago
+sería otro, como por ejemplo
+
+08d82f64-6853-4b3e-b29c-80811c76b2f9-1
+00:10:47.911 --> 00:10:49.700
+orden completada, no, no sé.
+
+0de9a43e-b98b-4eb4-b016-25367bcd6303-0
+00:10:55.660 --> 00:10:57.590
+Si se si se paga.
+
+021d9a61-a3b9-4276-9c06-acd86db24344-0
+00:10:59.020 --> 00:11:03.749
+Generamos una orden y esta orden
+se debe guardar en orders, pero
+
+021d9a61-a3b9-4276-9c06-acd86db24344-1
+00:11:03.749 --> 00:11:05.350
+ya está guardada aquí.
+
+7b84636c-1c07-4515-b9bc-a0ca3e4fe3b4-0
+00:11:06.400 --> 00:11:09.970
+Sin guardar el shipping Andrés,
+no, no.
+
+d25f6ba0-f738-4c6f-8724-310873a71e56-0
+00:11:11.590 --> 00:11:13.570
+Entonces, cambiarlo, o sea,
+cuando.
+
+00522cfe-1f70-49ce-b486-ce7849331b1b-0
+00:11:15.440 --> 00:11:18.777
+Va a ser una línea cuando se
+paga, o sea, sí, sí, sí, se
+
+00522cfe-1f70-49ce-b486-ce7849331b1b-1
+00:11:18.777 --> 00:11:19.070
+paga.
+
+7e9eea03-bd53-4423-87b8-9254ec6d4685-0
+00:11:19.720 --> 00:11:20.290
+¿A dónde va?
+
+5b638815-9cc2-4d18-ac99-4e59992e28c6-0
+00:11:21.590 --> 00:11:27.625
+Y si se paga a nivel comercial y
+luego conectarlo ahí orders y
+
+5b638815-9cc2-4d18-ac99-4e59992e28c6-1
+00:11:27.625 --> 00:11:30.020
+quitar el de chip inglés.
+
+90911119-9c07-4a39-803c-80365661bb62-0
+00:11:33.410 --> 00:11:37.506
+¿Sí, verdad? Sí, pero shipping,
+donde se va a guardar esto en la
+
+90911119-9c07-4a39-803c-80365661bb62-1
+00:11:37.506 --> 00:11:40.280
+orden. Sí, sí es cierto, voy a
+quitar esto.
+
+cb892114-0b9b-4e74-b964-c15f71d4ddc3-0
+00:11:51.900 --> 00:11:53.460
+Gordo, por favor, no.
+
+4e59507c-5b91-4c18-97d6-69692c8bead7-0
+00:12:02.320 --> 00:12:05.550
+Ok Paul, así va a quedar, sí.
+
+787b6e40-ecd3-4053-ba2d-b6c279d2b3dc-0
+00:12:06.150 --> 00:12:07.630
+¿Quieres hacer check out?
+
+3eb9f9fa-f3b8-43e8-b166-634ebad1ebcf-0
+00:12:09.290 --> 00:12:10.560
+Este.
+
+231bb730-69f3-444b-bf11-3e000b6418f5-0
+00:12:11.980 --> 00:12:15.939
+Si se quiere hacerse causa,
+rellena la información. ¿Quieres
+
+231bb730-69f3-444b-bf11-3e000b6418f5-1
+00:12:15.939 --> 00:12:19.510
+pagar? ¿Sí, sí quiero pagar, OK?
+Sí, si quieres pagar.
+
+80699fea-0c21-4766-a937-3e5725a52052-0
+00:12:22.120 --> 00:12:22.810
+¿Entonces?
+
+a728751c-2900-42e8-bdaa-d6cafb368ddf-0
+00:12:23.370 --> 00:12:28.048
+Se va lápiz de pago si si se
+genera el pago se genera una
+
+a728751c-2900-42e8-bdaa-d6cafb368ddf-1
+00:12:28.048 --> 00:12:33.210
+orden y la orden se guarda en la
+base en la tabla orders, si no
+
+a728751c-2900-42e8-bdaa-d6cafb368ddf-2
+00:12:33.210 --> 00:12:38.130
+se genera el pago, te regresa
+otra vez a que intentes pagar.
+
+6acbaa54-1819-4047-8585-76dd191fd96e-0
+00:12:39.480 --> 00:12:40.870
+¿Si ya no quieres pagar?
+
+303d627c-2f4b-4332-b945-218be48a7dd6-0
+00:12:42.270 --> 00:12:44.210
+¿O no? Sí, sí, ya pagaste.
+
+8c766ae5-1f2d-47e2-8ab8-c7b26993278b-0
+00:12:45.110 --> 00:12:50.934
+Te mando al camerino. Ajá, OK si
+no te devuelve, te devuelve a
+
+8c766ae5-1f2d-47e2-8ab8-c7b26993278b-1
+00:12:50.934 --> 00:12:53.430
+pago hasta que pagues bien.
+
+9ae8851a-280b-4bfa-bce2-847e57ef005b-0
+00:12:54.890 --> 00:12:58.826
+¿Y luego es que debería haber
+una opción para salir de pago,
+
+9ae8851a-280b-4bfa-bce2-847e57ef005b-1
+00:12:58.826 --> 00:12:59.020
+no?
+
+403d3465-0b21-4734-8286-d1fa26c1834c-0
+00:13:01.050 --> 00:13:04.350
+Se supongamos que alguien
+intenta pagar y su método de
+
+403d3465-0b21-4734-8286-d1fa26c1834c-1
+00:13:04.350 --> 00:13:05.130
+pago no pasó.
+
+41850f7f-5ee0-4955-b9b0-ba060529d508-0
+00:13:06.030 --> 00:13:07.680
+¿O sea, aquí va, no?
+
+6d623d27-86b9-4c48-a839-5e99f328dfef-0
+00:13:09.780 --> 00:13:14.383
+No, no, no sé. No se generó mi
+método, pues no tengo dinero,
+
+6d623d27-86b9-4c48-a839-5e99f328dfef-1
+00:13:14.383 --> 00:13:16.270
+entonces aquí te regresa.
+
+1a44ebf5-15a3-4c65-947a-1820d2d68664-0
+00:13:18.310 --> 00:13:21.265
+De regreso a pagos no para que
+lo intentes, lo intentes de
+
+1a44ebf5-15a3-4c65-947a-1820d2d68664-1
+00:13:21.265 --> 00:13:23.870
+nuevo ajá y luego no, pues ya no
+quiero intentarlo.
+
+284adb8d-867d-4511-a31f-a4803f306278-0
+00:13:24.800 --> 00:13:27.750
+¿Este regresa a al ecommerce,
+no?
+
+99abb86f-3b23-4137-b4f3-feab4b53cc82-0
+00:13:28.950 --> 00:13:29.390
+Sí, no.
+
+75617fae-aa18-4276-9ff6-0be7bcd2f61f-0
+00:13:30.490 --> 00:13:34.280
+Pues nada más es sí, sí pagaste
+regrésale comer.
+
+86a7df75-ad16-4dbb-9ec7-19e08a7855a4-0
+00:13:35.790 --> 00:13:38.444
+Bueno, cuando pagas ya te
+regresas al ecommerce, pero
+
+86a7df75-ad16-4dbb-9ec7-19e08a7855a4-1
+00:13:38.444 --> 00:13:38.690
+pues.
+
+5b5fd3e9-c838-4ade-8b39-f1892d3e55fa-0
+00:13:39.700 --> 00:13:42.875
+O sea, en unicomer si te sale
+así como que hasta que no
+
+5b5fd3e9-c838-4ade-8b39-f1892d3e55fa-1
+00:13:42.875 --> 00:13:44.350
+pagues, te quita la orden.
+
+a7da07ea-48ea-4200-8762-8bc4c326787e-0
+00:13:46.220 --> 00:13:47.530
+Ya le puedes dar como cancelar.
+
+cbf15a47-0506-4750-bdc8-9895f7245b55-0
+00:13:48.930 --> 00:13:49.660
+Despues.
+
+a2a6944a-d59a-4ad5-9f44-7825d4b091e0-0
+00:13:51.310 --> 00:13:53.900
+Pues como o sea, como que se
+quedó con carrito, nada más.
+
+534c28af-82ee-4e43-9b5d-b992435f510b-0
+00:13:55.530 --> 00:13:58.725
+¿Ajá si lo que preguntas, por
+ejemplo aquí en pago digo, Ah,
+
+534c28af-82ee-4e43-9b5d-b992435f510b-1
+00:13:58.725 --> 00:14:01.869
+pues ya no quiero pagar, no
+tengo dinero, me puedo regresar
+
+534c28af-82ee-4e43-9b5d-b992435f510b-2
+00:14:01.869 --> 00:14:04.959
+al comer, si verdad, pero ahí
+estás, confirmando pago, no?
+
+d89fb1cd-474f-4df3-bb15-12005919908f-0
+00:14:05.660 --> 00:14:09.279
+La tienes que confirmar. ¿Pago
+así porque pusiste ladres y
+
+d89fb1cd-474f-4df3-bb15-12005919908f-1
+00:14:09.279 --> 00:14:10.690
+todo, entonces tal vez?
+
+d7d53c2a-d49c-4878-a470-4fec6f6e5fb8-0
+00:14:11.630 --> 00:14:15.356
+Pero, por ejemplo, o sea, pongo
+confirmar pagos. Sí, sí quiero
+
+d7d53c2a-d49c-4878-a470-4fec6f6e5fb8-1
+00:14:15.356 --> 00:14:19.202
+comprar las croquetas, pero mi,
+pero me doy cuenta que mi método
+
+d7d53c2a-d49c-4878-a470-4fec6f6e5fb8-2
+00:14:19.202 --> 00:14:23.106
+de pago no paso, o sea, no tengo
+dinero. Ah, pues ya no las puedo
+
+d7d53c2a-d49c-4878-a470-4fec6f6e5fb8-3
+00:14:23.106 --> 00:14:23.579
+comprar.
+
+5a71c975-3e75-4958-ae5e-14a8a70968ce-0
+00:14:24.790 --> 00:14:27.493
+Me quiero regresar al comer
+porque ya me di cuenta que no
+
+5a71c975-3e75-4958-ae5e-14a8a70968ce-1
+00:14:27.493 --> 00:14:28.100
+tengo dinero.
+
+c4785c4d-dfda-4f0e-97ab-995d897d3486-0
+00:14:28.780 --> 00:14:32.890
+Son como sea, si mi método de
+pago no pasó.
+
+06cc721d-8730-4090-8a23-d06e04e81584-0
+00:14:34.470 --> 00:14:37.929
+Lo vuelvo a intentar. Ah, no, no
+vuelve a pasar, entonces te
+
+06cc721d-8730-4090-8a23-d06e04e81584-1
+00:14:37.929 --> 00:14:39.120
+quedas aquí, ciclado.
+
+34cb76d5-a8e7-471d-9289-613fd8c7666c-0
+00:14:40.040 --> 00:14:42.640
+No esta función si es para re
+cancelar, no, no.
+
+0be2cee4-d24c-4143-a430-a575605095a0-0
+00:14:44.000 --> 00:14:45.940
+¿Es que el problema, que si lo
+ponemos ahí?
+
+fb9b4775-21fe-4cfd-af1f-5cf988011c85-0
+00:14:46.850 --> 00:14:48.720
+O sea, si le ponemos en request
+INFO.
+
+1d9db2cd-f7b5-4bd5-877b-57ef3e049a16-0
+00:14:49.330 --> 00:14:51.830
+El, o sea, cuando vuelve después
+de Del no.
+
+ab4fa9fe-6c5c-49d9-92a6-ffda996cce2f-0
+00:14:53.030 --> 00:14:56.793
+Te va a volver a pedir la chica
+no eres entonces lo mejor sería
+
+ab4fa9fe-6c5c-49d9-92a6-ffda996cce2f-1
+00:14:56.793 --> 00:14:57.440
+hacer otro.
+
+a1ad3f4b-c443-4b83-b087-3202d90093f9-0
+00:14:59.020 --> 00:15:01.820
+Otra vez esta línea te manda al
+ecommerce.
+
+b1209381-12c6-4ed6-9769-6c5b2ebd5e54-0
+00:15:04.150 --> 00:15:05.240
+¿Pero es cuando pagas, no?
+
+3b2cc9a3-91ff-4200-9620-9912c23cb698-0
+00:15:06.460 --> 00:15:10.232
+¿Ajá, eso es lo que pregunto?
+Ósea esta línea nada más es
+
+3b2cc9a3-91ff-4200-9620-9912c23cb698-1
+00:15:10.232 --> 00:15:13.680
+cuando pagas o también es por si
+quieres regresarte.
+
+60e1ebd8-7b95-4e10-a89c-6e4de21fcbf2-0
+00:15:15.300 --> 00:15:18.129
+¿Eso es lo que yo creo que o sea
+podemos interpretarlo como por
+
+60e1ebd8-7b95-4e10-a89c-6e4de21fcbf2-1
+00:15:18.129 --> 00:15:18.660
+las dos, no?
+
+86d1d1c5-1447-4127-b2b6-00feef1fb991-0
+00:15:19.350 --> 00:15:22.757
+Si yo digo y digo también, eso
+que sea como regresar al
+
+86d1d1c5-1447-4127-b2b6-00feef1fb991-1
+00:15:22.757 --> 00:15:25.070
+Ecommerce para allá tengo una
+opción.
+
+de1e1813-8b76-4316-a580-58a89b295ad7-0
+00:15:26.850 --> 00:15:30.065
+O sea, no pasó, pues me regreso
+el ecommerce. Así paso, pues me
+
+de1e1813-8b76-4316-a580-58a89b295ad7-1
+00:15:30.065 --> 00:15:30.920
+regreso al comer.
+
+601a7003-989f-4a12-af26-2461f4f4627d-0
+00:15:33.310 --> 00:15:33.900
+Oh OK.
+
+0556bf4c-4f35-4633-9058-e8729a9aa6bc-0
+00:15:34.620 --> 00:15:36.170
+¿Ok, Pablo? Entonces va a ser
+así.
+
+fae987e4-e26f-4bbd-82dc-b0b3f01c1ca7-0
+00:15:37.320 --> 00:15:38.180
+¿Vago?
+
+2739853e-c2b0-4d6f-8395-c86e1216dc8a-0
+00:15:39.280 --> 00:15:42.899
+Te mandan la APP y si se valida
+se genera la orden y se guarda
+
+2739853e-c2b0-4d6f-8395-c86e1216dc8a-1
+00:15:42.899 --> 00:15:46.634
+en la base de datos. Orden si no
+te regresa a pago, que intentes
+
+2739853e-c2b0-4d6f-8395-c86e1216dc8a-2
+00:15:46.634 --> 00:15:50.368
+pagar o te puedes regresar. Sí,
+si se cumple el pago, también te
+
+2739853e-c2b0-4d6f-8395-c86e1216dc8a-3
+00:15:50.368 --> 00:15:51.689
+regresa al helicopters.
+
+d9e6e313-129f-44ef-aa7e-61f7ebe20807-0
+00:15:54.990 --> 00:15:56.120
+Oh, OK, OK.
+
+5595ccf6-8c56-4e2b-a7b1-c1101d9bf48c-0
+00:15:57.220 --> 00:16:00.590
+¿Ok? Ok OK, déjame ver, porque
+hay tantas líneas aquí.
+
+6da77e7a-b7b6-49b7-80dc-7b654b77f8c0-0
+00:16:05.220 --> 00:16:06.450
+A esto te la cuenta.
+
+f644336a-4099-49d7-8728-dd449621d01b-0
+00:16:07.580 --> 00:16:08.150
+A OK.
+
+4f824b5a-42bd-4dd3-9560-ee6579628244-0
+00:16:08.920 --> 00:16:09.910
+Primero con.
+
+f5982aec-03d9-4ffa-801a-54832a09bb09-0
+00:16:11.900 --> 00:16:12.830
+Porque te necesita.
+
+8cdb3062-4778-4fe6-b579-c9d90d80263b-0
+00:16:16.180 --> 00:16:18.640
+Ah, OK. También nos falta
+mencionar este mira.
+
+16cb104c-e3eb-4ebc-97ca-02742f52d04c-0
+00:16:19.400 --> 00:16:20.050
+Sign up.
+
+3af17d41-cd49-4cbb-adda-3b976b434f49-0
+00:16:21.000 --> 00:16:26.146
+No rectas. Esta línea se conecta
+con Jim ALE a con con la vida y
+
+3af17d41-cd49-4cbb-adda-3b976b434f49-1
+00:16:26.146 --> 00:16:26.780
+Jim ALE.
+
+5856a832-caed-4faa-ae7c-2a9287da02ec-0
+00:16:27.610 --> 00:16:28.460
+Ah, OK OK.
+
+e9c41a1c-5fdc-4562-ae22-e70820c234f4-0
+00:16:29.370 --> 00:16:33.910
+Porque, y esta de qué es eso es
+de adopción.
+
+ac9d7bea-fde3-4d88-82ca-79110357db12-0
+00:16:35.610 --> 00:16:35.980
+Sí.
+
+3cc215cb-9fac-4441-ae51-42dfc80fb34f-0
+00:16:37.680 --> 00:16:39.020
+¿Que y está?
+
+783fd35a-8c16-404f-ba3c-effba96e20ff-0
+00:16:39.990 --> 00:16:41.460
+Interrupción también.
+
+a1cbad8b-c6b3-4a39-a417-1dee179123b4-0
+00:16:44.420 --> 00:16:46.590
+Creo que son todas tus líneas de
+aquí.
+
+0c64b8f2-84f7-46ce-aa37-47e182c85725-0
+00:16:48.010 --> 00:16:50.260
+Esta opción que.
+
+31308ae4-adc5-4e49-9700-2757e7f4c486-0
+00:16:50.880 --> 00:16:53.900
+Y luego en el post de en la
+adopción.
+
+4faac056-32c5-441b-bc12-d81565a6adb8-0
+00:16:59.900 --> 00:17:01.180
+Adoption Post.
+
+9227eb90-1a17-48c9-b8ac-5c1f926d0815-0
+00:17:03.210 --> 00:17:04.520
+¿O adoptar?
+
+d96a438a-65ef-42fa-b74c-009110101a94-0
+00:17:05.470 --> 00:17:05.970
+¿O qué?
+
+79ee102b-e226-4d09-bbca-e6b4a080aff0-0
+00:17:19.950 --> 00:17:20.800
+Productor.
+
+ab69f474-f6c1-48b7-9dbf-edf6cc4b8c91-0
+00:17:23.250 --> 00:17:27.401
+Si quieres adoptar filtros
+categorías, déjenme checar
+
+ab69f474-f6c1-48b7-9dbf-edf6cc4b8c91-1
+00:17:27.401 --> 00:17:27.940
+rápido.
+
+f7cd3401-17d2-46bd-8e49-a34dfa4c67d0-0
+00:17:30.610 --> 00:17:33.640
+Si quieres adoptar, si filtras
+categoría.
+
+7acc7353-9799-4661-8e73-7ae1da5ca00d-0
+00:17:36.150 --> 00:17:37.040
+Si quieres optar.
+
+a23a432d-a686-4063-960f-2f44fdbd4bd2-0
+00:17:37.830 --> 00:17:42.418
+¿Filtros, categoría OK, adopción
+y luego quieres hacer una un
+
+a23a432d-a686-4063-960f-2f44fdbd4bd2-1
+00:17:42.418 --> 00:17:46.637
+post o quieres adoptar? Bueno,
+si quieres hacer un post,
+
+a23a432d-a686-4063-960f-2f44fdbd4bd2-2
+00:17:46.637 --> 00:17:50.560
+rellenar la información. Esta
+información se guarda.
+
+df8cd093-ed05-4910-80df-7f66476f26e0-0
+00:17:51.410 --> 00:17:53.900
+En adopción post.
+
+2de0a04d-e05c-44ca-b6e8-d62ef95105f7-0
+00:17:56.220 --> 00:18:00.830
+Y luego, y esta información se
+esta información sería esta.
+
+cc066a0f-dcb8-4b95-a6a4-bf20012cce63-0
+00:18:03.040 --> 00:18:07.530
+Y luego se envía tu bus a
+validar.
+
+4ac2b618-7d28-4939-ae70-0b903ff8ad69-0
+00:18:08.670 --> 00:18:09.830
+Lo válida.
+
+f902aacb-0422-460d-96a9-3423fca564c4-0
+00:18:11.080 --> 00:18:13.910
+Él se envía adoption request.
+
+a04e8c94-8e0b-4f51-b207-5ebe5cb5fc33-0
+00:18:14.620 --> 00:18:17.450
+Que no valida el Estado.
+
+b244c0f4-06ea-44ff-9690-d731b8b08baf-0
+00:18:20.370 --> 00:18:21.360
+Y luego.
+
+41e06d70-b222-4488-baaf-c7968c6d1eed-0
+00:18:25.470 --> 00:18:29.120
+Porque le estaba feliz Del Poste
+entre 1 a dos días.
+
+7a1b48fd-d6df-4271-b2cf-bbdeb3a7d219-0
+00:18:30.440 --> 00:18:33.404
+Si quieres adoptar filtros
+categorías, Estas son las
+
+7a1b48fd-d6df-4271-b2cf-bbdeb3a7d219-1
+00:18:33.404 --> 00:18:34.020
+categorías.
+
+5439373f-698d-4f06-b185-bde4da0718b0-0
+00:18:35.600 --> 00:18:39.120
+¿Puedes ver las mascotas, las
+mascotas, las ves?
+
+8ce21157-64b9-46c2-b0d1-e42d8d659023-0
+00:18:42.030 --> 00:18:44.440
+En la en la tabla.
+
+9af8aab0-91d5-4cd6-a33e-6aa04136e13b-0
+00:18:45.100 --> 00:18:45.550
+A Caray.
+
+84088ae7-e5aa-42ee-83b3-732d673cd3b5-0
+00:18:46.460 --> 00:18:47.880
+¿Porque está conectado esto
+aquí?
+
+8f0f32cf-0f59-4764-b028-013691e351cb-0
+00:18:52.900 --> 00:18:54.990
+¿Ver, ves las mascotas?
+
+957658a1-f216-4c2d-90f7-6d14532e5bfe-0
+00:18:59.790 --> 00:19:01.150
+Porque está conectado aquí.
+
+52535fc1-e2fb-4fa7-afd1-3b3865b505ad-0
+00:19:03.820 --> 00:19:04.150
+Bueno.
+
+e363b0cf-0bf8-40bb-83cf-8ce1769be7e3-0
+00:19:06.070 --> 00:19:06.400
+¿Qué?
+
+9bece360-2aec-4c53-bf28-bf671355d6e6-0
+00:19:07.900 --> 00:19:13.120
+Pero ver las mascotas lo tenemos
+verlas ver pets.
+
+c8d20f01-b705-4281-aba9-27b5f32c9522-0
+00:19:14.100 --> 00:19:17.688
+Hilo está conectado a esta línea
+y esta línea está conectada a
+
+c8d20f01-b705-4281-aba9-27b5f32c9522-1
+00:19:17.688 --> 00:19:18.600
+adopción cuesta.
+
+24931c01-2e34-449f-9104-c2d453be7322-0
+00:19:22.690 --> 00:19:23.350
+Sta malva.
+
+0690e89a-d13a-4c49-9101-055957944b5e-0
+00:19:25.400 --> 00:19:30.063
+Debería buscarlas en la base de
+datos. Si si la tabla no debería
+
+0690e89a-d13a-4c49-9101-055957944b5e-1
+00:19:30.063 --> 00:19:30.350
+ser.
+
+f0bc29fa-9617-4ed5-ad54-312ad7c45655-0
+00:19:31.100 --> 00:19:32.010
+Esta línea.
+
+f4dec74a-40be-43a4-90de-6fb893e41daf-0
+00:19:33.700 --> 00:19:36.270
+Que está conectada a adopción
+post sí.
+
+cb6c75b2-802b-462d-badd-adca91ab4380-0
+00:19:37.590 --> 00:19:38.040
+Aunque.
+
+1d298bbb-35b6-40cc-8e72-08c8c021af29-0
+00:19:38.700 --> 00:19:44.407
+Filtra las categorías ves las
+mascotas que está conectada a la
+
+1d298bbb-35b6-40cc-8e72-08c8c021af29-1
+00:19:44.407 --> 00:19:46.220
+tabla adoption post.
+
+99f2f893-3d0f-47f7-9391-eec80b7ab1a1-0
+00:19:47.620 --> 00:19:49.330
+Seleccionas una mascota.
+
+1106ba7b-42c7-4d98-ba5a-de35767d293f-0
+00:19:49.970 --> 00:19:52.270
+Y des la información del dueño.
+
+be43a552-d28e-4867-8486-6ee0a0002a79-0
+00:19:53.810 --> 00:19:55.660
+Esta información.
+
+2c92c133-8d8b-460d-8b9b-e27126d66db3-0
+00:19:57.570 --> 00:20:02.230
+Y ya sería todo si quieres hacer
+log out, pues así le va bien.
+
+cc7ddf6e-30cd-44db-9417-83c08e9c01dd-0
+00:20:03.250 --> 00:20:04.150
+De listo, paúl.
+
+085a3909-9c76-45e7-93bf-a12522e2c48f-0
+00:20:05.060 --> 00:20:07.939
+Aguanta, dale, dale.
+¿Reiniciamos la grabación, no?
+
+085a3909-9c76-45e7-93bf-a12522e2c48f-1
+00:20:07.939 --> 00:20:10.320
+Sí, pero espérate, tienes una
+duda, Apple.
+
+de2387ca-225f-480f-9aa3-89cb168d238b-0
+00:20:11.630 --> 00:20:12.960
+Estoy viendo todo otra vez.
+
+2eaee5d7-81cd-419c-ae64-5004604f2b4d-0
+00:20:14.290 --> 00:20:16.000
+Ok, medio largo.
+
+64119e87-efb5-490e-8d51-ade10a38ac83-0
+00:20:16.630 --> 00:20:19.872
+¿Quieres que lo chequemos de
+nuevo? Si quieres, hazlo de una
+
+64119e87-efb5-490e-8d51-ade10a38ac83-1
+00:20:19.872 --> 00:20:23.114
+prueba y yo te voy a ir viendo a
+ver si nos sale bien o como
+
+64119e87-efb5-490e-8d51-ade10a38ac83-2
+00:20:23.114 --> 00:20:23.540
+quieras.
+
+c6e0575b-3c22-4916-9ef0-e852f981b9fe-0
+00:20:25.000 --> 00:20:25.550
+Un.
+
+f1ce3d50-7dfd-4bde-be11-09cda43b7e91-0
+00:20:27.500 --> 00:20:29.500
+Pues me la aviento y IA, sí.
+
+06f0b164-7ea3-46e0-8938-94796d528cfa-0
+00:20:30.460 --> 00:20:33.070
+Como quieras, si quieres, le
+damos otra repasada.
+
+727880d3-f570-4131-84f8-b4764277104c-0
+00:20:35.670 --> 00:20:36.390
+¿Tú elige?
+
+58f05ab2-b6a2-4754-8fd6-db0a03fca31c-0
+00:20:39.380 --> 00:20:40.590
+A, pues, una repasada.
+
+18e5807c-d8d1-4278-b7dd-35a63dd8747f-0
+00:20:41.830 --> 00:20:43.460
+Así lo digo bien, a ver.
+
+0f9da601-fa7c-49f0-9d7b-dfc25c0ca0a8-0
+00:20:44.290 --> 00:20:44.700
+¿O qué?
+
+b584f69d-4b9e-4f00-a08a-49485dc891b5-0
+00:20:45.990 --> 00:20:50.582
+Ok el customer AR entra a la
+página de inicio, pero sin
+
+b584f69d-4b9e-4f00-a08a-49485dc891b5-1
+00:20:50.582 --> 00:20:55.667
+sesión iniciada el sistema le
+pregunta que si tiene cuenta si
+
+b584f69d-4b9e-4f00-a08a-49485dc891b5-2
+00:20:55.667 --> 00:20:56.980
+no tiene cuenta.
+
+be116e0b-1204-4fce-8556-51d1f7749b25-0
+00:20:57.630 --> 00:20:59.260
+¿Le va a pedir que se registre?
+
+2268f50a-8889-4153-8354-79f3157e3406-0
+00:21:00.090 --> 00:21:04.702
+Y tiene dos opciones por medio
+de una cuenta de hotmail externa
+
+2268f50a-8889-4153-8354-79f3157e3406-1
+00:21:04.702 --> 00:21:08.738
+o por medio de un registro
+propio de de la página si el
+
+2268f50a-8889-4153-8354-79f3157e3406-2
+00:21:08.738 --> 00:21:09.819
+usuario escoge.
+
+932e6839-704d-4b06-bf50-e9e9bde8ac75-0
+00:21:10.590 --> 00:21:11.980
+¿Una cuenta de hotmail?
+
+d4a02691-bc1a-42d3-a8f7-f07d73b6e34d-0
+00:21:13.020 --> 00:21:18.250
+Si se va a conectar con él con
+el API de DEG Mail.
+
+3e738445-941f-41e4-a0e1-da99deaad51e-0
+00:21:20.180 --> 00:21:21.000
+Y.
+
+cf70f39e-5475-4ad3-aef1-107e31cdabba-0
+00:21:26.000 --> 00:21:30.737
+Aparte, no entiendo lo de lo del
+crack. Info se refiere con eso
+
+cf70f39e-5475-4ad3-aef1-107e31cdabba-1
+00:21:30.737 --> 00:21:34.883
+exactamente y no tiene una
+cuenta de email rellena esta
+
+cf70f39e-5475-4ad3-aef1-107e31cdabba-2
+00:21:34.883 --> 00:21:36.290
+información a mano.
+
+4efb8cf5-fc9c-4d89-8c49-3d70f09e8885-0
+00:21:37.770 --> 00:21:41.260
+Sí, sí tiene cuenta de email
+inicia sesión.
+
+0a16100e-cd32-4719-b4a7-5a355420dbd8-0
+00:21:42.010 --> 00:21:45.340
+Sí, sí tiene cuenta. Es que creo
+que este signo, pues está mal.
+
+2c8595a9-285e-4215-8d84-2c42ca239eca-0
+00:21:46.110 --> 00:21:48.900
+Creo que sí. Sí tiene cuenta de
+email.
+
+1a26b495-c9ea-48e5-b622-96aed2a93491-0
+00:21:51.320 --> 00:21:53.310
+Sí, sí tiene cuenta de email.
+
+370f08be-2226-4e3f-8ac3-1f284ca9336c-0
+00:21:54.180 --> 00:21:55.680
+¿Se rellena la INFO, no?
+
+4443fa0b-0306-4a2a-96e3-3391db5298ea-0
+00:21:56.460 --> 00:21:59.553
+No, si tiene, no sé si tiene
+cuenta de email, no tiene que
+
+4443fa0b-0306-4a2a-96e3-3391db5298ea-1
+00:21:59.553 --> 00:22:00.130
+hacer nada.
+
+0ba29902-d7d7-43e4-b801-c34610664494-0
+00:22:01.150 --> 00:22:05.057
+El que depende, por ejemplo,
+estamos conectándonos a la API
+
+0ba29902-d7d7-43e4-b801-c34610664494-1
+00:22:05.057 --> 00:22:09.160
+de Email antes de preguntar si
+tiene cuenta de email o nombre.
+
+c489e0b5-857e-488e-9a95-b2640e1d3ab0-0
+00:22:10.920 --> 00:22:14.730
+¿Osea esta línea está conectada
+a la API de Jim ALE?
+
+42ca8ae0-ca48-457c-8f0d-8fa420c0a0ec-0
+00:22:16.970 --> 00:22:20.578
+Ahí está bien, no es para que
+aparezca el botoncito o si es
+
+42ca8ae0-ca48-457c-8f0d-8fa420c0a0ec-1
+00:22:20.578 --> 00:22:21.420
+cierto, o key.
+
+1277d4d0-37c4-4a37-bcd0-a7170334d836-0
+00:22:22.590 --> 00:22:25.955
+Ok, ya, ya entendí. Es como
+cuando tienes cuenta en Paypal
+
+1277d4d0-37c4-4a37-bcd0-a7170334d836-1
+00:22:25.955 --> 00:22:29.605
+pero no la tienes como comunidad
+que borraste de la sesión o no
+
+1277d4d0-37c4-4a37-bcd0-a7170334d836-2
+00:22:29.605 --> 00:22:33.141
+sé qué YY te conectas a lápiz,
+pero pero aún tienes que poner
+
+1277d4d0-37c4-4a37-bcd0-a7170334d836-3
+00:22:33.141 --> 00:22:36.050
+tus datos otra vez para que te
+aparezca tu cuenta.
+
+312de533-02c3-4645-b392-97431b10d3b4-0
+00:22:36.820 --> 00:22:39.110
+Y entendí, ya entendí, no como.
+
+37eea1e0-11bd-405f-b58a-212209cf5fd6-0
+00:22:39.740 --> 00:22:42.390
+Si, por ejemplo, lo de que si
+tienes.
+
+14d5afd4-6efd-4899-9b9e-1d4e2f198d39-0
+00:22:43.590 --> 00:22:47.010
+Es lo que entiendo, esto como
+como lo pusimos es de que.
+
+1bc094f2-1150-4aed-a052-d8743a3890d4-0
+00:22:48.950 --> 00:22:51.928
+¿Es que según yo, no puedes
+crear una cuenta nomas con el
+
+1bc094f2-1150-4aed-a052-d8743a3890d4-1
+00:22:51.928 --> 00:22:54.959
+lápiz, verdad? O sea, por
+ejemplo de que el botoncito de G
+
+1bc094f2-1150-4aed-a052-d8743a3890d4-2
+00:22:54.959 --> 00:22:57.630
+Mail YY si no tienes cuenta que
+de que te pongas a.
+
+7c3ef134-ceff-4f21-abc0-2c4aa1487be0-0
+00:22:58.250 --> 00:23:01.500
+A crearla, tienes que tener para
+poder usar ese inicio de sesión.
+
+4e621337-6e9e-4520-8f2f-1768be5403a7-0
+00:23:02.180 --> 00:23:06.833
+No mira si si tienes cuenta de
+email hacerlo bien te manda
+
+4e621337-6e9e-4520-8f2f-1768be5403a7-1
+00:23:06.833 --> 00:23:10.540
+login. E ingresas ahí tu usuario
+y contraseña.
+
+9f971f0c-2005-4f9f-9485-f51e16954b8c-0
+00:23:11.120 --> 00:23:13.240
+Aquí deberíamos poner.
+
+e098e5c9-dcde-495d-a2a2-c2713a0b78ed-0
+00:23:14.060 --> 00:23:16.677
+A lo mejor también conectarlo
+con bueno. ¿No? Es que ya está
+
+e098e5c9-dcde-495d-a2a2-c2713a0b78ed-1
+00:23:16.677 --> 00:23:18.780
+conectado con la pizza, no están
+conectados 5 P.
+
+52b2c17b-f66d-445c-8a22-cdb2d49baab8-0
+00:23:19.790 --> 00:23:21.810
+Sí voy a poner este aquí.
+
+88b7c8bc-c939-4872-ace1-b696d4556636-0
+00:23:28.700 --> 00:23:29.170
+Para.
+
+6f60781a-a783-4d0b-9342-210597500e1c-0
+00:23:31.140 --> 00:23:33.440
+Ver que se deben rellenar estos
+datos.
+
+a54d46ec-b8b8-47e7-b19e-416c4f7992b2-0
+00:23:34.030 --> 00:23:37.398
+¿Pero el login también tendría
+que estar esté conectado con
+
+a54d46ec-b8b8-47e7-b19e-416c4f7992b2-1
+00:23:37.398 --> 00:23:37.960
+lápiz, no?
+
+580a203d-c309-420e-a9e0-7156dd49f737-0
+00:23:41.390 --> 00:23:42.910
+¿Pero ya está conectado aquí,
+no?
+
+b83fa4c6-8946-4b87-b85a-004c9f04e090-0
+00:23:45.400 --> 00:23:47.770
+Cuando se o sea, si está
+registrado.
+
+45215b28-6f5f-41d6-82dc-2b38e393cad9-0
+00:23:48.820 --> 00:23:51.560
+¿Ah, porque ya lo estás
+utilizando, cierto? Sí.
+
+a05d5594-a3a9-4dcd-8f7f-b00143fb8a1b-0
+00:23:54.060 --> 00:23:55.810
+Si se registra y luego se
+guarda.
+
+0b29841c-9f06-4ac3-af43-f4ec48d0543d-0
+00:23:56.710 --> 00:24:00.744
+Esta información se guarda en la
+base de datos customer y luego
+
+0b29841c-9f06-4ac3-af43-f4ec48d0543d-1
+00:24:00.744 --> 00:24:03.140
+ya haces login. Cris sería así,
+Paúl.
+
+6fde6db4-e324-411d-931e-db4c6b9d481a-0
+00:24:03.860 --> 00:24:07.419
+¿Tienes cuenta? No, no tengo
+cuenta, tienes dos opciones,
+
+6fde6db4-e324-411d-931e-db4c6b9d481a-1
+00:24:07.419 --> 00:24:08.340
+iniciar sesión.
+
+743bdc16-6f33-495c-8cf4-22ec0e913c14-0
+00:24:09.380 --> 00:24:12.654
+¿Tienes cuenta? No, no tengo
+cuenta entonces para iniciar
+
+743bdc16-6f33-495c-8cf4-22ec0e913c14-1
+00:24:12.654 --> 00:24:14.970
+sesión, si tienes una cuenta de
+Jim ALE.
+
+f940b7e0-4d32-4b4b-86d0-f61e9d86a3fc-0
+00:24:16.830 --> 00:24:18.060
+Ay, no sé si no.
+
+5cfa4f53-62aa-4d87-a4be-ccf31dd5dbaf-0
+00:24:18.900 --> 00:24:22.850
+¿Tienes cuenta? ¿No? Entonces
+nos conectamos a la API de Jim
+
+5cfa4f53-62aa-4d87-a4be-ccf31dd5dbaf-1
+00:24:22.850 --> 00:24:23.110
+ALE.
+
+4e38dc90-fa56-4a05-b020-5bc581f62240-0
+00:24:25.290 --> 00:24:28.604
+¿Por si el usuario quiere
+iniciar sesión con Jim ALE,
+
+4e38dc90-fa56-4a05-b020-5bc581f62240-1
+00:24:28.604 --> 00:24:32.470
+tienes una cuenta en email? Sí,
+Ah, OK. Entonces inicia sesión
+
+4e38dc90-fa56-4a05-b020-5bc581f62240-2
+00:24:32.470 --> 00:24:36.337
+con tu usuario y contraseña de
+Jim ALE. No, no tengo cuenta en
+
+4e38dc90-fa56-4a05-b020-5bc581f62240-3
+00:24:36.337 --> 00:24:40.264
+Jim ALE. Entonces rellena esta
+información, esta información se
+
+4e38dc90-fa56-4a05-b020-5bc581f62240-4
+00:24:40.264 --> 00:24:44.069
+va a guardar en customer is BAE
+login, y después ajá valoyes.
+
+71857880-0569-4c1e-9d47-05cb0334dcb2-0
+00:24:44.900 --> 00:24:46.210
+¿Ok OK?
+
+65fa3870-931d-44a6-b844-b02ab47974a7-0
+00:24:46.970 --> 00:24:50.167
+Pero voy a ir seleccionando las
+flechitas tú guíate por las
+
+65fa3870-931d-44a6-b844-b02ab47974a7-1
+00:24:50.167 --> 00:24:50.700
+flechitas.
+
+e0932ab8-b0d4-47ec-a6de-0bb5bd294d3c-0
+00:24:51.840 --> 00:24:53.930
+¿Que vaya seleccionando? ¿Ok? Ok
+OK.
+
+957c6e81-e34d-430c-b0ec-c07c627545d4-0
+00:24:54.670 --> 00:24:58.180
+Ok, OK, estoy nerviosa, está muy
+complicado esto.
+
+80be835b-55dc-4aff-95c9-e8d03a06e0ee-0
+00:24:59.200 --> 00:25:01.780
+Está complicado, siento de que
+está más fácil.
+
+a437e0ce-f706-480b-8ad7-3471af5e704a-0
+00:25:03.370 --> 00:25:07.012
+Por separado pero a la vez no.
+No sé, es mucho, es mucho pensar
+
+a437e0ce-f706-480b-8ad7-3471af5e704a-1
+00:25:07.012 --> 00:25:09.460
+no en cómo grabamos esto YY que
+sea fácil.
+
+554a43b7-c641-41a2-bea7-3d96b94494ea-0
+00:25:11.750 --> 00:25:15.060
+Pues estamos 3, si quieres lo
+podemos hacer todos juntos.
+
+55312975-47f1-4b74-8440-8eed8f5a8c0b-0
+00:25:16.190 --> 00:25:18.220
+Y cada 1 gana función.
+
+4cec2b0d-df57-44d8-825a-864b2107e47b-0
+00:25:19.790 --> 00:25:23.588
+Hice una parte, no cada 1 sí, o
+sea, puedo Paul Puededecir este
+
+4cec2b0d-df57-44d8-825a-864b2107e47b-1
+00:25:23.588 --> 00:25:26.260
+login y luego ya, una vez que
+inicie sesión.
+
+fd620d9e-1f7d-4d22-a0a5-24b3fbba1b6b-0
+00:25:27.300 --> 00:25:32.014
+¿Y después deja un PAC inicio yo
+con veterinaria y luego Adrián
+
+fd620d9e-1f7d-4d22-a0a5-24b3fbba1b6b-1
+00:25:32.014 --> 00:25:36.360
+con ecommerce para que 1 no se
+abrume tanto o cómo quieren
+
+fd620d9e-1f7d-4d22-a0a5-24b3fbba1b6b-2
+00:25:36.360 --> 00:25:36.950
+hacerlo?
+
+df016a4b-2dcc-4571-9a51-35ef8d2bbec6-0
+00:25:37.760 --> 00:25:40.810
+Sí, bueno, mejor eso. Porque por
+ejemplo.
+
+29b5b1c7-bed4-4368-8984-019f99713d23-0
+00:25:41.630 --> 00:25:45.421
+Pero como estaba diciendo todo,
+como que empiezo bien y ya al
+
+29b5b1c7-bed4-4368-8984-019f99713d23-1
+00:25:45.421 --> 00:25:48.540
+final él quiera cortar por
+ciento de que es mucho.
+
+39318544-8394-4d2e-8173-5f4922cf7ea1-0
+00:25:49.590 --> 00:25:52.645
+Así que si podemos hacerle así,
+no dile que cada 1 diga como
+
+39318544-8394-4d2e-8173-5f4922cf7ea1-1
+00:25:52.645 --> 00:25:54.750
+como una parte Chiquita como una
+función.
+
+aee3e2d3-5655-46d8-9eaa-ce9987bb94ef-0
+00:25:55.920 --> 00:25:56.720
+Proceso.
+
+890f1104-40d8-4e01-8159-ca7b784ff10b-0
+00:25:57.450 --> 00:26:00.320
+Empiezas de aquí hasta Home
+Page.
+
+a29111ef-3cb5-4097-83bb-3f6c9be79eea-0
+00:26:00.980 --> 00:26:02.740
+Le doy con.
+
+3b693c9b-b83f-458e-9820-2bb3d1bae829-0
+00:26:03.570 --> 00:26:04.870
+¿Veterinarias?
+
+c1219c48-e840-48cb-ab6f-de21310ff736-0
+00:26:05.700 --> 00:26:07.850
+¿Adrián, quieres decir el
+ecommerce Tip?
+
+bab19818-929d-46ff-a935-88641b476937-0
+00:26:08.700 --> 00:26:09.150
+Key.
+
+88c6a41b-9390-4fad-9c53-f7a1c80b3108-0
+00:26:10.040 --> 00:26:15.856
+Paúl tuvo el adopción oyó noi o
+hyo si quieres tu, qie pues el
+
+88c6a41b-9390-4fad-9c53-f7a1c80b3108-1
+00:26:15.856 --> 00:26:19.180
+lugar también hilo está bien
+fácil.
+
+fd3b9330-26d2-45c9-9227-009382385ada-0
+00:26:19.900 --> 00:26:22.577
+No se me olvida, es más
+complicado, se que casi me
+
+fd3b9330-26d2-45c9-9227-009382385ada-1
+00:26:22.577 --> 00:26:23.050
+equivoco.
+
+cbe5112b-01e1-4858-a956-6d84dc9af87e-0
+00:26:24.800 --> 00:26:26.460
+Sí, porque se tiene que conectar
+a la base de datos.
+
+8008f48d-eeb5-4019-bbe6-9f3aa7f79ff2-0
+00:26:28.800 --> 00:26:29.230
+Oh OK.
+
+9960a732-22a3-486a-b559-c17e8d867f13-0
+00:26:30.030 --> 00:26:31.850
+A ver, ya terminaron la
+grabación.
+
+c46b5330-a70c-45d1-811c-c85e4c60c2db-0
+00:26:33.990 --> 00:26:34.700
+No.
+
+b01e31ca-71a6-4b87-8347-962d44908127-0
+00:26:35.470 --> 00:26:39.140

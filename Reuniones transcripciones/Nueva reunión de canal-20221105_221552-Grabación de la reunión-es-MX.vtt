@@ -1,0 +1,649 @@
+﻿WEBVTT
+
+11ae0ec8-0bed-4e23-aaab-d0f1d0c3fc68-0
+00:00:02.380 --> 00:00:03.820
+Ia le pica y le pica.
+
+c00f9ca3-95d4-47fe-a626-c6e9ee33a7c6-0
+00:00:11.170 --> 00:00:14.749
+Vamos a dar una explicación
+sobre el diagrama de business
+
+c00f9ca3-95d4-47fe-a626-c6e9ee33a7c6-1
+00:00:14.749 --> 00:00:18.453
+process management de nuestro
+sistema, que es un sistema de
+
+c00f9ca3-95d4-47fe-a626-c6e9ee33a7c6-2
+00:00:18.453 --> 00:00:21.724
+veterinaria, empezaremos
+explicando los procesos que
+
+c00f9ca3-95d4-47fe-a626-c6e9ee33a7c6-3
+00:00:21.724 --> 00:00:25.366
+lleva al cabo el customer, que
+es uno de nuestros tipos de
+
+c00f9ca3-95d4-47fe-a626-c6e9ee33a7c6-4
+00:00:25.366 --> 00:00:25.860
+usuario.
+
+175927e1-6aa2-4e75-864e-09585f5c1bf1-0
+00:00:27.190 --> 00:00:30.426
+¿Por qué? Por empezar el
+customer, a el momento de que
+
+175927e1-6aa2-4e75-864e-09585f5c1bf1-1
+00:00:30.426 --> 00:00:34.074
+entra a la página le aparece la
+página de inicio, pero sin la
+
+175927e1-6aa2-4e75-864e-09585f5c1bf1-2
+00:00:34.074 --> 00:00:36.840
+sesión iniciada, debido a que no
+tiene cuenta.
+
+9fc0ebbd-ce86-4453-b7d0-8071b0ad571a-0
+00:00:37.640 --> 00:00:40.040
+Por lo que el sistema le va a
+preguntar que si tiene cuenta.
+
+4dbed29c-1bb0-4758-85e9-b48524c53b23-0
+00:00:41.170 --> 00:00:44.582
+Si no tiene cuenta que era da le
+va a pedir que se registre y
+
+4dbed29c-1bb0-4758-85e9-b48524c53b23-1
+00:00:44.582 --> 00:00:47.609
+tenemos 2 opciones para eso.
+Bueno, el sistema tiene 2
+
+4dbed29c-1bb0-4758-85e9-b48524c53b23-2
+00:00:47.609 --> 00:00:49.040
+opciones para el registro.
+
+5d3adcbc-28df-427e-b300-a962752c4be9-0
+00:00:50.700 --> 00:00:53.250
+¿YY para beneficiar este
+proceso?
+
+5acaa6b2-c076-444c-a245-b7f509d9983b-0
+00:00:53.980 --> 00:00:54.430
+Sí.
+
+125a0ad7-64de-4b65-8cfe-beaf97be594b-0
+00:00:55.060 --> 00:00:58.652
+Se tiene una conexión con el
+lápiz de email por el inicio de
+
+125a0ad7-64de-4b65-8cfe-beaf97be594b-1
+00:00:58.652 --> 00:01:02.421
+sesión con dichas Cuentas y se
+le pregunta al usuario si quiere
+
+125a0ad7-64de-4b65-8cfe-beaf97be594b-2
+00:01:02.421 --> 00:01:05.130
+iniciar sesión con su cuenta de
+hotmail o no.
+
+20acc164-7127-487b-b77b-c742467f3f1b-0
+00:01:06.490 --> 00:01:08.050
+En el caso de que si quiera.
+
+571cb2b9-8893-445b-9246-01fe063d1c5f-0
+00:01:09.360 --> 00:01:13.503
+¿A solamente se se conecta a su
+cuenta ya creada con Hotmail y
+
+571cb2b9-8893-445b-9246-01fe063d1c5f-1
+00:01:13.503 --> 00:01:17.646
+le permite iniciarse con dichos
+Datos, en el caso de que no se
+
+571cb2b9-8893-445b-9246-01fe063d1c5f-2
+00:01:17.646 --> 00:01:19.619
+le va, va a pedir que ingrese?
+
+9e905611-b28d-49fd-8019-d935ff577dfd-0
+00:01:20.310 --> 00:01:24.022
+Los Datos que quiere que su
+cuenta almacene, en este caso va
+
+9e905611-b28d-49fd-8019-d935ff577dfd-1
+00:01:24.022 --> 00:01:27.612
+a ser su primer nombre, su
+apellido, el número de teléfono
+
+9e905611-b28d-49fd-8019-d935ff577dfd-2
+00:01:27.612 --> 00:01:31.385
+o su correo electrónico y su
+contraseña, y estos Datos se van
+
+9e905611-b28d-49fd-8019-d935ff577dfd-3
+00:01:31.385 --> 00:01:34.550
+a guardar en la tabla customer
+de la base de Datos.
+
+44667ec3-fd9e-4caf-bfe2-501f6dfb9987-0
+00:01:35.430 --> 00:01:38.898
+Después se va a colocar al
+usuario en el apartado de
+
+44667ec3-fd9e-4caf-bfe2-501f6dfb9987-1
+00:01:38.898 --> 00:01:39.880
+iniciar sesión.
+
+2b94ed4a-6811-4091-8219-13a40bf3d302-0
+00:01:42.790 --> 00:01:45.430
+En el que le va a pedir su
+correo electrónico y su
+
+2b94ed4a-6811-4091-8219-13a40bf3d302-1
+00:01:45.430 --> 00:01:46.000
+contraseña.
+
+5ed795ac-2cdb-457b-b4c3-15f74e11aebd-0
+00:01:46.860 --> 00:01:50.709
+Esos Datos se van a validar con
+los que están almacenados en la
+
+5ed795ac-2cdb-457b-b4c3-15f74e11aebd-1
+00:01:50.709 --> 00:01:54.317
+base de Datos de registro ya
+creado. Si son incorrectos, se
+
+5ed795ac-2cdb-457b-b4c3-15f74e11aebd-2
+00:01:54.317 --> 00:01:57.746
+va a regresar hasta que el
+usuario ingrese los que están
+
+5ed795ac-2cdb-457b-b4c3-15f74e11aebd-3
+00:01:57.746 --> 00:02:01.234
+bien YY que se puedan ser
+validados, ya cuando el usuario
+
+5ed795ac-2cdb-457b-b4c3-15f74e11aebd-4
+00:02:01.234 --> 00:02:03.460
+ingresa los Datos que son
+correctos.
+
+f813e90c-cbb0-4ed0-a39d-c6abad358eb6-0
+00:02:04.090 --> 00:02:07.140
+Lo va a regresar a la página de
+inicio, pero esta vez con su
+
+f813e90c-cbb0-4ed0-a39d-c6abad358eb6-1
+00:02:07.140 --> 00:02:07.940
+cuenta iniciada.
+
+b1445c47-9aa8-4c5c-887e-0eb60c4f2e24-0
+00:02:09.620 --> 00:02:13.724
+¿Ok? Una vez que el usuario se
+bloquea con sus Datos correctos,
+
+b1445c47-9aa8-4c5c-887e-0eb60c4f2e24-1
+00:02:13.724 --> 00:02:17.637
+lo van a aparecer. Una serie de
+Funciones sería veterinarias
+
+b1445c47-9aa8-4c5c-887e-0eb60c4f2e24-2
+00:02:17.637 --> 00:02:21.677
+ecommerce adoption y la opción
+de Logan por si se quiere salir
+
+b1445c47-9aa8-4c5c-887e-0eb60c4f2e24-3
+00:02:21.677 --> 00:02:25.590
+del sistema. La primera función
+sería la la de veterinarias.
+
+2631bbb3-7010-4a70-83e6-e9ae33fb3474-0
+00:02:26.150 --> 00:02:30.664
+Aquí el usuario va a buscar su
+ubicación. Esta ubicación está
+
+2631bbb3-7010-4a70-83e6-e9ae33fb3474-1
+00:02:30.664 --> 00:02:32.630
+conectada a la API de Maps.
+
+2da0740b-b156-4f9d-8b83-0a2f45926877-0
+00:02:33.440 --> 00:02:36.492
+Una vez que ingrese su
+ubicación, puede seleccionar,
+
+2da0740b-b156-4f9d-8b83-0a2f45926877-1
+00:02:36.492 --> 00:02:37.990
+puede buscar veterinarias.
+
+d8a22270-f46f-4ba1-868b-c25956bedd53-0
+00:02:38.710 --> 00:02:40.410
+Y seleccionar unas veterinarias.
+
+9d0b9741-9b24-458f-9767-13db64e5710c-0
+00:02:41.040 --> 00:02:44.337
+Que estas están conectadas a la
+tabla de la base de Datos
+
+9d0b9741-9b24-458f-9767-13db64e5710c-1
+00:02:44.337 --> 00:02:45.020
+veterinaria.
+
+fd554a23-8ae7-4684-a158-949c6858a982-0
+00:02:47.410 --> 00:02:51.844
+Es una vez que busca una y se
+busca, y selecciona una
+
+fd554a23-8ae7-4684-a158-949c6858a982-1
+00:02:51.844 --> 00:02:52.830
+veterinaria.
+
+58059271-95b0-47d9-b32c-09ab70d64e8e-0
+00:02:53.600 --> 00:02:56.530
+Se va a mostrar la información
+de esta veterinaria.
+
+20c32ac1-e63d-48f7-8079-5c6c0921b03a-0
+00:02:57.350 --> 00:03:02.040
+Se pregunta al usuario si esta
+veterinaria recibe citas.
+
+860773fa-3d7d-430f-9de8-dfb696e2f822-0
+00:03:02.710 --> 00:03:06.707
+Si no recibes citas, el usuario
+sigue en la misma función de ver
+
+860773fa-3d7d-430f-9de8-dfb696e2f822-1
+00:03:06.707 --> 00:03:09.659
+la información de la
+veterinaria. Si si recibes
+
+860773fa-3d7d-430f-9de8-dfb696e2f822-2
+00:03:09.659 --> 00:03:13.657
+citas, se le pregunta al usuario
+si quiere Hacer una cita, si no
+
+860773fa-3d7d-430f-9de8-dfb696e2f822-3
+00:03:13.657 --> 00:03:15.010
+quiere Hacer una cita.
+
+8ee9cad5-33f9-4b77-b03b-9f668a6b1f81-0
+00:03:15.850 --> 00:03:18.460
+El usuario puede seguir buscando
+y ver veterinaria.
+
+9739b907-89cb-4910-9e80-07a20620e81c-0
+00:03:19.610 --> 00:03:21.980
+Si si quiere Hacer una cita.
+
+619f43bd-2716-4e6e-9186-555f3d129169-0
+00:03:22.890 --> 00:03:23.760
+Selecciona.
+
+b0a174a3-f1bc-4118-9068-f397f36a6618-0
+00:03:24.400 --> 00:03:28.776
+El día y la hora en que quiere
+Hacer una cita y esto está
+
+b0a174a3-f1bc-4118-9068-f397f36a6618-1
+00:03:28.776 --> 00:03:31.720
+conectado a la tabla veterinario
+user.
+
+aefef274-ff42-424f-81f0-0832606fcd49-0
+00:03:34.310 --> 00:03:38.280
+Una vez que selecciona su día y
+citas, se va a generar una cita.
+
+87235b9d-1d5c-4845-b692-3913ec9dc38c-0
+00:03:40.550 --> 00:03:41.420
+Esta cita.
+
+40f45f1c-c000-4a98-a571-7326db8c7413-0
+00:03:42.160 --> 00:03:43.380
+Se va a guardar.
+
+6efce79b-1020-4b25-957b-e5a3cb89f7b0-0
+00:03:45.180 --> 00:03:48.200
+Está conectada en esta línea que
+se va a guardar en beta point.
+
+c4674818-5891-44fc-9a78-c0381076cac0-0
+00:03:53.230 --> 00:03:54.960
+Bueno, vamos a pasear con el
+ecommerce.
+
+5f965ad7-b2ea-4117-87d6-a47ced4b5041-0
+00:03:57.090 --> 00:04:00.687
+Pero la siguiente función que
+tendría el customer sería el
+
+5f965ad7-b2ea-4117-87d6-a47ced4b5041-1
+00:04:00.687 --> 00:04:04.712
+ecommerce. Dentro del ecommerce.
+Tendría, pues 3 posibilidades, o
+
+5f965ad7-b2ea-4117-87d6-a47ced4b5041-2
+00:04:04.712 --> 00:04:07.700
+sea que sea filtrar productos,
+buscar productos.
+
+70ad4598-65a4-47e1-8689-7baef3fd6b06-0
+00:04:08.290 --> 00:04:09.310
+Y ver productos.
+
+3066547c-c926-486f-8202-481698389a9e-0
+00:04:10.380 --> 00:04:14.212
+Cuando ves un producto, lo que
+vas a ver va a ser el nombre del
+
+3066547c-c926-486f-8202-481698389a9e-1
+00:04:14.212 --> 00:04:17.804
+producto. La categoría, la una
+descripción del producto, el
+
+3066547c-c926-486f-8202-481698389a9e-2
+00:04:17.804 --> 00:04:20.260
+precio, la cantidad de stock y
+una foto.
+
+d3903a72-36b8-4c31-acc1-c017aa36d183-0
+00:04:21.600 --> 00:04:25.350
+El customer puede filtrar
+productos puede después de
+
+d3903a72-36b8-4c31-acc1-c017aa36d183-1
+00:04:25.350 --> 00:04:27.120
+filtrarlos, puede buscar.
+
+f49176b5-5118-4e01-8fe7-df0efb9a9532-0
+00:04:27.750 --> 00:04:29.210
+Y después de buscar, puede ver.
+
+bd7e296f-c858-4607-8eb4-c1dd4fbb042a-0
+00:04:30.880 --> 00:04:33.200
+Después de ahí, pues puede
+seleccionar un producto.
+
+381af955-1032-49dc-8a95-d4f650075e4c-0
+00:04:34.040 --> 00:04:36.660
+Esto cuando selecciono un
+producto.
+
+61164023-b5f6-4ed3-a7e8-da673020d7c6-0
+00:04:37.730 --> 00:04:41.790
+¿Hay un caro güey que es sobre
+si lo añade al carrito, no?
+
+f9acd63e-9da6-4f6c-b418-21302b95f642-0
+00:04:42.500 --> 00:04:46.447
+Si no le añade al carrito, puede
+volver a ver otros productos y
+
+f9acd63e-9da6-4f6c-b418-21302b95f642-1
+00:04:46.447 --> 00:04:48.730
+si lo añade, pues señala al
+carrito.
+
+777c945c-f6c3-4ec5-81e3-942ff7476bfd-0
+00:04:50.380 --> 00:04:54.890
+¿Después de esto, entra en otro
+garaje y qué sería?
+
+21f650c5-d2a0-4922-b66a-1d3ae540853c-0
+00:04:55.800 --> 00:04:57.650
+El Edit Card.
+
+1dcf5578-7bae-40b1-b81f-06c462a4e525-0
+00:04:58.420 --> 00:05:03.211
+También en en aplicar cuando
+señala el carrito, pues se va a
+
+1dcf5578-7bae-40b1-b81f-06c462a4e525-1
+00:05:03.211 --> 00:05:07.060
+la al a la tabla en la base de
+Datos de carrito.
+
+f8336722-f542-4c29-ab30-a00120ab3d17-0
+00:05:09.860 --> 00:05:13.483
+Después de esto sería lo que es
+Edit Card, aquí, si lo desea
+
+f8336722-f542-4c29-ab30-a00120ab3d17-1
+00:05:13.483 --> 00:05:17.107
+editar, pues puede cambiar la
+cantidad o remover el producto
+
+f8336722-f542-4c29-ab30-a00120ab3d17-2
+00:05:17.107 --> 00:05:17.820
+del carrito.
+
+d1026a91-75a8-4531-a6c6-a12c083c42a8-0
+00:05:18.700 --> 00:05:23.493
+Si no entra en otro hogar o güey
+que tendría que decidir si hacer
+
+d1026a91-75a8-4531-a6c6-a12c083c42a8-1
+00:05:23.493 --> 00:05:25.600
+check out o seguir comprando.
+
+78f237d1-7749-462d-a314-eea6a4545ce1-0
+00:05:26.280 --> 00:05:31.106
+Si sigue comprando, se iría al
+ecommerce otra vez a poder
+
+78f237d1-7749-462d-a314-eea6a4545ce1-1
+00:05:31.106 --> 00:05:33.770
+filtrar, buscar y ver productos.
+
+27ebb99a-1bc3-47ab-8982-c1255a8ff15c-0
+00:05:34.830 --> 00:05:37.780
+Y si se va al check out, pues ya
+cerraría el carrito.
+
+6dc4f287-d77a-48da-b80f-9baecc66cc40-0
+00:05:38.870 --> 00:05:42.802
+¿Después de ahí pediría
+información, Eh? Para el envío,
+
+6dc4f287-d77a-48da-b80f-9baecc66cc40-1
+00:05:42.802 --> 00:05:46.875
+para realizar una orden, que
+sería pues solamente pedirla
+
+6dc4f287-d77a-48da-b80f-9baecc66cc40-2
+00:05:46.875 --> 00:05:48.210
+shipping addresses.
+
+86b1985b-6466-46a8-b3dd-2462f3f15618-0
+00:05:48.950 --> 00:05:53.510
+Y después de esto se conformaría
+el el pago.
+
+59c06441-9283-488d-928d-01ea77c1dc0c-0
+00:05:55.320 --> 00:06:00.170
+En este caso se ayudaría con la
+API de Paypal.
+
+c05d6c4f-d36a-4a28-9a7e-bd8e73d85c2c-0
+00:06:05.000 --> 00:06:08.730
+Aquí sería lápiz, lápiz,
+validaría el pago y en caso de
+
+c05d6c4f-d36a-4a28-9a7e-bd8e73d85c2c-1
+00:06:08.730 --> 00:06:12.660
+que el pago sea validado se
+generaría una orden en la base
+
+c05d6c4f-d36a-4a28-9a7e-bd8e73d85c2c-2
+00:06:12.660 --> 00:06:13.260
+de Datos.
+
+1a0782ad-c715-4a22-8139-6805b83a508b-0
+00:06:14.010 --> 00:06:14.680
+Si no.
+
+e6ef22de-fb0f-4fe1-bef1-ab389120f29e-0
+00:06:16.120 --> 00:06:17.240
+Se volvería.
+
+9d89aa8f-8654-46fc-ba7e-383636197ea6-0
+00:06:18.020 --> 00:06:19.640
+A intentar el pago.
+
+a5b54859-40fb-4e18-9108-ab1ed71fd742-0
+00:06:22.470 --> 00:06:27.360
+Y pues ahí estaría hasta que
+desee.
+
+39d55673-21e9-4c79-8f56-4b678c42955a-0
+00:06:28.690 --> 00:06:32.929
+Bueno, hasta que pueda pagarlo o
+hasta que quiera ya cancelar la
+
+39d55673-21e9-4c79-8f56-4b678c42955a-1
+00:06:32.929 --> 00:06:37.039
+orden, a ver si la cancela, pues
+se volvería al ecommerce otra
+
+39d55673-21e9-4c79-8f56-4b678c42955a-2
+00:06:37.039 --> 00:06:37.300
+vez.
+
+d0eaa25d-f719-479a-9288-70773c90217b-0
+00:06:47.400 --> 00:06:48.190
+Ah, bueno.
+
+acd8bc76-3f0b-4b35-90d5-0a192933b920-0
+00:06:48.810 --> 00:06:50.730
+La tercera función sería.
+
+5880c2af-636a-4858-a035-835f27d2df0f-0
+00:06:51.680 --> 00:06:55.825
+Adopción y aquí tiene 2
+opciones, el usuario que sería
+
+5880c2af-636a-4858-a035-835f27d2df0f-1
+00:06:55.825 --> 00:07:00.574
+post o adoptar si quiere hacer
+un post de adopción, rellenar y
+
+5880c2af-636a-4858-a035-835f27d2df0f-2
+00:07:00.574 --> 00:07:05.323
+a esta rellenar información y
+esta información te guardaría en
+
+5880c2af-636a-4858-a035-835f27d2df0f-3
+00:07:05.323 --> 00:07:08.640
+la tabla de la base de Datos
+adoption post.
+
+328dae7d-9d14-4275-90fd-112596f95da5-0
+00:07:10.490 --> 00:07:14.260
+Una vez que rellena esta
+información, esta información.
+
+584490f8-a4d8-427c-923e-fe0b9e57694d-0
+00:07:16.330 --> 00:07:17.330
+¿Sería esta?
+
+0e79d1da-03af-4bed-9236-56a597080965-0
+00:07:18.020 --> 00:07:20.150
+Pet Category, e.
+
+6ef87e1c-f737-4a84-af34-421d2628bd71-0
+00:07:20.900 --> 00:07:28.871
+Owner name o un email con number
+page tage 6 PP, descripción y
+
+6ef87e1c-f737-4a84-af34-421d2628bd71-1
+00:07:28.871 --> 00:07:30.010
+PET food.
+
+26058686-3665-4690-a16a-64cf3a353269-0
+00:07:31.000 --> 00:07:31.430
+En.
+
+8bd184f2-58da-47f6-a4a5-08720ff88d11-0
+00:07:32.180 --> 00:07:35.364
+Una vez que rellene esta
+información, se envía a send
+
+8bd184f2-58da-47f6-a4a5-08720ff88d11-1
+00:07:35.364 --> 00:07:36.190
+post validate.
+
+4ee6b2c6-e7db-4f49-a076-14de2aaca6ce-0
+00:07:37.280 --> 00:07:41.750
+Este post lo va a validar el
+staff que tenemos. Esta línea
+
+4ee6b2c6-e7db-4f49-a076-14de2aaca6ce-1
+00:07:41.750 --> 00:07:46.372
+que conecta a este cuadrito que
+dice Adam Sandler CREST y el
+
+4ee6b2c6-e7db-4f49-a076-14de2aaca6ce-2
+00:07:46.372 --> 00:07:49.100
+staff, se quedaría de validar
+esta.
+
+8ad20995-3b73-4571-9bc2-1b24d4342d91-0
+00:07:49.970 --> 00:07:50.700
+Este post.
+
+2e15dc79-9d33-4148-8fbb-8a3520d8fb99-0
+00:07:52.070 --> 00:07:52.540
+En.
+
+b7e95bb9-6e7e-40ad-a321-121d3f5d1548-0
+00:07:54.170 --> 00:07:57.870
+El staff tiene uno a 2 días para
+realizar este post.
+
+d280b1f8-fa1c-4d4a-94ed-77f57c9d68e2-0
+00:07:58.660 --> 00:08:01.380
+En cambio, si el usuario
+quisiera adoptar.
+
+f715d472-ee1d-4f76-8973-63145c71941b-0
+00:08:02.400 --> 00:08:06.729
+Entraría en 2 Funciones que
+sería filtrar categorías o ver
+
+f715d472-ee1d-4f76-8973-63145c71941b-1
+00:08:06.729 --> 00:08:07.390
+mascotas.
+
+6e0602f3-4438-42ab-a496-2732060e34e3-0
+00:08:08.190 --> 00:08:12.390
+Filtrando categorías, pueden
+seleccionar una mascota.
+
+c0584706-8ea5-4549-abaa-06d7cc96cb51-0
+00:08:13.660 --> 00:08:14.370
+El.
+
+d246fd58-5b3e-4467-8398-167f1cb1a11d-0
+00:08:16.350 --> 00:08:20.629
+¿Y si selecciona una mascota y
+quiere adoptarla, le saldría
+
+d246fd58-5b3e-4467-8398-167f1cb1a11d-1
+00:08:20.629 --> 00:08:22.840
+esta información de la mascota?
+
+ef64c816-b089-48ef-9f04-dbd3231f37a4-0
+00:08:25.030 --> 00:08:25.680
+Y.
+
+9ddb3e31-e84c-4923-9dcf-72402a63b67c-0
+00:08:27.550 --> 00:08:27.760
+Ya.
+
+8b5ebfc0-f9c6-42db-a70a-0f16ef8dfa60-0
+00:08:29.360 --> 00:08:34.149
+Esa, el usuario quiere hacer
+logout, pues hace log out y aquí
+
+8b5ebfc0-f9c6-42db-a70a-0f16ef8dfa60-1
+00:08:34.149 --> 00:08:35.540
+cierra el proceso.

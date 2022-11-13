@@ -1,0 +1,371 @@
+﻿WEBVTT
+
+8df7be44-4f29-45a3-8a2d-7270535aa5dd-0
+00:00:05.670 --> 00:00:07.160
+Cuando terminé de hablar, yo no
+vine.
+
+8bc8a383-ef33-409e-9164-5d6ec1f6c17f-0
+00:00:09.380 --> 00:00:12.734
+Vamos a explicarla parte del
+staff de nuestro Programa,
+
+8bc8a383-ef33-409e-9164-5d6ec1f6c17f-1
+00:00:12.734 --> 00:00:16.568
+Business Partner, explicaremos
+los procesos que lleva a cabo el
+
+8bc8a383-ef33-409e-9164-5d6ec1f6c17f-2
+00:00:16.568 --> 00:00:19.862
+staff, que es 1 de nuestros
+tipos de usuario y nuestra
+
+8bc8a383-ef33-409e-9164-5d6ec1f6c17f-3
+00:00:19.862 --> 00:00:21.600
+página web sobre veterinaria.
+
+61fc0957-10da-4f59-acf1-afab62db9879-0
+00:00:23.200 --> 00:00:27.050
+O que hiel estas primero le
+aparece la en la home Page.
+
+91cf3016-b839-4e3d-9a42-91216ea4dbfc-0
+00:00:27.960 --> 00:00:31.864
+En donde se le va a pedir que
+que haga login si sus
+
+91cf3016-b839-4e3d-9a42-91216ea4dbfc-1
+00:00:31.864 --> 00:00:36.520
+credenciales son correctas, lo
+manda al home Page, en caso de
+
+91cf3016-b839-4e3d-9a42-91216ea4dbfc-2
+00:00:36.520 --> 00:00:40.875
+que sean incorrectas sus
+credenciales, los regresalo bien
+
+91cf3016-b839-4e3d-9a42-91216ea4dbfc-3
+00:00:40.875 --> 00:00:44.930
+otra vez para que vuelva a
+ingresar sus credenciales.
+
+b60d6fc8-1bf8-4f25-8433-25ef2b482833-0
+00:00:45.990 --> 00:00:48.380
+Cuando ya ha ingresado sus
+credenciales.
+
+ed9ef8cb-0caa-4ad0-9766-49b164bac32d-0
+00:00:49.700 --> 00:00:55.417
+Eh, le va a salir las opciones.
+La primera opción es estas
+
+ed9ef8cb-0caa-4ad0-9766-49b164bac32d-1
+00:00:55.417 --> 00:00:56.290
+register.
+
+ea3d3b8c-1ca5-48bf-ba28-ea9e0ea8856e-0
+00:00:58.120 --> 00:00:59.620
+Acá se le va a preguntar.
+
+9a43ebfc-e68a-4608-a132-a796285d429b-0
+00:01:00.360 --> 00:01:04.457
+Si quiere agregar un staff, si
+no lo regresa otra vez a las
+
+9a43ebfc-e68a-4608-a132-a796285d429b-1
+00:01:04.457 --> 00:01:05.140
+funciones.
+
+555e8e94-5fdf-41c0-87d6-ae611f305fbd-0
+00:01:05.780 --> 00:01:09.653
+Si lo quiero agregar, ese le va
+a pedir la información de
+
+555e8e94-5fdf-41c0-87d6-ae611f305fbd-1
+00:01:09.653 --> 00:01:13.460
+registro, que es el nombre, el
+el apellido, el password.
+
+0be4cc31-ba4c-4e34-9ab0-9b36fc810720-0
+00:01:14.130 --> 00:01:15.620
+El número de teléfono y el
+email.
+
+c1e8ef95-a0a9-49b6-90f7-e04aec6ddbc5-0
+00:01:18.880 --> 00:01:20.730
+Éste se conecta.
+
+87c3f83b-520c-4fd1-a818-eafdbaa503d5-0
+00:01:21.530 --> 00:01:24.990
+A la tabla staff de la base de
+datos.
+
+a7fd6e3a-678d-40eb-97f1-f4c66cb01003-0
+00:01:27.810 --> 00:01:31.255
+¿Ok? La segunda función que le
+aparecería al staff sería el
+
+a7fd6e3a-678d-40eb-97f1-f4c66cb01003-1
+00:01:31.255 --> 00:01:32.060
+admin y comer.
+
+7cf96437-977f-4a69-945a-56237c857e89-0
+00:01:32.930 --> 00:01:35.560
+Aquí se va a preguntar si hay
+productos.
+
+d859b1a1-481f-4c16-a9d3-cbb825743302-0
+00:01:36.270 --> 00:01:41.116
+Si no hay productos, le staff
+puede añadir productos. Sí, sí
+
+d859b1a1-481f-4c16-a9d3-cbb825743302-1
+00:01:41.116 --> 00:01:46.122
+hay productos. Puede añadir o
+editar productos si se les si se
+
+d859b1a1-481f-4c16-a9d3-cbb825743302-2
+00:01:46.122 --> 00:01:49.380
+selecciona la función, añadir
+productos.
+
+30e1506c-f384-43ca-946c-a0f340d401de-0
+00:01:50.800 --> 00:01:56.266
+Esta función está conectada a la
+tabla de la base de datos
+
+30e1506c-f384-43ca-946c-a0f340d401de-1
+00:01:56.266 --> 00:01:57.100
+products.
+
+5ebc635a-2ca3-492f-992d-5a500db9d81e-0
+00:01:57.920 --> 00:02:01.490
+Una vez que añade productos
+rellenando esta información.
+
+a7d37a29-6675-4d09-8efb-0dde496aaef4-0
+00:02:05.070 --> 00:02:10.460
+Se va a generar un post producto
+en el ecommerce.
+
+158cf8aa-e1a4-43ab-8d3f-2d5c733bf3fe-0
+00:02:13.280 --> 00:02:17.181
+¿Si elige editar o remover
+productos, se le pregunta,
+
+158cf8aa-e1a4-43ab-8d3f-2d5c733bf3fe-1
+00:02:17.181 --> 00:02:21.371
+quieres editar o quieres
+remover? Si quiere editar, le va
+
+158cf8aa-e1a4-43ab-8d3f-2d5c733bf3fe-2
+00:02:21.371 --> 00:02:22.600
+a aparecer todas.
+
+2bec146f-5e71-4cf4-8ae1-a5e156f41963-0
+00:02:23.550 --> 00:02:26.367
+En los atributos de los
+productos para ver cualquier
+
+2bec146f-5e71-4cf4-8ae1-a5e156f41963-1
+00:02:26.367 --> 00:02:26.740
+editar.
+
+9debc8f6-2ebe-42b9-ac47-6d07f4aff69d-0
+00:02:27.430 --> 00:02:30.635
+Una vez que se edite el
+producto, esto se está
+
+9debc8f6-2ebe-42b9-ac47-6d07f4aff69d-1
+00:02:30.635 --> 00:02:35.067
+conectando a la Cámara, donde se
+actualiza el post del producto,
+
+9debc8f6-2ebe-42b9-ac47-6d07f4aff69d-2
+00:02:35.067 --> 00:02:39.090
+y también está conectado a la
+tabla products de la base de
+
+9debc8f6-2ebe-42b9-ac47-6d07f4aff69d-3
+00:02:39.090 --> 00:02:39.499
+datos.
+
+91448b65-8ce0-42b1-8417-4980f13a7753-0
+00:02:40.210 --> 00:02:44.990
+Una vez que edita el producto,
+lo regresa a las funciones si
+
+91448b65-8ce0-42b1-8417-4980f13a7753-1
+00:02:44.990 --> 00:02:49.378
+elige la función, remover
+productos está conectado al a
+
+91448b65-8ce0-42b1-8417-4980f13a7753-2
+00:02:49.378 --> 00:02:49.770
+este.
+
+18de8b6d-9cc0-4a51-92ae-7ea1becbe10b-0
+00:02:51.090 --> 00:02:53.230
+Fuimos, pues, Product en el
+ecommerce.
+
+dc58409e-d8f2-407a-be99-9e573d21f9f7-0
+00:02:55.070 --> 00:02:58.746
+Y también se está conectando a
+la base de datos, a la tabla de
+
+dc58409e-d8f2-407a-be99-9e573d21f9f7-1
+00:02:58.746 --> 00:03:01.840
+la base de datos products para
+eliminar el producto.
+
+4e4a88bf-0b83-4605-94e2-245e38bfeb3b-0
+00:03:02.450 --> 00:03:07.329
+Una vez que remueve el producto,
+también se envía de nuevo a las
+
+4e4a88bf-0b83-4605-94e2-245e38bfeb3b-1
+00:03:07.329 --> 00:03:08.080
+funciones.
+
+1cacedf9-46c8-4e11-93f4-05c63809fe1a-0
+00:03:12.120 --> 00:03:16.572
+La tercera función que tiene los
+miembros de staff es la de admin
+
+1cacedf9-46c8-4e11-93f4-05c63809fe1a-1
+00:03:16.572 --> 00:03:17.450
+veterinarias.
+
+3d477fa3-d1ad-460b-a389-276c215f519b-0
+00:03:18.380 --> 00:03:22.082
+El sistema les va a preguntar a
+los miembros del staff si hay
+
+3d477fa3-d1ad-460b-a389-276c215f519b-1
+00:03:22.082 --> 00:03:25.486
+solicitudes de de veterinarias
+en caso de que no haya se
+
+3d477fa3-d1ad-460b-a389-276c215f519b-2
+00:03:25.486 --> 00:03:28.711
+regresan al apartado de
+funciones, pero en el caso de
+
+3d477fa3-d1ad-460b-a389-276c215f519b-3
+00:03:28.711 --> 00:03:29.130
+que sí.
+
+d76fbc9a-31c5-4d08-a349-b9a9edaf2887-0
+00:03:30.120 --> 00:03:33.640
+¿Se va a ir hacia el apartado
+para validar a dichas
+
+d76fbc9a-31c5-4d08-a349-b9a9edaf2887-1
+00:03:33.640 --> 00:03:34.520
+veterinarias?
+
+3313dcb6-2537-4bb9-a024-d7fb0a06dd09-0
+00:03:35.230 --> 00:03:40.120
+Se van AAAA recabar la los
+registros que los veterinarios y
+
+3313dcb6-2537-4bb9-a024-d7fb0a06dd09-1
+00:03:40.120 --> 00:03:40.610
+users.
+
+8ca54129-763e-4e78-95d1-a49698cd14dc-0
+00:03:41.230 --> 00:03:45.902
+Hayan mandado a procesar YYA
+validar en un periodo de 1 a dos
+
+8ca54129-763e-4e78-95d1-a49698cd14dc-1
+00:03:45.902 --> 00:03:49.896
+días y dichas validaciones de
+veterinarias van a ser
+
+8ca54129-763e-4e78-95d1-a49698cd14dc-2
+00:03:49.896 --> 00:03:50.650
+guardadas.
+
+2c89e19d-2404-414b-adf3-12fa052892c1-0
+00:03:51.370 --> 00:03:53.210
+En la tabla de veterinarios y
+user.
+
+dc375e6d-bb5b-4109-a1a8-d7eef0b20d38-0
+00:03:54.680 --> 00:03:56.630
+Y cuando se realice este
+proceso.
+
+1e9c9ff7-6100-4638-ad4a-ae496f4d3849-0
+00:03:57.290 --> 00:03:59.540
+Si se va a regresar hacia las
+funciones.
+
+a0945502-ebbc-4d2a-8df1-1e714c449a22-0
+00:04:05.700 --> 00:04:10.826
+El penúltimo funcionamiento que
+tendría el staff sería entrar a
+
+a0945502-ebbc-4d2a-8df1-1e714c449a22-1
+00:04:10.826 --> 00:04:13.150
+la administrador de opciones.
+
+724f59b7-d3b5-495a-a3f3-1da26cfd0811-0
+00:04:13.760 --> 00:04:17.682
+Aquí entraría en el Grove de si
+hay post opciones si no hay,
+
+724f59b7-d3b5-495a-a3f3-1da26cfd0811-1
+00:04:17.682 --> 00:04:21.283
+pues te regresaría a las
+funciones y si hay pues habría
+
+724f59b7-d3b5-495a-a3f3-1da26cfd0811-2
+00:04:21.283 --> 00:04:23.470
+que validar los post de
+adopción.
+
+69cb46e6-c269-41fe-b533-a6a51dd7f0ad-0
+00:04:24.260 --> 00:04:28.072
+El Post la validación del post
+de adopción está conectada con
+
+69cb46e6-c269-41fe-b533-a6a51dd7f0ad-1
+00:04:28.072 --> 00:04:31.762
+la tabla adoption post en la
+base de datos y con el sistema
+
+69cb46e6-c269-41fe-b533-a6a51dd7f0ad-2
+00:04:31.762 --> 00:04:32.499
+de adopción.
+
+f4d87827-708c-483f-ac12-aedc615d17b8-0
+00:04:33.140 --> 00:04:35.766
+En el sistema de opción también
+aparecer las solicitudes de
+
+f4d87827-708c-483f-ac12-aedc615d17b8-1
+00:04:35.766 --> 00:04:36.160
+adopción.
+
+aea59518-745c-47aa-ba74-cd5340325bc2-0
+00:04:37.040 --> 00:04:41.285
+Y aquí entraría en la web de
+aceptar o no en caso de que se
+
+aea59518-745c-47aa-ba74-cd5340325bc2-1
+00:04:41.285 --> 00:04:45.460
+acepte la solicitud, pues se
+crearía el post adopción y en
+
+aea59518-745c-47aa-ba74-cd5340325bc2-2
+00:04:45.460 --> 00:04:49.140
+caso de que no, pues se
+eliminaría la la solicitud.
+
+ed2828d3-162e-4204-810a-a2e48c5ab504-0
+00:04:50.040 --> 00:04:53.690
+La última función sería poder
+desbloquearse del sistema.
