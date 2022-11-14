@@ -9,7 +9,7 @@ function Homescreen() {
         <h1>Productos en existencia</h1>
         <Row>
             {products.map(product=> (<Col key={product._id} sm={12} md={6} Lg={4} xL={3}>
-            <h3>{product.name}</h3>
+            
             <Product product={product}/>
             </Col>
             ))}

@@ -4,10 +4,11 @@ import { Card } from 'react-bootstrap'
 
 function Product({product}){
       return(
-         <div>
-            <Card className="my-1 p-1 rounded " bg="dark"  >
+         <div class="col-sm-8 p-5" >
+            <Card className="my-1 p-1 rounded " bg="warning"  >
+            <h4 class="card-title">{product.name}</h4>
             <a href={`/product/${product._id}`}>
-                <Card.Img src={product.image} width="10"/>
+                <Card.Img src={product.image} width="10" alt="Card image cap"/>
             </a>
             <Card.Body>
                 <a href={`/product/${product._id}`}>
