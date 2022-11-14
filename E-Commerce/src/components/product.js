@@ -5,9 +5,9 @@ import { Card } from 'react-bootstrap'
 function Product({product}){
       return(
          <div>
-            <Card className="my-1 p-1 rounded " color={'#264CEB'} bg="dark">
+            <Card className="my-1 p-1 rounded " bg="dark"  >
             <a href={`/product/${product._id}`}>
-                <Card.Img src={product.image}/>
+                <Card.Img src={product.image} width="10"/>
             </a>
             <Card.Body>
                 <a href={`/product/${product._id}`}>
