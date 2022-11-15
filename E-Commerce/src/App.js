@@ -1,14 +1,14 @@
 import {Container} from 'react-bootstrap'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Homescreen from './screens/Homescreen.js'
+import Homescreen from './screens/Homescreen.js'//SE IMPORTA EL MODELO HOMESCREEN, EL CUAL CONTIENE LAS CARDS QUE MUESTRAN LA INFORMACIÓN DE LOS PRODUCTOS
 import './App.css';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 //no terminada aun
 export default function App() {
   return (
-    <div className="App">
+    <div className="App"> 
       <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container"> 
           <a className="navbar-brand" href="" ><img src="images.png"/></a>
@@ -41,7 +41,7 @@ export default function App() {
     </BrowserRouter>
     
           
-        <Container><Homescreen></Homescreen></Container>
+        <Container><Homescreen></Homescreen></Container>  
     </div>
   );
 }
