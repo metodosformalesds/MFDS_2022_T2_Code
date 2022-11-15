@@ -8,7 +8,7 @@ headers = {
 'Accept-Language': 'en-US, en;q=0.5'
 }
 
-search_query = 'Pet products'.replace(' ', '+')
+search_query = 'Pet products'.replace(' ', '+') 
 base_url = 'https://www.amazon.com/s?k={0}'.format(search_query)
 
 items = []
