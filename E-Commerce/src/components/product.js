@@ -1,8 +1,8 @@
 import React from 'react'
-import { Card } from 'react-bootstrap'
+import { Card } from 'react-bootstrap' //Se manda a llamar al prototipo Card de bootstrap
 
 
-function Product({product}){
+function Product({product}){ //definición de la función producto, que recibe los atributos de la tabla products de la base de datos 8conexión no hecha)
       return(
          <div class="col-sm-8 p-5" >
             <Card className="my-1 p-1 rounded " bg="warning"  >
