@@ -1,4 +1,4 @@
-const products = [
+const products = [ //PRODUCTOS DE PRUEBA PRA REVISAR LA VISTA  DE MANERA LOCAL DENTRO DEL SISTEMA WEB
     {
       '_id': '1',
       'name': 'Airpods Wireless Bluetooth Headphones',

@@ -1,9 +1,9 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.css'; // se manda a llamar al archivo .css para que proporcione los estilos creados para index
 import './bootstrap.min.css'
-import App from './App';
+import App from './App'; //se importa la funcion app creada en app.js
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
