@@ -1,4 +1,8 @@
-import React from 'react'
+import { statement } from '@babel/template';
+import React, { useEffect, useReducer } from 'react'
+import { getUserLocation } from '../../helpers';
+import { PlacesContext } from './PlacesContext';
+import { placesReducer } from './placesReducer';
 
 
 export interface PlacesState {
@@ -12,10 +16,28 @@ const INITIAL_STATE: PlacesState = {
     userLocation: undefined
 }
 
-export const PlacesProvider = () => {
-    return (
-        <div>
+interface Props {
+    children: JSX.Element | JSX.Element[]
+}
 
-        </div>
+
+
+export const PlacesProvider = ({ children }: Props) => {
+
+    const [state, dispatch] = useReducer(placesReducer, INITIAL_STATE);
+
+    useEffect(() => {
+        getUserLocation()
+        .then( lngLat => dispatch({type: 'setUserLocation', payload: lngLat}))
+
+    }, [])
+
+    return (
+        <PlacesContext.Provider value={{
+            ...state,
+           
+        }}>
+            { children }
+        </PlacesContext.Provider>
     )
 }
