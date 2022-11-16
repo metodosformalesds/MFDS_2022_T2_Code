@@ -1,10 +1,9 @@
 .ui.input{
-    object-position: center;
     input{
         background-color: transparent !important ;
         border-color: #dbdbdb !important;
-        border-radius: 150%;
-
+        border-radius: 01.28571429rem;
+        margin-top: 40px;
         &:focus{
             background-color: #fff !important;
             border-radius: .88571429rem;
