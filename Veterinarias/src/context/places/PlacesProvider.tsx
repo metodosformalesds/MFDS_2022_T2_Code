@@ -1,4 +1,5 @@
 import React from 'react'
+import { PlacesContext } from './PlacesContext';
 
 
 export interface PlacesState {
@@ -12,10 +13,20 @@ const INITIAL_STATE: PlacesState = {
     userLocation: undefined
 }
 
-export const PlacesProvider = () => {
-    return (
-        <div>
+interface Props {
+    children: JSX.Element | JSX.Element[]
+}
 
-        </div>
+
+
+export const PlacesProvider = ({ children }: Props) => {
+    return (
+        <PlacesContext.Provider value={{
+            isLoading: true,
+            userLocation: undefined
+           
+        }}>
+            { children }
+        </PlacesContext.Provider>
     )
 }
