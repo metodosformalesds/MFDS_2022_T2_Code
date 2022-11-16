@@ -1,7 +1,7 @@
 import {Container} from 'react-bootstrap'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import {BrowserRouter as Router, Route} from 'react-router-dom'
+import {BrowserRouter as Router} from 'react-router-dom'
 import Homescreen from './screens/Homescreen.js'//SE IMPORTA EL MODELO HOMESCREEN, EL CUAL CONTIENE LAS CARDS QUE MUESTRAN LA INFORMACIÓN DE LOS PRODUCTOS
 import './App.css';
 
