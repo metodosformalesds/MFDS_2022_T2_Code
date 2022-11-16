@@ -46,6 +46,7 @@ export  function LoginForm() {
         />
 
         <Button type="submit" content="Iniciar sesión" primary fluid/>
+    
     </Form>
   );
 }
