@@ -1,18 +1,22 @@
 .login-admin{
+    color: #fff;
     height: 100vh;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
-    background-color: #2a2a72;
-    background-image: linear-gradient(315deg, #2a2a72 0%, #4e57ce 74%);
+    background-color: #1F41A9;
+    background-image: url(./mascotas.png);
+    background-attachment: fixed;
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+        
+    
     &__content{
-        background-color: #fff;
+        background-color: transparent;
         padding: 50px 50px;
-        border-radius: 30px;
         width: 500px;
-        -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);
-        -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);
         
         > h1{
             font-size:35px;
@@ -21,3 +25,16 @@
         }
     }
 }
+
+.circle {
+    background: #264ECA;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-position: left top;
+    position:static;
+}
+
+
+
+

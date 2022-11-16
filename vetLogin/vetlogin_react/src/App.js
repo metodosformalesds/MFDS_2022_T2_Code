@@ -1,15 +1,23 @@
 import React from 'react'
-/*import "./App.scss"*/
-import { ClientLayout } from './layouts'
-import {Navigation} from "./routes"
-import {LoginAdmin} from "./pages/Admin"
+import {ToastContainer} from "react-toastify";
+import {Navigation} from './routes'
+import {AuthProvider} from "./context"
 
 export default function App() {
   return (
-   <div className="App">
-    <Navigation/>
-      <h1> Hola soy vianey</h1>
-    
-   </div>
-  );
+    <AuthProvider>
+      <Navigation/>
+      <ToastContainer
+        position='bottom-center'
+        autoClose={3000}
+        hideProgressBar
+        newestOnTop
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover={false}
+      />
+    </AuthProvider>
+  )
 }

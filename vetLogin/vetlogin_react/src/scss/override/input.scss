@@ -1,15 +1,19 @@
 .ui.input{
+    object-position: center;
     input{
-        background-color: #f1f1f1 !important ;
-        border-color: #f1f1f1 !important;
-        border-radius: 10pxm !important;
+        background-color: transparent !important ;
+        border-color: #dbdbdb !important;
+        border-radius: 150%;
 
         &:focus{
             background-color: #fff !important;
+            border-radius: .88571429rem;
             box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2) !important;
             -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2) !important;
             -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2) !important;
         }
     }
-
+}
+.photo{
+    background-image: url("../../assets/mascotas.png");
 }
