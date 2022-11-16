@@ -1,5 +1,7 @@
-import React from 'react'
+import { statement } from '@babel/template';
+import React, { useReducer } from 'react'
 import { PlacesContext } from './PlacesContext';
+import { placesReducer } from './placesReducer';
 
 
 export interface PlacesState {
@@ -20,10 +22,12 @@ interface Props {
 
 
 export const PlacesProvider = ({ children }: Props) => {
+
+    const [state, dispatch] = useReducer(placesReducer, INITIAL_STATE);
+
     return (
         <PlacesContext.Provider value={{
-            isLoading: true,
-            userLocation: undefined
+            ...state,
            
         }}>
             { children }
