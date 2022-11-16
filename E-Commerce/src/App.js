@@ -1,6 +1,7 @@
 import {Container} from 'react-bootstrap'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import {BrowserRouter as Router, Route} from 'react-router-dom'
 import Homescreen from './screens/Homescreen.js'//SE IMPORTA EL MODELO HOMESCREEN, EL CUAL CONTIENE LAS CARDS QUE MUESTRAN LA INFORMACIÓN DE LOS PRODUCTOS
 import './App.css';
 
@@ -8,7 +9,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 //no terminada aun
 export default function App() {
   return (
-    <div className="App"> 
+    <Router><div className="App"> 
       <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container"> 
           <a className="navbar-brand" href="" ><img src="images.png"/></a>
@@ -35,14 +36,12 @@ export default function App() {
         </div>
         
       </nav>
-   
-    <BrowserRouter>
-      
-    </BrowserRouter>
+
     
           
         <Container><Homescreen></Homescreen></Container>  
-    </div>
+    </div></Router>
+    
   );
 }
 
