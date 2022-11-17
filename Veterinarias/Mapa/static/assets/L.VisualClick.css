@@ -1,8 +1,3 @@
-/*
-* Heavily based on the CSS for https://github.com/mapshakers/leaflet-icon-pulse
-*
-* Modified to get rid of the opaque circle, and tweaked the pulse to be subtler.
-*/
 
 .leaflet-visualclick-icon {
     border-radius: 100%;
