@@ -14,7 +14,7 @@ export default function App() {
     <Router><div className="App"> 
       <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container"> 
-          <a className="navbar-brand" href="" ><img src="images.png"/></a>
+          <a className="navbar-brand" href="" ><img src="https://raw.githubusercontent.com/metodosformalesds/MFDS_2022_T2_Code/main/LogoVetPet.png" width="100px"/></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
