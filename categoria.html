@@ -1,6 +1,6 @@
 {% extends 'index.html' %}
 {% load staticfiles %}
-{% block titulo %} {{ categoria |upper }} | BLOG.DEV {% endblock titulo %}
+{% block titulo %} {{ categoria |upper }} | BLOG.PET {% endblock titulo %}
 
 {% block cuerpo %}
     <div class="site-cover site-cover-sm same-height overlay single-page" style="background-image: url({{ categoria.imagen_referencial.url }});">
@@ -39,16 +39,19 @@
               <div class="col-md-12">
                 <div class="custom-pagination">
                   Página {{ posts.number }} de {{ posts.paginator.num_pages }}
+                  <ul>
                   {% if posts.has_previous %}
                   <li>
                     <a href="?page={{ posts.previous_page_number }}">{{ posts.previous_page_number }}</a>
                   </li>
                   {% endif %}
+
                   {% if posts.has_next %}
                   <li>
                     <a href="?page={{ posts.next_page_number }}">{{ posts.next_page_number }}</a>
                   </li>
                   {% endif %}
+                  </ul>
                 </div>
               </div>
             </div>
