@@ -1,6 +1,6 @@
 {% extends 'index.html' %}
 {% load staticfiles %}
-{% block titulo %} {{ post.titulo |upper }} | BLOG.DEV {% endblock titulo %}
+{% block titulo %} {{ post.titulo |upper }} | BLOG.PET {% endblock titulo %}
 
 {% block cuerpo %}
     <div class="site-cover site-cover-sm same-height overlay single-page" style="background-image: url({{ post.imagen_referencial.url }});">
@@ -51,6 +51,7 @@
                 </div>
               </div>
             </div>
+          </div>
         </div>
       </div>
     </section>
