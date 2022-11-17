@@ -1,13 +1,14 @@
 body {
   color: #404040;
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+  font-family: 'PT Sans';
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
+
 }
 
 * {
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+  font-family: 'PT Sans';
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -17,12 +18,11 @@ h1 {
   font-size: 2em;
   margin: 0;
   font-weight: 400;
-  font-family: 'Londrina Solid', cursive;
+  font-family: 'PT Sans';
 }
 
 a {
-  /*color:#404040;*/
-  color: #b74042;
+  color: #1F41A9;
   text-decoration: none;
 }
 
@@ -53,8 +53,7 @@ a:hover {
 .map {
   position: absolute;
   left: 33.3333%;
-  /*width: 66.6666%;*/
-  top: 0;
+  top: 0; 
   bottom: 0;
 }
 
@@ -62,7 +61,6 @@ a:hover {
   background: #fff;
   border-bottom: 1px solid #eee;
   height: auto;
-  /*      line-height:60px;*/
   padding: 10px;
 }
 
@@ -90,7 +88,6 @@ a:hover {
 
 .listings .item .title {
   display: block;
-  /*      color:#00853e;*/
   color: #000;
   font-weight: 700;
 }
@@ -101,9 +98,8 @@ a:hover {
 
 .listings .item.active .title,
 .listings .item .title:hover {
-  color: #b74042;
+  color: #DD954E;
 }
-/*#8cc63f*/
 
 .listings .item.active {
   background-color: #f8f8f8;
@@ -116,8 +112,8 @@ a:hover {
 }
 
  ::-webkit-scrollbar {
-  width: 3px;
-  height: 3px;
+  width: 15px;
+  height: 15px;
   border-left: 0;
   background: rgba(0, 0, 0, 0.1);
 }
@@ -127,7 +123,7 @@ a:hover {
 }
 
  ::-webkit-scrollbar-thumb {
-  background: #00853e;
+  background: #1F41A9;
   border-radius: 0;
 }
 
@@ -168,12 +164,11 @@ a:hover {
  :focus {
   color: #b74042;
   cursor: pointer;
-  /*padding: 5px;*/
 }
 
 #searchIcon:hover,
  :focus {
-  color: #b74042;
+  color: #DD954E;
   cursor: pointer;
 }
 
@@ -215,4 +210,7 @@ a:hover {
   #searchIcon {
     font-size: 16px;
   }
+  
 }
+
+
