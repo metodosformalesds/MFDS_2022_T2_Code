@@ -1,12 +1,13 @@
 import {Container} from 'react-bootstrap'
 import Header from './components/Header'
 import Searchbar from './components/Searchbar'
-import {BrowserRouter as Router} from 'react-router-dom'
-import Homescreen from './screens/Homescreen.js'//SE IMPORTA EL MODELO HOMESCREEN, EL CUAL CONTIENE LAS CARDS QUE MUESTRAN LA INFORMACIÓN DE LOS PRODUCTOS
+
+import Homescreen from './screens/Homescreen'//SE IMPORTA EL MODELO HOMESCREEN, EL CUAL CONTIENE LAS CARDS QUE MUESTRAN LA INFORMACIÓN DE LOS PRODUCTOS
+import Productscreen from './screens/Productscreen'
 import './App.css';
 
 
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {BrowserRouter as Router,Route, Routes} from 'react-router-dom' 
 //no terminada aun
 export default function App() {
   return (
@@ -29,9 +30,9 @@ export default function App() {
                 <a className="nav-link activate Tcolor navbar-nav" aria-current="page" href="/">Adopción</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2 activate btn-outline-warning" type="search" placeholder="Categoria" aria-label="Search" color='#a10e0e'/>
-                <button type="button" class="btn btn-outline-warning">Buscar</button>
+            <form className="d-flex" role="search">
+                <input className="form-control me-2 activate btn-outline-warning" type="search" placeholder="Categoria" aria-label="Search" color='#a10e0e'/>
+                <button type="button" className="btn btn-outline-warning">Buscar</button>
             </form>
           </div>
         </div>
@@ -39,7 +40,14 @@ export default function App() {
       </nav>
         <div className="p-5"></div>
         <div className='p-5'>
-        <Container><Homescreen></Homescreen></Container>  </div>
+          <main className="py-3">
+            <Container>
+              <Routes>
+          <Route path='/' element={<Homescreen/>} exact/>
+          <Route path='/product/:id' element={<Productscreen/>}/></Routes>
+          </Container>
+          </main>
+          </div>
     </div></Router>
     
   );
