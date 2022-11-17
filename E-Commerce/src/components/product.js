@@ -1,34 +1,42 @@
 import React from 'react'
-import { Card } from 'react-bootstrap'
+import { Card, Button } from 'react-bootstrap' //Se manda a llamar al prototipo Card de bootstrap
+import {Link} from 'react-router-dom';
+import Rating from './Rating'
+import '../App.css';
 
 
-function Product({product}){
+function Product({product}){ //definición de la función producto, que recibe los atributos de la tabla products de la base de datos 8conexión no hecha)
       return(
-         <div>
-            <Card className="my-1 p-1 rounded " color={'#264CEB'} bg="dark">
-            <a href={`/product/${product._id}`}>
-                <Card.Img src={product.image}/>
-            </a>
-            <Card.Body>
-                <a href={`/product/${product._id}`}>
+         <div class="col-sm-8 p-5" >
+            <Card className="my-1 p-1 rounded bg-warnin"  >
+            <h4 class="card-title">{product.name_product}</h4>
+            <Link to={`/product/${product.product_id}`}>
+                <Card.Img src={product.image} width="10" alt="Card image cap"/>
+            </Link>
+            <Card.Body as ="bodyy">
+                <Link href={`/product/${product.product_id}`}>
                     <Card.Title as="div">
                         <strong></strong>
                     </Card.Title>
-                </a>
-
+                </Link>
+                
                 <Card.Text as="h3">
-                    ${product.price}
+                    Categoría: {product.category_product_name}
+                </Card.Text>
+                <Card.Text as="h3">
+                    Precio: ${product.price_product}
                 </Card.Text>
                  <Card.Text as ="h2">
                 stock: {product.stock}
                 </Card.Text>
                 <Card.Text as="div">
                     <div className="my-3">
-                        { product.rating} from {product.numReviews} reviews
                         
+                        <Rating value={product.rating_product} text ={`${product.numReviews} reviews`} color={'#f8e825'} />                                    
                     </div>
                 </Card.Text>
-               
+                <div className="align-center my-"><Button className='btn-block bg-warning' disable={product.countInStock==0} type='button'>Add to cart</Button>
+                <Link href={`/product/${product.product_id}`}>Ver detalles</Link></div>
 
 
             </Card.Body>

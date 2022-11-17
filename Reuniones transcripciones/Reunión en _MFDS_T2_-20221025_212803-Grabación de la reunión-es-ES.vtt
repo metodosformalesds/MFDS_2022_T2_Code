@@ -1,0 +1,4593 @@
+﻿WEBVTT
+
+6ddd0755-6dee-4f78-8458-2eb1490086b8-0
+00:00:02.320 --> 00:00:02.690
+Es decir.
+
+7c0ab607-be30-44d8-a6a6-2fd6d0d9b310-0
+00:00:05.230 --> 00:00:10.075
+El símbolo de composición es un
+diamante. Ay, no entiendo y está
+
+7c0ab607-be30-44d8-a6a6-2fd6d0d9b310-1
+00:00:10.075 --> 00:00:14.472
+a ver el ejemplo. Tenemos una
+clase de empresa, un objeto,
+
+7c0ab607-be30-44d8-a6a6-2fd6d0d9b310-2
+00:00:14.472 --> 00:00:17.380
+empresa está a su vez compuesto
+por 1.
+
+cc6b2c72-fa95-414c-91ce-353821e451f1-0
+00:00:18.180 --> 00:00:20.380
+O varios objetos del tipo
+empleado.
+
+682fc579-54f9-456f-894f-9155d69a167c-0
+00:00:21.050 --> 00:00:24.290
+El tiempo de vida de los objetos
+empleados depende.
+
+10450788-927c-487d-8375-d2d1d25beecf-0
+00:00:24.930 --> 00:00:29.400
+El tiempo OK OK, Este es cuando
+éste depende de este.
+
+36d3a903-f3e5-4bd8-a3f1-dd54307d2ab3-0
+00:00:30.140 --> 00:00:31.100
+Y este.
+
+faf0a00e-4302-4d23-a1da-0b13e3008fea-0
+00:00:33.760 --> 00:00:36.250
+Es cuando éste no depende de
+éste.
+
+c5eadcf4-5782-4a77-82a0-cd6ae4a4a56b-0
+00:00:44.200 --> 00:00:46.480
+Composición, no comparte.
+
+1295cd99-651a-42e2-88c2-b90b2000386e-0
+00:00:47.610 --> 00:00:50.020
+Es este, no depende.
+
+a2915dee-012e-4b84-9e19-b7a1b1caba3d-0
+00:00:51.220 --> 00:00:51.850
+Este.
+
+47972139-1d46-4f80-a32c-c30983b864a5-0
+00:00:52.670 --> 00:00:53.850
+Casitas.
+
+4cf0199d-3867-42ef-8f63-cc36c5f87ccf-0
+00:00:54.510 --> 00:00:55.710
+No dependen.
+
+996f88a3-6787-4ab3-9a88-5e9283d8437d-0
+00:00:57.120 --> 00:01:00.740
+De la veterinaria las citas y
+dependen.
+
+e8d8ab73-baaa-4d5f-9bf2-c706b99912f4-0
+00:01:02.880 --> 00:01:03.830
+En la veterinaria.
+
+1d62113c-8ea5-435c-ad64-f74a236708e5-0
+00:01:04.440 --> 00:01:05.640
+¿Sería composición?
+
+55e2c309-ebba-41cf-9197-49a8e3fc007a-0
+00:01:14.340 --> 00:01:18.390
+Es un tipo de sesión que indica
+que una clase es parte de otra.
+
+e2806dc0-3a0d-4c2e-93ba-1df877504a5b-0
+00:01:22.360 --> 00:01:25.240
+Una empresa agrupa varias citas.
+
+a7c57ff5-fac0-4681-ad25-75f05e1eb3f9-0
+00:01:31.870 --> 00:01:34.000
+Creo que sí, por la cardinalidad
+no creo.
+
+6d24c8b0-59f7-4262-a6b9-8319ac182060-0
+00:01:36.200 --> 00:01:37.630
+Bueno, no es cierto, porque De
+hecho.
+
+af9afaa1-fea9-436d-b6a2-4532953d2e92-0
+00:01:39.020 --> 00:01:41.850
+Una veterinaria puede tener
+muchas citas.
+
+8f024fbe-1ea3-4906-aab2-3ee93c86c2f0-0
+00:01:44.550 --> 00:01:48.040
+Creo que sería éste no o cual
+dices, si agregación.
+
+821d4a3b-db50-4c86-9bb4-f8d9b9a0ef73-0
+00:01:48.990 --> 00:01:49.910
+¿Ti porque?
+
+4d234ca6-3fdc-4853-b260-438001701bf9-0
+00:01:52.040 --> 00:01:55.326
+Porque dice que en composición
+la cardinalidad cardinalidad
+
+4d234ca6-3fdc-4853-b260-438001701bf9-1
+00:01:55.326 --> 00:01:56.970
+solamente debe ser 1 de 1 a 1.
+
+df847d14-b878-4453-9d86-bb592ec19258-0
+00:01:57.760 --> 00:01:58.610
+1 de cero a 1.
+
+167fe96b-f2b9-4302-9a2b-afae3022333c-0
+00:02:03.970 --> 00:02:07.620
+Y hay un en en diferencias, no
+hay, dice.
+
+a8fab946-c9f3-4b2b-bcc5-34166ac2337d-0
+00:02:18.610 --> 00:02:21.140
+Una empresa solo puede tener.
+
+b5230f82-974f-4133-8d72-3b8763cd4169-0
+00:02:23.340 --> 00:02:23.930
+Un empleado.
+
+aa5a2668-28e8-4ed2-8dc6-864aeba85b6a-0
+00:02:25.410 --> 00:02:25.960
+¿Cero o?
+
+64aa1055-0185-4afc-ac9b-313d5b6ae1ab-0
+00:02:26.730 --> 00:02:28.650
+¿01 o 01?
+
+f8252d84-2dd3-4198-b6d5-41a46a6c0eb2-0
+00:02:29.600 --> 00:02:31.600
+¿Una empresa sería composición?
+
+7efc85a3-9dc0-4851-a0b3-301d9d8e94b3-0
+00:02:32.940 --> 00:02:36.349
+Porque pues sí, sí dependen de
+la cita. Sí, depende de la
+
+7efc85a3-9dc0-4851-a0b3-301d9d8e94b3-1
+00:02:36.349 --> 00:02:37.290
+veterinaria, no.
+
+90335445-4f55-4874-8e8a-7f8fbb0d2771-0
+00:02:37.930 --> 00:02:38.780
+Está haciendo.
+
+11e95dd4-8d5f-472e-9f99-805127a9c510-0
+00:02:39.660 --> 00:02:42.650
+Si no existe esta es a better
+esa veterinaria.
+
+609ce9dd-041f-4367-9a68-a8c01239bcb3-0
+00:02:43.250 --> 00:02:45.360
+Pues no, no existiría la cita.
+
+36f6dafa-6983-418f-a24f-3c4154855b8c-0
+00:02:45.990 --> 00:02:48.960
+Mhm pero por ejemplo, acá.
+
+82aec73e-f0a3-419d-ba11-891bdcd05c58-0
+00:02:50.690 --> 00:02:55.213
+¿Osea K una veterinaria no a
+huevo tiene que tener citas, o
+
+82aec73e-f0a3-419d-ba11-891bdcd05c58-1
+00:02:55.213 --> 00:02:59.887
+sea, tener cero citas no? Pues
+mejor que cierren si no tienen
+
+82aec73e-f0a3-419d-ba11-891bdcd05c58-2
+00:02:59.887 --> 00:03:00.340
+citas.
+
+6e0d19ca-2d0f-4504-868d-9702eee817a2-0
+00:03:01.860 --> 00:03:04.800
+Y luego, agregas, agrega.
+
+2383b0ac-a298-4a39-aeb7-596fb7264a41-0
+00:03:06.570 --> 00:03:10.000
+Una veterinaria agrupa varias
+citas.
+
+d138c5d4-a7d8-4a48-af7f-2f6797701fb5-0
+00:03:12.340 --> 00:03:13.850
+Terminarían con caballos.
+
+29cf2ea1-1d60-4e03-af3a-d1ab37da7181-0
+00:03:15.970 --> 00:03:18.130
+Y el cliente puede tener varias
+citas también.
+
+26061151-e314-459b-b09a-4999cb6fd1a5-0
+00:03:19.430 --> 00:03:20.000
+Sí pues sí.
+
+1036b03f-ac24-4d2a-89cf-907ef60f5413-0
+00:03:20.800 --> 00:03:23.974
+¿Qué tal si mismo puede tener,
+puede tener citas en diferentes
+
+1036b03f-ac24-4d2a-89cf-907ef60f5413-1
+00:03:23.974 --> 00:03:24.630
+veterinarias?
+
+c15344e6-4d5a-47ca-bdfe-91e0d7367693-0
+00:03:25.670 --> 00:03:26.220
+Mhm.
+
+aa0c82d3-cd0f-4a81-9c45-7f34102326a8-0
+00:03:28.420 --> 00:03:32.271
+Segregación, creo sí, ese sería
+agregación, no porque el el
+
+aa0c82d3-cd0f-4a81-9c45-7f34102326a8-1
+00:03:32.271 --> 00:03:36.443
+usuario o el cliente no depende
+de esa veterinaria, porque tiene
+
+aa0c82d3-cd0f-4a81-9c45-7f34102326a8-2
+00:03:36.443 --> 00:03:40.230
+más opciones. Si tú decías por
+este verdad, Adrián este 1.
+
+2d736ea1-818d-4d44-950f-fd576591af92-0
+00:03:41.390 --> 00:03:44.619
+Ajá a quien no había entendido
+si es verdad, porque aquí el
+
+2d736ea1-818d-4d44-950f-fd576591af92-1
+00:03:44.619 --> 00:03:47.310
+empleado no puede trabajar en
+más de una empresa.
+
+e9a97a47-eb5a-4733-9347-9490f40fc948-0
+00:03:48.010 --> 00:03:49.720
+Y aquí si tienes razón.
+
+c4469908-2a0d-4187-98e9-ee20db492afc-0
+00:03:54.560 --> 00:03:55.450
+¿Cuál era el vacío?
+
+bd1b1e71-c9f7-4553-96fb-d7745a723de0-0
+00:03:57.920 --> 00:03:59.210
+¿Entonces, una?
+
+94b83d5f-afb0-4be3-9036-1a6831226881-0
+00:04:00.880 --> 00:04:01.750
+¿Cómo era?
+
+98f9cc21-cd2a-4d20-98a9-d7acfadaac75-0
+00:04:03.360 --> 00:04:04.890
+¿Dónde está esa cochinada?
+
+017efa15-421b-4b81-aa3b-13b9822465ec-0
+00:04:07.700 --> 00:04:11.453
+¿Dónde están? ¿Creo que es la
+tienes que dar click al a la
+
+017efa15-421b-4b81-aa3b-13b9822465ec-1
+00:04:11.453 --> 00:04:12.090
+clase, no?
+
+a5b94825-7377-49b4-8d65-cf3165a36465-0
+00:04:13.690 --> 00:04:15.760
+O sea, desde la clase, creo que
+ahí te deja.
+
+c0a39330-a1a9-455c-b88c-15c6daafdfb1-0
+00:04:18.320 --> 00:04:19.430
+En las flechas, esas.
+
+01edd9a1-9e68-4436-be5c-cabcc65353ec-0
+00:04:20.680 --> 00:04:22.130
+No, pretensión no era este.
+
+7f3e046f-394f-4e6a-9b0c-a949d8311370-0
+00:04:25.810 --> 00:04:29.720
+Un empleado de un cliente puede
+tener.
+
+045c761b-575f-4b9b-a06f-e4278cd2644f-0
+00:04:30.790 --> 00:04:32.350
+Una uma citas.
+
+194d1ff9-aaef-406e-a61c-7d494610086c-0
+00:04:34.370 --> 00:04:36.230
+Y luego una veterinaria.
+
+68f77e2c-4f7f-4a48-a197-7586173183f3-0
+00:04:41.070 --> 00:04:42.310
+Una veterinaria.
+
+4104424a-2601-44c0-a848-05df56bbfc12-0
+00:04:44.500 --> 00:04:46.390
+¿Cómo conectamos está una
+veterinaria?
+
+d218b7aa-6442-4a7f-a2fe-e5ca7561a2df-0
+00:04:47.730 --> 00:04:48.690
+¿Puede?
+
+379d2110-9ac1-4941-98d8-d0787fd09cc2-0
+00:04:50.190 --> 00:04:52.250
+Poder agendar una o más citas.
+
+7b8a76c4-4f38-4ac8-a554-8ac0f95f6eea-0
+00:04:56.390 --> 00:04:57.320
+¿Perdona bien eso?
+
+bf55938e-f5b2-482c-a0a5-61baa98066ea-0
+00:05:02.350 --> 00:05:04.810
+De diferentes DD 1 más clientes.
+
+de1a24de-f836-426d-a2bd-3148fa7e9fae-0
+00:05:05.650 --> 00:05:10.000
+9 veterinaria puede agendar una
+o más citas.
+
+1af4057e-9883-487f-9bd9-250e508ea1ca-0
+00:05:13.020 --> 00:05:16.890
+De diferentes clientes, sí, pero
+esto esto ya sería esto.
+
+6e36b755-29b6-484c-846c-bae70b3be0b6-0
+00:05:18.450 --> 00:05:22.682
+Ok, entonces, conectar el beta
+point con el veterano ni
+
+6e36b755-29b6-484c-846c-bae70b3be0b6-1
+00:05:22.682 --> 00:05:24.950
+Charlie, sí, vete, financiero.
+
+92521b89-6e4f-42f2-ae2c-fe11595f7a1c-0
+00:05:27.170 --> 00:05:30.100
+Entonces creo que ahí sí sería
+composición.
+
+30130816-e80e-4169-a200-b5fa18108aba-0
+00:05:31.950 --> 00:05:32.880
+Porque sería.
+
+2ec0eff5-3760-48d0-9546-42692c54496a-0
+00:05:33.510 --> 00:05:37.280
+¿Porque sería una sola
+veterinaria, no? Si sería 1 y 1.
+
+2e7fb665-f2fc-4b16-b72e-33582dc17e49-0
+00:05:38.010 --> 00:05:39.350
+Bueno, podría ser.
+
+e3c78fd5-ddd9-4f9a-a86a-8b01333b2b7e-0
+00:05:40.510 --> 00:05:42.920
+Más de una cita pero por cada
+veterinario.
+
+db458de2-e46d-40c7-81b2-cc9307c2c9b0-0
+00:05:46.260 --> 00:05:49.660
+No una, no. Muchas citas por
+muchas vecinas, ajá.
+
+d38539a6-b3a6-4651-9c3f-dde583bd2c80-0
+00:05:50.780 --> 00:05:52.980
+Porque si lo ponemos agregación
+sería.
+
+90512bbc-bb0a-403f-9160-e77a7a851b9f-0
+00:05:53.640 --> 00:05:57.621
+Un una sita puede estar en
+muchas veterinarias y no, no ve
+
+90512bbc-bb0a-403f-9160-e77a7a851b9f-1
+00:05:57.621 --> 00:06:01.603
+como estamos hablando de la
+tablet donde nomas se registra
+
+90512bbc-bb0a-403f-9160-e77a7a851b9f-2
+00:06:01.603 --> 00:06:04.910
+una sola veterinaria, pues sí
+sería composición.
+
+56efc244-7c55-4987-b1a6-7f322528ca9c-0
+00:06:06.590 --> 00:06:07.720
+Estamos hablando de esta.
+
+61c9bb86-06ac-40ac-9d76-7fee60224594-0
+00:06:08.440 --> 00:06:12.543
+Sí, por eso el veterinario ser
+solamente se un usuario registro
+
+61c9bb86-06ac-40ac-9d76-7fee60224594-1
+00:06:12.543 --> 00:06:16.583
+una veterinaria, pero no están
+cerrando de registrar no, no, o
+
+61c9bb86-06ac-40ac-9d76-7fee60224594-2
+00:06:16.583 --> 00:06:17.930
+sea, en la tabla esa.
+
+2541c6bc-308c-450f-a86a-77c29cb24709-0
+00:06:19.130 --> 00:06:23.519
+Es de la de es de la veterinaria
+trainee. Sí, pero no, no es de
+
+2541c6bc-308c-450f-a86a-77c29cb24709-1
+00:06:23.519 --> 00:06:27.566
+registrar, es de hacer citas,
+sí, para que se conecte, ahí
+
+2541c6bc-308c-450f-a86a-77c29cb24709-2
+00:06:27.566 --> 00:06:30.310
+tiene que ver por lo menos 1
+cita, ajá.
+
+51f6c017-5e3a-474a-8b35-2e6a343cbf3b-0
+00:06:31.150 --> 00:06:32.940
+Pues creo que sí es como dicen.
+
+17689b45-4197-4ddf-b135-89459e63e39c-0
+00:06:35.870 --> 00:06:36.740
+Ay, Dios mío.
+
+36a3b81d-91a3-41a7-a0e6-610c37adb5b8-0
+00:06:37.540 --> 00:06:39.550
+Una hora en conectar 3 líneas.
+
+c66b6f5f-2cef-4abb-b64b-3d090536330f-0
+00:06:41.730 --> 00:06:43.070
+Oye, ya casi ya, casi.
+
+97c40d5c-74e7-4bac-a02f-3512f1548c82-0
+00:06:44.210 --> 00:06:45.780
+Esperémosle, démosle nimodo.
+
+2c9038bf-68da-4cc7-a707-d56b61e90463-0
+00:06:46.800 --> 00:06:50.020
+Hilo el veterinario user tiene
+que registrar veterinarios.
+
+a0f05d79-da98-43a8-90ef-858efa231ed5-0
+00:06:51.320 --> 00:06:53.520
+¿Ni veterinarias, y usted?
+
+8b4778e7-0ac1-42f6-b231-a135ac1bf560-0
+00:06:54.790 --> 00:06:57.030
+Debe registrar como.
+
+51f3f587-aa36-4bf9-9cbe-1b0b9312e81a-0
+00:06:58.000 --> 00:07:00.770
+¿Veterinario user se conecta con
+eso, no veterinarios?
+
+bcf552b7-cb7e-4d06-85ea-1d23fa4938ed-0
+00:07:01.740 --> 00:07:02.110
+Sí.
+
+103d9d03-cdc8-4d64-996a-b2523353a5cd-0
+00:07:04.030 --> 00:07:04.480
+¿O no?
+
+1c41bbf3-786d-4f30-ad9b-46b80996d840-0
+00:07:05.370 --> 00:07:09.955
+¿No veterinarios de usar, está
+solo porque es con lápiz, no? Si
+
+1c41bbf3-786d-4f30-ad9b-46b80996d840-1
+00:07:09.955 --> 00:07:14.326
+este no puedes hacer citas con
+eso. De todos modos, más bien
+
+1c41bbf3-786d-4f30-ad9b-46b80996d840-2
+00:07:14.326 --> 00:07:15.759
+este sería con este.
+
+edaf8922-7220-494c-97f0-dd4a225d46a1-0
+00:07:17.760 --> 00:07:20.350
+El cliente busca escenarios.
+
+6ee5e575-32a0-4978-8dde-35330dd76568-0
+00:07:23.850 --> 00:07:27.166
+Vamos a abrirlo más grande
+porque aquí van a ir todas las
+
+6ee5e575-32a0-4978-8dde-35330dd76568-1
+00:07:27.166 --> 00:07:28.310
+funciones del perro.
+
+a23d8bbd-71e2-4879-8bf4-daffa86b5f1c-0
+00:07:34.970 --> 00:07:35.320
+Key.
+
+3114cd87-99ff-4a16-91f1-9fd370caffd5-0
+00:07:36.450 --> 00:07:40.830
+¿A ver cómo sería entonces un
+usuario puede?
+
+9bdd43c8-1366-4b24-87a6-f3bcbf4ff7a6-0
+00:07:41.730 --> 00:07:44.540
+Buscar una o más veterinarias no
+ajá.
+
+8c587306-1376-449e-a7c7-d525359e744f-0
+00:07:46.530 --> 00:07:50.900
+Ese sería agregación también, no
+sería 1 o más usuarios.
+
+e7e763c3-7bb1-489b-887d-041b3620087d-0
+00:07:52.190 --> 00:07:56.400
+Y puede buscar una o más
+veterinario si sería éste.
+
+15489e6a-6880-4433-b2ec-567343b2902d-0
+00:07:57.660 --> 00:08:00.480
+¿Qué le estamos agarrando? Dios
+mío, somos veloces.
+
+b859b433-217b-43f3-af80-6fe22da51ebc-0
+00:08:07.570 --> 00:08:09.240
+Ay, no, porque se puso así.
+
+12d89774-8057-4afd-a901-eb5834d5035d-0
+00:08:16.670 --> 00:08:18.540
+Plato vista para dan, no está
+tan chido.
+
+9c49f4d0-297f-48d3-a8ca-1dbed2f44765-0
+00:08:20.140 --> 00:08:21.120
+Aunque esta media rara.
+
+074eebfa-6e64-4064-b844-b83f8962a40f-0
+00:08:21.740 --> 00:08:23.540
+¿Preferirías así?
+
+be83c118-1f15-4903-b584-c8a41db66442-0
+00:08:24.820 --> 00:08:26.180
+Ah, estaba más perron.
+
+3ce6957d-e034-42f7-adaa-e631d197a208-0
+00:08:31.470 --> 00:08:35.801
+Al poner al revés, Ponlo desde
+Ponlo desde desde el customer,
+
+3ce6957d-e034-42f7-adaa-e631d197a208-1
+00:08:35.801 --> 00:08:36.430
+si, pero.
+
+b595e4e5-a6aa-4471-af9b-b0fb27065122-0
+00:08:38.230 --> 00:08:39.830
+¿Cómo sería el orden correcto?
+
+95731e18-7a18-4872-8429-6badc04c5a8f-0
+00:08:40.570 --> 00:08:41.430
+Sí sería así.
+
+ac9f685f-bba4-4b08-902f-13950ae77c1a-0
+00:08:42.500 --> 00:08:44.770
+¿Sería el cliente?
+
+ae2f8a88-e31a-41af-9360-08473391336a-0
+00:08:46.590 --> 00:08:48.290
+¿Puede hacer?
+
+a7b51e26-4b7b-4425-8d91-df9c8ed8fa50-0
+00:08:50.810 --> 00:08:53.880
+1. Me citas, pues es que la
+función es ver.
+
+0eca9056-8086-4e2a-af7d-67ed7cf88b37-0
+00:08:55.940 --> 00:08:56.270
+Sí, sí.
+
+3dc97f41-efef-49b8-996f-613869c8fb59-0
+00:08:58.250 --> 00:09:01.950
+Pero desde aquí casi está bien,
+o sea al revés.
+
+eac71ba5-6370-42df-9c9e-9ed9c0927562-0
+00:09:03.770 --> 00:09:08.736
+Porque porque miren, si las saco
+de aquí, que vea una una cita
+
+eac71ba5-6370-42df-9c9e-9ed9c0927562-1
+00:09:08.736 --> 00:09:09.210
+clave.
+
+10a874fd-93d5-412b-b579-5394861a07be-0
+00:09:10.530 --> 00:09:11.590
+Pero.
+
+5d7bee4d-0707-4064-af77-f0f53d9e0681-0
+00:09:13.920 --> 00:09:16.990
+Y como sea que tienes el es que
+tienes el appointment.
+
+9a14f7b4-dcee-4529-8b3b-6f92b0c36d24-0
+00:09:20.150 --> 00:09:22.720
+¿Make a Point dónde está ese?
+
+69262164-9039-4e17-b031-a3189b058975-0
+00:09:23.860 --> 00:09:28.726
+En customer si lo que lo que
+pregunto es si si vacío o al
+
+69262164-9039-4e17-b031-a3189b058975-1
+00:09:28.726 --> 00:09:29.230
+revés.
+
+61d49984-e9a3-46b5-a71a-15aeceda1c51-0
+00:09:32.090 --> 00:09:34.260
+El el usuario.
+
+3dcc9eec-4b27-4aaf-b18c-c00c5b9a5f16-0
+00:09:35.550 --> 00:09:43.290
+¿Puede ver ceromas cita será el
+debe ir cliente puede hacer?
+
+69c5c5eb-7b2d-4b27-bb74-05ba09554120-0
+00:09:43.890 --> 00:09:45.420
+Ser OO. Más citas.
+
+9428a1f0-3df6-4fdf-8076-fa9e5a209fcc-0
+00:09:46.660 --> 00:09:49.630
+¿Ok, es cliente a funcionalidad?
+
+d7ce7f8e-cb77-412d-bfe6-0ea890451d1f-0
+00:09:51.020 --> 00:09:52.690
+Entonces sí.
+
+1627da6f-e19c-4395-a977-c21b3097afef-0
+00:09:53.440 --> 00:09:54.610
+Clienta funcionalidad.
+
+2dace768-7731-4519-93e1-5d32162dcabb-0
+00:09:55.590 --> 00:09:59.010
+¿Ok? Ok, pues si es al revés,
+eso no sabía dónde está eso.
+
+7b848372-2074-4a3a-8837-8df5795000ca-0
+00:10:01.620 --> 00:10:03.240
+Pues eso, que estaba mostrando.
+
+a78a1dcd-6055-4b08-9a6a-761be1d6b4e1-0
+00:10:07.120 --> 00:10:07.930
+Oh, qué bueno.
+
+bba2a6e2-56ba-4531-8250-6ee1afbe6ef6-0
+00:10:08.870 --> 00:10:10.360
+Ok, OK, esa era mi duda,
+gracias.
+
+184bf820-ee1d-402d-9226-3cfa78f11aa3-0
+00:10:11.090 --> 00:10:12.140
+El.
+
+bf9e4cfd-b5b9-4aed-9774-c11ddecb26b0-0
+00:10:13.060 --> 00:10:14.360
+Oh OK, entonces está bien.
+
+774ee4a6-7321-4461-9ec2-3d24480178d3-0
+00:10:15.900 --> 00:10:16.870
+Luego.
+
+a0b5a41d-dfa2-43fc-9029-f802de93bb3a-0
+00:10:18.430 --> 00:10:20.080
+Ahorita como damos las notas.
+
+d9805da5-b540-4dcb-9ede-832e1d897321-0
+00:10:20.940 --> 00:10:23.130
+Esta es esta verdad, Paul, no
+se.
+
+066dea47-5f95-49c3-8d80-46461320152e-0
+00:10:24.690 --> 00:10:25.700
+El veterinario.
+
+0db80eba-1175-421e-8d8d-4919a2154c9c-0
+00:10:27.270 --> 00:10:27.830
+¿O key?
+
+352f43c5-72ee-405f-b8ac-bfc97ff9195c-0
+00:10:29.450 --> 00:10:29.910
+Chris.
+
+09c9fc46-7a76-4a78-b050-00e04070d68d-0
+00:10:46.810 --> 00:10:48.820
+¿Ok, este que es?
+
+ce947540-8431-4517-a03f-65737a61b47e-0
+00:10:49.640 --> 00:10:50.930
+El carrito, sí.
+
+524c2b57-be2c-4b3d-816a-c48725a78a9f-0
+00:10:51.730 --> 00:10:51.900
+¿Qué?
+
+3016dccc-b57c-4103-864c-527d81b25b4b-0
+00:10:57.610 --> 00:11:00.660
+¿Y luego dice, Product, este
+cuál era?
+
+3d616c40-be71-473c-9b72-35775eb722b8-0
+00:11:01.300 --> 00:11:05.623
+¿Qué cantidad? Cantidad por
+producto key, y luego el carro
+
+3d616c40-be71-473c-9b72-35775eb722b8-1
+00:11:05.623 --> 00:11:09.580
+es el carrito vacío. O sea, si
+el carrito está vacío.
+
+f051a127-38f0-43c6-bb17-37611abd2162-0
+00:11:11.800 --> 00:11:12.580
+A.
+
+a7b0b877-562b-4e63-a82b-83144753a595-0
+00:11:13.830 --> 00:11:16.315
+¿Y este, para qué? ¿Nos
+serviría? ¿Eso? Sirve para hacer
+
+a7b0b877-562b-4e63-a82b-83144753a595-1
+00:11:16.315 --> 00:11:18.975
+el check out si el carrito está
+vacío. No puedes hacer check
+
+a7b0b877-562b-4e63-a82b-83144753a595-2
+00:11:18.975 --> 00:11:19.150
+out.
+
+6177410a-60a2-4201-a3f5-37e26d8d4266-0
+00:11:20.910 --> 00:11:22.080
+Que check out pagar.
+
+c27f2ec5-1668-4b88-b53c-6d6b39e5534f-0
+00:11:23.170 --> 00:11:27.180
+¿Pues cómo generarla? O sea, que
+te lleve al cobro, ajá.
+
+025e5479-cbe1-45ad-8fd0-02a724cf54d1-0
+00:11:32.810 --> 00:11:33.220
+Key.
+
+996680bc-0cf6-4ad0-a1d2-0a77d28a7c53-0
+00:11:34.290 --> 00:11:35.410
+Y luego.
+
+a383e05b-a692-40b8-b304-2f2393fd3fc4-0
+00:11:38.190 --> 00:11:38.980
+Spoiler.
+
+e1579a35-9b51-4050-9b0b-637598739d4f-0
+00:11:39.890 --> 00:11:42.446
+Bueno, quitar las voy porque es
+que dijo Ahorita que no se
+
+e1579a35-9b51-4050-9b0b-637598739d4f-1
+00:11:42.446 --> 00:11:42.750
+ponían.
+
+cf2985b1-8d7b-4efc-a486-9e5931b27d76-0
+00:11:44.130 --> 00:11:46.610
+Sí que regaño a los otros
+chavalón es.
+
+02bad620-34b3-4590-a7ea-e9af9281a182-0
+00:11:48.520 --> 00:11:52.200
+Pero quién sabe por qué no nos
+no nos estos, si hay en casi
+
+02bad620-34b3-4590-a7ea-e9af9281a182-1
+00:11:52.200 --> 00:11:53.550
+todos, hay, si tienen.
+
+8c655f10-c007-4826-8e1e-fa0399065e5c-0
+00:11:57.640 --> 00:11:59.000
+Pero pues démosle gusto.
+
+89abf1d1-1c63-4e68-bc30-18c5b5ad4036-0
+00:12:00.800 --> 00:12:02.640
+¿Ok, estos?
+
+976e9660-1e34-4ae2-955e-a5e1de493966-0
+00:12:03.220 --> 00:12:05.650
+A ver, no sé cómo es. Estos
+modificadores de acceso.
+
+35ee3b17-9bda-4e09-829d-7659b19a2361-0
+00:12:09.730 --> 00:12:11.850
+¿Estos también serían
+protegidos, no?
+
+1968646c-3fa7-48b7-98c6-3361ffa324e2-0
+00:12:14.590 --> 00:12:14.950
+No.
+
+fe63bb86-424b-48ed-8b4f-7077baa6167b-0
+00:12:16.070 --> 00:12:19.857
+¿El hundred sel Andrés, Ah no?
+La veterinaria entonces es
+
+fe63bb86-424b-48ed-8b4f-7077baa6167b-1
+00:12:19.857 --> 00:12:20.380
+público.
+
+6deea853-c86b-4005-b1bd-6c2bc3c1af04-0
+00:12:21.310 --> 00:12:24.320
+¿Sí, verdad? Si es de la
+veterinaria, si es público.
+
+937736fc-8a17-4fbf-9555-404e325e6056-0
+00:12:25.120 --> 00:12:25.390
+Sí.
+
+60735914-cc1f-4291-8aa0-95986c51ae0d-0
+00:12:28.460 --> 00:12:32.890
+No, pero Lady no no. Ah, no,
+Lady. Si es privado.
+
+01a762cd-9758-446b-a308-62dbfb84ab78-0
+00:12:34.000 --> 00:12:34.990
+¿Privado o?
+
+9c1ee9a4-211c-4d64-b759-35d29ad54471-0
+00:12:36.140 --> 00:12:42.686
+¿Protegido protegido? No es que
+no lo necesitas Nobel, si no
+
+9c1ee9a4-211c-4d64-b759-35d29ad54471-1
+00:12:42.686 --> 00:12:43.760
+necesitas.
+
+b716619c-fcf8-41df-a23a-cb36ad8a1a50-0
+00:12:50.950 --> 00:12:51.400
+¿O qué?
+
+ab0f3b8f-6e8a-4a1d-a113-6fad0bd1f3f4-0
+00:12:59.670 --> 00:13:00.500
+¿Y el precio?
+
+c413411b-e82b-4a54-b5d7-7c4d58cb831b-0
+00:13:01.700 --> 00:13:02.390
+Ah, pues.
+
+16435940-f04b-4ded-b9e0-79a65ff6956c-0
+00:13:03.340 --> 00:13:05.550
+Es público, no, porque va a ser
+un precio general.
+
+2ac3e840-c82c-4a3f-8ce6-ee03c45dbb9b-0
+00:13:10.750 --> 00:13:12.290
+Pero este es el de las citas.
+
+27017656-1aac-4f59-8460-5dbf1f47c933-0
+00:13:15.970 --> 00:13:19.239
+Sí, pero todavía estaba en que
+iba a ser un precio general, no
+
+27017656-1aac-4f59-8460-5dbf1f47c933-1
+00:13:19.239 --> 00:13:20.070
+por la consulta.
+
+006ab7b0-f2ba-496f-96d9-d47cb9d135f8-0
+00:13:20.810 --> 00:13:23.640
+Si más bien este no iría, aquí
+iría aquí.
+
+c04d3371-74ba-4722-88d1-13e0a8e1a403-0
+00:13:25.520 --> 00:13:26.110
+Soy.
+
+f6c7cae1-6133-4d7f-8285-40785d40ca09-0
+00:13:27.460 --> 00:13:29.120
+¿Ay, por qué me dices esto?
+
+c5ea3cec-ad30-493e-8534-a3f40ce52260-0
+00:13:38.800 --> 00:13:39.530
+¿O dónde iría?
+
+24970ff5-023f-44a9-9c71-30ef40fc15a1-0
+00:13:41.190 --> 00:13:44.930
+¿Tendría que ir en los datos de
+la veterinaria, no? Ah, no.
+
+d996c6bf-a826-4566-a896-824328616915-0
+00:13:46.280 --> 00:13:50.787
+Sí, sí, porque el usuario de la
+veterinaria va a establecer el
+
+d996c6bf-a826-4566-a896-824328616915-1
+00:13:50.787 --> 00:13:52.290
+precio de su clínica.
+
+6f23b1bf-0c28-483c-bbc0-b9c2d225572e-0
+00:13:53.950 --> 00:13:55.720
+¿Oh, qué precio?
+
+eda30a8d-39d1-46c6-89c7-96c595dc5ed5-0
+00:13:57.210 --> 00:13:57.740
+Bastante.
+
+4612b150-da6a-444b-8373-b11e452d346a-0
+00:14:00.490 --> 00:14:01.520
+Y luego.
+
+f7552cb8-7529-4e98-a761-712238808eaf-0
+00:14:02.490 --> 00:14:05.500
+La cita va a incluir el precio.
+
+285bb8f5-8065-43d9-a6d6-bce866e2ef17-0
+00:14:08.360 --> 00:14:10.650
+¿Entonces, le damos precio?
+
+69d020dc-b96a-4139-9af8-c80b3e602ecc-0
+00:14:13.720 --> 00:14:15.530
+Sino porque va a ser general.
+
+69b3e91b-c336-46ba-9493-b3901473577d-0
+00:14:27.550 --> 00:14:28.610
+No sé.
+
+e936267c-0f92-4dfa-bbe9-8aa8354ce7dd-0
+00:14:43.520 --> 00:14:46.619
+¿Sí, porque para la cita también
+necesita el nombre de la
+
+e936267c-0f92-4dfa-bbe9-8aa8354ce7dd-1
+00:14:46.619 --> 00:14:48.810
+veterinaria, la especialidad, y
+esto no?
+
+a22b5956-2ce6-4a0f-8467-24a9f6dede7c-0
+00:14:54.990 --> 00:14:55.700
+¿O qué opina?
+
+fbf0ccba-5ce8-4453-b74d-78148a69a0c5-0
+00:14:57.770 --> 00:14:59.130
+Eso respecto al precio.
+
+c5ff0220-0e0d-447a-b86d-242912062b08-0
+00:15:00.480 --> 00:15:01.310
+No, por ejemplo.
+
+6d669411-b36e-4acf-aadc-3401d03e3cfb-0
+00:15:01.980 --> 00:15:05.876
+Se registra una veterinaria y
+luego yo digo, Ah, pues estaba
+
+6d669411-b36e-4acf-aadc-3401d03e3cfb-1
+00:15:05.876 --> 00:15:09.836
+terminada. Me gustaba hacer una
+cita, hago una visita lunes a
+
+6d669411-b36e-4acf-aadc-3401d03e3cfb-2
+00:15:09.836 --> 00:15:10.220
+las 3.
+
+1752005c-c24d-4870-ae4c-06dd2e03442c-0
+00:15:11.090 --> 00:15:12.590
+A nombre de Vianey.
+
+4c94ebab-8503-497e-adae-b59b0cb7a97c-0
+00:15:13.640 --> 00:15:14.690
+Y luego.
+
+9a87c6a5-92ba-4d4a-94df-89763d0b9f6a-0
+00:15:16.670 --> 00:15:18.240
+Me van, me va a salir.
+
+da90da51-d8ec-4031-9033-600455bb336f-0
+00:15:19.450 --> 00:15:20.040
+Andres.
+
+5667c13a-638d-413a-9f26-fe7390ca910c-0
+00:15:20.880 --> 00:15:24.160
+¿Me va a salir la dirección de
+la Veterinaria, el nombre, su
+
+5667c13a-638d-413a-9f26-fe7390ca910c-1
+00:15:24.160 --> 00:15:24.860
+especialidad?
+
+451a09db-9400-4b63-ba21-b2a2f66e17c7-0
+00:15:26.910 --> 00:15:31.813
+Esto no lo no, lo mandamos a
+llamar y el precio de la cita no
+
+451a09db-9400-4b63-ba21-b2a2f66e17c7-1
+00:15:31.813 --> 00:15:37.033
+para generar como tú si has sido
+creada el día tal dental. Precio
+
+451a09db-9400-4b63-ba21-b2a2f66e17c7-2
+00:15:37.033 --> 00:15:38.220
+más o menos no.
+
+ad1803d0-30ca-4c2f-8205-ff8b86ece079-0
+00:15:40.590 --> 00:15:40.990
+Hickey.
+
+132385ca-4002-477b-b83c-da1bffa42845-0
+00:15:53.790 --> 00:15:58.230
+Sí, sí era así o no porque están
+heredando.
+
+f49322fb-b64e-4743-9f05-5c96cbc9d8a8-0
+00:15:59.550 --> 00:16:00.220
+Sí.
+
+e6d3d021-c320-41c0-b76c-e44bcc3cc2aa-0
+00:16:01.770 --> 00:16:04.180
+Porque me preocupa que el profe
+diga, pues ya tienen este.
+
+e86409ff-130d-427b-861e-4151071b4a4b-0
+00:16:06.930 --> 00:16:08.640
+¿O es que no sé?
+
+8871fa79-d674-41b1-9c72-95769169571c-0
+00:16:09.260 --> 00:16:12.730
+Pero es que, sino porque el
+felicita a parte de la
+
+8871fa79-d674-41b1-9c72-95769169571c-1
+00:16:12.730 --> 00:16:17.153
+veterinaria de sus datos, porque
+si no tienes los datos, pues no
+
+8871fa79-d674-41b1-9c72-95769169571c-2
+00:16:17.153 --> 00:16:18.650
+podrás hacer una cita.
+
+e40a7a21-02d5-41ca-babd-8cd7e30221c7-0
+00:16:20.190 --> 00:16:21.280
+Pero ya.
+
+64af6f77-2643-4f6b-8c4e-77e1b1cd5902-0
+00:16:22.450 --> 00:16:24.680
+O sea, ya en el método ya lo
+estás.
+
+38c08b90-5fee-4d9c-a492-bb15244d49f5-0
+00:16:26.370 --> 00:16:29.100
+IA o sea, ya estás dentro de ahí
+no sé, ya tienes sus datos.
+
+20e316a0-ee75-49fe-a2ad-c5dba5a8cecd-0
+00:16:30.480 --> 00:16:31.790
+Creo que no hace falta la
+herencia.
+
+4addf430-6d49-4812-9546-c0e174a64b00-0
+00:16:33.930 --> 00:16:37.755
+¿Es que éste se supone que lo
+hemos puesto para esta función,
+
+4addf430-6d49-4812-9546-c0e174a64b00-1
+00:16:37.755 --> 00:16:40.100
+o sea, para que la veterinaria
+vital?
+
+80fa8718-a5c0-4f54-a2b5-4822bceff237-0
+00:16:40.930 --> 00:16:41.880
+Y este.
+
+3688c170-392b-4f96-8a2c-3d20fd82a038-0
+00:16:42.910 --> 00:16:45.550
+Es para que estos datos.
+
+0d99a06e-843e-4703-b20e-8bf44fd6f769-0
+00:16:46.410 --> 00:16:48.000
+Se hereden acá.
+
+7f5f2c59-4fd5-4339-a1dc-4ebf7d0f1aff-0
+00:16:49.050 --> 00:16:51.040
+Para generar el reporte.
+
+be69befe-e5bc-4f0f-8156-024471b0ad90-0
+00:16:53.440 --> 00:16:54.450
+No sé, Dios.
+
+98b80e8b-3dc1-4449-be01-7b64e06715db-0
+00:16:56.450 --> 00:16:59.614
+Pero ya con la agregación. Ya
+estás diciendo que que compone 1
+
+98b80e8b-3dc1-4449-be01-7b64e06715db-1
+00:16:59.614 --> 00:17:02.477
+de sus datos no, o sea, que
+estos son de esos datos para
+
+98b80e8b-3dc1-4449-be01-7b64e06715db-2
+00:17:02.477 --> 00:17:02.980
+generarlo.
+
+4fc237e3-cd44-4c83-9c4f-6b2706eb98c8-0
+00:17:07.470 --> 00:17:12.370
+Posición es que la agregación me
+da estos datos para acá.
+
+da944980-d16e-4f44-b89e-d28458597770-0
+00:17:13.480 --> 00:17:17.950
+Y para estos datos para acá
+también se así queda ya así.
+
+ae20076a-a205-4948-8c85-8dfc92e51248-0
+00:17:35.580 --> 00:17:39.010
+Destrucción de los componentes
+al destruir el compuesto.
+
+1f90e765-3c20-4911-9924-17383639e478-0
+00:17:45.680 --> 00:17:48.390
+Si borramos esto ya no existe
+esto.
+
+19a54ab9-ace9-4efe-b2d4-373b4da3cacb-0
+00:17:49.980 --> 00:17:51.340
+No sé opinen, opinen.
+
+01ffbbf6-ebd8-451f-84a7-ee275ef27926-0
+00:17:53.300 --> 00:17:54.520
+Yo digo que quitar la herencia.
+
+39f0ec5e-1a39-434a-9eae-c7cdc51ef680-0
+00:17:57.990 --> 00:18:01.324
+Y como entonces, como ya se
+pasarían, esto es que el el
+
+39f0ec5e-1a39-434a-9eae-c7cdc51ef680-1
+00:18:01.324 --> 00:18:05.074
+método ya ya lo está usando no,
+o sea, no necesitas, o sea, ya
+
+39f0ec5e-1a39-434a-9eae-c7cdc51ef680-2
+00:18:05.074 --> 00:18:08.468
+estás diciendo que estás
+agregando, o sea que estás con,
+
+39f0ec5e-1a39-434a-9eae-c7cdc51ef680-3
+00:18:08.468 --> 00:18:10.850
+o sea, que la clase se compone
+de otra.
+
+8414962f-418b-4d48-8d35-3942a6e13214-0
+00:18:12.810 --> 00:18:15.167
+Osea componer algunos atributos
+de la otra, entonces no
+
+8414962f-418b-4d48-8d35-3942a6e13214-1
+00:18:15.167 --> 00:18:17.020
+necesitas decir que también está
+heredando.
+
+1a16e9d3-ade7-4191-aae6-d19d531673bf-0
+00:18:19.480 --> 00:18:23.436
+Sí, sí, sí, sí, yo concuerdo
+ahí, porque la la o sea heredar,
+
+1a16e9d3-ade7-4191-aae6-d19d531673bf-1
+00:18:23.436 --> 00:18:27.010
+es solamente para crear los
+atributos, no, o sea, para.
+
+d4cef953-4b03-4f5d-9171-b65257e3d93c-0
+00:18:27.850 --> 00:18:30.711
+Tener atributos, pero también
+utilizarlos para sí mismo. Por
+
+d4cef953-4b03-4f5d-9171-b65257e3d93c-1
+00:18:30.711 --> 00:18:31.650
+ejemplo en customer.
+
+f96b71f8-fa15-4c0e-8ae0-1756812a091e-0
+00:18:32.330 --> 00:18:35.639
+O sea, user hereda todo esto,
+pero no es porque hostilizando
+
+f96b71f8-fa15-4c0e-8ae0-1756812a091e-1
+00:18:35.639 --> 00:18:39.003
+realmente el customer, sino que
+se está creando para crear la
+
+f96b71f8-fa15-4c0e-8ae0-1756812a091e-2
+00:18:39.003 --> 00:18:39.599
+otra clase.
+
+9ab7175f-8981-4616-adf7-c953b77b0385-0
+00:18:40.780 --> 00:18:41.350
+Mhm.
+
+2406fdf3-2a78-4499-8df4-5061899bf00c-0
+00:18:44.610 --> 00:18:45.200
+¿Tienes razón?
+
+63460940-c873-4061-a46e-366df2079e41-0
+00:19:02.570 --> 00:19:03.300
+De esta forma.
+
+48594e71-fd99-4b65-8b54-2b139ef63043-0
+00:19:04.340 --> 00:19:08.350
+Pero miren, los componentes no
+pueden ser compartidos.
+
+ca8d8e0b-6089-42d1-baac-1ef4b19470fa-0
+00:19:09.280 --> 00:19:11.390
+Por varios objetos compuestos.
+
+20104caa-c963-4796-92de-bae0b7aa2345-0
+00:19:19.110 --> 00:19:20.280
+Ay, ya me estrese.
+
+4d5bac32-7920-4992-aa2e-24a2f6540cce-0
+00:19:30.190 --> 00:19:31.650
+Bueno, pues así lo dejamos.
+
+f22e5d4b-30bf-4c7c-9506-e2fa2bbe9272-0
+00:19:40.380 --> 00:19:43.055
+Tipo de asociación que
+representa una relación muy
+
+f22e5d4b-30bf-4c7c-9506-e2fa2bbe9272-1
+00:19:43.055 --> 00:19:45.731
+direccional y altamente
+dependiente entre 2 clases
+
+f22e5d4b-30bf-4c7c-9506-e2fa2bbe9272-2
+00:19:45.731 --> 00:19:49.036
+diferentes. Si la composición se
+eliminan, las otras entidades
+
+f22e5d4b-30bf-4c7c-9506-e2fa2bbe9272-3
+00:19:49.036 --> 00:19:51.240
+vinculadas con ellas también se
+eliminan.
+
+d8105ec7-424f-462e-b4e7-10f5e7e0bc64-0
+00:19:52.290 --> 00:19:56.528
+Representan la dependencia entre
+padre e hijo del deber, mango
+
+d8105ec7-424f-462e-b4e7-10f5e7e0bc64-1
+00:19:56.528 --> 00:19:56.730
+el.
+
+cc1510a6-78e8-4282-8b3f-45bdfe04002b-0
+00:19:59.330 --> 00:20:02.220
+Los objetos enlazados son
+altamente dependientes y
+
+cc1510a6-78e8-4282-8b3f-45bdfe04002b-1
+00:20:02.220 --> 00:20:03.240
+representando así.
+
+8efb4d5f-be25-413f-8d9a-03826a319e56-0
+00:20:05.420 --> 00:20:08.010
+Si es que sí lo entiendo, pero.
+
+24174e3a-c9d9-494c-8e9f-a3de0d05686c-0
+00:20:08.820 --> 00:20:12.450
+Lo que quiero es que aquí
+podamos imprimir estos datos.
+
+a9ca7742-fad5-4919-a44c-0024c1d81e69-0
+00:20:13.430 --> 00:20:16.640
+Y no sé si esta cosa no lo
+permita.
+
+a6b9fbfc-5f77-4784-b74a-e4930a70905b-0
+00:20:20.830 --> 00:20:22.030
+Ay, bueno, sí, siempre.
+
+7abc5fd7-f879-471a-b125-7afaebc63e2c-0
+00:20:24.260 --> 00:20:24.780
+Oh OK.
+
+29a335d8-3851-45b1-b099-43304e2e8b25-0
+00:20:27.070 --> 00:20:27.880
+IU.
+
+4913b43d-f5d0-474d-b858-f1b94a5173b3-0
+00:20:32.050 --> 00:20:32.740
+¿O key?
+
+22a37c53-c8f4-497f-9842-7601e070f792-0
+00:20:48.960 --> 00:20:50.310
+Teníamos ese dato.
+
+e9a98cdc-767c-454a-aa0c-7f254f44eac2-0
+00:20:51.560 --> 00:20:55.270
+Se supone que el ecommerce va a
+ser envíos.
+
+302440ff-1e51-439d-ab9e-899b27403b07-0
+00:21:02.320 --> 00:21:02.890
+Sí.
+
+1444fea2-74d7-471e-a583-b9db62068b38-0
+00:21:04.960 --> 00:21:09.155
+Porque entonces habría un
+método, no que fuera de track
+
+1444fea2-74d7-471e-a583-b9db62068b38-1
+00:21:09.155 --> 00:21:09.530
+este.
+
+10b2c055-a757-46ca-a131-8ce76292061d-0
+00:21:10.880 --> 00:21:15.904
+Sería, pues tra que este tema,
+cómo se dice el pedido hacer
+
+10b2c055-a757-46ca-a131-8ce76292061d-1
+00:21:15.904 --> 00:21:20.928
+tracking en tu pedido, o sea,
+ver que el Estado no ajá, sí,
+
+10b2c055-a757-46ca-a131-8ce76292061d-2
+00:21:20.928 --> 00:21:25.449
+sí, pensando si así está en
+camino, así está está en.
+
+81c64f0d-f6b7-4cf2-8d46-82860e395919-0
+00:21:27.500 --> 00:21:32.645
+En order algo que se llama
+status, ajá, y luego tiene como
+
+81c64f0d-f6b7-4cf2-8d46-82860e395919-1
+00:21:32.645 --> 00:21:34.390
+orden pendiente, sí.
+
+ed1e5e12-c7e9-4f29-bd5c-22da3428461c-0
+00:21:35.340 --> 00:21:36.950
+Eso ya lo incluye el curso.
+
+3382a7b8-e2f2-45e3-b2af-ef1be606314f-0
+00:21:40.550 --> 00:21:41.440
+No sé, la verdad.
+
+53a5e609-8b99-40a4-915f-3355c033b9ec-0
+00:21:42.380 --> 00:21:46.811
+Pero igual bueno, no me gustaría
+decir que no sé, no, no creo que
+
+53a5e609-8b99-40a4-915f-3355c033b9ec-1
+00:21:46.811 --> 00:21:48.490
+sea muy complicado, pero.
+
+5f32eda7-c766-4fdc-83f2-4c70335386ce-0
+00:21:50.750 --> 00:21:55.581
+En sí es es, pues es un proceso
+de cierta manera manual. No, ni
+
+5f32eda7-c766-4fdc-83f2-4c70335386ce-1
+00:21:55.581 --> 00:22:00.262
+commerce, o sea, ya llegó de
+este tal de tal punto. Tal punto
+
+5f32eda7-c766-4fdc-83f2-4c70335386ce-2
+00:22:00.262 --> 00:22:03.660
+bueno, actualiza el estado de
+tales pedidos.
+
+3e1d0a6a-0ca8-4076-8728-ae5957ae7a77-0
+00:22:04.730 --> 00:22:06.020
+¿Y quién va a actualizar eso?
+
+72b36bfe-479d-44ee-b14d-08b0687a0a92-0
+00:22:06.950 --> 00:22:10.680
+Él está para algo, le pagamos al
+staff.
+
+e5f749d6-edbc-4042-855c-1fce93abcadf-0
+00:22:13.370 --> 00:22:15.140
+Pero entonces tendríamos que
+editar.
+
+776d4899-7b8d-4328-ab44-8e2a591c6172-0
+00:22:17.990 --> 00:22:22.240
+Tendremos que agregar eso,
+checar estatus y nos cambiaría.
+
+bc732d4c-c4c7-43e5-a9fa-62b6d8c0f38a-0
+00:22:23.850 --> 00:22:24.500
+Aqui.
+
+536c0f73-98d2-461a-9c7f-618c6a3e3b31-0
+00:22:25.950 --> 00:22:30.290
+Nos cambiaran orden, poner esta
+tú sí que estás. Edit, status.
+
+ae5a1c83-e21d-40ed-8d29-bff44fd91260-0
+00:22:31.930 --> 00:22:33.650
+Y también nos cambiare acá.
+
+21d1418e-8215-45dc-abfa-552f122554c6-0
+00:22:37.770 --> 00:22:42.685
+A por el viernes Ario se me hace
+que no es porque realmente no
+
+21d1418e-8215-45dc-abfa-552f122554c6-1
+00:22:42.685 --> 00:22:43.700
+hay forma de.
+
+3bd38ce4-41b7-4383-9bb3-54d50e409856-0
+00:22:45.530 --> 00:22:48.545
+Está incluido en la página y que
+sea del sistema como tal, no,
+
+3bd38ce4-41b7-4383-9bb3-54d50e409856-1
+00:22:48.545 --> 00:22:50.700
+eso ya sería como algo como que
+más externo.
+
+1eb1bfcf-8d4c-4f65-818f-f7db5fcca03b-0
+00:22:58.830 --> 00:22:59.850
+Es que me.
+
+59a5d986-d24b-40ab-828a-eb33e6564cd4-0
+00:23:00.620 --> 00:23:02.060
+Me preocupa.
+
+bb388954-01e8-428e-a2d8-3f3b7ae39262-0
+00:23:04.040 --> 00:23:06.730
+Eso, tener que evitar todo otra
+vez.
+
+40b8151c-d249-45d1-b77a-3cb28ed4a4bd-0
+00:23:07.890 --> 00:23:11.747
+No sé, pues nos lleve una o dos
+horas, editar todo esto, pero
+
+40b8151c-d249-45d1-b77a-3cb28ed4a4bd-1
+00:23:11.747 --> 00:23:15.293
+son dos horas que podemos
+invertirlo, digamos a clases y
+
+40b8151c-d249-45d1-b77a-3cb28ed4a4bd-2
+00:23:15.293 --> 00:23:18.280
+luego ya perdimos una semana de
+implementación.
+
+8df340b9-a790-4b0f-be56-a5cdc11cf7d5-0
+00:23:22.390 --> 00:23:23.630
+Es mejor sin envíos.
+
+b1a3e3c3-8953-4ca6-818c-e617e5cf5761-0
+00:23:26.960 --> 00:23:30.537
+O sea, quizá envíos y que
+ingresen su dirección y tu
+
+b1a3e3c3-8953-4ca6-818c-e617e5cf5761-1
+00:23:30.537 --> 00:23:34.790
+pedido fue enviado y ya, y ya,
+pero ponerle de que de que vaya
+
+b1a3e3c3-8953-4ca6-818c-e617e5cf5761-2
+00:23:34.790 --> 00:23:38.705
+a crackeado y no sé quién
+notifique al usuario. Cuando ya
+
+b1a3e3c3-8953-4ca6-818c-e617e5cf5761-3
+00:23:38.705 --> 00:23:39.650
+lo entregaron.
+
+e9c774c6-b612-4ec4-b91b-08be5e40615b-0
+00:23:40.230 --> 00:23:42.010
+Porque esa sería una.
+
+5841279e-ef40-4db5-a161-2e6ccda112e1-0
+00:23:43.260 --> 00:23:48.735
+IA IA, IA. Sta bien tu pedido,
+luego ya sería otra página o de
+
+5841279e-ef40-4db5-a161-2e6ccda112e1-1
+00:23:48.735 --> 00:23:49.170
+otro.
+
+e9129718-239d-4c88-9bcf-5cfb81fc7568-0
+00:23:50.990 --> 00:23:51.770
+3 Cosillas.
+
+11aa12bd-cb3f-49ca-884f-6d64bf64d955-0
+00:23:52.790 --> 00:23:53.670
+Otro, ya va.
+
+ae1acc5d-0bde-498b-b40d-ebed3676a45b-0
+00:24:01.670 --> 00:24:05.391
+Ok, miren, vamos a hacer esto,
+no lo ponemos. ¿Y si el curso lo
+
+ae1acc5d-0bde-498b-b40d-ebed3676a45b-1
+00:24:05.391 --> 00:24:05.740
+tiene?
+
+afe18935-5238-475b-b2e3-4b0dec719781-0
+00:24:06.810 --> 00:24:09.339
+Lo hicimos al profe, haz que le
+agregamos esta función extra, se
+
+afe18935-5238-475b-b2e3-4b0dec719781-1
+00:24:09.339 --> 00:24:09.690
+ven como.
+
+d20895a7-5df9-4659-af45-ce24e3947bfb-0
+00:24:10.760 --> 00:24:13.230
+¿Entonces, qué Nobel sí, ajá?
+
+df12d643-1357-438b-8808-90c095a77e91-0
+00:24:15.170 --> 00:24:19.280
+Que se vea como algo así,
+tuvimos tiempo de agregar esto.
+
+bb985502-f019-4b01-aa55-2ddb59199304-0
+00:24:21.370 --> 00:24:21.880
+Sí.
+
+f564bb81-033f-431e-9e28-19e58d5c06ac-0
+00:24:30.000 --> 00:24:31.030
+¿Por qué?
+
+3017918d-421a-4a4c-b240-0123449c5208-0
+00:24:32.030 --> 00:24:34.540
+Es que ya no quiero cambiar
+nada, yo esque IA.
+
+3b1287ba-192f-4911-9294-43ca4e5270cd-0
+00:24:38.180 --> 00:24:39.470
+No está bien, me parece bien.
+
+21c8a95c-09d7-4d96-9432-b65cbb302e1b-0
+00:24:40.280 --> 00:24:43.070
+No, no, no hay pedo, por eso la
+neta.
+
+625a3593-e705-469a-87ed-36ce6c955d58-0
+00:24:44.520 --> 00:24:47.010
+Pero lo que queremos es un
+pinche número nomas.
+
+f96c11da-8252-4604-8aa5-5419d7e45d0f-0
+00:24:48.900 --> 00:24:52.410
+Ajá, le queremos acabar aquí, en
+efecto.
+
+d8474ddc-107d-4343-8d8d-8e9bfbb5516c-0
+00:24:53.990 --> 00:24:58.658
+Oh, OK. Entonces tenemos check
+out. Añadir productos, productos
+
+d8474ddc-107d-4343-8d8d-8e9bfbb5516c-1
+00:24:58.658 --> 00:24:58.950
+que.
+
+334a54c2-e559-4a22-b374-9b159eb06838-0
+00:25:00.440 --> 00:25:01.260
+Este.
+
+ceb8527f-7dc4-410d-a260-b0583292fbe1-0
+00:25:01.940 --> 00:25:04.970
+El carro y la con este.
+
+e49692b0-9d93-468a-9e57-54a86109923a-0
+00:25:09.430 --> 00:25:13.628
+¿Pero no sé si un usuario puede
+tener 1 o más carros, sería nada
+
+e49692b0-9d93-468a-9e57-54a86109923a-1
+00:25:13.628 --> 00:25:17.568
+más un carro, no? Sí, solo por
+los usuarios en el que vienen
+
+e49692b0-9d93-468a-9e57-54a86109923a-2
+00:25:17.568 --> 00:25:18.860
+todos los productos.
+
+9ddabc63-a4c0-403b-97c4-023c9d3c626a-0
+00:25:23.050 --> 00:25:26.080
+No, pero no sería composición,
+porque si lo si quitamos el
+
+9ddabc63-a4c0-403b-97c4-023c9d3c626a-1
+00:25:26.080 --> 00:25:27.570
+carrito, se quita el usuario.
+
+770f483a-3037-425e-b3a4-ceb94c51159f-0
+00:25:32.520 --> 00:25:34.950
+Pero eso pasa en la composición
+o la canción.
+
+8c79370b-902e-4b85-b7a4-2a5ef79e7ee9-0
+00:25:37.770 --> 00:25:38.100
+¿Cómo?
+
+8fdcaf80-0655-4dce-a075-6193f52c19b4-0
+00:25:39.390 --> 00:25:44.262
+De dónde pasa si eliminas el
+usuario, en este el negrito no
+
+8fdcaf80-0655-4dce-a075-6193f52c19b4-1
+00:25:44.262 --> 00:25:47.510
+en en composición no es donde
+pasa eso.
+
+206cbba4-3c11-4507-a905-7a88f5008f87-0
+00:25:48.780 --> 00:25:52.460
+Si es el negrito, no este
+entonces composición.
+
+30e8d262-7e20-44f0-97b8-f3a19894790a-0
+00:25:56.570 --> 00:25:57.960
+Osea, pongo esta composición.
+
+e8e6f66c-c3bd-4e93-9948-667aa7a2e952-0
+00:26:00.070 --> 00:26:02.580
+Sino conversiones cuando se
+elimina.
+
+f40af68c-52cc-4184-8754-bd5fb2263651-0
+00:26:03.620 --> 00:26:06.470
+Pero si eliminamos el carrito ya
+el usuario no existiría.
+
+c301c79c-1d97-41fc-8dcc-70689ef4aed0-0
+00:26:08.970 --> 00:26:11.925
+Pero eso sí, al otro lado, no. O
+sea, si limitamos el que el
+
+c301c79c-1d97-41fc-8dcc-70689ef4aed0-1
+00:26:11.925 --> 00:26:12.410
+costo MER.
+
+5018527e-e955-4346-ad96-503ac3708a55-0
+00:26:13.270 --> 00:26:15.950
+El carrito no existe, eliminan
+ambos.
+
+05f1daf0-3711-444e-a9a0-1700c0786d13-0
+00:26:20.900 --> 00:26:24.346
+Dependen 1 del otro no, pero por
+ejemplo, por ejemplo, el otro
+
+05f1daf0-3711-444e-a9a0-1700c0786d13-1
+00:26:24.346 --> 00:26:27.739
+dice empresa y empleado. O sea,
+si eliminas a un empleado, no
+
+05f1daf0-3711-444e-a9a0-1700c0786d13-2
+00:26:27.739 --> 00:26:29.490
+tiene que eliminarse la empresa.
+
+1009641e-dcaf-4b60-a834-a7b949964ae6-0
+00:26:31.330 --> 00:26:31.930
+En efecto.
+
+1962990d-6443-4fba-8d64-46eeb5134e81-0
+00:26:37.840 --> 00:26:39.450
+Osea 1 depende del otro, nada
+más.
+
+f32ae5e0-cac6-4583-a4f8-9b1d91b4528c-0
+00:26:40.850 --> 00:26:42.210
+Pero no era.
+
+7e4430c7-19f0-4417-8d06-2d9f27bc32b1-0
+00:26:43.080 --> 00:26:45.700
+Bidireccional y altamente
+dependientes entre 2 clases
+
+7e4430c7-19f0-4417-8d06-2d9f27bc32b1-1
+00:26:45.700 --> 00:26:48.661
+diferentes y la composición se
+elimina a las otras entidades
+
+7e4430c7-19f0-4417-8d06-2d9f27bc32b1-2
+00:26:48.661 --> 00:26:50.699
+vinculadas con ella, también se
+eliminan.
+
+88de89d3-1740-416a-8525-3f443488ba42-0
+00:26:51.810 --> 00:26:52.900
+¿Osea, estas dos?
+
+c6ddf054-5264-4c1f-be01-2ddc31299323-0
+00:26:56.980 --> 00:27:00.981
+Pero es eliminar las piernas,
+porque yo creo que creo que creo
+
+c6ddf054-5264-4c1f-be01-2ddc31299323-1
+00:27:00.981 --> 00:27:04.791
+que es así. ¿No es que si ya te
+entendí, eso sí, se zona se
+
+c6ddf054-5264-4c1f-be01-2ddc31299323-2
+00:27:04.791 --> 00:27:07.650
+elimina esta OK? Si lo estaban
+teniendo mal.
+
+a7bde296-65f6-4f5d-93d1-f4d341180929-0
+00:27:08.620 --> 00:27:13.425
+Porque si se elimina veterinario
+se elimina cita, aunque ya está
+
+a7bde296-65f6-4f5d-93d1-f4d341180929-1
+00:27:13.425 --> 00:27:15.570
+al revés, si es real, perdón.
+
+02795cee-fdf9-4c19-9ca6-e03e528a0107-0
+00:27:16.480 --> 00:27:20.110
+Si se elimina el carro, no se
+elimina. Customer OK, sí.
+
+0b293ea3-0a57-4746-a1a1-a08089c0dca5-0
+00:27:24.230 --> 00:27:28.400
+Mhm, OK, está bien todo esto
+carro añadir.
+
+9c36c4ba-e431-429a-8dc0-f096d1baf7eb-0
+00:27:29.700 --> 00:27:30.470
+Causaremos.
+
+4adf6bf3-84b9-481d-a2f3-5c81b402d90d-0
+00:27:32.880 --> 00:27:35.900
+¿Donde agregaríamos pago aquí,
+verdad? En en orden.
+
+24a7b7b4-6e6c-44ae-a0d0-747b6fb94023-0
+00:27:39.010 --> 00:27:39.900
+¿Dónde está el pago?
+
+24ed7fa2-9249-48fc-90dc-866717c5c210-0
+00:27:41.750 --> 00:27:43.130
+¿Pago fue una que eliminamos,
+no?
+
+552929ec-6348-4695-8041-74ad8f9af6eb-0
+00:27:45.280 --> 00:27:48.020
+¿No me acordaba, la hiciste, tú
+no, Daniel?
+
+36bcc263-148c-4618-b097-4e87260c8b48-0
+00:27:48.790 --> 00:27:51.360
+¿Si yo tenía método de pago?
+
+0bbab515-0c30-48ad-973d-0761a0a36b0f-0
+00:27:52.550 --> 00:27:57.830
+Pero la eliminaste wey no, yo no
+la elimine, güey. Youtube no he
+
+0bbab515-0c30-48ad-973d-0761a0a36b0f-1
+00:27:57.830 --> 00:27:59.780
+visto pago porque si la.
+
+d55c291d-88e5-4d41-884e-35a01bcfe498-0
+00:28:00.480 --> 00:28:04.001
+La agregue, me acuerdo hasta se
+la enseñe al JAR, elige, mira,
+
+d55c291d-88e5-4d41-884e-35a01bcfe498-1
+00:28:04.001 --> 00:28:05.510
+guasa y agregue esto madre.
+
+b46722ca-a639-4b13-890f-30bc07f207cd-0
+00:28:07.030 --> 00:28:08.000
+Yo nunca la vi nada.
+
+3e6ae9e3-bd29-4d21-8566-e88e8138ecd6-0
+00:28:09.250 --> 00:28:14.143
+¿Entonces no sé, deberá guardado
+o algo así, pero si si puse una
+
+3e6ae9e3-bd29-4d21-8566-e88e8138ecd6-1
+00:28:14.143 --> 00:28:19.112
+que era PMY, le apuesto que eran
+débito o crédito, y puse paypal,
+
+3e6ae9e3-bd29-4d21-8566-e88e8138ecd6-2
+00:28:19.112 --> 00:28:23.780
+pero pues igual les iba, pues
+iba, pero eso? Eso por ejemplo.
+
+34b48213-cbd0-409f-a400-00d1d88ad57a-0
+00:28:24.470 --> 00:28:27.493
+Pues se va a hacer con una pino,
+entonces no, no sé quién
+
+34b48213-cbd0-409f-a400-00d1d88ad57a-1
+00:28:27.493 --> 00:28:29.110
+necesitamos poner en esa clase.
+
+9bb111b7-3988-4595-b01b-a8a40f1d20e0-0
+00:28:30.370 --> 00:28:33.747
+Pues sí, en efecto, sería con o
+sea depende quien te pida la
+
+9bb111b7-3988-4595-b01b-a8a40f1d20e0-1
+00:28:33.747 --> 00:28:34.080
+lápiz.
+
+05b902b5-95e1-4e30-bddf-6ab316a11a84-0
+00:28:34.760 --> 00:28:37.490
+Porque hay unas tapas que se te
+piden inicializar un objeto.
+
+07966ca7-a866-4b0a-ad0b-70f00aeb0333-0
+00:28:38.790 --> 00:28:42.290
+Sino nomas ponemos como pago y.
+
+dafb7b4f-db25-47cb-bb5c-0f6b9862a686-0
+00:28:43.230 --> 00:28:44.920
+Y ya no mhm.
+
+89ac5b81-e7d4-4d87-b732-3b9775a5c0c4-0
+00:28:46.010 --> 00:28:47.970
+O podemos poner una nota que
+diga.
+
+5019858a-ba63-4f79-a07a-0cd1106495f8-0
+00:28:49.510 --> 00:28:50.440
+Que depende del lápiz.
+
+4d1f785f-c4f3-4463-9861-d79f9b6c29ae-0
+00:28:53.190 --> 00:28:53.740
+No.
+
+228403d8-8c9f-49cb-bfe5-acbb5978a7e1-0
+00:28:54.550 --> 00:28:58.670
+No creo que no se te guardo el
+pago. Sí pues, eso parece.
+
+3fa62c18-0710-4a61-912c-463d72120aee-0
+00:28:59.860 --> 00:29:01.970
+¿Cómo lo tenias, lo tenias aquí
+en orden?
+
+b304cb41-c8c9-4df4-b09b-78415b8f81ec-0
+00:29:03.010 --> 00:29:07.200
+No, no, no, no está todavía,
+ajá.
+
+93f4c675-4d43-499e-93c4-40410b664c06-0
+00:29:07.930 --> 00:29:12.092
+Pero esa era una clase aparte,
+nada más era. Pavimentos y IA,
+
+93f4c675-4d43-499e-93c4-40410b664c06-1
+00:29:12.092 --> 00:29:16.524
+pues más bien en orden, sería un
+un método, paint no, pues si más
+
+93f4c675-4d43-499e-93c4-40410b664c06-2
+00:29:16.524 --> 00:29:16.860
+bien.
+
+a0301644-3ec6-4acb-8cc3-03a131da1122-0
+00:29:17.600 --> 00:29:17.940
+Sí.
+
+7bed6c58-afc4-4a64-b954-2fe1f3c23206-0
+00:29:23.350 --> 00:29:28.447
+¿Y quién sería? Ah, no es que
+Leo un método así, dije porque
+
+7bed6c58-afc4-4a64-b954-2fe1f3c23206-1
+00:29:28.447 --> 00:29:30.620
+estos métodos tienen esto.
+
+ed2322e8-b4bf-4af6-9f38-2de98aa7a476-0
+00:29:43.340 --> 00:29:46.470
+¿Este debord, en qué orden hay?
+
+fbac6bc8-5323-4418-9eda-edb622dd699b-0
+00:29:51.060 --> 00:29:54.051
+¿Se sería público? Creo no,
+porque si te dan como el el
+
+fbac6bc8-5323-4418-9eda-edb622dd699b-1
+00:29:54.051 --> 00:29:54.960
+número de pedido.
+
+1035e343-e06d-4d47-8b8c-0469d5acf725-0
+00:29:56.020 --> 00:29:56.300
+Key.
+
+2d04fbed-a28a-40d6-aab7-a6703eb739b6-0
+00:29:57.390 --> 00:29:57.920
+Publico.
+
+b9f69c9a-f030-400a-9955-8bfa15651f72-0
+00:29:58.660 --> 00:30:00.990
+Y luego este este que es.
+
+4bc5b302-c433-4c59-993a-02d98145aa6f-0
+00:30:01.730 --> 00:30:03.800
+Shipping addresses la dirección
+de envío.
+
+cf73a925-678d-4190-aa85-68802aa602e3-0
+00:30:04.530 --> 00:30:08.220
+Key y luego status.
+
+ef30edfa-ae55-4264-80aa-90f12ea0c74d-0
+00:30:12.310 --> 00:30:13.390
+Y luego.
+
+d43bcf07-73b0-4791-9c4b-08aff7dbab12-0
+00:30:18.120 --> 00:30:19.890
+¿Este tipo de dato cuál es?
+
+8176cebb-bad3-4324-baa3-6a8db7ee6e00-0
+00:30:21.810 --> 00:30:22.890
+País.
+
+e9966120-e890-432d-893b-5e9ce0fbee22-0
+00:30:26.950 --> 00:30:30.580
+¿Es como un flat pero un poco
+más grande, no?
+
+6244afca-07f6-417c-9983-58fa7642a128-0
+00:30:34.640 --> 00:30:37.110
+Creo que es de ser que se
+utiliza para el dinero.
+
+406d2e25-3980-47ce-b45b-d74193bf8b24-0
+00:30:38.610 --> 00:30:38.940
+¿Ok?
+
+884be136-1173-4bb2-a6a7-719e843fcf62-0
+00:30:51.700 --> 00:30:53.930
+Ok, la orden sería.
+
+d130d375-f67b-434e-a5c8-d1a778d37382-0
+00:30:54.930 --> 00:30:55.780
+Nada más.
+
+3aeaea64-bb38-44f7-81e7-2ed0513e56b0-0
+00:30:59.110 --> 00:31:02.340
+Tengo de momento este de donde
+sería orden.
+
+833f5db8-79dc-42ab-be18-e11b58ecc669-0
+00:31:04.310 --> 00:31:05.570
+¿Sería éste, no?
+
+954c0aa9-b524-4613-94df-9f603a937e56-0
+00:31:07.100 --> 00:31:12.430
+1 como este, o sea, un usuario
+genera una o más órdenes, ajá.
+
+bb2d0518-5034-43f7-82ff-9738d6e9e6e3-0
+00:31:13.190 --> 00:31:13.720
+Mhm.
+
+c1588384-af0e-41a9-810d-264bb6a64ee0-0
+00:31:15.170 --> 00:31:33.750
+
+
+78e69f67-f3d0-47f9-bd04-12ebd98b3afd-0
+00:31:35.550 --> 00:31:37.790
+¿Cómo sería general así?
+
+67eced83-86ac-4784-a6aa-530610afb1d3-0
+00:31:39.240 --> 00:31:40.060
+Una red.
+
+717e842e-e1c4-473e-8ed4-c55df9cce464-0
+00:31:42.170 --> 00:31:42.460
+Sí.
+
+f8824d15-98d1-4ec9-b226-e09390602a20-0
+00:31:43.380 --> 00:31:44.670
+Sí, sí, según yo sí.
+
+a5ac732a-66fb-474b-bb45-3202754ad940-0
+00:31:45.530 --> 00:31:46.390
+Sí pues, sí que sí.
+
+73cbe018-b490-4c41-993e-d462e60cfe96-0
+00:31:54.720 --> 00:31:57.120
+Un un usuario.
+
+4f744e1b-ece9-4ea1-b2c4-011492fa056a-0
+00:32:00.880 --> 00:32:02.480
+Genera una.
+
+b9b6cab9-5405-4c28-8f3a-179cbea284c9-0
+00:32:17.280 --> 00:32:19.110
+¿Si sería así, verdad? ¿Un
+usuario?
+
+79995182-4b5f-4e32-8f8b-9b26cdf44433-0
+00:32:22.020 --> 00:32:22.410
+Mhm.
+
+224633c2-f135-42c3-b953-badab6647d47-0
+00:32:34.320 --> 00:32:35.070
+No.
+
+1553b0bd-0ac7-4c89-b041-f75faa805d4d-0
+00:32:36.350 --> 00:32:38.960
+¿Bueno, después lo editó Eh?
+
+849a7f2f-4834-47c9-bf9a-eb2908cadaae-0
+00:32:40.380 --> 00:32:41.240
+Le llevamos.
+
+7633095f-871f-40e7-be74-aedca74f4fc9-0
+00:32:42.710 --> 00:32:44.650
+Y luego este products.
+
+c181290c-1875-4a28-a584-4a28d56ab305-0
+00:32:48.130 --> 00:32:50.610
+¿Este este es el de Lestat?
+
+d48ad742-0110-4ab7-ab30-2e1f714a52ef-0
+00:32:53.400 --> 00:32:53.750
+Sí.
+
+f2d34790-e817-4945-b9ca-d41243cf0f4a-0
+00:32:55.070 --> 00:32:59.540
+Si él estaba poder añadir
+productos productos.
+
+21b67931-747e-4133-88e3-a0a302db7c51-0
+00:33:02.110 --> 00:33:04.892
+Está en lo pondremos es que
+también va conectado con el
+
+21b67931-747e-4133-88e3-a0a302db7c51-1
+00:33:04.892 --> 00:33:05.290
+carrito.
+
+afe2cf41-0f27-4da7-8d8c-dc0063d841b3-0
+00:33:10.720 --> 00:33:11.750
+Oigan, ninguna duda.
+
+9940654e-aaef-456e-9617-5cf5c25cc1d6-0
+00:33:13.430 --> 00:33:14.270
+Intenta comentar.
+
+fd2a71be-a8c3-4da1-936f-5da10d4b09ce-0
+00:33:18.650 --> 00:33:20.330
+¿Y si en vez de poner esto?
+
+dfbfcf6b-559b-4ef8-b789-9fe70206671e-0
+00:33:22.250 --> 00:33:26.920
+En administrador ponemos una
+función que sea registrar esta.
+
+e529b05b-7115-44fb-84b8-1d3974ac3301-0
+00:33:29.560 --> 00:33:29.960
+Mhm.
+
+d6a3212d-fcab-4b5a-aede-69f17776e0ce-0
+00:33:30.750 --> 00:33:33.060
+¿Pero pues de Tomás se tendría
+que crear la clase, no?
+
+d83805ac-6062-49b7-b124-ddeba7a3637c-0
+00:33:37.870 --> 00:33:39.270
+Se lleva a heredar todo lo de.
+
+466a2fca-43a6-4f7b-b998-771aec8ba5e8-0
+00:33:40.150 --> 00:33:41.010
+¿O que sí?
+
+c0fd67d2-d39d-4c4e-b389-f5b75f032599-0
+00:33:42.130 --> 00:33:44.770
+¿Que que me dijeron antes que
+dijeron antes de eso?
+
+0e5e9963-049f-4d87-99a9-d2a32620c51c-0
+00:33:45.790 --> 00:33:50.097
+Nada que, o sea, también hay que
+ir conectando el carrito con los
+
+0e5e9963-049f-4d87-99a9-d2a32620c51c-1
+00:33:50.097 --> 00:33:50.750
+productos.
+
+4ca17664-19f0-472f-a869-3733e1e0ab67-0
+00:33:51.460 --> 00:33:52.090
+¿O qué?
+
+30779eb5-7220-427a-bc22-279604a5f63d-0
+00:33:52.990 --> 00:33:55.960
+Creo haber ponerle carrito que
+dice el de carrito.
+
+0c26859e-159d-45d0-8bb0-41a503abfc5e-0
+00:33:57.580 --> 00:33:59.580
+Aproximada product.
+
+e2a5bbf6-aebe-4806-8f9f-93ff53439756-0
+00:34:01.630 --> 00:34:03.660
+Cantidad de productos.
+
+593a1dcb-12bf-48f1-b8de-c8dd88b5a028-0
+00:34:09.910 --> 00:34:12.250
+Ah, sí, es cierto, aquí déjenme.
+
+5d591292-4c31-490f-869d-f8588de0e046-0
+00:34:23.390 --> 00:34:25.000
+Me pasó acá para conectarle.
+
+910f02c4-30b2-4a06-9a0d-698bcf0041d5-0
+00:34:37.110 --> 00:34:38.060
+¿Ok?
+
+1cc3fa4a-bee9-4cf8-b3cc-4ce683a8d7a8-0
+00:34:40.590 --> 00:34:43.800
+¿Entonces, tienen descripción?
+
+91d1b823-be0a-4510-a4dc-98cac4f7e617-0
+00:34:45.030 --> 00:34:47.260
+Sería el nombre del producto.
+
+3a233e4c-05d2-47e8-9855-af9828a8c9e6-0
+00:34:49.240 --> 00:34:50.730
+Lo voy a dejar como nombre, está
+bien.
+
+20d85481-82e9-446b-96b9-68b5424e1867-0
+00:34:52.130 --> 00:34:52.450
+Mhm.
+
+8b38bc12-6bca-467e-9576-4b1cf5347d07-0
+00:34:56.610 --> 00:34:58.820
+¿Street y los precios?
+
+3e07f912-a7be-4bc6-90cb-c424912fbbb0-0
+00:35:02.540 --> 00:35:03.390
+Foto.
+
+9a9d1e91-5145-44a5-8435-4b812e51808a-0
+00:35:07.090 --> 00:35:09.628
+Esto a lo mejor también
+podríamos poner un atributo
+
+9a9d1e91-5145-44a5-8435-4b812e51808a-1
+00:35:09.628 --> 00:35:12.020
+descripción, no sea que dice que
+llega como más.
+
+de9e10d9-107e-4176-ba06-0af8c5838094-0
+00:35:13.840 --> 00:35:14.990
+Más general, lo que.
+
+78644ee0-760d-465a-8460-de5dafc58ed4-0
+00:35:17.520 --> 00:35:18.500
+Creo que es.
+
+de6fe40a-d3c9-41be-a940-252e87f0dd42-0
+00:35:21.310 --> 00:35:38.530
+
+
+7e53b90f-8bd9-487b-aa49-1de4f6ac9c8d-0
+00:35:44.350 --> 00:35:46.520
+Este este que es.
+
+394d62ad-314a-4999-ad31-2be6694c4c82-0
+00:35:47.650 --> 00:35:51.100
+La categoría de de las mascotas
+AO.
+
+1ccf72ba-76e9-4833-9bcf-056ad11d79a3-0
+00:35:52.500 --> 00:35:54.490
+Ay, qué cool. ¿No había visto
+eso?
+
+f65fb050-40eb-4200-9028-3e29e2fa27a0-0
+00:35:56.500 --> 00:35:59.634
+¿Pero qué me habías dicho?
+¿Descripción, verdad? Si una
+
+f65fb050-40eb-4200-9028-3e29e2fa27a0-1
+00:35:59.634 --> 00:36:01.650
+descripción, atributo,
+descripción.
+
+af24058e-8a6f-438c-97c6-15dc18bbbf30-0
+00:36:03.140 --> 00:36:04.650
+Y luego esa sería todo público.
+
+4e15fff2-6e0a-4e6b-bd77-42ccfe3fe310-0
+00:36:10.650 --> 00:36:14.790
+Nos falta una idea del producto,
+así es cierto.
+
+83cbbe43-849b-4cc9-b4f1-e66be38dab36-0
+00:36:15.490 --> 00:36:15.910
+Mhm.
+
+98535829-92c4-4add-809a-e69fc46f2f63-0
+00:36:17.590 --> 00:36:21.790
+Descripción, precio foto
+categoría producto.
+
+32cb6033-8c4a-4442-b7db-e9fc585ed904-0
+00:36:22.990 --> 00:36:41.820
+
+
+40127b8c-0ef7-48cb-af21-a3a45b7d7454-0
+00:36:43.070 --> 00:36:44.590
+Un ano sí.
+
+44463ecf-12a6-4bd6-9d66-d40b055ecaad-0
+00:36:48.560 --> 00:36:52.530
+Que no, no iba a decir lo de la
+foto, no la había leído bien.
+
+6c629035-8a1e-4f30-bc80-bbca8deb8a81-0
+00:36:55.220 --> 00:36:55.990
+¿Esto?
+
+b6074b4f-bdef-4202-a341-f747e2213582-0
+00:37:14.240 --> 00:37:14.990
+Todo.
+
+303a0e88-16f7-497e-9df2-b04b62f9a3da-0
+00:37:21.100 --> 00:37:22.070
+¿Entonces?
+
+53d808cb-fcfd-45c2-ad5a-c47e2f4f4074-0
+00:37:24.150 --> 00:37:25.030
+¿Nobel?
+
+916cae1a-69d1-45f9-85ae-96a263d2de75-0
+00:37:26.090 --> 00:37:27.250
+Sería.
+
+42fb82fc-c901-41f3-8ad8-ef0de22021d6-0
+00:37:31.480 --> 00:37:34.380
+1 o más administradores.
+
+4ff85e5a-58bc-4127-ba45-6acee8e3f75e-0
+00:37:37.230 --> 00:37:40.270
+¿Generan 1 o más productos,
+verdad?
+
+85f5e9f5-3f87-4d3e-a583-366c776dbf96-0
+00:37:44.500 --> 00:37:44.880
+Sí.
+
+dd890087-ca49-4ef7-bbfa-7c052a99dc51-0
+00:37:45.750 --> 00:37:46.080
+Sí.
+
+8ba774c1-69ea-42c7-bd75-64d7ad525311-0
+00:37:49.640 --> 00:37:50.270
+¿Ah sí, verdad?
+
+858cd1ff-88c1-4f2e-a759-4199a81d6aaf-0
+00:37:53.590 --> 00:37:55.400
+Tenemos nuestros apuntes aquí.
+
+5f59e548-f747-4591-9d70-95c687bd10af-0
+00:37:58.070 --> 00:38:01.726
+Sí también, la conexión sería
+entre customer y products. ¿No?
+
+5f59e548-f747-4591-9d70-95c687bd10af-1
+00:38:01.726 --> 00:38:02.080
+No sé.
+
+c4ae2823-4f2d-4453-a02b-378ab311905d-0
+00:38:03.220 --> 00:38:05.491
+Lo voy a dar con él, ya se
+conecta con el carrito del
+
+c4ae2823-4f2d-4453-a02b-378ab311905d-1
+00:38:05.491 --> 00:38:05.870
+customer.
+
+5028dca4-5862-4710-ada1-7858d6e331b8-0
+00:38:07.900 --> 00:38:08.420
+Sí.
+
+d6b0090e-42d0-48b1-8d34-c1ca4ffd30a8-0
+00:38:13.150 --> 00:38:16.041
+Alcoholero el significado de
+éste indica que una clase es
+
+d6b0090e-42d0-48b1-8d34-c1ca4ffd30a8-1
+00:38:16.041 --> 00:38:16.740
+parte de Utah.
+
+2c955b6f-3648-4a37-b6f1-563254910ba8-0
+00:38:17.400 --> 00:38:20.599
+Pues componentes pueden ser
+compartidos por varios
+
+2c955b6f-3648-4a37-b6f1-563254910ba8-1
+00:38:20.599 --> 00:38:21.290
+compuestos.
+
+03c2bb6f-b70a-44eb-96bd-91d5f20c85c6-0
+00:38:22.670 --> 00:38:26.157
+Su destrucción del compuesto no
+conlleva la destrucción de los
+
+03c2bb6f-b70a-44eb-96bd-91d5f20c85c6-1
+00:38:26.157 --> 00:38:26.600
+comunes.
+
+c5d8a16c-1abb-4b02-bd7b-2a4084cd61f7-0
+00:38:31.620 --> 00:38:33.710
+¿A ver como me habías dicho que
+quiere?
+
+5017c561-dc3e-43b4-8cc1-4f7ba91872fe-0
+00:38:35.480 --> 00:38:39.430
+Así que el los productos se van
+a conectar con el customer.
+
+d142cb6b-684d-45f8-be98-0d7166724ac3-0
+00:38:41.000 --> 00:38:44.000
+En lugar que con el carrito,
+porque el costo ya está
+
+d142cb6b-684d-45f8-be98-0d7166724ac3-1
+00:38:44.000 --> 00:38:45.190
+conectado en carrito.
+
+de057df2-3d71-4878-981b-e65a694c9589-0
+00:38:46.460 --> 00:38:48.620
+¿Porque aquí de productos,
+verdad? Sí.
+
+2caa2720-c277-4aa2-9868-e5a644e00e5a-0
+00:38:51.180 --> 00:38:56.430
+Entonces sería el customer.
+¿Puede haber muchos productos?
+
+8737633a-b588-4381-9ada-19f9f875a2bb-0
+00:38:58.920 --> 00:39:00.410
+Y comprar muchos productos.
+
+cfbe4bb1-8ebf-490e-9468-139720dec53c-0
+00:39:05.050 --> 00:39:06.340
+Sería.
+
+02a79dc0-46c7-4e21-a6a6-1c8e308881ee-0
+00:39:07.460 --> 00:39:08.090
+¿Es de verdad?
+
+144d6650-b54a-484d-9ccb-23b602ab1bfa-0
+00:39:09.740 --> 00:39:10.480
+Agregación.
+
+31771438-0b38-4cc6-9976-54c221a273f9-0
+00:39:11.300 --> 00:39:14.730
+¿El vacío cuál es el vacío, el
+la agregación? Ajá.
+
+fb4d12d0-116d-461f-8131-2557ce245cc0-0
+00:39:27.520 --> 00:39:31.040
+Ok, y luego este.
+
+0601e356-e411-4155-8b78-4d8c0a451eae-0
+00:39:32.030 --> 00:39:34.690
+Bueno, es normal, eso no se
+tiene que conectar ni nada.
+
+8d90f6a3-ebf8-4260-a3e0-62f6bcdfd288-0
+00:39:36.540 --> 00:39:38.610
+No más. Es así como una nota,
+ajá.
+
+d313e021-427e-4d07-90f8-0a659e13bcf6-0
+00:39:57.140 --> 00:39:58.230
+Este.
+
+305cbef3-f345-483f-937f-b0936390a5ae-0
+00:40:01.350 --> 00:40:03.280
+Donde lo dejo nomas, lo pongo
+así.
+
+dc799539-aea6-4d95-bd94-5be8bae21ee2-0
+00:40:04.220 --> 00:40:07.070
+¿Si no más conoces acerca de
+productos?
+
+6cccbd4f-2186-4246-830b-2b8b667c52e4-0
+00:40:12.030 --> 00:40:13.230
+¿Lo pongo con usted o no?
+
+18267623-41c9-45fc-bbcc-9ff642a805b3-0
+00:40:15.740 --> 00:40:17.990
+Yo lo traía más que vino, no
+están conectados.
+
+b94d5909-e6d3-4320-ad3b-04210612ebea-0
+00:40:26.900 --> 00:40:30.111
+Ahorita la cómodo porque me va a
+dar un TIC con esta cosa, De
+
+b94d5909-e6d3-4320-ad3b-04210612ebea-1
+00:40:30.111 --> 00:40:31.510
+hecho se lo vamos a quitar.
+
+d034d767-64fd-462c-a3a1-608e7dee1a65-0
+00:40:32.610 --> 00:40:35.760
+Él es el de order, status porque
+quitamos el status.
+
+2986bef8-ddf2-4d43-9936-09dce6942534-0
+00:40:37.930 --> 00:40:38.950
+Y luego.
+
+a845d505-43b2-4296-8b2b-9c4bbf3cf6b5-0
+00:40:40.690 --> 00:40:45.280
+Este, con quien se conectaría
+así, sí también con ese sí.
+
+930fb24e-356b-4053-9c4a-bb1101c29bdf-0
+00:40:52.590 --> 00:40:53.870
+Nomas nos falta el de.
+
+22e9d32b-7f73-4350-b080-114338c87f3d-0
+00:40:55.460 --> 00:40:58.040
+Muy bien. ¿Este levantaste al de
+adopción?
+
+6d4fb636-0579-4d0e-981b-7eeab9e075a3-0
+00:41:01.710 --> 00:41:03.700
+Aún no he podido este.
+
+d9f90111-9438-4786-9a0f-e382ebc3a01c-0
+00:41:05.380 --> 00:41:09.507
+Se entrará iniciar sesión. ¿Eso
+te iba a preguntar, cómo puedo
+
+d9f90111-9438-4786-9a0f-e382ebc3a01c-1
+00:41:09.507 --> 00:41:12.980
+entrar acá, al visual paradigm
+con tu con tu cuenta?
+
+0b61cf78-8a41-4768-bbbb-31b1c553e14f-0
+00:41:14.630 --> 00:41:18.351
+Ah, pues tendrás que invitarlo
+por correo si le aparezca ahí en
+
+0b61cf78-8a41-4768-bbbb-31b1c553e14f-1
+00:41:18.351 --> 00:41:22.015
+compartidos hay una sección que
+es servicio, other, si hay les
+
+0b61cf78-8a41-4768-bbbb-31b1c553e14f-2
+00:41:22.015 --> 00:41:25.737
+salen, por eso invité a Paul y a
+este también por ahí, pero no,
+
+0b61cf78-8a41-4768-bbbb-31b1c553e14f-3
+00:41:25.737 --> 00:41:28.180
+el binomio no nos había pasado
+su correo.
+
+9a4e3de1-b9dc-4ad0-8611-1f3b307b59e0-0
+00:41:28.870 --> 00:41:30.920
+¿De quién es este correo tuyo?
+Adel.
+
+7fc5fc90-77cb-4e1f-9073-7610a43fb8b0-0
+00:41:31.620 --> 00:41:33.840
+Actual 1930 sóio.
+
+b158a502-aee6-45e1-88e1-cdf91402e633-0
+00:41:34.750 --> 00:41:37.520
+
+Este cuál es tu correo de?
+
+4cb6a96f-33a9-42d1-820d-9d0b072ac977-0
+00:41:38.320 --> 00:41:43.390
+Es al 182655, pero a ese correo
+si tienes acceso.
+
+f49e5b07-e161-4615-9f89-bdbac835a106-0
+00:41:44.210 --> 00:41:45.120
+En visual paradine.
+
+d58d3596-5027-4d6d-97fa-48a8b9839ad3-0
+00:41:46.040 --> 00:41:49.816
+Les cuento de Visa PRI, no, no
+tengo hasta una cuenta de lo
+
+d58d3596-5027-4d6d-97fa-48a8b9839ad3-1
+00:41:49.816 --> 00:41:50.950
+voy. A se la paso.
+
+d9e8a362-d8ef-4970-aac3-d3c5bf478add-0
+00:41:51.720 --> 00:41:52.270
+A OK.
+
+98ebc990-86ea-45c4-a793-5aa868bd4a8b-0
+00:41:59.030 --> 00:42:00.800
+¿Ok este?
+
+ba31018e-5a6a-43fe-8346-73b1eaf0b073-0
+00:42:03.070 --> 00:42:04.090
+Lo quieren empezar.
+
+c402d3cc-7762-43ad-8b80-ed8caecb0355-0
+00:42:06.700 --> 00:42:07.730
+Pero ya terminarlo.
+
+5bce269d-062d-4378-b9df-95941dc194c1-0
+00:42:09.680 --> 00:42:13.760
+¿El de adopción? Ajá, pues si
+quieres, no sé si quiera que te
+
+5bce269d-062d-4378-b9df-95941dc194c1-1
+00:42:13.760 --> 00:42:18.037
+perdia general, un alguna, una,
+un par de clases no, ajá, porque
+
+5bce269d-062d-4378-b9df-95941dc194c1-2
+00:42:18.037 --> 00:42:20.670
+si lo hacemos ya lo terminamos
+ahorita.
+
+1ceb0754-3f7c-4722-aecf-0dff99c6f6ba-0
+00:42:21.810 --> 00:42:24.100
+Ya no más sería
+retroalimentación del profe.
+
+9d6fb72b-50b4-4ee4-ad42-731382b5ee58-0
+00:42:24.900 --> 00:42:27.050
+Y ya podremos dedicar a.
+
+7c957cbe-6997-44dc-8f67-7db828101999-0
+00:42:27.680 --> 00:42:31.973
+¿Business process ajá y de
+clases para ya tener algo el
+
+7c957cbe-6997-44dc-8f67-7db828101999-1
+00:42:31.973 --> 00:42:32.510
+juegos?
+
+459730cd-fc3e-4563-bf88-878e19b1db0c-0
+00:42:34.030 --> 00:42:37.320
+Lo que les iba a preguntar
+también era en implementación.
+
+21374a2f-fe65-4ac7-b03a-f64321792994-0
+00:42:37.950 --> 00:42:40.990
+Cosas si quieren dividirnos. Día
+las cosas para.
+
+7805a6be-1bcc-490e-a747-b70c763c85f4-0
+00:42:41.790 --> 00:42:44.422
+Por ejemplo, porque los otros
+dos sistemas, pues no tienen
+
+7805a6be-1bcc-490e-a747-b70c763c85f4-1
+00:42:44.422 --> 00:42:45.270
+tutoriales ni nada.
+
+08f8e8a2-1b21-46c2-b94c-6d5a445d0386-0
+00:42:46.000 --> 00:42:49.468
+¿Entonces, para investigando de
+ahí buscando Simón ajá? Sí,
+
+08f8e8a2-1b21-46c2-b94c-6d5a445d0386-1
+00:42:49.468 --> 00:42:51.550
+pues, como como se quieren
+dividir.
+
+535ccdd7-b97d-4002-bdbb-09ef39ea3acb-0
+00:42:53.640 --> 00:42:54.510
+Mhm.
+
+ab57a771-e1c2-44b0-840a-a8754211b3ed-0
+00:42:56.690 --> 00:43:00.256
+Mecánico, pelo porque yo creo
+que el sistema más fácil va a
+
+ab57a771-e1c2-44b0-840a-a8754211b3ed-1
+00:43:00.256 --> 00:43:03.822
+ser el de adopción, no porque va
+a ser así como que nadamas
+
+ab57a771-e1c2-44b0-840a-a8754211b3ed-2
+00:43:03.822 --> 00:43:07.150
+catálogo o blog, por así
+decirlo, ajá lo editaría. Pero
+
+ab57a771-e1c2-44b0-840a-a8754211b3ed-3
+00:43:07.150 --> 00:43:09.350
+puedo ir editando todo lo del
+Login.
+
+99145477-10a0-46ec-b28c-b84a79fe5371-0
+00:43:11.090 --> 00:43:14.495
+Como ya les había dicho que para
+el staff ya estaba filtrado si
+
+99145477-10a0-46ec-b28c-b84a79fe5371-1
+00:43:14.495 --> 00:43:17.368
+eran estafa o no, puedo
+agregarle si es veterinaria y
+
+99145477-10a0-46ec-b28c-b84a79fe5371-2
+00:43:17.368 --> 00:43:20.401
+los datos que piden y editar
+todo eso para ya no más y a
+
+99145477-10a0-46ec-b28c-b84a79fe5371-3
+00:43:20.401 --> 00:43:21.200
+tener el login.
+
+92cd8e79-c718-436b-aa1a-4ec10ff3761c-0
+00:43:24.330 --> 00:43:29.513
+Este y ese del el sistema que yo
+tengo también tiene alta y
+
+92cd8e79-c718-436b-aa1a-4ec10ff3761c-1
+00:43:29.513 --> 00:43:31.500
+categoría de productos.
+
+a519efc5-b968-4c5f-afef-f4609644c362-0
+00:43:34.020 --> 00:43:35.560
+¿Pero eso sería en el ecommerce,
+no?
+
+15c52529-b260-4e2b-97b6-583954bb67bf-0
+00:43:36.290 --> 00:43:39.224
+Ajá, sí, o sea, mi idea era así
+como rollo porque si tiene
+
+15c52529-b260-4e2b-97b6-583954bb67bf-1
+00:43:39.224 --> 00:43:41.960
+tutorial, si como dividirnos
+entre 2 en el e commerce.
+
+706b90d6-7e3d-4c31-b75a-66c7c6d15b19-0
+00:43:42.530 --> 00:43:44.410
+O 1 en el ecommerce porque
+tienen tutorial.
+
+986566c0-c071-4d9b-8eba-052259c8e2f4-0
+00:43:45.280 --> 00:43:48.910
+Y poner dos y dos o dos, dos y
+1.
+
+f5da1c43-6cac-4388-a650-c5b9f1e7d6de-0
+00:43:52.340 --> 00:43:53.140
+No sé cómo ven.
+
+90d0db62-c967-474e-8587-e0b4a848377e-0
+00:43:56.970 --> 00:43:58.320
+No, pues como ustedes quieran.
+
+36e113a3-09a7-4670-ae75-406214c374fa-0
+00:44:02.080 --> 00:44:03.510
+También me parece bien la idea.
+
+e8a4810a-69c0-43ee-9f23-fa06732a8fed-0
+00:44:06.200 --> 00:44:08.180
+O sea, dos en el ecommerce.
+
+2f9e456a-8014-4b22-a099-d5eaa29ff9bb-0
+00:44:08.990 --> 00:44:10.350
+¿Pues sí, o como?
+
+e48dd159-01d5-4666-9ded-1a1a6edb3324-0
+00:44:12.590 --> 00:44:14.120
+Oh OK, pues si 1 dijo no.
+
+3136759c-9568-4f28-9994-c3bbda2deada-0
+00:44:14.770 --> 00:44:18.580
+Dos en el comercio, dos en en
+veterinarias y 1 en opción.
+
+32618b70-1f00-48b5-9c98-ebd0d877a9f2-0
+00:44:21.110 --> 00:44:22.200
+Mhm.
+
+968f33dd-8a00-4e7c-9d7f-8ecc3c376fae-0
+00:44:30.970 --> 00:44:34.625
+Pues sí, pero va a ser un poco
+complicado para los que no
+
+968f33dd-8a00-4e7c-9d7f-8ecc3c376fae-1
+00:44:34.625 --> 00:44:35.760
+tengan tutoriales.
+
+da79253a-c17f-4c99-be5c-56c595746ed8-0
+00:44:38.020 --> 00:44:40.212
+Hacerlos como desde cero, por
+ejemplo, los que hagan el
+
+da79253a-c17f-4c99-be5c-56c595746ed8-1
+00:44:40.212 --> 00:44:42.210
+ecommerce, pues nada más van a
+seguir el tutorial.
+
+5b65b8ac-e9b9-4005-9373-81933339a9af-0
+00:44:46.330 --> 00:44:48.502
+Pero, por ejemplo en los
+catálogos, pues sí hay
+
+5b65b8ac-e9b9-4005-9373-81933339a9af-1
+00:44:48.502 --> 00:44:49.000
+tutoriales.
+
+aa8dfc32-bc0e-48b4-9c00-17446e2b9850-0
+00:44:50.350 --> 00:44:51.910
+Nada más cambiar el dominio.
+
+bcc85db1-b095-4d16-ba57-486ef74f9812-0
+00:44:54.220 --> 00:44:56.894
+Tal vez el más difícil va a ser
+el de las veterinarias. Yo
+
+bcc85db1-b095-4d16-ba57-486ef74f9812-1
+00:44:56.894 --> 00:44:59.750
+pienso que el del así, pues el
+de Veterinaria porque esa lleva
+
+bcc85db1-b095-4d16-ba57-486ef74f9812-2
+00:44:59.750 --> 00:45:01.110
+la API de Maps y la del Inegi.
+
+74d6cd2b-c035-4621-a9a4-ce93cf48bae8-0
+00:45:09.330 --> 00:45:12.180
+Pues sí, investigar, ir,
+investigando eso.
+
+7bd36c6b-ffa8-4f9a-89b7-c27c3b2d5b7c-0
+00:45:17.310 --> 00:45:18.610
+Pero pues no, no sé.
+
+f99ce9e4-c9ad-415d-94b3-87ca342dcc1c-0
+00:45:23.950 --> 00:45:25.030
+Bueno, hagamos.
+
+d0836394-f31e-4b10-a864-dfa8fb7a3b66-0
+00:45:27.190 --> 00:45:27.700
+¿Esto?
+
+1ed5055e-75ee-4ba4-8514-18db2679b3a2-0
+00:45:32.950 --> 00:45:34.100
+¿Qué color le pongo verde?
+
+86f78242-c1a6-4837-a948-c57781555144-0
+00:45:35.520 --> 00:45:36.060
+Pero decir.
+
+b7c24d5a-b018-4285-8930-c1f9ad2c8c76-0
+00:45:39.800 --> 00:45:41.880
+¿Y cómo lo tengo?
+
+f7621906-31f2-4ea2-b814-2239c8341fdd-0
+00:45:52.390 --> 00:45:53.660
+¿Sí sería adopción, verdad?
+
+c9bed7b8-1fc3-4e96-9b76-7689c01667af-0
+00:45:55.030 --> 00:45:55.500
+¿Cómo sería?
+
+8f22972c-389b-47af-b74d-98da72f2a281-0
+00:45:58.180 --> 00:45:59.980
+Quería Posada adoption.
+
+19065732-5eaf-4981-a1f9-0bc6ada3eafb-0
+00:46:00.680 --> 00:46:03.180
+Si verdad, pulsado opción.
+
+4d0a3df6-f0da-474c-a600-d7a9ffcd9b98-0
+00:46:08.370 --> 00:46:13.660
+No, sí sería adopción y tendría
+lo de datos.
+
+edbc5f33-7984-4c0e-ae85-1ed1f1d45268-0
+00:46:16.000 --> 00:46:16.730
+Ay, no sé.
+
+3f499ead-18fa-4687-9063-e7c75a1e1032-0
+00:46:20.070 --> 00:46:21.830
+A ver si sería post.
+
+08615549-0698-4e5f-8118-1160ae574247-0
+00:46:26.710 --> 00:46:31.150
+Adopción tendría como un get
+este.
+
+9422adaa-8f00-4631-ae10-64c241174a38-0
+00:46:33.570 --> 00:46:34.620
+Adopciones no.
+
+2315804e-4b66-4f33-acca-94c1c361b0f1-0
+00:46:44.720 --> 00:46:46.790
+Usad Option tendría.
+
+7ef85ef5-a56e-4cbc-b0f2-81bab2efaf28-0
+00:46:50.870 --> 00:46:52.900
+Mhm Aidi.
+
+4678bb3d-6f94-4128-8071-361facaa1568-0
+00:46:54.330 --> 00:47:12.930
+
+
+8add9c7f-70ae-490e-99a0-f68fff0a5f47-0
+00:47:23.080 --> 00:47:24.970
+¿Cómo sería edad?
+
+1257882d-cd6b-45bb-82a1-a94dddc8264e-0
+00:47:28.330 --> 00:47:29.780
+Edge AGE.
+
+5dce61c6-4283-4a22-a8d0-fbd81edf27d8-0
+00:47:31.330 --> 00:47:49.810
+
+
+733b23c5-8cb5-40b6-84ff-69249292b064-0
+00:47:52.610 --> 00:47:54.530
+Mackie más date.
+
+d03761e0-3762-4bc9-8364-4c629c9679e7-0
+00:47:56.480 --> 00:47:59.410
+¿Cómo? ¿Y Game Stream Game?
+
+408694fb-61b6-4a25-a5e7-c858a079e2ad-0
+00:48:00.860 --> 00:48:02.660
+Como dato.
+
+ea468021-badd-4f04-979d-ea9da8ef7dbe-0
+00:48:03.860 --> 00:48:04.320
+¿Es eso?
+
+acb0ad8c-516e-4029-b199-67223da023b0-0
+00:48:05.470 --> 00:48:06.200
+¿La fecha?
+
+fd810dd8-0160-45b1-a046-f33bc351bf00-0
+00:48:10.530 --> 00:48:13.280
+¿La fecha de la publicación?
+
+10af8125-0a00-4447-8198-1929a054504e-0
+00:48:14.960 --> 00:48:18.370
+Sí, sí. La fecha en la que se
+hizo el posteo.
+
+c5d2b3c8-2966-4e2b-b069-66d0e74cdd5e-0
+00:48:26.210 --> 00:48:27.110
+¿Dónde estaba este?
+
+199eb7d2-d3bd-4a76-b343-cadd0b75734e-0
+00:48:30.570 --> 00:48:31.360
+Si lo ponemos.
+
+c0d2c10f-8c37-4802-8e46-2840b8788e37-0
+00:48:35.400 --> 00:48:36.250
+¿La fecha?
+
+4c37fb61-1014-458e-9a93-798bd916a173-0
+00:48:37.870 --> 00:48:41.650
+Sino para que la gente sepa
+cuándo pusieron AA al animalito
+
+4c37fb61-1014-458e-9a93-798bd916a173-1
+00:48:41.650 --> 00:48:44.170
+que tal día que si quieren 1 más
+joven.
+
+a9694e02-48a0-4bcb-928d-20da1802bcf5-0
+00:48:45.870 --> 00:48:46.440
+Bueno, sí.
+
+35f433f9-d841-4112-8e08-ee2df47d2e67-0
+00:48:50.760 --> 00:48:52.090
+¿Y cómo haríamos eso?
+
+c3328f18-5c64-45fb-b1f5-75efea6e0142-0
+00:48:57.520 --> 00:48:59.690
+¿Cómo sacamos la fecha en
+automático?
+
+aaf82054-cd12-42bb-a78f-26bdff04be29-0
+00:49:02.850 --> 00:49:03.450
+No.
+
+9d7ae3aa-4b7d-4fda-8267-e7aea1970af1-0
+00:49:06.690 --> 00:49:08.840
+¿Alguien ha hecho algo así? ¿O
+sea como que?
+
+1a8055d3-5970-4342-860c-bdd690f565f5-0
+00:49:11.950 --> 00:49:15.180
+En un sistema de comentarios
+algo como la fecha o algo así.
+
+1e37da97-9129-4905-8765-b6b8cacab679-0
+00:49:18.500 --> 00:49:18.850
+No.
+
+00eec128-86c5-4306-a4d3-198e2fdcc704-0
+00:49:19.530 --> 00:49:20.000
+No.
+
+55f3be06-3fe6-4318-8f2e-11261ee064c8-0
+00:49:22.060 --> 00:49:22.780
+No.
+
+2b00e4e2-7051-4c4d-8f45-1dd0e354b97c-0
+00:49:26.860 --> 00:49:30.606
+Es que la fecha, la fecha de la
+publicación, dice, si el
+
+2b00e4e2-7051-4c4d-8f45-1dd0e354b97c-1
+00:49:30.606 --> 00:49:31.330
+comentario.
+
+b0a5b993-bbd9-4ab4-9a3c-5c14d62f4ca9-0
+00:49:32.090 --> 00:49:32.600
+Ajá.
+
+f9fe3230-6cba-4d44-85bd-435ed228a40d-0
+00:49:35.380 --> 00:49:38.110
+O sea, que se genere
+automáticamente sería.
+
+9fd01314-3de0-492e-899d-6d3b663d2f37-0
+00:49:41.410 --> 00:49:44.881
+Yo en mi sistema hizo bueno para
+las imágenes, necesitaba poner
+
+9fd01314-3de0-492e-899d-6d3b663d2f37-1
+00:49:44.881 --> 00:49:45.370
+la fecha.
+
+3066fb4d-0d95-4160-88ac-7c27eb31df51-0
+00:49:47.120 --> 00:49:47.710
+Y la hora.
+
+27c832d4-a9ef-4849-ad61-38ce90b60697-0
+00:49:49.310 --> 00:49:50.850
+Así que sí, creo que se obtiene
+fácil.
+
+1abfc04e-16f7-4a06-b249-f599b869b3bf-0
+00:49:53.220 --> 00:49:54.390
+Como que fecha y hora.
+
+9f354de8-30bc-440e-a8d3-d9913e986d5a-0
+00:49:56.040 --> 00:49:59.044
+La fecha a llorar, la que es es
+que se refieren a la fecha, la
+
+9f354de8-30bc-440e-a8d3-d9913e986d5a-1
+00:49:59.044 --> 00:50:00.570
+que hace el comentario, no, ajá.
+
+de09545a-df55-481a-bda6-03cc0acb01b3-0
+00:50:01.450 --> 00:50:01.870
+Ajá.
+
+7ac56dc0-f01f-40ee-aa21-d5762f359d71-0
+00:50:02.450 --> 00:50:04.850
+Pues tenía como la fecha en la
+que subías la foto.
+
+1e0eec86-afc1-40b3-8a64-3e7e7c150512-0
+00:50:05.770 --> 00:50:06.460
+En el que hice.
+
+dda65e20-5d18-4344-9361-9626b687cbb6-0
+00:50:08.270 --> 00:50:10.150
+Y se mostraba la fecha y hora.
+
+64286c7f-6a68-4cb5-8e1f-b7febe5d5f3e-0
+00:50:11.180 --> 00:50:13.850
+¿Para la o sea, era como una
+cadena para la IDI?
+
+4c6302fd-7004-4799-bd62-a47cd6515435-0
+00:50:14.950 --> 00:50:16.770
+Pero pues si se generaba el
+texto.
+
+cfcca1f6-5198-45e6-804a-50e308f7548c-0
+00:50:25.670 --> 00:50:26.930
+Pues no sé, ustedes digan.
+
+0fa359c3-5763-4fe1-9657-56537cf897a8-0
+00:50:35.320 --> 00:50:38.970
+A ver, ahí adoption y Ay, Ay de
+adoption.
+
+b47730d8-bcc3-4c82-9d1b-1a09b3cbc120-0
+00:50:40.000 --> 00:50:42.310
+¿Vamos a poner categorías ahí en
+la adopción?
+
+3cb97812-f739-4a46-a38e-47218aa95d68-0
+00:50:44.200 --> 00:50:45.850
+Categorías, ajá.
+
+f7ec84ba-8e85-446c-90f5-f16b3574356d-0
+00:50:47.560 --> 00:50:48.450
+Ay, yo pienso que no.
+
+85ad2761-9b51-4340-a7d2-d90cb5b9f718-0
+00:50:49.110 --> 00:50:50.970
+No me acuerdo si las que habían
+saliendo todos.
+
+cbb826c2-905a-4b0d-b65a-00a460e22ee2-0
+00:50:51.570 --> 00:50:57.112
+Este iOS y yo digo que sí. Sí se
+puso porque el profe cuando se
+
+cbb826c2-905a-4b0d-b65a-00a460e22ee2-1
+00:50:57.112 --> 00:51:02.741
+fue la mano nos dijo que que era
+como un catálogo, o sea, puedes
+
+cbb826c2-905a-4b0d-b65a-00a460e22ee2-2
+00:51:02.741 --> 00:51:05.080
+utilizarlo de category PET.
+
+9b070c30-d0b0-4a48-94c7-c15181c5fa4f-0
+00:51:05.860 --> 00:51:06.310
+Pues sí.
+
+67c1b32e-5828-4f5f-9da3-9a0bf290d095-0
+00:51:08.110 --> 00:51:10.789
+¿Pero está canijo, y qué tal?
+¿Si alguien quiere subir un
+
+67c1b32e-5828-4f5f-9da3-9a0bf290d095-1
+00:51:10.789 --> 00:51:11.390
+Perico, güey?
+
+57816f3f-a465-43bd-b509-64750ae26787-0
+00:51:12.570 --> 00:51:19.516
+No, pues no se va a poder PA ni
+modo, pues aquí está pájaros hay
+
+57816f3f-a465-43bd-b509-64750ae26787-1
+00:51:19.516 --> 00:51:24.540
+una opción que diga otro, otros
+miscellaneous.
+
+deb9dd85-1853-4830-924e-cabbcc13fe55-0
+00:51:28.150 --> 00:51:30.100
+Oh OK, este.
+
+f4244336-aaee-4ea3-9719-61b32ce45ce3-0
+00:51:30.970 --> 00:51:34.753
+Ahí mande mi correo para que
+para que mande la invitación
+
+f4244336-aaee-4ea3-9719-61b32ce45ce3-1
+00:51:34.753 --> 00:51:35.080
+este.
+
+7e61d909-6d83-4115-80df-66d4aedc199e-0
+00:51:38.850 --> 00:51:41.060
+Donde ella dijo a el chat del.
+
+639051c8-242f-4f92-8515-74124303bba7-0
+00:51:42.610 --> 00:51:47.117
+¿Ahora 40, ahorita queda al chat
+de y nos faltan otras 5 partes y
+
+639051c8-242f-4f92-8515-74124303bba7-1
+00:51:47.117 --> 00:51:51.420
+lo peor no, y luego mañana yo
+tengo que llegar a las 8:00 h de
+
+639051c8-242f-4f92-8515-74124303bba7-2
+00:51:51.420 --> 00:51:55.449
+la mañana, a cual Janet al
+Facebook puede Facebook para lo
+
+639051c8-242f-4f92-8515-74124303bba7-3
+00:51:55.449 --> 00:51:58.250
+de la investigación? ¿Tal paso
+por aquí?
+
+275b2dde-6b76-4113-b49a-cbaa8b5438e6-0
+00:52:00.930 --> 00:52:02.420
+Ya la agarraste, ya la
+agarraste.
+
+0b832bd2-619b-4f34-9f87-b5a590ea3dda-0
+00:52:20.210 --> 00:52:25.740
+¿Ok? ¿Sería IDP nombre edad?
+Foto, yo digo que si llega.
+
+cd1ecc89-5fdb-4f5f-9f91-a75f8f826246-0
+00:52:27.290 --> 00:52:28.270
+Categoría, pues no.
+
+9c8e25ba-0eb4-4000-96ad-02c96e313977-0
+00:52:29.620 --> 00:52:30.830
+Gracias a Category PET.
+
+7953c1a6-7fea-4ca6-baa2-6520e336f057-0
+00:52:31.560 --> 00:52:32.140
+Mhm.
+
+42eda1ca-457a-406d-9aa5-30e104a6b715-0
+00:52:33.180 --> 00:52:33.700
+Tamaño.
+
+4044d49f-c50f-4222-ae02-388caa7d9bb2-0
+00:52:34.850 --> 00:52:38.215
+¿Este la la te acuerdas? ¿La
+rescatista no dijo que era
+
+4044d49f-c50f-4222-ae02-388caa7d9bb2-1
+00:52:38.215 --> 00:52:41.340
+porque hay que hay que añadir 1
+de descripción, no?
+
+fd4cac3d-4436-49a5-8ca8-74553004a203-0
+00:52:42.090 --> 00:52:42.380
+
+
+afe8f6f4-9ddf-48bd-a219-c5f2197ee8bd-0
+00:52:43.400 --> 00:52:47.230
+Para que ahí ahí pongan, así
+como de que no, pues señas
+
+afe8f6f4-9ddf-48bd-a219-c5f2197ee8bd-1
+00:52:47.230 --> 00:52:51.266
+particulares, aunque se vean las
+fotos, no, no, mejor está
+
+afe8f6f4-9ddf-48bd-a219-c5f2197ee8bd-2
+00:52:51.266 --> 00:52:55.576
+enfermo ajá. ¿O de que no? Pues
+lo recogimos así. ¿Y asa o ajá
+
+afe8f6f4-9ddf-48bd-a219-c5f2197ee8bd-3
+00:52:55.576 --> 00:52:59.270
+es lo que lo que te enfermo no
+ves de su ojo derecho?
+
+70103907-5205-4ea7-a9a3-11109d388082-0
+00:53:00.020 --> 00:53:04.198
+¿Enfermo PA? Ajá, sí, sí, pues
+estás enfermo para no, pues es
+
+70103907-5205-4ea7-a9a3-11109d388082-1
+00:53:04.198 --> 00:53:07.500
+que se supone que en teoría
+estamos hablando de.
+
+ef0ba4e5-7ab0-4e98-af54-a98bb8420afb-0
+00:53:08.470 --> 00:53:12.975
+Perritos rescatados no todos van
+a dejar un puro Pastor alemán,
+
+ef0ba4e5-7ab0-4e98-af54-a98bb8420afb-1
+00:53:12.975 --> 00:53:16.989
+padrino, así dijo la rescatista
+ver si con un phaser que
+
+ef0ba4e5-7ab0-4e98-af54-a98bb8420afb-2
+00:53:16.989 --> 00:53:18.889
+atropellen full que Huawei.
+
+0e7d47af-a134-47c7-af68-c9ea78e2935c-0
+00:53:20.420 --> 00:53:22.170
+Amor, paso.
+
+691eb0ea-2107-455d-81d2-446a19be4de8-0
+00:53:27.710 --> 00:53:31.767
+Pero ahí dijeron, que te pusiste
+sentimental con el rescatista
+
+691eb0ea-2107-455d-81d2-446a19be4de8-1
+00:53:31.767 --> 00:53:35.759
+Adrián es, y si no, pues muchas
+gracias no, y la otra es como
+
+691eb0ea-2107-455d-81d2-446a19be4de8-2
+00:53:35.759 --> 00:53:38.400
+otra media hora y hablamos
+igual, toser.
+
+cc866ca5-a957-4803-ad4c-00b674e819bf-0
+00:53:45.050 --> 00:53:48.460
+¿Katherine Xq me dijeron la
+descripción?
+
+505f31aa-3477-4dfa-b320-f443c399804e-0
+00:53:53.810 --> 00:53:57.771
+Se pasó de lanza y anda y vamos
+a colgar y luego no, pues yo
+
+505f31aa-3477-4dfa-b320-f443c399804e-1
+00:53:57.771 --> 00:53:58.940
+creo que yo opino.
+
+22edefaf-4904-4900-8a55-7b0aa3c71255-0
+00:54:01.830 --> 00:54:04.140
+Oh, OK, y que me de la mariposa.
+
+19806271-9e38-458b-9534-b776037778df-0
+00:54:07.480 --> 00:54:08.460
+Eso me da mucha risa.
+
+2d41e2ce-fdd7-4d8b-822f-638c539f4a9a-0
+00:54:09.310 --> 00:54:13.405
+¿Quién más había pensado raza?
+Está bien, hace como raza, y si
+
+2d41e2ce-fdd7-4d8b-822f-638c539f4a9a-1
+00:54:13.405 --> 00:54:17.240
+no, pues hay que pongan los
+otros. O no siento que sí está
+
+2d41e2ce-fdd7-4d8b-822f-638c539f4a9a-2
+00:54:17.240 --> 00:54:21.270
+bien. ¿Bueno, como diría, cómo
+sería raza? ¿Claro rescatista,
+
+2d41e2ce-fdd7-4d8b-822f-638c539f4a9a-3
+00:54:21.270 --> 00:54:25.235
+nos dijo no, pues la neta nomas
+pónganlo por tamaños, cierto
+
+2d41e2ce-fdd7-4d8b-822f-638c539f4a9a-4
+00:54:25.235 --> 00:54:29.395
+bendice eso? Tamaños y yo creo
+que es el mejor tamaño, qué raza
+
+2d41e2ce-fdd7-4d8b-822f-638c539f4a9a-5
+00:54:29.395 --> 00:54:32.840
+que que tan mal luego El País
+tienen puro Chihuahua.
+
+f6b58618-84ee-4341-9501-dfaa78938b10-0
+00:54:34.520 --> 00:54:35.090
+Sí.
+
+ed4958d3-c885-40b5-9fcb-1543fd1e191b-0
+00:54:35.940 --> 00:54:36.880
+¿Qué más?
+
+a686dc1f-643f-483f-a66e-9309da7cd2dd-0
+00:54:38.530 --> 00:54:40.140
+¿Datos de Mascota?
+
+22ccc579-aa74-40b7-9e71-ab91177ac671-0
+00:54:40.800 --> 00:54:45.330
+Descripción, OK y luego este.
+
+657ae496-d3a6-46a7-9ec8-72f226613182-0
+00:54:48.100 --> 00:54:49.690
+Eso lo hace el customer.
+
+bbd520fa-b9db-4428-8faf-40cd08bbea7f-0
+00:54:52.010 --> 00:54:55.720
+El costumbre hace petición de
+adopción.
+
+28fcb056-7ef9-403a-8a38-fa5529518439-0
+00:55:02.740 --> 00:55:05.040
+A él, al staff válida.
+
+ab034038-71e9-4e01-bf74-5e3249c0b87d-0
+00:55:06.180 --> 00:55:08.840
+¿No Harías nada? Esta no válida
+la la adopción.
+
+61c7fc67-8a2b-4098-8e36-853e6f4b24b0-0
+00:55:09.790 --> 00:55:11.090
+¿Sí, sí, no?
+
+6a849a2a-8237-4b86-88e4-66c1777ddf33-0
+00:55:14.000 --> 00:55:18.030
+Voy a tener que desordenar esto,
+ahorita lo ordeno, mira, soy
+
+6a849a2a-8237-4b86-88e4-66c1777ddf33-1
+00:55:18.030 --> 00:55:18.680
+achinados.
+
+498679f1-31ee-4ed1-b322-ca9b7bb02571-0
+00:55:21.280 --> 00:55:23.750
+Él es push adoption.
+
+45c076a2-e5da-42da-974f-a9ac8c2d6711-0
+00:55:25.330 --> 00:55:29.000
+Este que sería agregación o
+composición.
+
+c7eb4c21-11c2-4c90-ab51-2fc20772ff4f-0
+00:55:29.900 --> 00:55:31.170
+Agregación.
+
+ea1f985d-0ecf-4a03-9162-7fa73a77e61f-0
+00:55:31.730 --> 00:55:34.960
+Sería éste, no el el este, el
+tren. Agregación.
+
+ad2e30a3-8107-43fd-99d7-1b6caba05a0e-0
+00:55:36.500 --> 00:55:37.310
+El transparente.
+
+2c734a8b-3f30-44a3-bec9-df0028db87be-0
+00:55:39.860 --> 00:55:40.200
+Shiva.
+
+1497fd77-0fe1-44b1-a4bc-215c9fae720b-0
+00:55:41.000 --> 00:55:45.046
+Mhm, sí, sí, agregaciones el
+transparente, verdad que sí,
+
+1497fd77-0fe1-44b1-a4bc-215c9fae720b-1
+00:55:45.046 --> 00:55:46.790
+agrégame el transparente.
+
+9e4e90eb-7813-4f62-a205-f6cedf79e683-0
+00:55:48.330 --> 00:55:49.490
+Lo estoy intentando.
+
+961cb600-1c1c-4f9c-a66d-4a79cff30106-0
+00:55:53.640 --> 00:55:58.302
+Ok esto, pues no sé nada, así
+que otra tabla puede tener a ver
+
+961cb600-1c1c-4f9c-a66d-4a79cff30106-1
+00:55:58.302 --> 00:55:59.190
+si quedamos.
+
+5b07caee-db1b-409e-a7f4-8b85da7a25b9-0
+00:56:02.330 --> 00:56:03.560
+Ver producto.
+
+5b72394e-06b3-4965-a46f-87b6ff9a0b22-0
+00:56:05.750 --> 00:56:06.790
+¿Que serían estos?
+
+ea4bcb4f-8731-40d2-8806-f3535920392f-0
+00:56:08.230 --> 00:56:10.380
+Ay, porque anoche comprar
+producto.
+
+4913f82c-d9ff-4381-a1b6-e80154a9b305-0
+00:56:11.080 --> 00:56:13.040
+No hay prob bien sería.
+
+36b298b5-b4e8-4d1f-a812-8b6b7131947e-0
+00:56:15.270 --> 00:56:21.125
+Comprar producto más bien sería
+comprar carrito, no algo así que
+
+36b298b5-b4e8-4d1f-a812-8b6b7131947e-1
+00:56:21.125 --> 00:56:25.180
+tienes a tu kart y lo del
+karting check out.
+
+68e76725-dc74-46a1-97c6-118ac7bcb67f-0
+00:56:26.040 --> 00:56:28.310
+Entonces creo que no más
+quitarlo, no, aunque pueda
+
+68e76725-dc74-46a1-97c6-118ac7bcb67f-1
+00:56:28.310 --> 00:56:29.140
+agregar al carrito.
+
+a4eda551-3065-4275-aa65-c577d9de953b-0
+00:56:30.410 --> 00:56:33.630
+Pero no, pero la orden ya tiene
+lo de pediment.
+
+11c67428-a3fb-4048-a454-01b40d3c1227-0
+00:56:34.510 --> 00:56:37.540
+¿Hacer una orden, generar una
+orden, no?
+
+ff4b3b61-b8c0-4e16-932f-480092e2b77f-0
+00:56:42.480 --> 00:56:43.540
+¿Tengo todo esto mal?
+
+4488bba2-c2cf-4306-93a9-89b9f805cf74-0
+00:56:44.910 --> 00:56:46.610
+¿O las mayúsculas?
+
+c7b9c234-3faa-429a-9dad-5755c71a2c5c-0
+00:57:04.100 --> 00:57:05.370
+Generar una orden.
+
+c649c1b3-2d8a-4e2e-b8c3-4325bedb55e8-0
+00:57:07.560 --> 00:57:08.050
+Creo que sí.
+
+4159923f-1aad-4f0c-ab6d-80bb358a40b3-0
+00:57:09.780 --> 00:57:12.230
+A ver, tenemos ver productos,
+acá está.
+
+fa640e29-d793-4dc3-972b-1489c5640ac1-0
+00:57:13.900 --> 00:57:14.600
+Pago.
+
+17962c20-8cb1-43a8-90d2-7d9bd4bc8d4a-0
+00:57:16.020 --> 00:57:17.170
+Oe Soria en el carrito.
+
+a2b72556-57d0-4a0f-91d1-1e2420fb9948-0
+00:57:18.290 --> 00:57:21.760
+¿Y cuando haces un check out se
+genera una orden más bien no?
+
+e6f55868-70d7-45a1-88f7-ed378300557e-0
+00:57:23.360 --> 00:57:26.920
+Pues si la orden no está hasta
+que si más bien el carro, el
+
+e6f55868-70d7-45a1-88f7-ed378300557e-1
+00:57:26.920 --> 00:57:29.710
+carrito, el carrito es el que
+genera la orden.
+
+97f47b0f-a6ef-4055-87cc-852dd1507eb1-0
+00:57:31.590 --> 00:57:35.390
+Que entonces sería make card
+orden.
+
+0504dbb6-1b3d-430e-abb5-07c463d18fe6-0
+00:57:36.830 --> 00:57:40.472
+No, entendí no sé, no sería como
+de que el el carrito general
+
+0504dbb6-1b3d-430e-abb5-07c463d18fe6-1
+00:57:40.472 --> 00:57:43.822
+check out y el Chicago general
+la orden sí. O sea, el el
+
+0504dbb6-1b3d-430e-abb5-07c463d18fe6-2
+00:57:43.822 --> 00:57:46.760
+general va a ir en el carrito de
+carrito a orden.
+
+698e4934-5aeb-45ee-9251-6992766dd055-0
+00:57:48.250 --> 00:57:48.760
+¿O key?
+
+69f0641d-64bc-461b-9698-c677e2f20005-0
+00:57:52.780 --> 00:57:54.130
+¿En serio, Eduardo?
+
+9f197ea0-8df5-420f-a040-b828b43c4953-0
+00:57:54.760 --> 00:57:58.502
+A en add to cart, más bien sería
+you just no, o sea, porque usar
+
+9f197ea0-8df5-420f-a040-b828b43c4953-1
+00:57:58.502 --> 00:58:00.230
+todas las funciones que tiene.
+
+ad491be7-5517-40d3-aa2c-ffc50a55677d-0
+00:58:02.250 --> 00:58:03.020
+Pues sí, más bien.
+
+23ab21b2-52c6-45e0-9c89-36ccc480be2a-0
+00:58:04.090 --> 00:58:06.240
+¿O más bien una función que se
+llame kart?
+
+6310246a-6383-4100-b5ea-0aab2ceb14ce-0
+00:58:07.580 --> 00:58:09.110
+¿Oyes, carnal, sí?
+
+1610f372-fb43-48a6-b901-e2dbf3f8dc1f-0
+00:58:12.420 --> 00:58:15.420
+La invitación me tiene que dar
+un correo bien, ello o.
+
+fac8d90f-bddc-48ec-b331-ad58991f94ad-0
+00:58:16.750 --> 00:58:19.965
+Porque hay, intente iniciar y
+pues no me deja el correo,
+
+fac8d90f-bddc-48ec-b331-ad58991f94ad-1
+00:58:19.965 --> 00:58:20.360
+revisa.
+
+b6610584-0c9a-4eee-863a-35303a642f83-0
+00:58:21.510 --> 00:58:23.430
+¿No, no me ha llegado, no te
+llegó?
+
+2eef0a4c-ba48-4326-8ccd-8a0bd6cac361-0
+00:58:24.070 --> 00:58:25.670
+No, sí, Pues bien, tú.
+
+ceaab6bd-dd03-4f1e-a490-9a04c11f43c2-0
+00:58:27.100 --> 00:58:27.710
+Sí tuve.
+
+2f98157c-6484-4b04-8183-c1a1e248f34c-0
+00:58:38.410 --> 00:58:39.930
+O sea, no te dejan ni abrir.
+
+ebf2ed0a-4027-43d4-a0e7-83c920cb6ae6-0
+00:58:43.290 --> 00:58:45.860
+A ver, aquí, pues el link
+intenta entrar desde ese link.
+
+31799b56-bc6d-47a8-b73b-c71a956a1ce5-0
+00:58:49.190 --> 00:58:54.080
+Es a ver ahora si me repiten, o
+sea este lo pongo aquí.
+
+e282dd91-4ef8-4e11-9cfb-d2a6cd9b7d05-0
+00:58:54.730 --> 00:58:56.540
+Ajá, o sea, cuando haces un
+check out.
+
+4454f23b-00e3-4d6e-bef4-140a261074ab-0
+00:58:57.150 --> 00:58:58.160
+Se genera una orden.
+
+afe447a6-9811-45c4-b0ca-396597b37d5c-0
+00:58:59.450 --> 00:58:59.980
+Ajá.
+
+4d335731-6e42-4932-a1ed-70044775c00b-0
+00:59:01.050 --> 00:59:04.140
+No, pero un carrito genera una
+orden.
+
+2e514025-f5c5-4750-8dc1-b5064554f3b0-0
+00:59:05.350 --> 00:59:06.760
+O sea, el check out genera un
+orden.
+
+9664b79f-ad43-4427-95d6-17ca40d7881b-0
+00:59:09.760 --> 00:59:12.947
+Mhm es que tiene que pasar ese
+evento para que se genere una
+
+9664b79f-ad43-4427-95d6-17ca40d7881b-1
+00:59:12.947 --> 00:59:16.135
+orden porque pues en general
+hasta que porque pues señorita,
+
+9664b79f-ad43-4427-95d6-17ca40d7881b-2
+00:59:16.135 --> 00:59:19.218
+lo que quieras es tu carrito,
+pero hasta que no pagas pues
+
+9664b79f-ad43-4427-95d6-17ca40d7881b-3
+00:59:19.218 --> 00:59:22.040
+genera la orden. O sea, el check
+out genera la orden.
+
+1f085e72-c135-4246-b619-b0be14ee68f1-0
+00:59:22.830 --> 00:59:24.580
+Cosa, pero yo creo, no es pagar
+solamente.
+
+46554214-afcd-4df9-988f-b1fe51a49bd2-0
+00:59:25.830 --> 00:59:29.707
+Ah, no, no. ¿Pero IA todo ese
+tipo de de cuestión de a qué
+
+46554214-afcd-4df9-988f-b1fe51a49bd2-1
+00:59:29.707 --> 00:59:33.453
+dirección inversa checate es
+cuando ya le pones, ajá, en
+
+46554214-afcd-4df9-988f-b1fe51a49bd2-2
+00:59:33.453 --> 00:59:37.725
+Amazon pagar, por ejemplo? Ajá,
+sí, pero no necesariamente pagar
+
+46554214-afcd-4df9-988f-b1fe51a49bd2-3
+00:59:37.725 --> 00:59:41.997
+de que ya se cobre, sino pagar,
+de que sí. O sea, que te mandan.
+
+46554214-afcd-4df9-988f-b1fe51a49bd2-4
+00:59:41.997 --> 00:59:43.640
+¿Sí, sí, a qué dirección?
+
+9f75a56e-d507-4d3d-83eb-cd7023eadfee-0
+00:59:44.270 --> 00:59:44.580
+Ajá.
+
+8e7a6915-9cc6-4d7c-9687-906fea924e1e-0
+00:59:46.630 --> 00:59:47.600
+Hoy porque está muy cerca.
+
+54172e36-1866-40ab-8ec8-90035a06b252-0
+00:59:49.830 --> 00:59:51.650
+Es que no bely.
+
+8155f0a6-f194-472f-a19c-413333c74d9f-0
+00:59:51.700 --> 00:59:52.340
+Salmon.
+
+3761b06e-38a1-449b-919f-6b90b68ab48f-0
+00:59:54.900 --> 00:59:56.020
+Me duelen.
+
+0f1cace2-2ddb-476d-858b-d72d682ab636-0
+01:00:06.410 --> 01:00:08.330
+¿Ok, entonces?
+
+93104b6b-8cad-42ec-a05f-3b29fae683ff-0
+01:00:10.260 --> 01:00:13.380
+Este en carrito genera una
+orden.
+
+ca5780f9-7036-4c55-a391-5b871622a9f7-0
+01:00:14.890 --> 01:00:15.650
+Así está bien.
+
+fd7ed03b-134e-48da-82ce-0bef61d06c2e-0
+01:00:20.990 --> 01:00:26.170
+Y luego, el usuario genera un
+pausa de opción aunque seguimos
+
+fd7ed03b-134e-48da-82ce-0bef61d06c2e-1
+01:00:26.170 --> 01:00:27.340
+editando este.
+
+735883fa-c80e-4b3c-9691-f1d478c62c3f-0
+01:00:28.530 --> 01:00:31.300
+Entonces, tenemos ver productos
+y este que era.
+
+898cfc39-813e-4800-b7d1-9778fcb1535c-0
+01:00:32.920 --> 01:00:33.610
+Me.
+
+fff199b9-720d-40e4-a932-06892f2ce000-0
+01:00:36.170 --> 01:00:39.390
+A era Mac Mac APP no es lo
+quitamos.
+
+e238ccaf-2e8c-4fa8-b84f-c46adae8421c-0
+01:00:40.020 --> 01:00:42.170
+¿O porque están en la verdad?
+
+679dee00-53e7-4b12-b226-f5949f7ad5b2-0
+01:00:42.950 --> 01:00:45.380
+Y luego usa el carrito.
+
+fef1c7cc-d1d8-4b8a-9166-ad022c3caa92-0
+01:00:48.170 --> 01:00:51.750
+¿Tener un post nos falta este
+ver veterinarias?
+
+48cd8e36-6b5f-405c-9303-5e108b3551a4-0
+01:00:52.590 --> 01:00:53.070
+Hasta.
+
+151df475-a258-47da-8709-6989105e15da-0
+01:00:53.770 --> 01:00:56.500
+Incluso en hacer una cita.
+
+cfe941d9-c789-433b-a70e-cc8465429105-0
+01:00:57.370 --> 01:00:58.740
+Es que para adoptar.
+
+dfdc54a0-365d-411f-bf08-86d2a8cf9917-0
+01:01:00.050 --> 01:01:03.991
+¿Qué necesitas necesitas? ¿O
+sea, ya no formulario no? Cuando
+
+dfdc54a0-365d-411f-bf08-86d2a8cf9917-1
+01:01:03.991 --> 01:01:04.500
+x hitos.
+
+ff72a43b-600a-469d-bae2-53c429d61989-0
+01:01:05.990 --> 01:01:08.660
+No, no lo pusimos así, nomas no
+pasaron así.
+
+988e5294-f6c7-4326-b180-dac836433276-0
+01:01:09.340 --> 01:01:12.850
+Mostraron los datos. ¿Por
+ejemplo, quieres adaptar la
+
+988e5294-f6c7-4326-b180-dac836433276-1
+01:01:12.850 --> 01:01:16.555
+plaza, un botón y te salen los
+datos de la persona a OK?
+
+988e5294-f6c7-4326-b180-dac836433276-2
+01:01:16.555 --> 01:01:20.780
+¿Entonces va a estar fácil hacer
+este verdad? Sí, porque dijimos
+
+988e5294-f6c7-4326-b180-dac836433276-3
+01:01:20.780 --> 01:01:22.730
+no, pues más más. Caso de uso.
+
+9d5f5310-ad20-4ef2-bffb-f678edfddb47-0
+01:01:25.400 --> 01:01:30.780
+¿Entonces me voy, pues nada más
+sería una función, no?
+
+76019845-0946-4e11-b56e-344a429fcf5b-0
+01:01:33.550 --> 01:01:35.570
+Ajá, lema que.
+
+8d9e9e3b-c591-4177-8576-766a2df7e900-0
+01:01:37.990 --> 01:01:39.180
+El bien, si te dejo abrirlo.
+
+a3c1784a-6b72-4ad5-8b34-6e98a0eee890-0
+01:01:42.730 --> 01:01:44.720
+Pues incluso puedes hacer una
+herencia ahí.
+
+18e2c7ab-7d65-4c80-b787-f0fa390c1712-0
+01:01:47.730 --> 01:01:50.770
+¿O una función del post adoption
+no mhm?
+
+fd5b59c5-2d0c-419a-b8aa-742768ba9ab1-0
+01:01:57.050 --> 01:01:58.550
+Que sea view Contact.
+
+1390a6d3-58a3-493c-97e9-a1abd4c37076-0
+01:02:00.710 --> 01:02:02.320
+¿Una función entonces?
+
+c8a900e6-815f-40fc-b1d3-fa5943437c83-0
+01:02:04.050 --> 01:02:05.680
+Si un método no, con.
+
+6c5fa97e-be5c-4d4d-933a-ea64d4220de2-0
+01:02:06.720 --> 01:02:07.670
+Pos a nuestra.
+
+53da4d69-0636-4294-998d-8d9ae21964c2-0
+01:02:09.590 --> 01:02:12.700
+Y le quitamos el post adopción,
+la adopción.
+
+f0cb0789-667c-4875-ab8f-cfce3d9caf31-0
+01:02:16.260 --> 01:02:16.930
+Mhm.
+
+fb91da5e-1395-4ecb-8186-85d29884e57b-0
+01:02:18.290 --> 01:02:21.553
+No, mejor que si herede porque
+esto sería como para publicar
+
+fb91da5e-1395-4ecb-8186-85d29884e57b-1
+01:02:21.553 --> 01:02:23.640
+todo lo que deben tener para
+publicar.
+
+153d551e-743e-46af-bd75-2be41263d7a3-0
+01:02:24.250 --> 01:02:25.930
+Y luego heredamos.
+
+78af5764-bd2e-493a-9bf7-8575298179f3-0
+01:02:26.620 --> 01:02:28.630
+¿Con todo esto, pero qué vas a
+heredar?
+
+161e0641-4bf8-45ed-934b-a60f352a51a7-0
+01:02:29.530 --> 01:02:33.258
+Todos los Ah, no es que cuando
+heredas solamente heredas los
+
+161e0641-4bf8-45ed-934b-a60f352a51a7-1
+01:02:33.258 --> 01:02:36.743
+atributos, o sea, no das los
+datos que están en él en la
+
+161e0641-4bf8-45ed-934b-a60f352a51a7-2
+01:02:36.743 --> 01:02:37.110
+clase.
+
+224b2d2d-bdb9-4ca6-91a0-901149558c10-0
+01:02:39.370 --> 01:02:42.580
+Nadie en agregación. No, no,
+mejor o no composición.
+
+e2252a57-0d83-4270-bc0c-15069253e16a-0
+01:02:43.770 --> 01:02:47.022
+Una que la hace que sea es que
+no necesitas una clase así, no
+
+e2252a57-0d83-4270-bc0c-15069253e16a-1
+01:02:47.022 --> 01:02:47.180
+sé.
+
+c234097a-fcf0-45de-897a-cddf90951ad1-0
+01:02:48.320 --> 01:02:49.280
+Me sigo poniendo en ese.
+
+9643fd86-0327-43d9-aea9-501c4fdbc732-0
+01:03:03.280 --> 01:03:04.770
+Ay, no sé.
+
+047182fc-ae8a-4c83-a905-1560ac147188-0
+01:03:15.000 --> 01:03:16.940
+A ver para hacer una adopción.
+
+e0b048c1-f5e3-4b34-a474-3464f03bf0b9-0
+01:03:19.870 --> 01:03:22.600
+¿Para postear una función?
+
+f23a6286-23c9-4753-9eca-84b589781a11-0
+01:03:23.720 --> 01:03:24.590
+Y una adopción.
+
+7060ec26-a92f-4087-bc36-4dd2cd1b1e9b-0
+01:03:25.530 --> 01:03:26.560
+¿Haces esto?
+
+2e18df80-b500-4cd0-8b9b-4d5bd68d0710-0
+01:03:27.600 --> 01:03:30.330
+Y luego, como dices, no nos
+sirve heredar.
+
+f6c8793d-722f-4792-980b-a01f89440484-0
+01:03:33.140 --> 01:03:33.710
+Pero.
+
+46b5c7a3-e47c-42e6-b97d-95ed34a28c63-0
+01:03:38.280 --> 01:03:38.830
+No sé.
+
+e540e88a-f089-4b6e-ae23-9c3b5e1c9629-0
+01:03:39.910 --> 01:03:41.480
+Es que estas, pues es que.
+
+db70b585-56b6-4a0f-8b63-7515df572d1a-0
+01:03:42.720 --> 01:03:44.990
+No sé cómo ponerlo ni yo.
+
+944c9638-eff8-427a-a2f0-9a07bda53fb5-0
+01:03:46.790 --> 01:03:50.240
+Porque osea, si es un botón,
+digamos un botón que ya quiero
+
+944c9638-eff8-427a-a2f0-9a07bda53fb5-1
+01:03:50.240 --> 01:03:50.700
+adoptar.
+
+34135a98-75be-42af-8eda-ecf9193823ba-0
+01:03:51.550 --> 01:03:52.530
+Y luego te sale.
+
+7b14d489-cc4e-4cb9-b97d-ef7769d35ef3-0
+01:03:54.140 --> 01:03:54.890
+El contacto.
+
+f56dd0a7-7edb-495a-9fab-dd3ab6474247-0
+01:03:56.700 --> 01:03:58.980
+¿Ah, y si ponemos una clase que
+sea?
+
+73ea3175-3d81-41b3-8030-084dfaa23752-0
+01:04:05.440 --> 01:04:07.980
+La otra vez que voy a estar
+borrando todo eso.
+
+0760fe3e-6ba5-43aa-b5f8-3ca55735ce82-0
+01:04:11.510 --> 01:04:13.550
+Que nada más sea así como.
+
+f1292ebd-fd4c-4e4f-9172-01a0f3578c50-0
+01:04:16.150 --> 01:04:18.030
+Que extraería los datos.
+
+d5bc1e67-729d-4a9f-9ae9-990a1b288d9b-0
+01:04:18.660 --> 01:04:19.030
+¿Qué?
+
+29b07377-0d04-4913-990f-47605d507ed0-0
+01:04:20.610 --> 01:04:22.290
+Del el.
+
+66664c67-b42d-438b-bdd2-7cb9a5ea9c40-0
+01:04:23.290 --> 01:04:24.210
+Del que es tomar.
+
+a0e51153-c063-4f24-bd67-c70cad1c3690-0
+01:04:28.680 --> 01:04:29.850
+¿Oigan, sí, cómo hacemos eso?
+
+878d2304-c9c0-40d4-ac39-17735e7b5d85-0
+01:04:30.890 --> 01:04:33.430
+Por ejemplo, vamos a mostrar los
+datos del.
+
+13b6ae34-1862-4297-af52-2f1571f6c404-0
+01:04:34.530 --> 01:04:37.080
+Es que cuando cuando.
+
+0a9c174c-321f-42f3-80c2-8c03e38ba324-0
+01:04:37.630 --> 01:04:39.920
+¿O sea, en la adopción debemos
+poner también unos datos no? ¿O
+
+0a9c174c-321f-42f3-80c2-8c03e38ba324-1
+01:04:39.920 --> 01:04:41.520
+sea, poner los datos a la
+persona entonces?
+
+e3ddfe08-9c1c-43ab-add0-e37a3164dd6d-0
+01:04:42.350 --> 01:04:47.140
+Pues los números ajá. El número
+de teléfono de quien da.
+
+70acb707-1315-4dae-a3a5-6e5609d889ce-0
+01:04:49.140 --> 01:04:50.350
+El correo también.
+
+b0fc2c95-cab9-4be7-8d23-103d4bd78f98-0
+01:04:56.160 --> 01:04:58.420
+Pero hay que ser manual, o sea,
+no extraerlo de otra clase.
+
+19ada503-9a42-4b1e-9cc8-aaccc8332421-0
+01:05:01.160 --> 01:05:01.590
+Me.
+
+86b4a8f5-3e70-411b-b4f0-84a93d993fea-0
+01:05:02.170 --> 01:05:03.670
+Porque tengo el niño así.
+
+5affc69f-21a0-49ce-a8e9-867019067f8b-0
+01:05:04.470 --> 01:05:05.530
+Nel.
+
+affbe8d9-4874-4771-bb94-30bb64f6e8ac-0
+01:05:07.860 --> 01:05:09.250
+¿Neymar Stream latín?
+
+2944abec-3ce3-449d-8fb0-3e7341aa9edf-0
+01:05:10.050 --> 01:05:11.620
+¿Hay otra vez este?
+
+cef5394f-aae4-4311-89c2-cd340388f45b-0
+01:05:14.460 --> 01:05:21.430
+Y entonces sería name, como
+sería name, dueño name.
+
+348e967e-af9a-4bc2-9f8e-31586aea3c35-0
+01:05:27.690 --> 01:05:30.980
+¿Así está todo en inglés? Owner
+Owner.
+
+c45585b2-8932-46b6-949c-d60c34231361-0
+01:05:31.790 --> 01:05:35.480
+¿Como escribe o doble UNR?
+
+de083d83-18d7-4baa-88c2-ca97637d9ced-0
+01:05:37.320 --> 01:05:37.760
+¿Asi?
+
+b61420a4-075b-443a-a3f1-0e149996171f-0
+01:05:38.740 --> 01:05:40.060
+Sí, ajá.
+
+12dbe4b0-98d8-410e-92cd-66e32d445b29-0
+01:05:42.950 --> 01:05:44.360
+Pon owner.
+
+15156de5-0c3d-4621-9ef6-448369781130-0
+01:05:47.210 --> 01:05:48.420
+Y.
+
+db80e860-1a10-45e0-9534-c5c49832e7e5-0
+01:05:50.340 --> 01:05:51.250
+Número de teléfono.
+
+fc873b81-1727-44fa-986d-0c8bc669485a-0
+01:05:52.110 --> 01:06:11.290
+
+
+7ba6edca-5dff-4b27-b10a-7d012679307e-0
+01:06:13.510 --> 01:06:14.070
+¿Quién más?
+
+47377b9a-63d3-4d5d-bdf1-e51fb972af15-0
+01:06:15.430 --> 01:06:16.060
+Email.
+
+826c0326-46a7-4c91-997c-07ab01552d1c-0
+01:06:18.090 --> 01:06:18.500
+Oh OK.
+
+3ca75ee4-654a-4cb2-9451-991736507a91-0
+01:06:22.160 --> 01:06:23.260
+Que qke, dijeron.
+
+567bb1bb-c026-4953-8992-ffad801c86f5-0
+01:06:26.730 --> 01:06:27.160
+No.
+
+16c04bb8-5d15-4efb-90dc-ce0f8ff0cacc-0
+01:06:28.290 --> 01:06:32.240
+¿Nombre, número y así no?
+
+01de153d-f6f4-4125-adc4-b3d8e054a4d1-0
+01:06:33.740 --> 01:06:34.050
+Ajá.
+
+967d4789-22c9-4b58-96af-399bb2f73542-0
+01:06:36.400 --> 01:06:37.070
+Y luego.
+
+11d4f02a-d1d2-4508-a73c-45f4242d8f67-0
+01:06:38.380 --> 01:06:40.300
+Si hace una adopción.
+
+38744558-3b5e-4ee8-8d10-ef1ed137b748-0
+01:06:41.350 --> 01:06:43.650
+Y luego gett. ¿Todos estos
+datos, no?
+
+612b88e8-5f1f-4620-be5a-91571b4ac25f-0
+01:06:44.360 --> 01:06:45.950
+Si saben get ajá, sí.
+
+4c3b3b00-6ac7-4251-9a12-e23f11adafa1-0
+01:06:49.730 --> 01:06:51.980
+Pareciera un método ahí no, no.
+
+e7395f94-046f-40e6-ab86-d13ee40770e0-0
+01:06:53.110 --> 01:06:56.201
+O sea, no es que la web es que
+no hay sangre y no necesita ser
+
+e7395f94-046f-40e6-ab86-d13ee40770e0-1
+01:06:56.201 --> 01:06:58.410
+visto, ya te voy a mostrar todos
+estos, ajá.
+
+9edc8091-24de-4e1e-9083-2beaeb55c477-0
+01:07:01.030 --> 01:07:02.110
+No denso u.
+
+ea343524-bd45-4461-aced-daee1b75e5e7-0
+01:07:03.640 --> 01:07:04.970
+¿No sería bueno?
+
+27c3ceaa-8837-4246-8936-3f959a58a0ba-0
+01:07:09.560 --> 01:07:12.440
+Al tiene que tiene que validar
+el STOP.
+
+eec663d2-3108-4c2a-90dc-18dabbde4cb6-0
+01:07:13.750 --> 01:07:17.584
+Ah, no válida no más en el lado
+pasión post. ¿Entonces lo voy a
+
+eec663d2-3108-4c2a-90dc-18dabbde4cb6-1
+01:07:17.584 --> 01:07:20.160
+quitar, OK? Es más fácil quitar
+que poner.
+
+ac509760-5131-4c00-9dc9-d260339431fb-0
+01:07:21.630 --> 01:07:22.060
+Key.
+
+1e3fd84c-6909-48e6-ad09-60f84d472b83-0
+01:07:24.330 --> 01:07:24.980
+¿Por qué dicen?
+
+eee292cd-7b7a-4103-b7e8-585553b5f559-0
+01:07:25.660 --> 01:07:27.310
+No, pero sí, sí, sí. O sea, si
+lo hace.
+
+f460b9a1-1704-445c-9263-3066cf82e469-0
+01:07:28.280 --> 01:07:29.230
+No hace falta quitarlo.
+
+36337deb-5bef-40b2-8b9c-23bf72fdf1d8-0
+01:07:30.190 --> 01:07:31.160
+Pero aplicar.
+
+7210ac9b-bbaa-4d99-bd50-972e7c8515ef-0
+01:07:32.980 --> 01:07:36.590
+Apply to así, no antes de
+quitarla no había visto ese.
+
+25bc523a-fe0e-4e3f-bb82-e8a7ac369da3-0
+01:07:40.170 --> 01:07:41.910
+¿Alguien lo puede borrar del?
+
+c59c653f-1501-4e56-a0e7-41ad2a55269a-0
+01:07:42.670 --> 01:07:43.560
+Él es RS.
+
+9d52edc7-dc31-45bd-add9-13bb7bb35384-0
+01:07:49.290 --> 01:07:50.920
+Nada más. Es como una línea.
+
+6754d762-b776-47a9-8c05-01a80e68c043-0
+01:08:01.440 --> 01:08:03.200
+No hay, no hay lobo roca.
+
+19283151-8578-422f-95db-3e12e2cd5c2c-0
+01:08:06.290 --> 01:08:07.000
+Green.
+
+fa5f7cef-d042-4f88-814a-8cea8ec86304-0
+01:08:10.040 --> 01:08:11.200
+¿Estás dónde estás?
+
+b66762ba-3f23-4637-aa01-fa26945a6534-0
+01:08:16.770 --> 01:08:19.630
+¿Pues, la entidad relación va a
+ser muy parecido al diagrama de
+
+b66762ba-3f23-4637-aa01-fa26945a6534-1
+01:08:19.630 --> 01:08:20.480
+clases, la primera?
+
+6b960b32-00ca-4c5a-9a80-792507dfc8af-0
+01:08:24.630 --> 01:08:26.120
+¿Iría esto?
+
+9bc02198-5b53-4676-acbc-84188f3f7d72-0
+01:08:30.560 --> 01:08:31.320
+Hasta eso sí.
+
+d6f60143-ddf2-42ff-a55b-cf938c961d4a-0
+01:08:33.910 --> 01:08:34.820
+Ya va a estar más fácil.
+
+c2e26c64-d8cd-462b-b6c8-297d54c2f2e6-0
+01:08:52.690 --> 01:08:54.540
+Hoy lo que no quería andar así.
+
+8f7707e8-f9f4-4eb8-bdd5-bd79894aeac2-0
+01:08:59.460 --> 01:08:59.930
+Estoy.
+
+f1b91773-f4b5-4c33-9e0c-6100d70a889b-0
+01:09:05.760 --> 01:09:10.095
+Se acabó el proyecto Ejecutivo,
+imagínense el día que entregamos
+
+f1b91773-f4b5-4c33-9e0c-6100d70a889b-1
+01:09:10.095 --> 01:09:11.230
+el proyecto, hay.
+
+dc306224-70b3-4c9c-8910-1cc7b7df0b4c-0
+01:09:12.900 --> 01:09:17.055
+Que agusto te hace no manches,
+estar felices. Pues eso sí
+
+dc306224-70b3-4c9c-8910-1cc7b7df0b4c-1
+01:09:17.055 --> 01:09:17.700
+acabamos.
+
+f870c737-7bd0-4830-8ee7-50a51e0f598a-0
+01:09:19.710 --> 01:09:23.777
+Hasta el 24 y todavía haciendo
+el de Floyd a las 15:00 H de la
+
+f870c737-7bd0-4830-8ee7-50a51e0f598a-1
+01:09:23.777 --> 01:09:27.393
+tarde. Ay, no, no, no podemos
+hacer eso, aunque se rían
+
+f870c737-7bd0-4830-8ee7-50a51e0f598a-2
+01:09:27.393 --> 01:09:31.268
+siguamos experiencia vamos a
+hacer, pero no quiero, hay que
+
+f870c737-7bd0-4830-8ee7-50a51e0f598a-3
+01:09:31.268 --> 01:09:34.690
+pensarlo, no lo piensen,
+disfruten estos días porque
+
+f870c737-7bd0-4830-8ee7-50a51e0f598a-4
+01:09:34.690 --> 01:09:36.240
+ahorita estamos tranqui.
+
+587cf56e-da0a-4d89-8eb6-f53e6433ecc8-0
+01:09:43.600 --> 01:09:47.170
+¿Cuántas pinches emos editado
+los casos de mis ojos?
+
+c3963f87-bbf0-4f2a-97a2-9fece38e9ae3-0
+01:09:47.870 --> 01:09:49.920
+Estoy harto de ver este pinche
+drama.
+
+b90ccea7-d6d0-402a-a9e2-b57818dd3a4f-0
+01:09:54.900 --> 01:09:56.450
+Sueño con este verdad.
+
+d18787ab-f439-401b-836a-95ccea4119f2-0
+01:09:58.340 --> 01:10:00.805
+O cuando estamos viendo la
+página web, yo sí he soñado con
+
+d18787ab-f439-401b-836a-95ccea4119f2-1
+01:10:00.805 --> 01:10:01.390
+las funciones.
+
+c5f09ecf-cb94-4c1c-b865-fb99a74a282b-0
+01:10:03.060 --> 01:10:07.570
+Y así soñado varias veces con el
+profe últimamente, pero que que
+
+c5f09ecf-cb94-4c1c-b865-fb99a74a282b-1
+01:10:07.570 --> 01:10:11.873
+me regañen no, no tiene sentido.
+Esta mezcla se escucha medio
+
+c5f09ecf-cb94-4c1c-b865-fb99a74a282b-2
+01:10:11.873 --> 01:10:12.220
+raro.
+
+3c28fbc7-2a49-485d-b03a-07f64afd8522-0
+01:10:14.310 --> 01:10:14.990
+Pero es verdad.
+
+d0e395f9-59ac-4cc4-9dc2-20ade1faae94-0
+01:10:16.090 --> 01:10:16.600
+Ajá.
+
+4d0ab0a4-f7cf-4b58-98b6-9dfb9b3d1a47-0
+01:10:21.190 --> 01:10:23.870
+A ver, alguien me auxilie aquí
+que borró.
+
+da2e8d5e-4833-4fe4-8c28-cfd8113e0927-0
+01:10:25.120 --> 01:10:29.957
+¿Pero son los customers? Deben
+buscar si hay una. Hay puestos
+
+da2e8d5e-4833-4fe4-8c28-cfd8113e0927-1
+01:10:29.957 --> 01:10:31.050
+de adopciones.
+
+9dd4fe08-4a47-4df4-a096-5750b6d3ee09-0
+01:10:32.070 --> 01:10:32.980
+Para aplicar.
+
+4c7de873-127a-4056-a423-21082c1f7e92-0
+01:10:37.470 --> 01:10:40.810
+¿Dios qué tal? ¿El play? Lo dejó
+leer.
+
+a7d799b1-0ac9-4d33-8275-991fbdfcb969-0
+01:10:41.970 --> 01:10:42.970
+Tu contacto.
+
+bedc34f0-294c-4642-adca-4e0ab32a5fe5-0
+01:10:43.890 --> 01:10:44.470
+D.
+
+08b28a3a-ffc9-4849-988c-d943e7add1fa-0
+01:10:48.550 --> 01:10:48.920
+Pues sí.
+
+77bddb3c-cf4a-4e84-b8be-3b42450232e7-0
+01:10:50.380 --> 01:10:54.770
+To Contact dioner, cual le dio
+quitarle to adopt.
+
+78c31eca-754c-4633-adec-afb3be36ef81-0
+01:11:04.550 --> 01:11:06.460
+¿No, sí, sería para adoptar, no?
+
+a2a0e700-4000-4e6f-b949-4d99d464868f-0
+01:11:07.420 --> 01:11:09.810
+Post to contacte a una.
+
+96d28279-3fb9-4361-9fca-bb0764e71e34-0
+01:11:12.760 --> 01:11:14.910
+De un alto grado de PET no.
+
+0865dda9-fc15-459a-bdd5-6e7c19d83a44-0
+01:11:17.250 --> 01:11:17.550
+1.
+
+a5a81d1a-1045-4a58-a8fc-175f513d94ea-0
+01:11:19.020 --> 01:11:20.400
+¿Es que es medio redundante, no?
+
+19bd0dcb-57d3-404a-a97a-77a23a704034-0
+01:11:21.720 --> 01:11:22.090
+Aquí.
+
+3d3adcff-2da4-43fa-be65-890d95c3da05-0
+01:11:25.110 --> 01:11:26.990
+¿Entonces Quito? P también
+nuestro.
+
+15cd29e8-16bd-4511-910c-21e6827abdc2-0
+01:11:28.460 --> 01:11:28.940
+Ajá.
+
+7164f3a1-c452-488f-b8e7-d26cf525e884-0
+01:11:32.310 --> 01:11:35.212
+Ok ya, ánimo, ánimo ya, casi
+acabamos que ya me duele la
+
+7164f3a1-c452-488f-b8e7-d26cf525e884-1
+01:11:35.212 --> 01:11:35.620
+espalda.
+
+97faa239-af32-4a31-beb8-17c8b789b3cb-0
+01:11:37.960 --> 01:11:41.130
+Y pues ya entonces Quito está.
+
+b42cfee5-1c6a-46a6-b6bf-c0099578d76e-0
+01:11:43.110 --> 01:11:43.610
+Si verdad.
+
+5f8a64d0-4ac0-49cd-bf7f-09d582e65a46-0
+01:11:45.840 --> 01:11:47.610
+Le de.
+
+f349b73b-3d95-4cf9-a7cd-b3624316cfc8-0
+01:11:48.420 --> 01:11:50.280
+¿Ay lo duplique no?
+
+dab87714-3368-4848-a902-829ce2063b47-0
+01:11:54.770 --> 01:11:57.480
+Creo que ya sí ya.
+
+ce107a5a-3b45-4872-8dd0-71b848299727-0
+01:11:59.200 --> 01:11:59.820
+Y a vivir.
+
+f2d8bf78-5ef7-40c1-a987-6f2e3ca609da-0
+01:12:00.480 --> 01:12:01.410
+Así quedó chido.
+
+662a2d6c-701c-4800-be16-824332254c87-0
+01:12:02.110 --> 01:12:04.905
+Sí, sí queda lindo, nada más lo
+voy a editar para que no se vea
+
+662a2d6c-701c-4800-be16-824332254c87-1
+01:12:04.905 --> 01:12:06.390
+todo sueco, pero así va a
+quedar.
+
+20c0b15f-9f87-47cf-b1ac-9bd3f027458d-0
+01:12:08.130 --> 01:12:11.160
+Sí pues, ya no más este.
+
+e7978d0e-048c-4890-af94-73f2c4fab532-0
+01:12:12.060 --> 01:12:15.880
+Pues si quieren, para terminar
+el jueves ya encargarnos del
+
+e7978d0e-048c-4890-af94-73f2c4fab532-1
+01:12:15.880 --> 01:12:18.300
+este día relación y Business
+process.
+
+b196b0b2-9496-4d90-a15a-22931f96073a-0
+01:12:19.280 --> 01:12:21.000
+No el jueves.
+
+f0007c4b-8377-44b3-9d83-1f7a26883c77-0
+01:12:21.690 --> 01:12:22.470
+Pauline.
+
+a1b708f7-e07a-456f-af1b-de54b5971434-0
+01:12:23.370 --> 01:12:24.260
+Platicado que.
+
+870d4377-0ed3-4b18-bdf9-56919dee5e8f-0
+01:12:24.810 --> 01:12:27.700
+Que, como ya había dicho que yo
+hacía el D.
+
+cae9089f-e7a6-40cb-8709-6788caf35ddf-0
+01:12:28.770 --> 01:12:35.045
+El de la base de datos, dijo, él
+me iba a ayudar, o sea, como
+
+cae9089f-e7a6-40cb-8709-6788caf35ddf-1
+01:12:35.045 --> 01:12:35.450
+vea.
+
+77382698-b083-4367-a2c6-5b8ac5cb9d2b-0
+01:12:36.560 --> 01:12:39.896
+Sí, está bien si quieres los
+demás nos encargamos del
+
+77382698-b083-4367-a2c6-5b8ac5cb9d2b-1
+01:12:39.896 --> 01:12:41.380
+Business process. A ver.
+
+2ce5552e-4f53-4c5e-a929-5a37568ee7bf-0
+01:12:42.530 --> 01:12:44.740
+¿Los voy a asignar aquí, de
+acuerdo?
+
+f05d4d2d-353a-4dae-b187-733d576a96d7-0
+01:12:49.800 --> 01:12:51.030
+Como asignamos gente.
+
+d9db61e3-4254-4c54-b527-95ca6b2c2513-0
+01:12:52.730 --> 01:12:53.940
+A vuélvele a dar.
+
+bc5f89d9-41a8-440f-aa05-0b113e0d0417-0
+01:12:55.370 --> 01:12:55.640
+No.
+
+db4ff3c7-dcb0-4381-8ffb-5d750945d571-0
+01:12:56.910 --> 01:12:57.420
+Yo creo que.
+
+52ef84ff-af6b-4da1-9a42-eab9e946b547-0
+01:13:07.650 --> 01:13:08.680
+No.
+
+93f1af2c-8bff-4dc6-9e20-d01e24d179ce-0
+01:13:11.570 --> 01:13:12.680
+A los dos te agrego Adrián.
+
+1f35f000-beeb-42f8-8b09-8b59d98f1b49-0
+01:13:13.820 --> 01:13:15.650
+¿Pues si no sé cuál es, cuál la
+verdad?
+
+6bc1ebdc-5475-40c7-bc9a-d9b4f7eee36c-0
+01:13:20.380 --> 01:13:24.310
+Voy a poner esto completado, ya
+lo pongo, si ya.
+
+8c81fe65-2f75-4c55-a04b-0f2b74d9a37c-0
+01:13:25.090 --> 01:13:25.390
+Sí.
+
+9197ef1c-d51d-4a96-b9fb-5b00a3c35cd2-0
+01:13:26.960 --> 01:13:31.080
+Apéndice hoy no manches, ya casi
+acabamos.
+
+25be8021-4d24-4c86-b499-2a93a8a60b60-0
+01:13:33.180 --> 01:13:39.592
+Iba a decir interesante ya casi
+acabando que era para él, para
+
+25be8021-4d24-4c86-b499-2a93a8a60b60-1
+01:13:39.592 --> 01:13:40.610
+el 18, sí.
+
+99ea1b3c-d747-44dd-9538-db098b5ab492-0
+01:13:43.100 --> 01:13:46.613
+Pero y así, ya les dije al
+principio, hasta el 25, no, no
+
+99ea1b3c-d747-44dd-9538-db098b5ab492-1
+01:13:46.613 --> 01:13:49.460
+es un tiempo, vamos a acabar
+2827, no manches.
+
+3b36d6f0-f41a-4cf1-b87e-212dbf529425-0
+01:13:51.230 --> 01:13:51.760
+Qué feo.
+
+3348b330-d81a-4471-8fc2-a118382cd0b0-0
+01:13:52.370 --> 01:13:53.800
+Qué triste, pero.
+
+19eea808-4ff8-46bc-a330-f0c7dfda0a5b-0
+01:13:55.550 --> 01:13:58.615
+Pero pues nos sirvió para saber
+que tenemos que cortar un chingo
+
+19eea808-4ff8-46bc-a330-f0c7dfda0a5b-1
+01:13:58.615 --> 01:13:59.040
+de cosas.
+
+e97cf7af-6c20-44a5-b56d-29e3ed8b1a53-0
+01:13:59.610 --> 01:14:03.744
+Este no está bien. Si te
+invitamos bien, yo creo, si la
+
+e97cf7af-6c20-44a5-b56d-29e3ed8b1a53-1
+01:14:03.744 --> 01:14:08.395
+la verdad que esta es el profe,
+sentí que no nos regaña mal, o
+
+e97cf7af-6c20-44a5-b56d-29e3ed8b1a53-2
+01:14:08.395 --> 01:14:12.898
+sea, nos da retroalimentación,
+ajá, sí, hoy con nosotros, si
+
+e97cf7af-6c20-44a5-b56d-29e3ed8b1a53-3
+01:14:12.898 --> 01:14:16.590
+soportar sin no, pero cuando
+desde la vez pasada.
+
+91ca92d3-0797-4012-8e95-ff71726f7191-0
+01:14:17.290 --> 01:14:19.040
+Sí, yo también lo sentí así.
+
+08e08be5-a893-4bde-ae0e-998ecdb50432-0
+01:14:21.710 --> 01:14:23.130
+Es así, sentí como que.
+
+d8a6def3-0930-4786-aa4f-e30a784d7b03-0
+01:14:24.970 --> 01:14:27.270
+Es que nuestros sistemas está
+robusto, o sea, si son.
+
+a319d0d0-f3ce-4690-a455-851f4084dfee-0
+01:14:28.790 --> 01:14:33.182
+¿Es tan grande la verdad como
+dicen? Hemos tardado, pero le
+
+a319d0d0-f3ce-4690-a455-851f4084dfee-1
+01:14:33.182 --> 01:14:34.280
+hemos dedicado.
+
+41abe955-1fab-4a7f-98af-7aab84ca3cff-0
+01:14:35.710 --> 01:14:37.130
+Estamos haciendo bien las cosas.
+
+ba035298-e33f-4888-8bad-537ce54f4381-0
+01:14:40.030 --> 01:14:45.290
+Lento pero seguro y lo todo mal,
+no del jueves, no ahora.
+
+629ff886-3952-4967-910c-c1ea53fc986b-0
+01:14:45.570 --> 01:14:47.220
+Arruinaron todo el diagrama de
+clase.
+
+cbb66880-05ac-4cc1-8c59-73aa4453c082-0
+01:14:48.920 --> 01:14:50.940
+No veo concordancia.
+
+6d53c06f-07d6-4470-a301-3a238d138236-0
+01:14:55.360 --> 01:14:55.800
+Bueno.
+
+f28f61df-48cd-4119-92f5-ed978877df35-0
+01:14:57.300 --> 01:15:00.010
+Ya duerman, pues esto.
+
+3b2faeb4-155b-405d-8a10-2ae9bccaab58-0
+01:15:03.130 --> 01:15:06.975
+Bueno, ahí nos vemos, le voy a
+dictar normas para que se vea
+
+3b2faeb4-155b-405d-8a10-2ae9bccaab58-1
+01:15:06.975 --> 01:15:08.740
+mejor y lo subo, pero si va.
+
+6a194f28-e9bd-4472-acfe-910e5dc0a9d0-0
+01:15:10.140 --> 01:15:10.440
+¿Vale?
+
+bdee0d1f-d0a2-4022-93dd-a94bcca97151-0
+01:15:11.370 --> 01:15:11.920
+Sal, sal.
+
+093c2f84-de79-46d7-995f-e95d2fd6b464-0
+01:15:13.780 --> 01:15:17.090
+Bueno, ahí nos vemos, bye, nos
+vemos.
+
+c4bfa60b-3e35-4604-9d41-1466dad08e2e-0
+01:15:18.050 --> 01:15:18.570
+Bye bye.
+
+4889ae35-48fa-4ebf-be01-53a81f1d00f6-0
+01:15:19.570 --> 01:15:20.010
+Bye.
+
+725ba2e7-8db0-429b-8d28-f1425fa266f5-0
+01:15:20.840 --> 01:15:40.040

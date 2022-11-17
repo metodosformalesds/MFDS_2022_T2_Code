@@ -1,0 +1,17 @@
+Documentación psra utilizar el navbar------------
+
+1. Instalar boostrap en consola con el comando:
+npm install bootstrap@3
+
+2. Instalar Node js
+3. Instalar sass con el comando :
+npm install -g sass
+
+4. Instalar en VS code la extension:
+Live Sass code Compiler
+
+5. Mover los archivos "App.js" y "App.scss" a src
+
+
+
+
