@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-%9x61)&7dc5^j@e5r0ge#b1tdbnjlm6tzn#d2hhe$8k8_ko^)=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://e-commerce-vetpet.azurewebsites.net/']
 
 
 # Application definition
