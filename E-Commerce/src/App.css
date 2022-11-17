@@ -23,7 +23,7 @@
   font-weight: 40;
   line-height: 1.5;
   color: #a10e0e;
-  background-color: #ffffff;
+  background-color: #FFC107;
   background-clip: padding-box;
   border: 3px solid #ffffff;
   appearance: none;
@@ -49,5 +49,11 @@
 }
 
 .Card{
-  background-color: #ffffff;
+  background-color: #1a4ea3;
+  --bs-card-color:#1a4ea3;
+}
+
+.bodyy{
+  background-color: #1a4ea3;
+  --bs-card-color:#1a4ea3;
 }

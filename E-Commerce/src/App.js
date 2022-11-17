@@ -1,9 +1,10 @@
 import {Container} from 'react-bootstrap'
 import Header from './components/Header'
-import Footer from './components/Footer'
+import Searchbar from './components/Searchbar'
 import {BrowserRouter as Router} from 'react-router-dom'
 import Homescreen from './screens/Homescreen.js'//SE IMPORTA EL MODELO HOMESCREEN, EL CUAL CONTIENE LAS CARDS QUE MUESTRAN LA INFORMACIÓN DE LOS PRODUCTOS
 import './App.css';
+
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 //no terminada aun
@@ -36,10 +37,9 @@ export default function App() {
         </div>
         
       </nav>
-
-    
-          
-        <Container><Homescreen></Homescreen></Container>  
+        <div className="p-5"></div>
+        <div className='p-5'>
+        <Container><Homescreen></Homescreen></Container>  </div>
     </div></Router>
     
   );

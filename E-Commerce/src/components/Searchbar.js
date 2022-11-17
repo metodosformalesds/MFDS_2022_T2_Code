@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { Button, Form } from 'react-bootstrap'
-import { useHistory } from 'react-router-dom'
-
+import { useNavigate } from 'react-router-dom'
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 function Searchbar() {
     const [keyword, setKeyword] = useState('')
-
-    let history = useHistory()
+    
+    let history = useNavigate()
 
     const submitHandler = (e) => {
         e.preventDefault()
@@ -16,21 +16,26 @@ function Searchbar() {
         }
     }
     return (
-        <Form onSubmit={submitHandler} inline>
+        <Form onSubmit={submitHandler} inline bg-warning>
             <Form.Control
                 type='text'
                 name='q'
                 onChange={(e) => setKeyword(e.target.value)}
-                className='mr-sm-2 ml-sm-5'
+                className='mr-sm-2 ml-sm-5 outline-warning'
             ></Form.Control>
+        <div className="p-3"> 
 
-            <Button
+             <Button
                 type='submit'
-                variant='outline-success'
-                className='p-2'
+                variant='outline-warning'
+                className='p-2  '
             >
-                Submit
+                
+                Buscar productos
             </Button>
+            
+        </div>
+           
         </Form>
     )
 }
