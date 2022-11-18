@@ -22,7 +22,11 @@
 
 <body>
 
-  <div class="header" style="background: rgb(38, 78, 205) url('../static/img/mascotas.png') no-repeat fixed center">
+  <div class="header" style="background: rgb(38, 78, 205) url('../static/img/mascotas.png') no-repeat fixed center
+    {% if "appointment" in request.path %}
+  max-height:300px!important;min-height:300px!important;
+  {% endif %}
+  ">
     
     <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
         <div class="container"><a class="navbar-brand" href="#">Vet Pet</a>
