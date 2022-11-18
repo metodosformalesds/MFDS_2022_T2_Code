@@ -7,7 +7,8 @@ import '../App.css';
 
 function Product({product}){ //definición de la función producto, que recibe los atributos de la tabla products de la base de datos 8conexión no hecha)
       return(
-         <div class="col-sm-8 p-5" >
+      
+         <div class="col-sm-8 p-5" >  <center>
             <Card className="my-1 p-1 rounded bg-warnin"  >
             <h4 class="card-title">{product.name_product}</h4>
             <Link to={`/product/${product.product_id}`}>
@@ -36,12 +37,13 @@ function Product({product}){ //definición de la función producto, que recibe l
                     </div>
                 </Card.Text>
                 <div className="align-center my-"><Button className='btn-block bg-warning' disable={product.countInStock==0} type='button'>Add to cart</Button>
-                <Link href={`/product/${product.product_id}`}>Ver detalles</Link></div>
+                <Link href={`/product/${product.product_id}` }class="btn btn-warning">Ver detalles</Link></div>
 
 
             </Card.Body>
             </Card>
 
+            </center>
          </div>
 
 

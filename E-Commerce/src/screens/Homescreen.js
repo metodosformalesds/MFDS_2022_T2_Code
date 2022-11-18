@@ -8,8 +8,8 @@ function Homescreen() {
     return (
        <div>
         <div className=" p-3"><Searchbar/></div>
-        
-        <h1>Productos en existencia</h1>
+        <center>
+        <h1>Productos en existencia</h1></center>
         <Row>
             {products.map(product=> (<Col key={product._id} sm={12} md={6} Lg={4} xL={3}>
             

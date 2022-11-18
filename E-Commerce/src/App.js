@@ -1,5 +1,6 @@
 import {Container} from 'react-bootstrap'
 import Header from './components/Header'
+import Footer from './components/Footer'
 import Searchbar from './components/Searchbar'
 
 import Homescreen from './screens/Homescreen'//SE IMPORTA EL MODELO HOMESCREEN, EL CUAL CONTIENE LAS CARDS QUE MUESTRAN LA INFORMACIÓN DE LOS PRODUCTOS
@@ -21,10 +22,10 @@ export default function App() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-rg-0">
               <li className="nav-item">
-                <a className="nav-link activate Tcolor " aria-current="page" href="https://salmon-cliff-086826110.2.azurestaticapps.net/">Veterinarias</a>
+                <a className="nav-link activate Tcolor " aria-current="page" href="/">Veterinarias</a>
               </li>
               <li className="nav-item ">
-                <a className="nav-link activate Tcolor li.active color" aria-current="page" href="/">E-Commerce</a>
+                <a className="nav-link activate Tcolor li.active color" aria-current="page" href="https://e-commerce-vetpet.azurewebsites.net/">E-Commerce</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link activate Tcolor navbar-nav" aria-current="page" href="/">Adopción</a>
@@ -45,9 +46,10 @@ export default function App() {
               <Routes>
           <Route path='/' element={<Homescreen/>} exact/>
           <Route path='/product/:id' element={<Productscreen/>}/></Routes>
+          
           </Container>
           </main>
-          </div>
+          </div><Footer></Footer>
     </div></Router>
     
   );
