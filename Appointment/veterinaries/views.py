@@ -83,6 +83,7 @@ class ManageAppointmentTemplateView(ListView):
             settings.EMAIL_HOST_USER,
             [appointment.email]
         )
+        
         email.content_subtype = "html"
         email.send()
 
