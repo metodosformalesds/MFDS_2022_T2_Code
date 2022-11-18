@@ -8,6 +8,8 @@ from django.contrib import messages
 from .models import Appointment
 from django.views.generic import ListView
 import datetime
+from django.template import Context
+from django.template.loader import render_to_string, get_template
 
 class HomeTemplateView(TemplateView):
     template_name = "index.html"
@@ -65,8 +67,25 @@ class ManageAppointmentTemplateView(ListView):
         appointment_id = request.POST.get("appointment-id")
         appointment = Appointment.objects.get(id=appointment_id)
         appointment.accepted = True
-        appointment.accepted_date = datetime.now()
+        appointment.accepted_date = datetime.datetime.now()
         appointment.save()
+
+
+        data = {
+            "fname":appointment.first_name,
+            "date":date,
+        }
+
+        message = get_template('email.html').render(data)
+        email = EmailMessage(
+            "Información sobre tu consulta",
+            message,
+            settings.EMAIL_HOST_USER,
+            [appointment.email]
+        )
+        email.content_subtype = "html"
+        email.send()
+
 
         messages.add_message(request, messages.SUCCESS, f"{date}")
         return HttpResponseRedirect(request.path)
