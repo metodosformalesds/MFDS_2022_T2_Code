@@ -7,6 +7,7 @@ from django.conf import settings
 from django.contrib import messages
 from .models import Appointment
 from django.views.generic import ListView
+import datetime
 
 class HomeTemplateView(TemplateView):
     template_name = "index.html"
@@ -57,6 +58,20 @@ class ManageAppointmentTemplateView(ListView):
     context_object_name = "appointments"
     login_required = True
     paginate_by =  3
+
+    
+    def post(self, request):
+        date = request.POST.get("date")
+        appointment_id = request.POST.get("appointment-id")
+        appointment = Appointment.objects.get(id=appointment_id)
+        appointment.accepted = True
+        appointment.accepted_date = datetime.now()
+        appointment.save()
+
+        messages.add_message(request, messages.SUCCESS, f"{date}")
+        return HttpResponseRedirect(request.path)
+
+
 
     def get_context_data(self, *args, **kwargs):
         context = super().get_context_data(*args, **kwargs)
