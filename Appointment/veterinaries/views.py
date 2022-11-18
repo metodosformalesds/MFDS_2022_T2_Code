@@ -51,6 +51,17 @@ class AppointmentTemplateView(TemplateView):
         messages.add_message(request, messages.SUCCESS, f"Gracias {fname} para hacer una cita, ¡le enviaremos un correo electrónico lo antes posible!")
         return HttpResponseRedirect(request.path)
 
-class ManageAppointmentTemplateView(TemplateView):
+class ManageAppointmentTemplateView(ListView):
     template_name = "manage-appointments.html"
+    model = Appointment
+    context_object_name = "appointments"
     login_required = True
+    paginate_by =  3
+
+    def get_context_data(self, *args, **kwargs):
+        context = super().get_context_data(*args, **kwargs)
+        appointments = Appointment.objects.all()
+        context.update({
+            "title":"Manage Appointments"
+        })
+        return context
