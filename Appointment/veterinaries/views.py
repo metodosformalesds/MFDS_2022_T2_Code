@@ -5,6 +5,8 @@ from django.views.generic.base import TemplateView
 from django.core.mail import EmailMessage, message
 from django.conf import settings
 from django.contrib import messages
+from .models import Appointment
+from django.views.generic import ListView
 
 class HomeTemplateView(TemplateView):
     template_name = "index.html"
@@ -36,5 +38,19 @@ class AppointmentTemplateView(TemplateView):
         mobile = request.POST.get("mobile")
         message = request.POST.get("request")
 
+        appointment = Appointment.objects.create(
+            first_name=fname,
+            last_name=lname,
+            email=email,
+            phone=mobile,
+            request=message,
+        )
+
+        appointment.save()
+
         messages.add_message(request, messages.SUCCESS, f"Gracias {fname} para hacer una cita, ¡le enviaremos un correo electrónico lo antes posible!")
         return HttpResponseRedirect(request.path)
+
+class ManageAppointmentTemplateView(TemplateView):
+    template_name = "manage-appointments.html"
+    login_required = True
