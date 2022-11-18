@@ -11,11 +11,12 @@ import datetime
 from django.template import Context
 from django.template.loader import render_to_string, get_template
 
+
 class HomeTemplateView(TemplateView):
     template_name = "index.html"
 
 
-    def post(self, request):
+    """def post(self, request):
         name = request.POST.get("name")
         email = request.POST.get("email")
         message = request.POST.get("message")
@@ -28,7 +29,7 @@ class HomeTemplateView(TemplateView):
             reply_to=[email]
         )
         email.send()
-        return HttpResponse("Email sent successfully!")
+        return HttpResponse("Email sent successfully!")"""
 
 
 class AppointmentTemplateView(TemplateView):
