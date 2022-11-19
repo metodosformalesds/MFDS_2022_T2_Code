@@ -7,7 +7,7 @@ import '../App.css';
 
 function Product({product}){ //definición de la función producto, que recibe los atributos de la tabla products de la base de datos 8conexión no hecha)
       return(
-      
+      //Se devuelve los atibutos recopilados de los productos con la siguiente estructura: nombre del producto, imagen, categoría, preci, stock y por último el apartado de la calificación del producto, esto todavía no está terminado. <a className="nav-link activate Tcolor " aria-current="page" href="https://salmon-cliff-086826110.2.azurestaticapps.net/">Veterinarias</a>
          <div class="col-sm-8 p-5" >  <center>
             <Card className="my-1 p-1 rounded bg-warnin"  >
             <h4 class="card-title">{product.name_product}</h4>
@@ -30,6 +30,7 @@ function Product({product}){ //definición de la función producto, que recibe l
                  <Card.Text as ="h2">
                 stock: {product.stock}
                 </Card.Text>
+                
                 <Card.Text as="div">
                     <div className="my-3">
                         
@@ -37,7 +38,7 @@ function Product({product}){ //definición de la función producto, que recibe l
                     </div>
                 </Card.Text>
                 <div className="align-center my-"><Button className='btn-block bg-warning' disable={product.countInStock==0} type='button'>Add to cart</Button>
-                <Link href={`/product/${product.product_id}` }class="btn btn-warning">Ver detalles</Link></div>
+                <Link href={`/product/${product.product_id}` }class="btn btn-warning">Ver detalles +</Link></div>
 
 
             </Card.Body>
