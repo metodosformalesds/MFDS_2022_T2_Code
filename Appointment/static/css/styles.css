@@ -2,6 +2,9 @@
   HEADER
 ##############*/
 
+
+/*NAVBAR*/
+
 .header {
     background: rgb(38, 78, 202) url("img/mascotas.png") no-repeat fixed center; 
     min-height: 1000px;
@@ -10,7 +13,7 @@
   
   @media (min-width:768px) {
     .header {
-      padding-bottom:120px;
+      padding-bottom:52px;
     }
   }
   
@@ -26,8 +29,8 @@
   
   @media (min-width:768px) {
     .header .navbar {
-      padding-top:1rem;
-      padding-bottom:1rem;
+      padding-top:0rem;
+      padding-bottom:0rem;
     }
   }
   

@@ -1,3 +1,6 @@
+
+
+
 body {
     color: #404040;
     font-family: 'PT Sans';
@@ -36,7 +39,7 @@ body {
     min-width: 200px;
     max-width: 400px;
     height: 100%;
-    top: 0;
+    top: 100px;
     left: 0;
     overflow: hidden;
     border-right: 1px solid rgba(0, 0, 0, 0.25);
@@ -53,8 +56,8 @@ body {
   .map {
     position: absolute;
     left: 33.3333%;
-    top: 0; 
-    bottom: 0;
+    top: 100px; 
+    bottom: -135px;
   }
   
   .heading {
