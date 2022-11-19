@@ -1,4 +1,3 @@
 # MFDS_2022_T2_Code
-Link Mapa-Veterinarias deploy azure: https://salmon-cliff-086826110.2.azurestaticapps.net/
-Link E-Commerce https://e-commerce-vetpet.azurewebsites.net/
+Link Deploy Azure https://e-commerce-vetpet.azurewebsites.net/
 
