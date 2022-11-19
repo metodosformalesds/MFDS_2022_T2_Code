@@ -1,6 +1,3 @@
-
-
-
 body {
     color: #404040;
     font-family: 'PT Sans';
@@ -39,8 +36,8 @@ body {
     min-width: 200px;
     max-width: 400px;
     height: 100%;
-    top: 100px;
-    left: 0;
+    top: 60px;
+    left: 1;
     overflow: hidden;
     border-right: 1px solid rgba(0, 0, 0, 0.25);
   }
@@ -56,7 +53,7 @@ body {
   .map {
     position: absolute;
     left: 33.3333%;
-    top: 100px; 
+    top: 60px; 
     bottom: -135px;
   }
   

@@ -47,7 +47,7 @@
                     </li>
                  
                     <li class="nav-item" role="presentation">
-                      <a class="nav-link active" href="{% url 'manage' %}">Manage</a>
+                      <a class="nav-link active" href="{% url 'manage' %}">Administrar citas</a>
                   </li>
                 </ul>
             </div>
@@ -188,7 +188,7 @@
         var layery = layer.getLatLng().lng;
 
         // Marcador de veterinaria en el mapa
-        var popup = '<h2 style="margin-bottom:5px;">' + prop.name + '</h2><small class="quiet">' + prop.products +
+        var popup = '<h3 style="margin-bottom:5px;">' + prop.name + '</h3><small class="quiet">' + prop.products +
           '</small><br /><span id="directions"><a href="https://www.google.com/maps/dir//?saddr=My+Location' + '&daddr=' + layerx + ',' + layery + '" target="_blank">Ubicacion Google Maps</a></span>';
         var listing = listings.appendChild(document.createElement('div'));
         listing.className = 'item';

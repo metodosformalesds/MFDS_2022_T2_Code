@@ -2,13 +2,10 @@
   HEADER
 ##############*/
 
-
-/*NAVBAR*/
-
 .header {
     background: rgb(38, 78, 202) url("img/mascotas.png") no-repeat fixed center; 
     min-height: 1000px;
-    font-family:'Source Sans Pro', sans-serif;
+    font-family:'PT Sans';
   }
   
   @media (min-width:768px) {
