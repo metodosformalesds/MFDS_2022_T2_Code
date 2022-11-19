@@ -16,6 +16,7 @@ function Searchbar() {
         }
     }
     return (
+        //Esta función está en desarrollo, solo se muestra el dieseño de la barra d ebúsqueda y deja escribir palabras dentro del cuadro de texto.
         <Form onSubmit={submitHandler} inline bg-warning>
             <Form.Control
                 type='text'

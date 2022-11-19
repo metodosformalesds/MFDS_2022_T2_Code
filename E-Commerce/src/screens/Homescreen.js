@@ -6,6 +6,7 @@ import Product from  '../components/product'
 import Searchbar from '../components/Searchbar'
 function Homescreen() {
     return (
+        //Esta pantalla sirve como constante para el catalogo de productos,muestra el encabezado de la sección y divide a los productos para que se muestren ordenados
        <div>
         <div className=" p-3"><Searchbar/></div>
         <center>
