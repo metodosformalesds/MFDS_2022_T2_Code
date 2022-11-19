@@ -77,7 +77,7 @@ class ManageAppointmentTemplateView(ListView):
             "date":date,
         }
 
-        message = get_template('email.html').render(data)
+        """message = get_template('email.html').render(data)
         email = EmailMessage(
             "Información sobre tu consulta",
             message,
@@ -86,7 +86,7 @@ class ManageAppointmentTemplateView(ListView):
         )
         
         email.content_subtype = "html"
-        email.send()
+        email.send()"""
 
 
         messages.add_message(request, messages.SUCCESS, f"{date}")
@@ -101,3 +101,6 @@ class ManageAppointmentTemplateView(ListView):
             "title":"Manage Appointments"
         })
         return context
+
+class MapaTemplateView(TemplateView):
+    template_name = "mapa.html"
