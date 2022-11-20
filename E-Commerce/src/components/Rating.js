@@ -3,6 +3,7 @@ import React from 'react'
 
 function Rating ({value, text, color}){
     return(
+        //Diseño de la función rating, todavia no ha sido implementado 
         <div className="rating">
             <span><i style ={{color}} className={
                     value >= 1
