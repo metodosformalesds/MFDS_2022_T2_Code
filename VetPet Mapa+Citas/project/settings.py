@@ -15,7 +15,8 @@ SECRET_KEY = 'django-insecure-y1&4od+x5(ev3mz151*8n)1)7c9ms^!mo3u^v=m4gice-z$4&$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['vetpet.azurewebsites.net']
+CSRF_TRUSTED_ORIGINS = ['https://vetpet.azurewebsites.net']
 
 
 # Application definition
