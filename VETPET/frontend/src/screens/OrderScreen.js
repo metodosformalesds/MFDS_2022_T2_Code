@@ -32,7 +32,7 @@ function OrderScreen({ match, history }) {
         order.itemsPrice = order.orderItems.reduce((acc, item) => acc + item.price * item.qty, 0).toFixed(2)
     }
 
-
+           //Esta función todavía está en desarrollo, en el deployment genera un error 500 de conexión debido a que Paypal bloquea el acceso a su api
     const addPayPalScript = () => {
         const script = document.createElement('script')
         script.type = 'text/javascript'
