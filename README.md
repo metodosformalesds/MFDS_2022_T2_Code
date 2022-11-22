@@ -3,5 +3,5 @@ Link Deploy Azure https://vetpet.azurewebsites.net/landing/
 
 
 Credenciales de acceso E-Commerce:
-Correo: paulshh1702@outlook.com
+Correo: paulahh1702@outlook.com
 Contraseña: 1234567890
