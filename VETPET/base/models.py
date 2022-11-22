@@ -4,7 +4,12 @@ from django.contrib.auth.models import User
 # Create your models here.
 
 
+#Creación de la clase productos, con los atributos user que representa el id, name, image que vendría siendo la imagen del producto
+#Categoria de producto
+#el valor del reating puede ser generado propiamente por el sistema con respecto a las calificaciones de los usuarios 
+#Precio del producto
 class Product(models.Model):
+    #Creación de las clases que contienen los modelos del sistema
     user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
     name = models.CharField(max_length=200, null=True, blank=True)
     image = models.URLField(null=True, blank=True,
@@ -24,7 +29,7 @@ class Product(models.Model):
     def __str__(self):
         return self.name
 
-
+#Clase 
 class Review(models.Model):
     product = models.ForeignKey(Product, on_delete=models.SET_NULL, null=True)
     user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
