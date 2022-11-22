@@ -1,5 +1,7 @@
 # MFDS_2022_T2_Code
-Link login deploy : https://login-vetpet.netlify.app/
-Link Mapa-Veterinarias deploy azure: https://salmon-cliff-086826110.2.azurestaticapps.net/
-Link E-Commerce https://e-commerce-vetpet.azurewebsites.net/
+Link Deploy Azure https://vetpet.azurewebsites.net/landing/
 
+
+Credenciales de acceso E-Commerce:
+Correo: paulahh1702@outlook.com
+Contraseña: 1234567890

@@ -1,0 +1,319 @@
+{% load static %}
+<head>
+  <meta charset=utf-8 />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Veterinarias</title>
+
+
+  <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="{% static '../static/css/styles.css' %}" />
+  <link rel="shortcut icon" type="image/x-icon" href="{% static '../static/img/favicon.ico' %}">
+
+  <!--Fuentes-->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans" />
+  <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css' rel='stylesheet' />
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <!--Leaflet-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+
+  <!--Leaflet Plugins, Mapbox-->
+  <link rel="stylesheet" type="text/css" href="{% static '../static/assets/L.VisualClick.css' %}" />
+  <script src="{% static '../static/assets/L.VisualClick.js' %}"></script>
+  <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+  <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-hash/v0.2.1/leaflet-hash.js'></script>
+  <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
+  <link href="{% static '../static/css/style.css' %}" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+  <div class="header" style="background: rgb(38, 78, 205) url('../static/img/mascotas.png') no-repeat fixed center
+    {% if "map" in request.path %}
+  max-height:0px!important;min-height:0px!important;
+  {% endif %}
+  ">
+    
+       <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+        <div class="container"><a class="navbar-brand" href="{% url 'home' %}">VetPet</a> 
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" href="{% url 'mapa' %}">Encuentra tu veterinaria</a>
+                    </li>
+                 
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link active" href="{% url 'manage' %}">Administrar citas</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+    {% block cta %} {% endblock cta%}
+</div>
+
+    {% block content%} {%endblock content%}
+
+  <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+
+  <script>
+    {% block script %} {% endblock script %}
+  </script>
+  
+ 
+</body>
+
+
+<body>
+  <div id="app">
+    <div class='sidebar'>
+      <div class='heading'>
+        <h1>Encuentra tu veterinaria <span id="searchIcon"><i class="fa fa-search"></i></span></h1>
+        <div id="searchbox" style="display:none;">
+          <input type="text" id="search-input" autofocus/>
+        </div>
+      </div>
+      <div id="storeinfo"><i id="infoClose" class="fa fa-times fa-2x"></i>
+        <div id="infoDivInner"></div>
+      </div>
+      <div id='listingDiv' class='listings'></div>
+    </div>
+    <div id='map' class='map'>
+    </div>
+  </div>
+
+
+  <script>
+    //Mapa basico 
+    var map = L.map('map')
+      .setView([40.410976, -82.928835], 8);
+
+    var cartodbLight = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+      subdomains: 'abcd'
+    }).addTo(map);
+
+
+    var baselayers = {
+      "Grayscale"     : cartodbLight
+    };
+    
+    var layerControl = new L.control.layers(baselayers, null).addTo(map);
+
+    
+    //Mostrar busqueda
+    //Global variables
+    var locationLat = [];
+    var locationLng = [];
+    var locMarker;
+    var infoDiv = document.getElementById('storeinfo');
+    var infoDivInner = document.getElementById('infoDivInner');
+    var toggleSearch = document.getElementById('searchIcon');
+    var hasCircle = 0;
+    var circle = [];
+
+    //Cerrar veterinaria al darle click en X
+    var userLocation;
+    $("#infoClose").click(function() {
+      $("#storeinfo").hide();
+      if (map.hasLayer(circle)) {
+        map.removeLayer(circle);
+      }
+    });
+
+    //Cargar Veterinarias por CSV
+    var listings = document.getElementById('listingDiv');
+    var stores = L.geoJson().addTo(map);
+    var storesData = omnivore.csv("{% static '../static/assets/data/veterinarias.csv' %}");
+    function setActive(el) {
+      var siblings = listings.getElementsByTagName('div');
+      for (var i = 0; i < siblings.length; i++) {
+        siblings[i].className = siblings[i].className
+          .replace(/active/, '').replace(/\s\s*$/, '');
+      }
+      el.className += ' active';
+    }
+    
+    function sortGeojson(a,b,prop) {
+      return (a.properties.name.toUpperCase() < b.properties.name.toUpperCase()) ? -1 : ((a.properties.name.toUpperCase() > b.properties.name.toUpperCase()) ? 1 : 0);
+    }
+    
+    storesData.on('ready', function() {
+
+      var storesSorted = storesData.toGeoJSON();
+      var sorted = (storesSorted.features).sort(sortGeojson)
+      storesSorted.features = sorted;
+      stores.addData(storesSorted);
+      
+      map.fitBounds(stores.getBounds());
+      toggleSearch.onclick = function() {
+        var s = document.getElementById('searchbox');
+        if (s.style.display != 'none') {
+          s.style.display = 'none';
+          toggleSearch.innerHTML = '<i class="fa fa-search"></i>';
+          $("#search-input").val("");
+
+          document.getElementById('storeinfo').style.display = 'none';
+          $('.item').show();
+        } else {
+          toggleSearch.innerHTML = '<i class="fa fa-times"></i>';
+          s.style.display = 'block';
+
+          //Autofocus
+          $('#search-input').focus();
+        }
+      };
+      stores.eachLayer(function(layer) {
+
+        //Jquery busqueda
+        $('#searchbox').on('change paste keyup', function() {
+          var txt = $('#search-input').val();
+          $('.item').each(function() {
+            if ($(this).text().toUpperCase().indexOf(txt.toUpperCase()) != -1) {
+              $(this).show();
+            } else {
+              $(this).hide();
+            }
+          });
+        });
+
+        // Acortador de la variable layer.feature.propiertes
+        var prop = layer.feature.properties;
+        var layerx = layer.getLatLng().lat;
+        var layery = layer.getLatLng().lng;
+
+        // Marcador de veterinaria en el mapa
+        var popup = '<h3 style="margin-bottom:5px;">' + prop.name + '</h3><small class="quiet">' + prop.products +
+          '</small><br /><span id="directions"><a href="https://www.google.com/maps/dir//?saddr=My+Location' + '&daddr=' + layerx + ',' + layery + '" target="_blank">Ubicacion Google Maps</a></span>';
+        var listing = listings.appendChild(document.createElement('div'));
+        listing.className = 'item';
+        var link = listing.appendChild(document.createElement('a'));
+        link.href = '#';
+        link.className = 'title';
+        link.innerHTML = prop.name;
+        if (prop.products) {
+          link.innerHTML += '<br /><small class="quiet">' + prop.products + '</small>';
+        }
+        var details = listing.appendChild(document.createElement('div'));
+        details.innerHTML = prop.address;
+        var linkClick = 0;
+        link.onclick = function() {
+          linkClick = 1;
+          setActive(listing);
+
+          // Cuando se le da click a un item el mapa se mueve al centro, está asosiada a layer
+          map.setView(layer.getLatLng(), 16);
+          layer.fire('click');
+          infoDiv.style.display = 'block';
+          return false;
+        };
+
+
+        // Interacciones con el marcador
+        layer.on('click', function(e) {
+          if (map.hasLayer(userLocation)) {
+            map.removeLayer(userLocation)
+          }
+          if (linkClick != 1) {
+            map.setView([e.latlng.lat, e.latlng.lng], 16);
+          }
+          linkClick = 0;
+          $(".item").show();
+          $("#searchbox").hide();
+          toggleSearch.innerHTML = '<i class="fa fa-search"></i>';
+          if (map.hasLayer(circle)) {
+            map.removeLayer(circle);
+            hasCircle = 0;
+          }
+
+          
+          // Activa el listado de marcadores asociados.
+          setActive(listing);
+          infoDiv.style.display = "block";
+          infoDivInner.innerHTML = popup;
+          xy = layer.getLatLng();
+          setTimeout(function() {
+            circle = new L.circleMarker(xy, {
+              color: 'red',
+              fillColor: '#f03',
+              fillOpacity: 0.5,
+              radius: 50,
+            }).addTo(map);
+          }, 200);
+        });
+        
+        //Logo de veterinarias
+        layer.setIcon(L.icon({
+          iconUrl: "{%  static '../static/assets/icons/LogoVetPe.png' %}",
+          iconSize: [30, 30],
+          iconAnchor: [20, 20],
+          popupAnchor: [-14, -47]
+        }));
+      });
+      
+    map.locate({
+      setView: true,
+      maxZoom: 10
+    });
+    
+    //Geolocalizacion
+    map.on('locationfound', function(e) {
+      console.log(e);
+      var radius = 80000;
+      var range = 10;
+      userLocation = new L.Circle(e.latlng, radius, {
+        color: 'cadetblue',
+        fillColor: 'cadetblue',
+        fillOpacity: 0.2,
+        radius: 30
+      });
+      var point = turf.point([e.longitude,e.latitude]);
+      
+      var storesWithin = storesSorted.features.map(function(store) {
+        var newpoint = turf.feature(store.geometry);
+        console.log(turf.distance(newpoint, point, {units: 'miles'}));
+        if (turf.distance(newpoint, point, {units: 'miles'}) <= range) {
+          return store
+        }
+      });
+      console.log(storesWithin);
+      
+      //Sugirir una veterinaria por cercania
+      var nearest = turf.nearest(point, stores.toGeoJSON());
+      console.log(nearest);
+      if (nearest.properties.name) {
+        $("#infoDivInner").html("Localizacion encontrada!<br>Tu veterinaria mas cercana es: " + "<strong>" + nearest.properties.name + "</strong>");
+        circle = new L.circleMarker([nearest.geometry.coordinates[1],nearest.geometry.coordinates[0]], {
+          color: 'red',
+          fillColor: '#f03',
+          fillOpacity: 0.5,
+          radius: 50,
+        }).addTo(map);
+        console.log(circle);
+        hasCircle = 1;
+      }
+      $("#storeinfo").show();
+    })
+    });       
+        
+   
+    map.on('click', function() {
+      if (map.hasLayer(userLocation)) {
+        map.removeLayer(userLocation)
+      }
+      if (map.hasLayer(circle)) {
+        map.removeLayer(circle);
+        hasCircle = 0;
+      }
+    });
+  </script>
+</body>
+
+  <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+
+</html>
