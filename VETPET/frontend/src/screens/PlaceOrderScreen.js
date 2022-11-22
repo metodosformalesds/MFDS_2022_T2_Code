@@ -53,10 +53,10 @@ function PlaceOrderScreen({ history }) {
                 <Col md={8}>
                     <ListGroup variant='flush'>
                         <ListGroup.Item>
-                            <h2>Shipping</h2>
+                            <h2>Envío</h2>
 
                             <p>
-                                <strong>Shipping: </strong>
+                                <strong>Información de envío: </strong>
                                 {cart.shippingAddress.address},  {cart.shippingAddress.city}
                                 {'  '}
                                 {cart.shippingAddress.postalCode},
@@ -66,17 +66,17 @@ function PlaceOrderScreen({ history }) {
                         </ListGroup.Item>
 
                         <ListGroup.Item>
-                            <h2>Payment Method</h2>
+                            <h2>Método de pago</h2>
                             <p>
-                                <strong>Method: </strong>
+                                <strong>Método seleccionado: </strong>
                                 {cart.paymentMethod}
                             </p>
                         </ListGroup.Item>
 
                         <ListGroup.Item>
-                            <h2>Order Items</h2>
+                            <h2>Artículos de la orden</h2>
                             {cart.cartItems.length === 0 ? <Message variant='info'>
-                                Your cart is empty
+                                Tu carrito está vacío
                             </Message> : (
                                     <ListGroup variant='flush'>
                                         {cart.cartItems.map((item, index) => (
@@ -108,26 +108,26 @@ function PlaceOrderScreen({ history }) {
                     <Card>
                         <ListGroup variant='flush'>
                             <ListGroup.Item>
-                                <h2>Order Summary</h2>
+                                <h2>Información del pedido</h2>
                             </ListGroup.Item>
 
                             <ListGroup.Item>
                                 <Row>
-                                    <Col>Items:</Col>
+                                    <Col>Artículos:</Col>
                                     <Col>${cart.itemsPrice}</Col>
                                 </Row>
                             </ListGroup.Item>
 
                             <ListGroup.Item>
                                 <Row>
-                                    <Col>Shipping:</Col>
+                                    <Col>Envío:</Col>
                                     <Col>${cart.shippingPrice}</Col>
                                 </Row>
                             </ListGroup.Item>
 
                             <ListGroup.Item>
                                 <Row>
-                                    <Col>Tax:</Col>
+                                    <Col>Impuesto:</Col>
                                     <Col>${cart.taxPrice}</Col>
                                 </Row>
                             </ListGroup.Item>
@@ -151,7 +151,7 @@ function PlaceOrderScreen({ history }) {
                                     disabled={cart.cartItems === 0}
                                     onClick={placeOrder}
                                 >
-                                    Place Order
+                                    Confirmar orden
                                 </Button>
                             </ListGroup.Item>
 

@@ -20,12 +20,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
-
+# SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'sc%oco$+(3$z$at=z4j)#l-+ym)+_b11389mdt2^12m$bf63%@'
 
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = False
 
-DEBUG = True
-#Aquí se definen los accesos permitidos para la aplicación al momento de entrar en un ambiente de desarrollo
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'vetpetecommerce.azurewebsites.net', 'pruebavet.azurewebsites.net']
 
 
@@ -131,6 +131,8 @@ DATABASES = {
 }
 
 
+# Password validation
+# https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -180,6 +182,14 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 CORS_ALLOW_ALL_ORIGINS = True
 
 
+# Dont forget to reset database connection and hide password
+#AWS_QUERYSTRING_AUTH = False
+#DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+
+#AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+#AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+
+#AWS_STORAGE_BUCKET_NAME = 'proshop-bucket-demo'
 
 
 if os.getcwd() == '/app':

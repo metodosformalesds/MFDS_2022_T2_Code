@@ -55,7 +55,7 @@ function ProductScreen({ match, history }) {
 
     return (
         <div>
-            <Link to='/' className='btn btn-light my-3'>Go Back</Link>
+            <Link to='/' className='btn btn-light my-3'>Regresar</Link>
             {loading ?
                 <Loader />
                 : error
@@ -79,11 +79,11 @@ function ProductScreen({ match, history }) {
                                         </ListGroup.Item>
 
                                         <ListGroup.Item>
-                                            Price: ${product.price}
+                                            Precio: ${product.price}
                                         </ListGroup.Item>
 
                                         <ListGroup.Item>
-                                            Description: {product.description}
+                                            Descripción: {product.description}
                                         </ListGroup.Item>
                                     </ListGroup>
                                 </Col>
@@ -94,7 +94,7 @@ function ProductScreen({ match, history }) {
                                         <ListGroup variant='flush'>
                                             <ListGroup.Item>
                                                 <Row>
-                                                    <Col>Price:</Col>
+                                                    <Col>Precio:</Col>
                                                     <Col>
                                                         <strong>${product.price}</strong>
                                                     </Col>
@@ -102,9 +102,9 @@ function ProductScreen({ match, history }) {
                                             </ListGroup.Item>
                                             <ListGroup.Item>
                                                 <Row>
-                                                    <Col>Status:</Col>
+                                                    <Col>En existencia:</Col>
                                                     <Col>
-                                                        {product.countInStock > 0 ? 'In Stock' : 'Out of Stock'}
+                                                        {product.countInStock > 0 ? '   En Stock' : 'Fuera de Stock'}
                                                     </Col>
                                                 </Row>
                                             </ListGroup.Item>
@@ -112,7 +112,7 @@ function ProductScreen({ match, history }) {
                                             {product.countInStock > 0 && (
                                                 <ListGroup.Item>
                                                     <Row>
-                                                        <Col>Qty</Col>
+                                                        <Col>Cant</Col>
                                                         <Col xs='auto' className='my-1'>
                                                             <Form.Control
                                                                 as="select"
@@ -141,7 +141,7 @@ function ProductScreen({ match, history }) {
                                                     className='btn-block'
                                                     disabled={product.countInStock == 0}
                                                     type='button'>
-                                                    Add to Cart
+                                                    Agregar al carrito
                                                 </Button>
                                             </ListGroup.Item>
                                         </ListGroup>
@@ -151,8 +151,8 @@ function ProductScreen({ match, history }) {
 
                             <Row>
                                 <Col md={6}>
-                                    <h4>Reviews</h4>
-                                    {product.reviews.length === 0 && <Message variant='info'>No Reviews</Message>}
+                                    <h4>Reseñas</h4>
+                                    {product.reviews.length === 0 && <Message variant='info'>No hay reseñas</Message>}
 
                                     <ListGroup variant='flush'>
                                         {product.reviews.map((review) => (
@@ -165,10 +165,10 @@ function ProductScreen({ match, history }) {
                                         ))}
 
                                         <ListGroup.Item>
-                                            <h4>Write a review</h4>
+                                            <h4>Escribe una reseña</h4>
 
                                             {loadingProductReview && <Loader />}
-                                            {successProductReview && <Message variant='success'>Review Submitted</Message>}
+                                            {successProductReview && <Message variant='success'>Se ha subido tu reseña</Message>}
                                             {errorProductReview && <Message variant='danger'>{errorProductReview}</Message>}
 
                                             {userInfo ? (
@@ -181,16 +181,16 @@ function ProductScreen({ match, history }) {
                                                             onChange={(e) => setRating(e.target.value)}
                                                         >
                                                             <option value=''>Select...</option>
-                                                            <option value='1'>1 - Poor</option>
-                                                            <option value='2'>2 - Fair</option>
-                                                            <option value='3'>3 - Good</option>
-                                                            <option value='4'>4 - Very Good</option>
-                                                            <option value='5'>5 - Excellent</option>
+                                                            <option value='1'>1 - Bastante malo</option>
+                                                            <option value='2'>2 - Malo</option>
+                                                            <option value='3'>3 - Meh</option>
+                                                            <option value='4'>4 - Bien</option>
+                                                            <option value='5'>5 - Excelente</option>
                                                         </Form.Control>
                                                     </Form.Group>
 
                                                     <Form.Group controlId='comment'>
-                                                        <Form.Label>Review</Form.Label>
+                                                        <Form.Label>Reseña</Form.Label>
                                                         <Form.Control
                                                             as='textarea'
                                                             row='5'
@@ -204,12 +204,12 @@ function ProductScreen({ match, history }) {
                                                         type='submit'
                                                         variant='primary'
                                                     >
-                                                        Submit
+                                                        Publicar
                                                     </Button>
 
                                                 </Form>
                                             ) : (
-                                                    <Message variant='info'>Please <Link to='/login'>login</Link> to write a review</Message>
+                                                    <Message variant='info'>Necesitas <Link to='/login'>iniciar sesión </Link>para publicar reseñas</Message>
                                                 )}
                                         </ListGroup.Item>
                                     </ListGroup>

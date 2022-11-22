@@ -32,7 +32,7 @@ function OrderScreen({ match, history }) {
         order.itemsPrice = order.orderItems.reduce((acc, item) => acc + item.price * item.qty, 0).toFixed(2)
     }
 
-           //Esta función todavía está en desarrollo, en el deployment genera un error 500 de conexión debido a que Paypal bloquea el acceso a su api
+
     const addPayPalScript = () => {
         const script = document.createElement('script')
         script.type = 'text/javascript'
@@ -84,11 +84,11 @@ function OrderScreen({ match, history }) {
                         <Col md={8}>
                             <ListGroup variant='flush'>
                                 <ListGroup.Item>
-                                    <h2>Shipping</h2>
-                                    <p><strong>Name: </strong> {order.user.name}</p>
+                                    <h2>Envío </h2>
+                                    <p><strong>Nombre: </strong> {order.user.name}</p>
                                     <p><strong>Email: </strong><a href={`mailto:${order.user.email}`}>{order.user.email}</a></p>
                                     <p>
-                                        <strong>Shipping: </strong>
+                                        <strong>Dirreción de envío: </strong>
                                         {order.shippingAddress.address},  {order.shippingAddress.city}
                                         {'  '}
                                         {order.shippingAddress.postalCode},
@@ -97,30 +97,30 @@ function OrderScreen({ match, history }) {
                                     </p>
 
                                     {order.isDelivered ? (
-                                        <Message variant='success'>Delivered on {order.deliveredAt}</Message>
+                                        <Message variant='success'>Se entregó  {order.deliveredAt}</Message>
                                     ) : (
-                                            <Message variant='warning'>Not Delivered</Message>
+                                            <Message variant='warning'>No se entregó</Message>
                                         )}
                                 </ListGroup.Item>
 
                                 <ListGroup.Item>
-                                    <h2>Payment Method</h2>
+                                    <h2>Método de pago</h2>
                                     <p>
-                                        <strong>Method: </strong>
+                                        <strong>Método: </strong>
                                         {order.paymentMethod}
                                     </p>
                                     {order.isPaid ? (
-                                        <Message variant='success'>Paid on {order.paidAt}</Message>
+                                        <Message variant='success'>Pagado {order.paidAt}</Message>
                                     ) : (
-                                            <Message variant='warning'>Not Paid</Message>
+                                            <Message variant='warning'>No pagado</Message>
                                         )}
 
                                 </ListGroup.Item>
 
                                 <ListGroup.Item>
-                                    <h2>Order Items</h2>
+                                    <h2>Artículos de la orden</h2>
                                     {order.orderItems.length === 0 ? <Message variant='info'>
-                                        Order is empty
+                                        La orden no contiene productos
                             </Message> : (
                                             <ListGroup variant='flush'>
                                                 {order.orderItems.map((item, index) => (
@@ -152,26 +152,26 @@ function OrderScreen({ match, history }) {
                             <Card>
                                 <ListGroup variant='flush'>
                                     <ListGroup.Item>
-                                        <h2>Order Summary</h2>
+                                        <h2>Infromación del pedido</h2>
                                     </ListGroup.Item>
 
                                     <ListGroup.Item>
                                         <Row>
-                                            <Col>Items:</Col>
+                                            <Col>Artículos:</Col>
                                             <Col>${order.itemsPrice}</Col>
                                         </Row>
                                     </ListGroup.Item>
 
                                     <ListGroup.Item>
                                         <Row>
-                                            <Col>Shipping:</Col>
+                                            <Col>Envío:</Col>
                                             <Col>${order.shippingPrice}</Col>
                                         </Row>
                                     </ListGroup.Item>
 
                                     <ListGroup.Item>
                                         <Row>
-                                            <Col>Tax:</Col>
+                                            <Col>Impuesto:</Col>
                                             <Col>${order.taxPrice}</Col>
                                         </Row>
                                     </ListGroup.Item>
@@ -207,7 +207,7 @@ function OrderScreen({ match, history }) {
                                             className='btn btn-block'
                                             onClick={deliverHandler}
                                         >
-                                            Mark As Delivered
+                                            Marcar como entregado
                                         </Button>
                                     </ListGroup.Item>
                                 )}

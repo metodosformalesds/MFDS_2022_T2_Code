@@ -41,14 +41,14 @@ function RegisterScreen({ location, history }) {
 
     return (
         <FormContainer>
-            <h1>Sign In</h1>
+            <h1>Registra una cuenta nueva</h1>
             {message && <Message variant='danger'>{message}</Message>}
             {error && <Message variant='danger'>{error}</Message>}
             {loading && <Loader />}
             <Form onSubmit={submitHandler}>
 
                 <Form.Group controlId='name'>
-                    <Form.Label>Name</Form.Label>
+                    <Form.Label>Nombre</Form.Label>
                     <Form.Control
                         required
                         type='name'
@@ -60,7 +60,7 @@ function RegisterScreen({ location, history }) {
                 </Form.Group>
 
                 <Form.Group controlId='email'>
-                    <Form.Label>Email Address</Form.Label>
+                    <Form.Label>Email </Form.Label>
                     <Form.Control
                         required
                         type='email'
@@ -84,7 +84,7 @@ function RegisterScreen({ location, history }) {
                 </Form.Group>
 
                 <Form.Group controlId='passwordConfirm'>
-                    <Form.Label>Confirm Password</Form.Label>
+                    <Form.Label>Confirma tu Password</Form.Label>
                     <Form.Control
                         required
                         type='password'
@@ -96,16 +96,16 @@ function RegisterScreen({ location, history }) {
                 </Form.Group>
 
                 <Button type='submit' variant='primary'>
-                    Register
+                    Registrar cuenta
                 </Button>
 
             </Form>
 
             <Row className='py-3'>
                 <Col>
-                    Have an Account? <Link
+                    ¿Ya tienes cuenta? <Link
                         to={redirect ? `/login?redirect=${redirect}` : '/login'}>
-                        Sign In
+                        Inicia sesión
                         </Link>
                 </Col>
             </Row>
