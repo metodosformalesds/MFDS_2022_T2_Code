@@ -30,7 +30,7 @@ function PaymentScreen({ history }) {
 
             <Form onSubmit={submitHandler}>
                 <Form.Group>
-                    <Form.Label as='legend'>Select Method</Form.Label>
+                    <Form.Label as='legend'>Selecciona un método</Form.Label>
                     <Col>
                         <Form.Check
                             type='radio'

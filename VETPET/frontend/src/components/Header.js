@@ -19,8 +19,9 @@ function Header() {
     return (
         <header>
             <Navbar bg="warningt" variant="bg-warning" expand="lg" collapseOnSelect>
-                <Container>
+                <Container><img src="https://raw.githubusercontent.com/metodosformalesds/MFDS_2022_T2_Code/main/LogoVetPet.png" width="100px"></img>
                     <LinkContainer to='/'>
+                        
                         <Navbar.Brand>vetpet</Navbar.Brand>
                     </LinkContainer>
 
@@ -28,7 +29,7 @@ function Header() {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <SearchBox />
                         <Nav className="ml-auto">
-                        <a href='https://salmon-cliff-086826110.2.azurestaticapps.net/'>
+                        <a href='https://vetpet.azurewebsites.net/'>
                         <Navbar.Brand>Veterinarias</Navbar.Brand>
                     </a>
                             <LinkContainer to='/cart'>
@@ -41,7 +42,7 @@ function Header() {
                                         <NavDropdown.Item>Profile</NavDropdown.Item>
                                     </LinkContainer>
 
-                                    <NavDropdown.Item onClick={logoutHandler}>Logout</NavDropdown.Item>
+                                    <NavDropdown.Item onClick={logoutHandler}>Cerrar sesión</NavDropdown.Item>
 
                                 </NavDropdown>
                             ) : (

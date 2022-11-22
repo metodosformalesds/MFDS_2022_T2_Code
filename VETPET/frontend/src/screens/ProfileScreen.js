@@ -66,7 +66,7 @@ function ProfileScreen({ history }) {
     return (
         <Row>
             <Col md={3}>
-                <h2>User Profile</h2>
+                <h2>Perfil</h2>
 
                 {message && <Message variant='danger'>{message}</Message>}
                 {error && <Message variant='danger'>{error}</Message>}
@@ -74,7 +74,7 @@ function ProfileScreen({ history }) {
                 <Form onSubmit={submitHandler}>
 
                     <Form.Group controlId='name'>
-                        <Form.Label>Name</Form.Label>
+                        <Form.Label>Nombre</Form.Label>
                         <Form.Control
                             required
                             type='name'
@@ -86,7 +86,7 @@ function ProfileScreen({ history }) {
                     </Form.Group>
 
                     <Form.Group controlId='email'>
-                        <Form.Label>Email Address</Form.Label>
+                        <Form.Label>Email</Form.Label>
                         <Form.Control
                             required
                             type='email'
@@ -110,7 +110,7 @@ function ProfileScreen({ history }) {
                     </Form.Group>
 
                     <Form.Group controlId='passwordConfirm'>
-                        <Form.Label>Confirm Password</Form.Label>
+                        <Form.Label>Confirmar tu Password</Form.Label>
                         <Form.Control
 
                             type='password'
@@ -122,14 +122,14 @@ function ProfileScreen({ history }) {
                     </Form.Group>
 
                     <Button type='submit' variant='primary'>
-                        Update
+                        Actualiza tu perfil
                 </Button>
 
                 </Form>
             </Col>
 
             <Col md={9}>
-                <h2>My Orders</h2>
+                <h2>My Ordenes</h2>
                 {loadingOrders ? (
                     <Loader />
                 ) : errorOrders ? (
@@ -139,10 +139,10 @@ function ProfileScreen({ history }) {
                                 <thead>
                                     <tr>
                                         <th>ID</th>
-                                        <th>Date</th>
+                                        <th>Fecha</th>
                                         <th>Total</th>
-                                        <th>Paid</th>
-                                        <th>Delivered</th>
+                                        <th>Pagado</th>
+                                        <th>Recibido</th>
                                         <th></th>
                                     </tr>
                                 </thead>

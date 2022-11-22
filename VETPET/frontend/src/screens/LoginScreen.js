@@ -6,7 +6,8 @@ import Loader from '../components/Loader'
 import Message from '../components/Message'
 import FormContainer from '../components/FormContainer'
 import { login } from '../actions/userActions'
-
+import Logins from '../components/Logins';
+import { GoogleLogin } from 'react-google-login';
 function LoginScreen({ location, history }) {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
@@ -17,7 +18,17 @@ function LoginScreen({ location, history }) {
 
     const userLogin = useSelector(state => state.userLogin)
     const { error, loading, userInfo } = userLogin
-
+    const responseGoogle = (response) => {
+        console.log(response);
+      }
+      <GoogleLogin
+      clientId="658977310896-knrl3gka66fldh83dao2rhgbblmd4un9.apps.googleusercontent.com"
+      buttonText="Login"
+      onSuccess={responseGoogle}
+      onFailure={responseGoogle}
+      cookiePolicy={'single_host_origin'}
+    />
+        
     useEffect(() => {
         if (userInfo) {
             history.push(redirect)
@@ -31,16 +42,16 @@ function LoginScreen({ location, history }) {
 
     return (
         <FormContainer>
-            <h1>Sign In</h1>
+            <h1>Acceder a cuenta</h1>
             {error && <Message variant='danger'>{error}</Message>}
             {loading && <Loader />}
             <Form onSubmit={submitHandler}>
 
                 <Form.Group controlId='email'>
-                    <Form.Label>Email Address</Form.Label>
+                    <Form.Label>Email</Form.Label>
                     <Form.Control
                         type='email'
-                        placeholder='Enter Email'
+                        placeholder='Ingresa tu Email'
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                     >
@@ -52,7 +63,7 @@ function LoginScreen({ location, history }) {
                     <Form.Label>Password</Form.Label>
                     <Form.Control
                         type='password'
-                        placeholder='Enter Password'
+                        placeholder='Ingresa tu Password'
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                     >
@@ -60,15 +71,19 @@ function LoginScreen({ location, history }) {
                 </Form.Group>
 
                 <Button type='submit' variant='primary'>
-                    Sign In
-                </Button>
-            </Form>
+                    Iniciar sesión
 
+                </Button>
+                
+
+            </Form>
+           
+            
             <Row className='py-3'>
                 <Col>
-                    New Customer? <Link
+                    Eres cliente nuevo?, si es así solo registrate y listo <Link
                         to={redirect ? `/register?redirect=${redirect}` : '/register'}>
-                        Register
+                        Registrar
                         </Link>
                 </Col>
             </Row>
