@@ -5,15 +5,10 @@
 <div class="profile">
 	<img src="{{use.profile.image.url }}">
 	<h2>@{{ user.username}}</h2>
-	{% if request.username.is_auntenticatad %}
-		{% if user.username !=request.user.username %}
-			{% if user not in request.user.profile.followin%}
-			<button><a class="follow-button" href="{url 'follow' user}">Follow</a></button>
-			{% else %}
-			<button><a class="follow-button" href="{url 'unfollow' user}">Follow</a></button>
-			{% endif %}
-		{% endif %}
-	{% endif %}		
+
+	<button><a class="follow-button" href="#">Follow</a></button>
+			
+					
 </div>
 
 <!-- Follow items -->

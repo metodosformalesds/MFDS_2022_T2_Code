@@ -41,23 +41,20 @@ def post(request):
 
 
 def profile(request):
-    return render(request, 'socal/profile.html')
+    return render(request, 'social/profile.html')
 
 
-def follow(request, username):
-    current_user = request.user
-    to_user = User.objects.get(username=username)
-    to_user_id = to_user
-    rel = Relationship(from_user=current_user, to_user=to_user_id)
-    rel.save()
-    messages.success(request, f'siguea a:{username}')
-    return redirect('home')
+# to_user_id = to_user
+ #   rel = Relationship(from_user=current_user, to_user=to_user_id)
+  #  rel.save()
+   # messages.success(request, f'siguea a:{username}')
+    #return redirect('home')
 
-def unfollow(request, username):
-    current_user = request.user
-    to_user = User.objects.get(username=username)
-    to_user_id = to_user
-    rel = Relationship.objects.filter(from_user=current_user.id, to_user=to_user_id).get()
-    rel.delete()
-    messages.success(request, f'ya no siguea a:{username}')
-    return redirect('home')         
+#def unfollow(request, username):
+ #   current_user = request.user
+  #  to_user = User.objects.get(username=username)
+   # to_user_id = to_user
+    #rel = Relationship.objects.filter(from_user=current_user.id, to_user=to_user_id).get()
+    #rel.delete()
+    #messages.success(request, f'ya no siguea a:{username}')
+    #return redirect('home')         

@@ -10,21 +10,27 @@ class Profile(models.Model):
     def __str__(self):
         return f'Perfil de {self.user.username}'
 
-    def following(self):
-        user_ids = Relationship.objects.filter(from_user=self.user)\
-                                .values_list('to_user_id', flat=True)
-        return User.objects.filter(id__in=user_ids)  
+    #def following(self):
+     #   user_ids = Relationship.objects.filter(from_user=self.user)\
+      #                          .values_list('to_user_id', flat=True)
+       # return User.objects.filter(id__in=user_ids)  
 
 
-    def followers(self):
-        user_ids = Relationship.objects.filter(to_user=self.user)\
-                                .values_list('from_user_id', flat=True)
-        return User.objects.filter(id__in=user_ids)                                 
+    #def followers(self):
+     #   user_ids = Relationship.objects.filter(to_user=self.user)\
+      #                          .values_list('from_user_id', flat=True)
+       # return User.objects.filter(id__in=user_ids)                                 
 
 class Post(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='posts')
     timestamp = models.DateTimeField(default=timezone.now)        
     description =models.TextField()
+    #namePet =models.CharField(max_length=30)
+    #sizepet= models.CharField( max_length=30)
+    #nameOwner = models.CharField( max_length=50)
+    #direccion = models.CharField(max_length=50)
+    #email = models.EmailField('correo', max_length=50, unique=True)
+
     
 
     class Meta:
