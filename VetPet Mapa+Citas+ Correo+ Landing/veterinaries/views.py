@@ -115,6 +115,8 @@ class ManageAppointmentTemplateView(ListView):
         })
         return context
 
+
+
 class MapaTemplateView(TemplateView):
     template_name = "mapa.html"
 
