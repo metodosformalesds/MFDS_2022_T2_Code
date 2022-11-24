@@ -22,9 +22,8 @@ function HomeScreen({ history }) {
     }, [dispatch, keyword])
 
     return (
+        //Pagina principal de el e-commerce donde se muestran todos los productos existentes, se llama a la lista de productos desde el archivo productsAction.js
         <div>
-            
-
             <h1>Productos en existencia</h1>
             {loading ? <Loader />
                 : error ? <Message variant='danger'>{error}</Message>
