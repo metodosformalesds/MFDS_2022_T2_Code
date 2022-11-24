@@ -1,3 +1,5 @@
+//Importando todas las funciones de las ordenes
+
 import axios from 'axios'
 import {
     ORDER_CREATE_REQUEST,
@@ -31,14 +33,14 @@ import {
 import { CART_CLEAR_ITEMS } from '../constants/cartConstants'
 
 
-export const createOrder = (order) => async (dispatch, getState) => {
+export const createOrder = (order) => async (dispatch, getState) => {  /*Funcion para crear ordenes*/
     try {
         dispatch({
             type: ORDER_CREATE_REQUEST
         })
 
         const {
-            userLogin: { userInfo },
+            userLogin: { userInfo }, /*Enviar datos de inicio de sesion*/
         } = getState()
 
         const config = {
@@ -78,7 +80,7 @@ export const createOrder = (order) => async (dispatch, getState) => {
 }
 
 
-export const getOrderDetails = (id) => async (dispatch, getState) => {
+export const getOrderDetails = (id) => async (dispatch, getState) => { /*Obteniendo detalles de la orden*/
     try {
         dispatch({
             type: ORDER_DETAILS_REQUEST
@@ -118,7 +120,7 @@ export const getOrderDetails = (id) => async (dispatch, getState) => {
 
 
 
-export const payOrder = (id, paymentResult) => async (dispatch, getState) => {
+export const payOrder = (id, paymentResult) => async (dispatch, getState) => {//Funcion para la orden del pago
     try {
         dispatch({
             type: ORDER_PAY_REQUEST
@@ -158,7 +160,7 @@ export const payOrder = (id, paymentResult) => async (dispatch, getState) => {
 }
 
 
-export const deliverOrder = (order) => async (dispatch, getState) => {
+export const deliverOrder = (order) => async (dispatch, getState) => {//Información de orden
     try {
         dispatch({
             type: ORDER_DELIVER_REQUEST
@@ -199,7 +201,7 @@ export const deliverOrder = (order) => async (dispatch, getState) => {
 
 
 
-export const listMyOrders = () => async (dispatch, getState) => {
+export const listMyOrders = () => async (dispatch, getState) => {//Mostrar la lista de ordenes
     try {
         dispatch({
             type: ORDER_LIST_MY_REQUEST
@@ -238,7 +240,7 @@ export const listMyOrders = () => async (dispatch, getState) => {
 }
 
 
-export const listOrders = () => async (dispatch, getState) => {
+export const listOrders = () => async (dispatch, getState) => { //Lista de ordenes
     try {
         dispatch({
             type: ORDER_LIST_REQUEST

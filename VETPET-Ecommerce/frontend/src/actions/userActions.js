@@ -1,3 +1,4 @@
+//Importando todas las funciones de los usuarios
 import axios from 'axios'
 import {
     USER_LOGIN_REQUEST,
@@ -37,7 +38,7 @@ import {
 
 import { ORDER_LIST_MY_RESET } from '../constants/orderConstants'
 
-export const login = (email, password) => async (dispatch) => {
+export const login = (email, password) => async (dispatch) => { //Función para el inicio de sesión
     try {
         dispatch({
             type: USER_LOGIN_REQUEST
@@ -73,7 +74,7 @@ export const login = (email, password) => async (dispatch) => {
 }
 
 
-export const logout = () => (dispatch) => {
+export const logout = () => (dispatch) => { //Funcion para cerrar sesión
     localStorage.removeItem('userInfo')
     dispatch({ type: USER_LOGOUT })
     dispatch({ type: USER_DETAILS_RESET })
@@ -82,7 +83,7 @@ export const logout = () => (dispatch) => {
 }
 
 
-export const register = (name, email, password) => async (dispatch) => {
+export const register = (name, email, password) => async (dispatch) => { //Funcion para registrar en la base de datos
     try {
         dispatch({
             type: USER_REGISTER_REQUEST
@@ -123,7 +124,7 @@ export const register = (name, email, password) => async (dispatch) => {
 }
 
 
-export const getUserDetails = (id) => async (dispatch, getState) => {
+export const getUserDetails = (id) => async (dispatch, getState) => {//Obtener los detalles de usuario de la base de datos
     try {
         dispatch({
             type: USER_DETAILS_REQUEST
@@ -162,7 +163,7 @@ export const getUserDetails = (id) => async (dispatch, getState) => {
 }
 
 
-export const updateUserProfile = (user) => async (dispatch, getState) => {
+export const updateUserProfile = (user) => async (dispatch, getState) => {//Actualizar usuario de la base de datos
     try {
         dispatch({
             type: USER_UPDATE_PROFILE_REQUEST
@@ -208,7 +209,7 @@ export const updateUserProfile = (user) => async (dispatch, getState) => {
 }
 
 
-export const listUsers = () => async (dispatch, getState) => {
+export const listUsers = () => async (dispatch, getState) => {//Mostrar lista de usuarios
     try {
         dispatch({
             type: USER_LIST_REQUEST
@@ -247,7 +248,7 @@ export const listUsers = () => async (dispatch, getState) => {
 }
 
 
-export const deleteUser = (id) => async (dispatch, getState) => {
+export const deleteUser = (id) => async (dispatch, getState) => {//Funcion para eliminar usuarios de ls base de datos
     try {
         dispatch({
             type: USER_DELETE_REQUEST
@@ -286,7 +287,7 @@ export const deleteUser = (id) => async (dispatch, getState) => {
 }
 
 
-export const updateUser = (user) => async (dispatch, getState) => {
+export const updateUser = (user) => async (dispatch, getState) => {//Funcion para actualizar usuario
     try {
         dispatch({
             type: USER_UPDATE_REQUEST

@@ -3,11 +3,11 @@ import { Button, Form } from 'react-bootstrap'
 import { useHistory } from 'react-router-dom'
 
 function SearchBox() {
-    const [keyword, setKeyword] = useState('')
+    const [keyword, setKeyword] = useState('') /*Barra de busqueda*/
 
     let history = useHistory()
 
-    const submitHandler = (e) => {
+    const submitHandler = (e) => { /*funcion de busqueda de palabras*/
         e.preventDefault()
         if (keyword) {
             history.push(`/?keyword=${keyword}&page=1`)
@@ -15,8 +15,8 @@ function SearchBox() {
             history.push(history.push(history.location.pathname))
         }
     }
-    return (
-        <Form onSubmit={submitHandler} inline>
+    return ( /*Barra de busqueda diseño*/
+        <Form onSubmit={submitHandler} inline> 
             <Form.Control
                 type='text'
                 name='q'

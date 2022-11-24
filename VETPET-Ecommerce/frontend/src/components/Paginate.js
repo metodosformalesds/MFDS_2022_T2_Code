@@ -7,7 +7,7 @@ function Paginate({ pages, page, keyword = '', isAdmin = false }) {
         keyword = keyword.split('?keyword=')[1].split('&')[0]
     }
 
-    return (pages > 1 && (
+    return (pages > 1 && (/*numero de pestañas de productos*/
         <Pagination>
             {[...Array(pages).keys()].map((x) => (
                 <LinkContainer

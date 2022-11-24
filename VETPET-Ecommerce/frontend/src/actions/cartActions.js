@@ -1,3 +1,4 @@
+//Importando todas las funciones de los carritos de compras
 import axios from 'axios'
 import {
     CART_ADD_ITEM,
@@ -8,7 +9,7 @@ import {
 } from '../constants/cartConstants'
 
 
-export const addToCart = (id, qty) => async (dispatch, getState) => {
+export const addToCart = (id, qty) => async (dispatch, getState) => { //Añadiendo productos a el carrito
     const { data } = await axios.get(`/api/products/${id}`)
 
     dispatch({
@@ -27,7 +28,7 @@ export const addToCart = (id, qty) => async (dispatch, getState) => {
 
 
 
-export const removeFromCart = (id) => (dispatch, getState) => {
+export const removeFromCart = (id) => (dispatch, getState) => { //Remover productos al carrito
     dispatch({
         type: CART_REMOVE_ITEM,
         payload: id,
@@ -46,7 +47,7 @@ export const saveShippingAddress = (data) => (dispatch) => {
     localStorage.setItem('shippingAddress', JSON.stringify(data))
 }
 
-export const savePaymentMethod = (data) => (dispatch) => {
+export const savePaymentMethod = (data) => (dispatch) => { //Guardar metodo de pago
     dispatch({
         type: CART_SAVE_PAYMENT_METHOD,
         payload: data,

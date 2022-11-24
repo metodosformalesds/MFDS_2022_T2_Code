@@ -8,7 +8,7 @@ import FormContainer from '../components/FormContainer'
 import { getUserDetails, updateUser } from '../actions/userActions'
 import { USER_UPDATE_RESET } from '../constants/userConstants'
 
-function UserEditScreen({ match, history }) {
+function UserEditScreen({ match, history }) {/*Editar usuarios, pagina para admin*/
 
     const userId = match.params.id
 
@@ -24,9 +24,9 @@ function UserEditScreen({ match, history }) {
     const userUpdate = useSelector(state => state.userUpdate)
     const { error: errorUpdate, loading: loadingUpdate, success: successUpdate } = userUpdate
 
-    useEffect(() => {
+    useEffect(() => { /*Verificar cuenta administrador/staff*/
 
-        if (successUpdate) {
+        if (successUpdate) { 
             dispatch({ type: USER_UPDATE_RESET })
             history.push('/admin/userlist')
         } else {
@@ -49,7 +49,7 @@ function UserEditScreen({ match, history }) {
 
     return (
         <div>
-            <Link to='/admin/userlist'>
+            <Link to='/admin/userlist' /*Formulario para editar un usuario*/>
                 Volver
             </Link>
 
@@ -67,7 +67,7 @@ function UserEditScreen({ match, history }) {
                                 <Form.Control
 
                                     type='name'
-                                    placeholder='Enter name'
+                                    placeholder='Ingresa tu nombre'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                 >
@@ -78,7 +78,7 @@ function UserEditScreen({ match, history }) {
                                 <Form.Label>Email </Form.Label>
                                 <Form.Control
                                     type='email'
-                                    placeholder='Enter Email'
+                                    placeholder='Ingresa tu correo'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                 >
@@ -95,7 +95,7 @@ function UserEditScreen({ match, history }) {
                                 </Form.Check>
                             </Form.Group>
 
-                            <Button type='submit' variant='primary'>
+                            <Button type='submit' variant='primary' /*Boton para actualizar*/>
                                 Actualizar
                         </Button>
 

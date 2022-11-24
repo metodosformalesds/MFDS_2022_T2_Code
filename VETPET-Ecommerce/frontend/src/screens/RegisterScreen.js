@@ -40,7 +40,7 @@ function RegisterScreen({ location, history }) {
     }
 
     return (
-        <FormContainer>
+        <FormContainer /*Formulario para registrar una cuenta*/>
             <h1>Registra una cuenta nueva</h1>
             {message && <Message variant='danger'>{message}</Message>}
             {error && <Message variant='danger'>{error}</Message>}
@@ -52,19 +52,19 @@ function RegisterScreen({ location, history }) {
                     <Form.Control
                         required
                         type='name'
-                        placeholder='Enter name'
+                        placeholder='Ingresa tu nombre'
                         value={name}
-                        onChange={(e) => setName(e.target.value)}
+                        onChange={(e) => setName(e.target.value)  /*Obteniendodatos*/}
                     >
                     </Form.Control>
                 </Form.Group>
 
                 <Form.Group controlId='email'>
-                    <Form.Label>Email </Form.Label>
+                    <Form.Label>Correo</Form.Label>
                     <Form.Control
                         required
                         type='email'
-                        placeholder='Enter Email'
+                        placeholder='Ingresa tu correo'
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                     >
@@ -72,11 +72,11 @@ function RegisterScreen({ location, history }) {
                 </Form.Group>
 
                 <Form.Group controlId='password'>
-                    <Form.Label>Password</Form.Label>
+                    <Form.Label>Contraseña</Form.Label>
                     <Form.Control
                         required
                         type='password'
-                        placeholder='Enter Password'
+                        placeholder='Ingresa tu contraseña'
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                     >
@@ -84,18 +84,18 @@ function RegisterScreen({ location, history }) {
                 </Form.Group>
 
                 <Form.Group controlId='passwordConfirm'>
-                    <Form.Label>Confirma tu Password</Form.Label>
+                    <Form.Label>Confirma tu contraseña</Form.Label>
                     <Form.Control
                         required
                         type='password'
-                        placeholder='Confirm Password'
+                        placeholder='Confirma tu contraseña'
                         value={confirmPassword}
                         onChange={(e) => setConfirmPassword(e.target.value)}
                     >
                     </Form.Control>
                 </Form.Group>
 
-                <Button type='submit' variant='primary'>
+                <Button type='submit' variant='primary'  /*Boton para registrar datos*/>
                     Registrar cuenta
                 </Button>
 
@@ -104,7 +104,7 @@ function RegisterScreen({ location, history }) {
             <Row className='py-3'>
                 <Col>
                     ¿Ya tienes cuenta? <Link
-                        to={redirect ? `/login?redirect=${redirect}` : '/login'}>
+                        to={redirect ? `/login?redirect=${redirect}` : '/login'}  /*Redireccionar a iniciar sesion*/>
                         Inicia sesión
                         </Link>
                 </Col>

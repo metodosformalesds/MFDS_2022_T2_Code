@@ -1,3 +1,4 @@
+//Importando todas las funciones de los productos
 import axios from 'axios'
 import {
     PRODUCT_LIST_REQUEST,
@@ -32,7 +33,7 @@ import {
 } from '../constants/productConstants'
 
 
-export const listProducts = (keyword = '') => async (dispatch) => {
+export const listProducts = (keyword = '') => async (dispatch) => { //llamando a la lista de productos 
     try {
         dispatch({ type: PRODUCT_LIST_REQUEST })
 
@@ -75,7 +76,7 @@ export const listTopProducts = () => async (dispatch) => {
 }
 
 
-export const listProductDetails = (id) => async (dispatch) => {
+export const listProductDetails = (id) => async (dispatch) => { //llamando a la información de detalles de los productos
     try {
         dispatch({ type: PRODUCT_DETAILS_REQUEST })
 
@@ -97,7 +98,7 @@ export const listProductDetails = (id) => async (dispatch) => {
 }
 
 
-export const deleteProduct = (id) => async (dispatch, getState) => {
+export const deleteProduct = (id) => async (dispatch, getState) => { //Funcion para eliminar productos
     try {
         dispatch({
             type: PRODUCT_DELETE_REQUEST
@@ -124,7 +125,7 @@ export const deleteProduct = (id) => async (dispatch, getState) => {
         })
 
 
-    } catch (error) {
+    } catch (error) {//Mensaje de error
         dispatch({
             type: PRODUCT_DELETE_FAIL,
             payload: error.response && error.response.data.detail
@@ -137,7 +138,7 @@ export const deleteProduct = (id) => async (dispatch, getState) => {
 
 
 
-export const createProduct = () => async (dispatch, getState) => {
+export const createProduct = () => async (dispatch, getState) => {//Funcion para crear productos
     try {
         dispatch({
             type: PRODUCT_CREATE_REQUEST
@@ -177,7 +178,7 @@ export const createProduct = () => async (dispatch, getState) => {
 
 
 
-export const updateProduct = (product) => async (dispatch, getState) => {
+export const updateProduct = (product) => async (dispatch, getState) => {//Funcion para actualizar productos
     try {
         dispatch({
             type: PRODUCT_UPDATE_REQUEST
@@ -221,7 +222,7 @@ export const updateProduct = (product) => async (dispatch, getState) => {
     }
 }
 
-export const createProductReview = (productId, review) => async (dispatch, getState) => {
+export const createProductReview = (productId, review) => async (dispatch, getState) => {//Funcion para crear review
     try {
         dispatch({
             type: PRODUCT_CREATE_REVIEW_REQUEST

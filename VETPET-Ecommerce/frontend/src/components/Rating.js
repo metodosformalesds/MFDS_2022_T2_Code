@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Rating({ value, text, color }) {
+function Rating({ value, text, color }) { /*Mostrar las estrellas de calificación*/
     return (
         <div className="rating">
             <span>

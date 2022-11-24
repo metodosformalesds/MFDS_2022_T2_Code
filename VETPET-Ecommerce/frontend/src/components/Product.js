@@ -3,7 +3,7 @@ import { Card, Button } from 'react-bootstrap'
 import Rating from './Rating'
 import { Link } from 'react-router-dom'
 
-function Product({ product }) {
+function Product({ product }) { /*Mostrar productos en la pagina del e-commerce*/
     return (
         
     

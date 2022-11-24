@@ -20,7 +20,7 @@ function UserListScreen({ history }) {
     const { success: successDelete } = userDelete
 
 
-    useEffect(() => {
+    useEffect(() => { /*Verificar que se haya iniciado sesion*/
         if (userInfo && userInfo.isAdmin) {
             dispatch(listUsers())
         } else {
@@ -32,7 +32,7 @@ function UserListScreen({ history }) {
 
     const deleteHandler = (id) => {
 
-        if (window.confirm('Are you sure you want to delete this user?')) {
+        if (window.confirm('Estas seguro que quieres eliminar a el usuario?')) { /*Mensaje de confirmación*/
             dispatch(deleteUser(id))
         }
     }
@@ -45,7 +45,7 @@ function UserListScreen({ history }) {
                 : error
                     ? (<Message variant='danger'>{error}</Message>)
                     : (
-                        <Table striped bordered hover responsive className='table-sm'>
+                        <Table striped bordered hover responsive className='table-sm' /*Mostrar datos de usuario*/>
                             <thead>
                                 <tr>
                                     <th>ID</th>
@@ -75,7 +75,7 @@ function UserListScreen({ history }) {
                                                 </Button>
                                             </LinkContainer>
 
-                                            <Button variant='danger' className='btn-sm' onClick={() => deleteHandler(user._id)}>
+                                            <Button variant='danger' className='btn-sm' onClick={() => deleteHandler(user._id) /*Eliminar usuario*/}>
                                                 <i className='fas fa-trash'></i>
                                             </Button>
                                         </td>

@@ -5,7 +5,7 @@ import { LinkContainer } from 'react-router-bootstrap'
 import SearchBox from './SearchBox'
 import { logout } from '../actions/userActions'
 
-function Header() {
+function Header() { /*Encabezado/Navbar*/
 
     const userLogin = useSelector(state => state.userLogin)
     const { userInfo } = userLogin
@@ -17,7 +17,7 @@ function Header() {
     }
 
     return (
-        <header>
+        <header /*Conexion a los links de las paginas*/>
             <Navbar bg="warningt" variant="bg-warning" expand="lg" collapseOnSelect>
                 <Container><img src="https://raw.githubusercontent.com/metodosformalesds/MFDS_2022_T2_Code/main/LogoVetPet.png" width="100px"></img>
                     <LinkContainer to='/'>

@@ -24,7 +24,7 @@ function ShippingScreen({ history }) {
     }
 
     return (
-        <FormContainer>
+        <FormContainer /*Formulario para ingresar datos de tu direccion*/>
             <CheckoutSteps step1 step2 />
             <h1>Envío</h1>
             <Form onSubmit={submitHandler}>
@@ -34,9 +34,9 @@ function ShippingScreen({ history }) {
                     <Form.Control
                         required
                         type='text'
-                        placeholder='Enter address'
+                        placeholder='Ingresa tu direccion'
                         value={address ? address : ''}
-                        onChange={(e) => setAddress(e.target.value)}
+                        onChange={(e) => setAddress(e.target.value) /*Obteniendo los datos*/}
                     >
                     </Form.Control>
                 </Form.Group>
@@ -46,7 +46,7 @@ function ShippingScreen({ history }) {
                     <Form.Control
                         required
                         type='text'
-                        placeholder='Enter city'
+                        placeholder='Ingresa tu ciudad'
                         value={city ? city : ''}
                         onChange={(e) => setCity(e.target.value)}
                     >
@@ -58,7 +58,7 @@ function ShippingScreen({ history }) {
                     <Form.Control
                         required
                         type='text'
-                        placeholder='Enter postal code'
+                        placeholder='Ingresa tu codigo postal'
                         value={postalCode ? postalCode : ''}
                         onChange={(e) => setPostalCode(e.target.value)}
                     >
@@ -70,15 +70,15 @@ function ShippingScreen({ history }) {
                     <Form.Control
                         required
                         type='text'
-                        placeholder='Enter country'
+                        placeholder='Ingresa tu pais'
                         value={country ? country : ''}
                         onChange={(e) => setCountry(e.target.value)}
                     >
                     </Form.Control>
                 </Form.Group>
 
-                <Button type='submit' variant='primary'>
-                    Continue
+                <Button type='submit' variant='primary' /*Boton para subir los datos*/>
+                    Continuar
                 </Button>
             </Form>
         </FormContainer>

@@ -18,7 +18,7 @@ import ProductListScreen from './screens/ProductListScreen'
 import ProductEditScreen from './screens/ProductEditScreen'
 import OrderListScreen from './screens/OrderListScreen'
 
-
+/*Rutas para cada pagina*/
 function App() {
   return (
     <Router>
