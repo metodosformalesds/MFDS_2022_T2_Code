@@ -116,7 +116,7 @@ class ManageAppointmentTemplateView(ListView):
         return context
 
 
-
+##Daniel Barajas y Adrian Robles
 class MapaTemplateView(TemplateView):
     template_name = "mapa.html"
 
