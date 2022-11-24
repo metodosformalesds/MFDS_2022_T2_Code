@@ -10,30 +10,30 @@ def feed(request):
     posts = Post.objects.all()
     context = {'posts': posts}
     return render(request, 'social/feed.html', context)
-
+# permite el registro del ususrio
 def register(request):
-   if request.method =='POST':
-        form = UserRegisterForm(request.POST)
-        if form.is_valid():
-            form.save()
+   if request.method =='POST': # permite acceder a la informacion del post
+        form = UserRegisterForm(request.POST) # instancia del ususrio 
+        if form.is_valid(): # valida que form sea valido
+            form.save() # se guarda el form
             username = form.cleaned_data['username']
-            messages.success(request, f'Usuario {username} creado')
+            messages.success(request, f'Usuario {username} creado') #se envia un mensaje que el ususrio se ha creado 
             return redirect('feed')
    else:
         form = UserRegisterForm()
 
         context = {'form' : form }
         return render(request, 'social/register.html', context)
-
+# se crear el formulario del post y se valida 
 def post(request):
     current_user = get_object_or_404(User, pk=request.user.pk)
-    if request.method=='POST':
-        form = PostForm(request.POST)
-        if form.is_valid():
+    if request.method=='POST': # accede a los post
+        form = PostForm(request.POST) 
+        if form.is_valid(): # se valida que el form sea correcto
             post = form.save(commit=False)
             post.user = current_user
-            post.save()
-            messages.success(request, 'Post enviado')
+            post.save() # se guarda el post
+            messages.success(request, 'Post enviado') # se envia un mensaje al ususrio
             return redirect('feed')
     else:
         form = PostForm()

@@ -4,6 +4,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib.auth.views import LoginView, LogoutView
 
+# se crea las urls de las funciones
 urlpatterns = [
     path('', views.feed, name='feed'),
     path('profile/', views.profile, name='profile'),
