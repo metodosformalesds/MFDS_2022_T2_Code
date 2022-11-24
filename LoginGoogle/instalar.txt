@@ -1,0 +1,3 @@
+instalar en el frontend:
+
+yarn add gapi-script

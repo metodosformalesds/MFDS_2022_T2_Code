@@ -104,3 +104,6 @@ class ManageAppointmentTemplateView(ListView):
 
 class MapaTemplateView(TemplateView):
     template_name = "mapa.html"
+
+class LandingTemplateView(TemplateView):
+    template_name = "landing.html"
