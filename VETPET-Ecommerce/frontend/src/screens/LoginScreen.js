@@ -7,9 +7,13 @@ import Message from '../components/Message'
 import FormContainer from '../components/FormContainer'
 import { login } from '../actions/userActions'
 import Logins from '../components/Logins';
-import { GoogleLogin } from 'react-google-login';
-import GoogleButton from 'react-google-button'
+import {GoogleLogin} from "react-google-login"
+import {gapi} from "gapi-script"
+import LoginButton from './login'
+const clientId="795948132843-dcfvnj4f58c0jisogn9qfqnsg20hat0f.apps.googleusercontent.com"
+
 function LoginScreen({ location, history }) {
+    //valores de usuarios 
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
 
@@ -22,14 +26,8 @@ function LoginScreen({ location, history }) {
     const responseGoogle = (response) => {
         console.log(response);
       }
-      <GoogleLogin
-      clientId="658977310896-knrl3gka66fldh83dao2rhgbblmd4un9.apps.googleusercontent.com"
-      buttonText="Login"
-      onSuccess={responseGoogle}
-      onFailure={responseGoogle}
-      cookiePolicy={'single_host_origin'}
-    />
-        
+     
+      //Enviar la información de usuario
     useEffect(() => {
         if (userInfo) {
             history.push(redirect)
@@ -41,14 +39,24 @@ function LoginScreen({ location, history }) {
         dispatch(login(email, password))
     }
 
+    useEffect(()=>{
+        function start(){
+          gapi.client.init({
+            clientId: clientId,
+            scope: ""
+          })
+        };
+        gapi.load('client:auth2', start)
+      });
     return (
+        //Formulario para inicar sesion
         <FormContainer>
             <h1>Acceder a cuenta</h1>
             {error && <Message variant='danger'>{error}</Message>}
             {loading && <Loader />}
-            <Form onSubmit={submitHandler}>
 
-                <Form.Group controlId='email'>
+            <Form onSubmit={submitHandler}>
+             <Form.Group controlId='email'>
                     <Form.Label>Email</Form.Label>
                     <Form.Control
                         type='email'
@@ -73,15 +81,12 @@ function LoginScreen({ location, history }) {
 
                 <Button type='submit' variant='primary'>
                     Iniciar sesión
-
                 </Button>
+                <br></br>
+                <LoginButton>
+                </LoginButton>
                 
-
-            </Form>
-            <GoogleButton
-  onClick={() => { console.log('Google button clicked') }}
-/>
-            
+            </Form>            
             <Row className='py-3'>
                 <Col>
                     Eres cliente nuevo?, si es así solo registrate y listo <Link
@@ -95,4 +100,5 @@ function LoginScreen({ location, history }) {
     )
 }
 
+//Exportar la funcion para que se pueda usar en otros archivos
 export default LoginScreen

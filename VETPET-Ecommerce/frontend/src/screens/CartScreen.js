@@ -13,17 +13,18 @@ function CartScreen({ match, location, history }) {
     const cart = useSelector(state => state.cart)
     const { cartItems } = cart
 
+    //Añadir los productos al carrito
     useEffect(() => {
         if (productId) {
             dispatch(addToCart(productId, qty))
         }
     }, [dispatch, productId, qty])
 
-
+//Remover productos
     const removeFromCartHandler = (id) => {
         dispatch(removeFromCart(id))
     }
-
+//Constante para checkout
     const checkoutHandler = () => {
         history.push('/login?redirect=shipping')
     }
@@ -37,6 +38,7 @@ function CartScreen({ match, location, history }) {
                         Tu carrito está vacío <Link to='/'>Regresar</Link>
                     </Message>
                 ) : (
+                    //Mostrando los productos del carrito y sus atributos
                         <ListGroup variant='flush'>
                             {cartItems.map(item => (
                                 <ListGroup.Item key={item.product}>
@@ -52,6 +54,7 @@ function CartScreen({ match, location, history }) {
                                             ${item.price}
                                         </Col>
 
+                                            //Cantidad de productos
                                         <Col md={3}>
                                             <Form.Control
                                                 as="select"
@@ -69,9 +72,8 @@ function CartScreen({ match, location, history }) {
 
                                             </Form.Control>
                                         </Col>
-
                                         <Col md={1}>
-                                            <Button
+                                            <Button /*Boton para remover productos*/
                                                 type='button'
                                                 variant='light'
                                                 onClick={() => removeFromCartHandler(item.product)}
@@ -110,6 +112,8 @@ function CartScreen({ match, location, history }) {
                 </Card>
             </Col>
         </Row>
+
+        //Este formulario es la pantalla qde carrito, y muestra los datos como cantidad, atributos del carrito, precios, total y boton para checkout, eliminar
     )
 }
 
