@@ -19,7 +19,8 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 from django.views.generic import TemplateView
-
+#Se definen las diversas rutas que muestran los modelos del sistema por medio de las vistas, corresponden a la página de inicio, products, user y las ordenes, también se configura
+#la estructura de sus rutas
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', TemplateView.as_view(template_name='index.html')),
