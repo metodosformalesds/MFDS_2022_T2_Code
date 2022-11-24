@@ -10,6 +10,7 @@ import { PRODUCT_CREATE_RESET } from '../constants/productConstants'
 
 function ProductListScreen({ history, match }) {
 
+    /*Mostrando los datos a el admin*/
     const dispatch = useDispatch()
 
     const productList = useSelector(state => state.productList)
@@ -29,6 +30,7 @@ function ProductListScreen({ history, match }) {
     useEffect(() => {
         dispatch({ type: PRODUCT_CREATE_RESET })
 
+        /*Verificar si inicio sesion*/
         if (!userInfo.isAdmin) {
             history.push('/login')
         }
@@ -55,23 +57,25 @@ function ProductListScreen({ history, match }) {
 
     return (
         <div>
+            
             <Row className='align-items-center'>
-                <Col>
-                    <h1>Products</h1>
+                <Col >
+                    <h1>Productos</h1>
                 </Col>
 
-                <Col className='text-right'>
+                <Col className='text-right' /*Boton de crear productos*/>
                     <Button className='my-3' onClick={createProductHandler}>
-                        <i className='fas fa-plus'></i> Create Product
+                        <i className='fas fa-plus'></i> Crear productos
                     </Button>
                 </Col>
             </Row>
+            
 
-            {loadingDelete && <Loader />}
+            {loadingDelete && <Loader /> /*Aviso de error al eliminr producto*/} 
             {errorDelete && <Message variant='danger'>{errorDelete}</Message>}
 
 
-            {loadingCreate && <Loader />}
+            {loadingCreate && <Loader /> /*Aviso de error al crear*/}
             {errorCreate && <Message variant='danger'>{errorCreate}</Message>}
 
             {loading
@@ -82,7 +86,7 @@ function ProductListScreen({ history, match }) {
                         <div>
                             <Table striped bordered hover responsive className='table-sm'>
                                 <thead>
-                                    <tr>
+                                    <tr /*Datos del producto*/> 
                                         <th>ID</th>
                                         <th>NAME</th>
                                         <th>PRICE</th>
@@ -93,7 +97,7 @@ function ProductListScreen({ history, match }) {
                                 </thead>
 
                                 <tbody>
-                                    {products.map(product => (
+                                    {products.map(product => ( /*Obteniendo datos*/
                                         <tr key={product._id}>
                                             <td>{product._id}</td>
                                             <td>{product.name}</td>

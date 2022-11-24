@@ -10,6 +10,7 @@ import { USER_UPDATE_PROFILE_RESET } from '../constants/userConstants'
 import { listMyOrders } from '../actions/orderActions'
 
 function ProfileScreen({ history }) {
+    /*Perfil de los usuarios*/
 
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
@@ -32,6 +33,7 @@ function ProfileScreen({ history }) {
     const { loading: loadingOrders, error: errorOrders, orders } = orderListMy
 
 
+/*Verificar el inicio de sesion y habilitando la opción de perfil*/
     useEffect(() => {
         if (!userInfo) {
             history.push('/login')
@@ -63,8 +65,9 @@ function ProfileScreen({ history }) {
         }
 
     }
-    return (
+    return ( /*Formulario de datos del perfil*/
         <Row>
+            
             <Col md={3}>
                 <h2>Perfil</h2>
 
@@ -72,7 +75,6 @@ function ProfileScreen({ history }) {
                 {error && <Message variant='danger'>{error}</Message>}
                 {loading && <Loader />}
                 <Form onSubmit={submitHandler}>
-
                     <Form.Group controlId='name'>
                         <Form.Label>Nombre</Form.Label>
                         <Form.Control
@@ -86,11 +88,11 @@ function ProfileScreen({ history }) {
                     </Form.Group>
 
                     <Form.Group controlId='email'>
-                        <Form.Label>Email</Form.Label>
+                        <Form.Label>Correo</Form.Label>
                         <Form.Control
                             required
                             type='email'
-                            placeholder='Enter Email'
+                            placeholder='Ingresa tu correo'
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
                         >
@@ -98,11 +100,11 @@ function ProfileScreen({ history }) {
                     </Form.Group>
 
                     <Form.Group controlId='password'>
-                        <Form.Label>Password</Form.Label>
+                        <Form.Label>Contraseña</Form.Label>
                         <Form.Control
 
                             type='password'
-                            placeholder='Enter Password'
+                            placeholder='Ingresa tu contraseña'
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
                         >
@@ -110,25 +112,25 @@ function ProfileScreen({ history }) {
                     </Form.Group>
 
                     <Form.Group controlId='passwordConfirm'>
-                        <Form.Label>Confirmar tu Password</Form.Label>
+                        <Form.Label>Confirmar tu contraseña</Form.Label>
                         <Form.Control
 
                             type='password'
-                            placeholder='Confirm Password'
+                            placeholder='Confirma tu contraseña'
                             value={confirmPassword}
                             onChange={(e) => setConfirmPassword(e.target.value)}
                         >
                         </Form.Control>
                     </Form.Group>
 
-                    <Button type='submit' variant='primary'>
+                    <Button type='submit' variant='primary' /*Boton para actualizar datos*/> 
                         Actualiza tu perfil
                 </Button>
 
                 </Form>
             </Col>
 
-            <Col md={9}>
+            <Col md={9} /*Datos sobre las ordenes del usuario*/>
                 <h2>My Ordenes</h2>
                 {loadingOrders ? (
                     <Loader />
@@ -158,7 +160,7 @@ function ProfileScreen({ history }) {
                                             )}</td>
                                             <td>
                                                 <LinkContainer to={`/order/${order._id}`}>
-                                                    <Button className='btn-sm'>Details</Button>
+                                                    <Button className='btn-sm'>Detalles</Button>
                                                 </LinkContainer>
                                             </td>
                                         </tr>

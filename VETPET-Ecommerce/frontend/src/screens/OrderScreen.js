@@ -11,7 +11,7 @@ import { ORDER_PAY_RESET, ORDER_DELIVER_RESET } from '../constants/orderConstant
 function OrderScreen({ match, history }) {
     const orderId = match.params.id
     const dispatch = useDispatch()
-
+/*Constantes que se usaran*/
 
     const [sdkReady, setSdkReady] = useState(false)
 
@@ -32,7 +32,7 @@ function OrderScreen({ match, history }) {
         order.itemsPrice = order.orderItems.reduce((acc, item) => acc + item.price * item.qty, 0).toFixed(2)
     }
 
-
+/*Conexión con paypal*/
     const addPayPalScript = () => {
         const script = document.createElement('script')
         script.type = 'text/javascript'
@@ -44,6 +44,7 @@ function OrderScreen({ match, history }) {
         document.body.appendChild(script)
     }
 
+/*Verificar si ha iniciado sesion*/
     useEffect(() => {
 
         if (!userInfo) {
@@ -53,7 +54,7 @@ function OrderScreen({ match, history }) {
         if (!order || successPay || order._id !== Number(orderId) || successDeliver) {
             dispatch({ type: ORDER_PAY_RESET })
             dispatch({ type: ORDER_DELIVER_RESET })
-
+/*Llamando a los datos de la orden */
             dispatch(getOrderDetails(orderId))
         } else if (!order.isPaid) {
             if (!window.paypal) {
@@ -83,9 +84,9 @@ function OrderScreen({ match, history }) {
                     <Row>
                         <Col md={8}>
                             <ListGroup variant='flush'>
-                                <ListGroup.Item>
-                                    <h2>Envío </h2>
-                                    <p><strong>Nombre: </strong> {order.user.name}</p>
+                                <ListGroup.Item /*Datos de la orden*/> 
+                                    <h2>Envío </h2> 
+                                    <p><strong>Nombre: </strong> {order.user.name}</p> 
                                     <p><strong>Email: </strong><a href={`mailto:${order.user.email}`}>{order.user.email}</a></p>
                                     <p>
                                         <strong>Direción de envío: </strong>
@@ -96,7 +97,7 @@ function OrderScreen({ match, history }) {
                                         {order.shippingAddress.country}
                                     </p>
 
-                                    {order.isDelivered ? (
+                                    {order.isDelivered ? ( /*Verificar si se ha entregado o no*/
                                         <Message variant='success'>Se entregó  {order.deliveredAt}</Message>
                                     ) : (
                                             <Message variant='warning'>No se ha entregado, continue con el proceso de pago</Message>
@@ -109,7 +110,7 @@ function OrderScreen({ match, history }) {
                                         <strong>Método: </strong>
                                         {order.paymentMethod}
                                     </p>
-                                    {order.isPaid ? (
+                                    {order.isPaid ? (       /*Verificando el estado del pago*/
                                         <Message variant='success'>Pagado {order.paidAt}</Message>
                                     ) : (
                                             <Message variant='warning'>No ha pagado</Message>
@@ -117,10 +118,10 @@ function OrderScreen({ match, history }) {
 
                                 </ListGroup.Item>
 
-                                <ListGroup.Item>
-                                    <h2>Artículos de la orden</h2>
-                                    {order.orderItems.length === 0 ? <Message variant='info'>
-                                        La orden no contiene productos
+                                <ListGroup.Item              /*Llamando a los datos de la orden*/> 
+                                    <h2>Artículos de la orden</h2> 
+                                    {order.orderItems.length === 0 ? <Message variant='info'> 
+                                        La orden no contiene productos 
                             </Message> : (
                                             <ListGroup variant='flush'>
                                                 {order.orderItems.map((item, index) => (
@@ -149,7 +150,7 @@ function OrderScreen({ match, history }) {
                         </Col>
 
                         <Col md={4}>
-                            <Card>
+                            <Card                   /*Información del pedido*/>
                                 <ListGroup variant='flush'>
                                     <ListGroup.Item>
                                         <h2>Información del pedido</h2>
@@ -191,16 +192,16 @@ function OrderScreen({ match, history }) {
                                             {!sdkReady ? (
                                                 <Loader />
                                             ) : (
-                                                    <PayPalButton
+                                                    <PayPalButton /*LLamando a la api de paypal*/
                                                         amount={order.totalPrice}
                                                         onSuccess={successPaymentHandler}
                                                     />
                                                 )}
                                         </ListGroup.Item>
                                     )}
-                                </ListGroup>
+                                </ListGroup> 
                                 {loadingDeliver && <Loader />}
-                                {userInfo && userInfo.isAdmin && order.isPaid && !order.isDelivered && (
+                                {userInfo && userInfo.isAdmin && order.isPaid && !order.isDelivered && (        /*Se valida si se ha entregado la orden*/
                                     <ListGroup.Item>
                                         <Button
                                             type='button'

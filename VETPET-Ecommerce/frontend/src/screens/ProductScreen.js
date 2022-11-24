@@ -8,6 +8,8 @@ import Message from '../components/Message'
 import { listProductDetails, createProductReview } from '../actions/productActions'
 import { PRODUCT_CREATE_REVIEW_RESET } from '../constants/productConstants'
 
+/*Panatalla de un producto en especifico*/
+
 function ProductScreen({ match, history }) {
     const [qty, setQty] = useState(1)
     const [rating, setRating] = useState(0)
@@ -28,6 +30,7 @@ function ProductScreen({ match, history }) {
         success: successProductReview,
     } = productReviewCreate
 
+/*Verificar reseñas*/
     useEffect(() => {
         if (successProductReview) {
             setRating(0)
@@ -42,7 +45,7 @@ function ProductScreen({ match, history }) {
     const addToCartHandler = () => {
         history.push(`/cart/${match.params.id}?qty=${qty}`)
     }
-
+/*Subir reseñas*/
     const submitHandler = (e) => {
         e.preventDefault()
         dispatch(createProductReview(
@@ -54,13 +57,13 @@ function ProductScreen({ match, history }) {
     }
 
     return (
-        <div>
-            <Link to='/' className='btn btn-light my-3'>Regresar</Link>
+        <div /*Regresar a pagina de incio*/>
+            <Link to='/' className='btn btn-light my-3'>Regresar</Link >
             {loading ?
                 <Loader />
                 : error
                     ? <Message variant='danger'>{error}</Message>
-                    : (
+                    : ( /*Mensaje de error en caso de algun fallo*/
                         <div>
                             <Row>
                                 <Col md={6}>
@@ -68,7 +71,7 @@ function ProductScreen({ match, history }) {
                                 </Col>
 
 
-                                <Col md={3}>
+                                <Col md={3} /*Datos del producto elegido*/>
                                     <ListGroup variant="flush">
                                         <ListGroup.Item>
                                             <h3>{product.name}</h3>
@@ -89,7 +92,7 @@ function ProductScreen({ match, history }) {
                                 </Col>
 
 
-                                <Col md={3}>
+                                <Col md={3}  /*Datos del producto elegido*/>
                                     <Card>
                                         <ListGroup variant='flush'>
                                             <ListGroup.Item>
@@ -103,7 +106,7 @@ function ProductScreen({ match, history }) {
                                             <ListGroup.Item>
                                                 <Row>
                                                     <Col>En existencia:</Col>
-                                                    <Col>
+                                                    <Col /*Verificar cantidad*/>
                                                         {product.countInStock > 0 ? '   En Stock' : 'Fuera de Stock'}
                                                     </Col>
                                                 </Row>
@@ -136,7 +139,7 @@ function ProductScreen({ match, history }) {
 
 
                                             <ListGroup.Item>
-                                                <Button
+                                                <Button /*Boton para agrgar al carrito, envio de paramentros*/
                                                     onClick={addToCartHandler}
                                                     className='btn-block'
                                                     disabled={product.countInStock == 0}
@@ -152,7 +155,7 @@ function ProductScreen({ match, history }) {
                             <Row>
                                 <Col md={6}>
                                     <h4>Reseñas</h4>
-                                    {product.reviews.length === 0 && <Message variant='info'>No hay reseñas</Message>}
+                                    {product.reviews.length === 0 && <Message variant='info'>No hay reseñas</Message> /*Verifica si hay reseñas*/}
 
                                     <ListGroup variant='flush'>
                                         {product.reviews.map((review) => (
@@ -164,7 +167,7 @@ function ProductScreen({ match, history }) {
                                             </ListGroup.Item>
                                         ))}
 
-                                        <ListGroup.Item>
+                                        <ListGroup.Item /*Funcion para escribir una reseña*/>
                                             <h4>Escribe una reseña</h4>
 
                                             {loadingProductReview && <Loader />}
@@ -172,15 +175,15 @@ function ProductScreen({ match, history }) {
                                             {errorProductReview && <Message variant='danger'>{errorProductReview}</Message>}
 
                                             {userInfo ? (
-                                                <Form onSubmit={submitHandler}>
+                                                <Form onSubmit={submitHandler} /*Funcion para calificar el producto, valores para calificar*/>
                                                     <Form.Group controlId='rating'>
                                                         <Form.Label>Rating</Form.Label>
                                                         <Form.Control
                                                             as='select'
                                                             value={rating}
                                                             onChange={(e) => setRating(e.target.value)}
-                                                        >
-                                                            <option value=''>Select...</option>
+                                                        > 
+                                                            <option value=''>Select...</option >
                                                             <option value='1'>1 - Bastante malo</option>
                                                             <option value='2'>2 - Malo</option>
                                                             <option value='3'>3 - Meh</option>
@@ -199,7 +202,7 @@ function ProductScreen({ match, history }) {
                                                         ></Form.Control>
                                                     </Form.Group>
 
-                                                    <Button
+                                                    <Button /*Boton para publcar reseña*/
                                                         disabled={loadingProductReview}
                                                         type='submit'
                                                         variant='primary'
@@ -208,7 +211,7 @@ function ProductScreen({ match, history }) {
                                                     </Button>
 
                                                 </Form>
-                                            ) : (
+                                            ) : ( /*Mensaje en caso de que no haya iicado sesion*/
                                                     <Message variant='info'>Necesitas <Link to='/login'>iniciar sesión </Link>para publicar reseñas</Message>
                                                 )}
                                         </ListGroup.Item>

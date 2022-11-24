@@ -22,10 +22,11 @@ function PlaceOrderScreen({ history }) {
 
     cart.totalPrice = (Number(cart.itemsPrice) + Number(cart.shippingPrice) + Number(cart.taxPrice)).toFixed(2)
 
-
+/*Verificar pago*/
     if (!cart.paymentMethod) {
         history.push('/payment')
     }
+
 
     useEffect(() => {
         if (success) {
@@ -34,6 +35,8 @@ function PlaceOrderScreen({ history }) {
         }
     }, [success, history])
 
+
+    /*Datos de la orden*/
     const placeOrder = () => {
         dispatch(createOrder({
             orderItems: cart.cartItems,
@@ -55,7 +58,7 @@ function PlaceOrderScreen({ history }) {
                         <ListGroup.Item>
                             <h2>Envío</h2>
 
-                            <p>
+                            <p /*Mostrando los datos de la orden en pantalla*/> 
                                 <strong>Información de envío: </strong>
                                 {cart.shippingAddress.address},  {cart.shippingAddress.city}
                                 {'  '}
@@ -65,7 +68,7 @@ function PlaceOrderScreen({ history }) {
                             </p>
                         </ListGroup.Item>
 
-                        <ListGroup.Item>
+                        <ListGroup.Item /*Mostrando el metodo de pago*/>
                             <h2>Método de pago</h2>
                             <p>
                                 <strong>Método seleccionado: </strong>
@@ -73,7 +76,7 @@ function PlaceOrderScreen({ history }) {
                             </p>
                         </ListGroup.Item>
 
-                        <ListGroup.Item>
+                        <ListGroup.Item /*Mostrando los productos de la orden*/>
                             <h2>Artículos de la orden</h2>
                             {cart.cartItems.length === 0 ? <Message variant='info'>
                                 Tu carrito está vacío
@@ -105,7 +108,7 @@ function PlaceOrderScreen({ history }) {
                 </Col>
 
                 <Col md={4}>
-                    <Card>
+                    <Card       /*Información de el envio*/>
                         <ListGroup variant='flush'>
                             <ListGroup.Item>
                                 <h2>Información del pedido</h2>

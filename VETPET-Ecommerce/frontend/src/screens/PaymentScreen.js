@@ -14,6 +14,7 @@ function PaymentScreen({ history }) {
 
     const [paymentMethod, setPaymentMethod] = useState('PayPal')
 
+    /*Verificar dirección de entrega*/
     if (!shippingAddress.address) {
         history.push('/shipping')
     }
@@ -28,7 +29,7 @@ function PaymentScreen({ history }) {
         <FormContainer>
             <CheckoutSteps step1 step2 step3 />
             
-            <Form onSubmit={submitHandler}>
+            <Form onSubmit={submitHandler}  /*Tipos de metodos de pago*/>
                 <Form.Group>
                     <Form.Label as='legend'>Selecciona un método</Form.Label>
                     <Col>

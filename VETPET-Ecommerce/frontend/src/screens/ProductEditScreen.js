@@ -9,11 +9,12 @@ import FormContainer from '../components/FormContainer'
 import { listProductDetails, updateProduct } from '../actions/productActions'
 import { PRODUCT_UPDATE_RESET } from '../constants/productConstants'
 
+/*Panatalla para el admin/staff*/
 
 function ProductEditScreen({ match, history }) {
 
     const productId = match.params.id
-
+/*Datos de los productos*/
     const [name, setName] = useState('')
     const [price, setPrice] = useState(0)
     const [image, setImage] = useState('')
@@ -32,6 +33,7 @@ function ProductEditScreen({ match, history }) {
     const { error: errorUpdate, loading: loadingUpdate, success: successUpdate } = productUpdate
 
 
+    /*Obteniendo datos*/
     useEffect(() => {
 
         if (successUpdate) {
@@ -55,7 +57,7 @@ function ProductEditScreen({ match, history }) {
 
 
     }, [dispatch, product, productId, history, successUpdate])
-
+/*Información por producto*/
     const submitHandler = (e) => {
         e.preventDefault()
         dispatch(updateProduct({
@@ -98,13 +100,13 @@ function ProductEditScreen({ match, history }) {
     }
 
     return (
-        <div>
-            <Link to='/admin/productlist'>
-                Go Back
+        <div /*Link para regresar*/>
+            <Link to='/admin/productlist'> 
+                Regresar
             </Link>
 
-            <FormContainer>
-                <h1>Edit Product</h1>
+            <FormContainer /*Formulario para editar productos*/>
+                <h1>Editar productos</h1>
                 {loadingUpdate && <Loader />}
                 {errorUpdate && <Message variant='danger'>{errorUpdate}</Message>}
 
@@ -113,11 +115,11 @@ function ProductEditScreen({ match, history }) {
                         <Form onSubmit={submitHandler}>
 
                             <Form.Group controlId='name'>
-                                <Form.Label>Name</Form.Label>
+                                <Form.Label>Nombre</Form.Label>
                                 <Form.Control
 
                                     type='name'
-                                    placeholder='Enter name'
+                                    placeholder='Ingresa el nombre'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                 >
@@ -125,11 +127,11 @@ function ProductEditScreen({ match, history }) {
                             </Form.Group>
 
                             <Form.Group controlId='price'>
-                                <Form.Label>Price</Form.Label>
+                                <Form.Label>Precio</Form.Label>
                                 <Form.Control
 
                                     type='number'
-                                    placeholder='Enter price'
+                                    placeholder='Ingresa el precio'
                                     value={price}
                                     onChange={(e) => setPrice(e.target.value)}
                                 >
@@ -138,11 +140,11 @@ function ProductEditScreen({ match, history }) {
 
 
                             <Form.Group controlId='image'>
-                                <Form.Label>Image</Form.Label>
+                                <Form.Label>Imagen</Form.Label>
                                 <Form.Control
 
                                     type='text'
-                                    placeholder='Enter image'
+                                    placeholder='Ingresa imagen'
                                     value={image}
                                     onChange={(e) => setImage(e.target.value)}
                                 >
@@ -162,11 +164,11 @@ function ProductEditScreen({ match, history }) {
 
 
                             <Form.Group controlId='brand'>
-                                <Form.Label>Brand</Form.Label>
+                                <Form.Label>Marca</Form.Label>
                                 <Form.Control
 
                                     type='text'
-                                    placeholder='Enter brand'
+                                    placeholder='Ingresa la marca'
                                     value={brand}
                                     onChange={(e) => setBrand(e.target.value)}
                                 >
@@ -174,11 +176,11 @@ function ProductEditScreen({ match, history }) {
                             </Form.Group>
 
                             <Form.Group controlId='countinstock'>
-                                <Form.Label>Stock</Form.Label>
+                                <Form.Label>Cantidad</Form.Label>
                                 <Form.Control
 
                                     type='number'
-                                    placeholder='Enter stock'
+                                    placeholder='Cantidad disponible'
                                     value={countInStock}
                                     onChange={(e) => setCountInStock(e.target.value)}
                                 >
@@ -186,11 +188,11 @@ function ProductEditScreen({ match, history }) {
                             </Form.Group>
 
                             <Form.Group controlId='category'>
-                                <Form.Label>Category</Form.Label>
+                                <Form.Label>Categoria</Form.Label>
                                 <Form.Control
 
                                     type='text'
-                                    placeholder='Enter category'
+                                    placeholder='Ingresa la categoria'
                                     value={category}
                                     onChange={(e) => setCategory(e.target.value)}
                                 >
@@ -198,11 +200,11 @@ function ProductEditScreen({ match, history }) {
                             </Form.Group>
 
                             <Form.Group controlId='description'>
-                                <Form.Label>Description</Form.Label>
+                                <Form.Label>Descripción</Form.Label>
                                 <Form.Control
 
                                     type='text'
-                                    placeholder='Enter description'
+                                    placeholder='Ingresa la descripción'
                                     value={description}
                                     onChange={(e) => setDescription(e.target.value)}
                                 >
@@ -210,8 +212,8 @@ function ProductEditScreen({ match, history }) {
                             </Form.Group>
 
 
-                            <Button type='submit' variant='primary'>
-                                Update
+                            <Button type='submit' variant='primary' /*Enviar los datos*/>  
+                                Actualizar
                         </Button>
 
                         </Form>
