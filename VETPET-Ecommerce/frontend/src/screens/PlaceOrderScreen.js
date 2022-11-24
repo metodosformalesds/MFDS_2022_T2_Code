@@ -1,3 +1,4 @@
+//Paul Hernandez
 import React, { useState, useEffect } from 'react'
 import { Button, Row, Col, ListGroup, Image, Card } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
@@ -156,8 +157,6 @@ function PlaceOrderScreen({ history }) {
                                 >
                                     Confirmar orden
                                 </Button>
-                               
-                                
                             </ListGroup.Item>
                 
 

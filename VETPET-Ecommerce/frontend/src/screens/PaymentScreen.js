@@ -1,3 +1,4 @@
+//Paul Hernandez y Vianey Martinez 
 import React, { useState, useEffect } from 'react'
 import { Form, Button, Col } from 'react-bootstrap'
 import { useDispatch, useSelector } from 'react-redux'
@@ -41,12 +42,11 @@ function PaymentScreen({ history }) {
                             checked
                             onChange={(e) => setPaymentMethod(e.target.value)}
                         >
-
                         </Form.Check>
                     </Col>
                 </Form.Group>
 
-                <Button type='submit' variant='primary'>
+                <Button type='submit' variant='primary' /**/>
                     Continuar
                 </Button>
           
