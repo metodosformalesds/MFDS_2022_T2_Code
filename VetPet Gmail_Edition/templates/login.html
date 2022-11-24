@@ -1,0 +1,55 @@
+<!-- Define que el documento esta bajo el estandar de HTML 5 -->
+<!doctype html>
+
+<!-- Representa la raíz de un documento HTML o XHTML. Todos los demás elementos deben ser descendientes de este elemento. -->
+<html lang="es">
+    
+    <head>
+        
+        <meta charset="utf-8">
+        
+        <title>Login Veterinaria</title>    
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="193047">
+
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet">
+        
+        <!-- Link hacia el archivo de estilos css -->
+        <link rel="stylesheet" href="../static/css/login.css">
+        
+        <style type="text/css">
+            
+        </style>
+        
+        <script type="text/javascript">
+        
+        </script>
+        
+    </head>
+    {% block content %}
+    <body>
+        
+        <div id="contenedor">
+            <div id="central">
+                <div id="login">
+                    <div class="titulo">
+                        Bienvenido
+                    </div>
+                    <form class="form" method="post">
+                    {% csrf_token %}
+                    {{form.as_p}}                        
+                        <button type="submit" id="submit">Login</button>
+                    </form>
+                    <div class="pie-form">
+                        <a href="{% url 'home' %}">Volver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+    </body>
+    {% endblock content %}
+</html>

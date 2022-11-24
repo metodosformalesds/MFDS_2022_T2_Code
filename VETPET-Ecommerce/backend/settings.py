@@ -24,13 +24,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'sc%oco$+(3$z$at=z4j)#l-+ym)+_b11389mdt2^12m$bf63%@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
+#Se descativa el estado de DEBUG para el proceso de producción del sistema
+DEBUG = False
+#Se indican todos los hosts que tienen acceso a los archivos de la carpeta
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'vetpetecommerce.azurewebsites.net']
 
 
 # Application definition
-
+#Se indican las apicaciones instaladas para su uso dentro de django
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -47,14 +48,14 @@ INSTALLED_APPS = [
     
 ]
 
-
+#Declaración del componente REST API
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     )
 }
 
-
+#Declaración de JWT, permite la creación de tokens de acceso para que los diferentes tipos de usuario tengan diversos tipos de privilegios
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(days=30),
     'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
@@ -96,7 +97,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'backend.urls'
-
+#Se indica el modo en el que mandan a llamar los templates del sistema y cual es su dirreción principal
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -122,7 +123,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 
-# Database
+# Base de datos de django que contiene los modelos creados en Django
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 DATABASES = {
     'default': {
@@ -131,7 +132,7 @@ DATABASES = {
     }
 }
 
-
+#Sirve para validar las credenciales de acceso para los usuarios
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
@@ -165,7 +166,7 @@ USE_L10N = True
 USE_TZ = True
 
 
-# Static files (CSS, JavaScript, Images)
+# Dirección de las plantillas que muestran el frontend de la página
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
@@ -183,14 +184,6 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 CORS_ALLOW_ALL_ORIGINS = True
 
 
-# Dont forget to reset database connection and hide password
-#AWS_QUERYSTRING_AUTH = False
-#DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-
-#AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
-#AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
-
-#AWS_STORAGE_BUCKET_NAME = 'proshop-bucket-demo'
 
 
 if os.getcwd() == '/app':

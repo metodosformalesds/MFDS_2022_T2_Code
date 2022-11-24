@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: -7px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+
+<div class="row">
+  <div class="column" onclick="location.href='{% url 'home' %}';">
+    <img src="../static/img/6.png" alt="Vet" style="width:99%; cursor: pointer">
+  </div>
+  <div class="column" onclick="location.href='https://vetpetecommerce.azurewebsites.net/';">
+    <img src="../static/img/3.png" alt="Tienda" style="width:99%; cursor: pointer">
+  </div>
+  <div class="column" onclick="location.href='http://pruebavet.azurewebsites.net/';">
+    <img src="../static/img/4.png" alt="Adoption" style="width:99%; cursor: pointer">
+  </div>
+</div>
+
+</body>
+</html>

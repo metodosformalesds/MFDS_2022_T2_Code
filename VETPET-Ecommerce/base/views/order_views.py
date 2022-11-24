@@ -1,5 +1,6 @@
 from django.shortcuts import render
-
+#Se mandan a llamar a los modulos del API REST con el fin de recibir e intercambiar los datos de las ordenes, los artículos que hay en ellas, los datos del usuario que 
+#pidió ordenes.
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework.permissions import IsAuthenticated, IsAdminUser
 from rest_framework.response import Response
@@ -23,7 +24,7 @@ def addOrderItems(request):
         return Response({'detail': 'No Order Items'}, status=status.HTTP_400_BAD_REQUEST)
     else:
 
-        # (1) Create order
+        # Aquí se crea la orden con los objetos agregados al carrito
 
         order = Order.objects.create(
             user=user,
@@ -33,7 +34,7 @@ def addOrderItems(request):
             totalPrice=data['totalPrice']
         )
 
-        # (2) Create shipping address
+        # Se crea el objeto que contiene ña dirrección de envío ingresada por el usuario
 
         shipping = ShippingAddress.objects.create(
             order=order,
@@ -43,7 +44,7 @@ def addOrderItems(request):
             country=data['shippingAddress']['country'],
         )
 
-        # (3) Create order items adn set order to orderItem relationship
+        # Se crea el objeto individual para cada orden aceptada por el usuario, se recaban los datos principales del producto y se guardan n dicho objeto
         for i in orderItems:
             product = Product.objects.get(_id=i['product'])
 
@@ -56,7 +57,7 @@ def addOrderItems(request):
                 
             )
 
-            # (4) Update stock
+            # Después de que el usuario confirma la orden, se resta la cantidad de productos que adquirió del stock en la base de datos
 
             product.countInStock -= item.qty
             product.save()
@@ -64,7 +65,7 @@ def addOrderItems(request):
         serializer = OrderSerializer(order, many=False)
         return Response(serializer.data)
 
-
+#El api REST obtiene las ordenes y 
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])
 def getMyOrders(request):
@@ -81,7 +82,7 @@ def getOrders(request):
     serializer = OrderSerializer(orders, many=True)
     return Response(serializer.data)
 
-
+#El api acomoda las ordenes por su id generado y obtiene el contenido de cada una de ellas
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])
 def getOrderById(request, pk):
@@ -99,7 +100,7 @@ def getOrderById(request, pk):
     except:
         return Response({'detail': 'Order does not exist'}, status=status.HTTP_400_BAD_REQUEST)
 
-
+#El API declara la orden como pagada obteniendo la fecha del pago
 @api_view(['PUT'])
 @permission_classes([IsAuthenticated])
 def updateOrderToPaid(request, pk):
@@ -111,7 +112,7 @@ def updateOrderToPaid(request, pk):
 
     return Response('Order was paid')
 
-
+# Se modifica el estado de la orden a entregada si el pagó fue acreditadó
 @api_view(['PUT'])
 @permission_classes([IsAdminUser])
 def updateOrderToDelivered(request, pk):
