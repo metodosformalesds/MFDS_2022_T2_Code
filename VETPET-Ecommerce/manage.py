@@ -3,7 +3,8 @@
 import os
 import sys
 
-
+#Se define el entorno en el que se van a instalar todos los modulos y componentes de Django, si no se encuentra al momento de producción, muestra un mensaje de error indicando 
+#que no se encuentra Django.
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend.settings')
