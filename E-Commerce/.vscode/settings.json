@@ -1,4 +1,0 @@
-{
-    "appService.defaultWebAppToDeploy": "/subscriptions/d1cceb48-a751-4716-a3d1-f663381522d6/AppServices/subscriptions/d1cceb48-a751-4716-a3d1-f663381522d6/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/E-commerce-vetpet",
-    "appService.deploySubpath": "."
-}

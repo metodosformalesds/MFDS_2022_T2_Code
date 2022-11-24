@@ -1,0 +1,41 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: -7px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+
+<div class="row">
+  <div class="column" onclick="location.href='https://vetpet.azurewebsites.net/';">
+    <img src="/static/img/5.png" alt="Snow" style="width:99%; cursor: pointer">
+  </div>
+  <div class="column" onclick="location.href='https://vetpetecommerce.azurewebsites.net/';">
+    <img src="/static/img/3.png" alt="Forest" style="width:99%; cursor: pointer">
+  </div>
+  <div class="column" onclick="location.href='http://pruebavet.azurewebsites.net/';">
+    <img src="/static/img/4.png" alt="Mountains" style="width:99%; cursor: pointer">
+  </div>
+</div>
+
+</body>
+</html>

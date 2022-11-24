@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block cta %} 
+<div class="container hero">
+        <div class="row">
+            <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
+                <h1>Atención médica excepcional para sus mascotas.</h1>
+                <p> En nuestro Sistema de Centros Médicos
+                     combinamos medicina de clase mundial
+                     con cuidado compasivo. </p>
+                    <a href="{% url 'appointment' %}" class="btn  btn action-button"  type="button" style="background-color: #FFC107; border-radius: 55px;
+                    color: white;
+                    font-weight: bold;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    width: 175px;
+                    height: 71px;
+                    line-height: 3.5;">Agendar una cita</a>
+            </div>
+
+        </div>
+    </div>
+{% endblock cta%}
+
