@@ -4,13 +4,14 @@ from rest_framework.decorators import api_view, permission_classes
 from rest_framework.permissions import IsAuthenticated, IsAdminUser
 from rest_framework.response import Response
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
-
+#Dentro de la vista de los productos se importan los componentes que van a formar parte de la misma, los datos del producto y las reviews que se van a mostrar
 from base.models import Product, Review
 from base.serializers import ProductSerializer
 
 from rest_framework import status
 
-
+#El API recopila todos los productos y los muestra , también recaba los productos que sean buscados por medio de la barra de búsqueda, si no existe ninguno, no se muestra nada 
+#y la vista queda en blanco, además de eso, se paginan los productos en cantiades de 5, mostrando solo una peuqeña porción en la pantalla de inicio y se separan por diferentes páginas enumeradas
 @api_view(['GET'])
 def getProducts(request):
     query = request.query_params.get('keyword')
@@ -52,7 +53,7 @@ def getProduct(request, pk):
     serializer = ProductSerializer(product, many=False)
     return Response(serializer.data)
 
-
+#Esta función define un permiso que tiene el usuario tipo admin, de crear o registrar un producto nuevo, introduciendo sus datos principales
 @api_view(['POST'])
 @permission_classes([IsAdminUser])
 def createProduct(request):
@@ -71,7 +72,7 @@ def createProduct(request):
     serializer = ProductSerializer(product, many=False)
     return Response(serializer.data)
 
-
+#Esta función obtiene los productos creado anteriormente y los crea, agregandolos al listado de estos mismos
 @api_view(['PUT'])
 @permission_classes([IsAdminUser])
 def updateProduct(request, pk):
@@ -90,7 +91,7 @@ def updateProduct(request, pk):
     serializer = ProductSerializer(product, many=False)
     return Response(serializer.data)
 
-
+#Los usuarios admin tambien pueden eliminar productos con solos seleccionarlos y dar click en delete
 @api_view(['DELETE'])
 @permission_classes([IsAdminUser])
 def deleteProduct(request, pk):
@@ -98,7 +99,7 @@ def deleteProduct(request, pk):
     product.delete()
     return Response('Producted Deleted')
 
-
+#La función por la cual los usuarios pueden agregar imagenes a lo productos, por medio de un archivo o una url
 @api_view(['POST'])
 def uploadImage(request):
     data = request.data
@@ -111,7 +112,8 @@ def uploadImage(request):
 
     return Response('Image was uploaded')
 
-
+#Esta función permite crear reviews de los productos, pero solo está disponible para los usuarios que tenga cuenta y que su sesión esté inciada, pero por cada usuario debe existir solo una review
+#por producto, si intenta crear otra del mismo producto, el sistema muestra un error.
 @api_view(['POST'])
 @permission_classes([IsAuthenticated])
 def createProductReview(request, pk):
