@@ -1,3 +1,5 @@
+//Vianey Martinez
+
 import React, { useState, useEffect, Component } from 'react'
 import {GoogleLogin} from "react-google-login"
 //Id generado por las credenciales de la api de google

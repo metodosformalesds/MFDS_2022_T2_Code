@@ -1,4 +1,12 @@
 {% load static %}
+
+<!-- Luis Adrian Robles Valenzuela 
+Mapa Interactivo responsive conectado con los datos generados por las APIS
+Este mapa utiliza principalmente Mapbox GL JS, que te permite hacer una busqueda de todas las localizaciones de
+veterinarias cercanas cargadas desde un sidebar, cuando haces click a una veterinaria en especifico te coloca mas 
+información al respecto de esa veterinaria, también te permite hacer marcadores en el mapa. 
+También utiliza la librería de javascript llamada leaflet para algunas funciones del mapa-->
+
 <head>
   <meta charset=utf-8 />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -31,6 +39,9 @@
 
 <body>
 
+  <!-- Luis Adrian Robles Valenzuela 
+Navbar del apartado completo de veterinarias, esto formo parte del proceso de integración de la aplicación-->
+  
   <div class="header" style="background: url('/static/img/bueno.png') no-repeat fixed center; background-size: cover;
     {% if "map" in request.path %}
   max-height:0px!important;min-height:0px!important;
@@ -105,16 +116,23 @@
 
 
   <script>
-    //Mapa basico 
+    /* Luis Adrian Robles Valenzuela 
+    Inicialización del mapa con nuestras coordenadas y el nivel zoom elegido*/
+    
     var map = L.map('map')
       .setView([40.410976, -82.928835], 8);
 
+    /* Luis Adrian Robles Valenzuela 
+    Capa de teselas para agregar al mapa, en este caso es una capa de teselas de OpenStreetMap*/
+    
     var cartodbLight = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
       subdomains: 'abcd'
     }).addTo(map);
 
-
+    /* Luis Adrian Robles Valenzuela 
+    Escala de color del mapa, en este caso se elegio la GrayScale para que el logo pudiera 
+    visualizarse de mejor manera*/
     var baselayers = {
       "Grayscale"     : cartodbLight
     };
@@ -122,8 +140,9 @@
     var layerControl = new L.control.layers(baselayers, null).addTo(map);
 
     
-    //Mostrar busqueda
-    //Global variables
+    /* Luis Adrian Robles Valenzuela 
+    Mostrar la busqueda y el boton de busqueda*/
+    
     var locationLat = [];
     var locationLng = [];
     var locMarker;
@@ -133,7 +152,8 @@
     var hasCircle = 0;
     var circle = [];
 
-    //Cerrar veterinaria al darle click en X
+    /* Luis Adrian Robles Valenzuela 
+    Cerrar la veterinaria al hacer click en la X en el sidebar*/
     var userLocation;
     $("#infoClose").click(function() {
       $("#storeinfo").hide();
@@ -142,7 +162,8 @@
       }
     });
 
-    //Cargar Veterinarias por CSV
+    /* Luis Adrian Robles Valenzuela 
+    Cargar las veterinarias, estás se cargan directamente del CSV generado en la extraccion de las APIS*/
     var listings = document.getElementById('listingDiv');
     var stores = L.geoJson().addTo(map);
     var storesData = omnivore.csv("{% static '../static/assets/data/veterinarias.csv' %}");
@@ -154,7 +175,8 @@
       }
       el.className += ' active';
     }
-    
+    /* Luis Adrian Robles Valenzuela 
+    Toma un archivo JSON y devuelve una copia del mismo archivo, pero con las claves ordenadas.*/
     function sortGeojson(a,b,prop) {
       return (a.properties.name.toUpperCase() < b.properties.name.toUpperCase()) ? -1 : ((a.properties.name.toUpperCase() > b.properties.name.toUpperCase()) ? 1 : 0);
     }
@@ -180,13 +202,14 @@
           toggleSearch.innerHTML = '<i class="fa fa-times"></i>';
           s.style.display = 'block';
 
-          //Autofocus
+          // Luis Adrian Robles Valenzuela Autofocus 
           $('#search-input').focus();
         }
       };
       stores.eachLayer(function(layer) {
 
-        //Jquery busqueda
+       /* Luis Adrian Robles Valenzuela  Utilizacion de la libreria Jquery para la busqueda de las v
+       eterinarias dentro del Sidebar */
         $('#searchbox').on('change paste keyup', function() {
           var txt = $('#search-input').val();
           $('.item').each(function() {
@@ -198,12 +221,13 @@
           });
         });
 
-        // Acortador de la variable layer.feature.propiertes
+      /* Luis Adrian Robles Valenzuela  
+      Acortador de la variable layer.feature.propiertes */
         var prop = layer.feature.properties;
         var layerx = layer.getLatLng().lat;
         var layery = layer.getLatLng().lng;
 
-        // Marcador de veterinaria en el mapa
+        // Marcador de veterinaria en el mapa <!-- Luis Adrian Robles Valenzuela
         var popup = '<h3 style="margin-bottom:5px;">' + prop.name + '</h3><small class="quiet">' + prop.products +
           '</small><br /><span id="directions"><a href="https://www.google.com/maps/dir//?saddr=My+Location' + '&daddr=' + layerx + ',' + layery + '" target="_blank">Ubicacion Google Maps</a></span>';
         var listing = listings.appendChild(document.createElement('div'));
@@ -222,7 +246,7 @@
           linkClick = 1;
           setActive(listing);
 
-          // Cuando se le da click a un item el mapa se mueve al centro, está asosiada a layer
+          // Cuando se le da click a un item el mapa se mueve al centro, está asosiada a layer <!-- Luis Adrian Robles Valenzuela
           map.setView(layer.getLatLng(), 16);
           layer.fire('click');
           infoDiv.style.display = 'block';
@@ -230,7 +254,7 @@
         };
 
 
-        // Interacciones con el marcador
+        // Interacciones con el marcador <!-- Luis Adrian Robles Valenzuela
         layer.on('click', function(e) {
           if (map.hasLayer(userLocation)) {
             map.removeLayer(userLocation)
@@ -248,7 +272,7 @@
           }
 
           
-          // Activa el listado de marcadores asociados.
+          // Activa el listado de marcadores asociados. <!-- Luis Adrian Robles Valenzuela
           setActive(listing);
           infoDiv.style.display = "block";
           infoDivInner.innerHTML = popup;
@@ -263,8 +287,8 @@
           }, 200);
         });
         
-        //Logo de veterinarias
-        layer.setIcon(L.icon({
+        //Logo de veterinarias <!-- Luis Adrian Robles Valenzuela
+        layer.setIcon(L.icon({ 
           iconUrl: "{%  static '../static/assets/icons/LogoVetPe.png' %}",
           iconSize: [30, 30],
           iconAnchor: [20, 20],
@@ -277,7 +301,7 @@
       maxZoom: 10
     });
     
-    //Geolocalizacion
+    //Geolocalizacion utilizando las funciones de Leaflet <!-- Luis Adrian Robles Valenzuela
     map.on('locationfound', function(e) {
       console.log(e);
       var radius = 80000;
@@ -299,7 +323,7 @@
       });
       console.log(storesWithin);
       
-      //Sugirir una veterinaria por cercania
+      //Sugirir una veterinaria por cercania <!-- Luis Adrian Robles Valenzuela
       var nearest = turf.nearest(point, stores.toGeoJSON());
       console.log(nearest);
       if (nearest.properties.name) {

@@ -1,3 +1,4 @@
+//Paul Hernandez
 import React from 'react'
 
 function Rating({ value, text, color }) { /*Mostrar las estrellas de calificación*/

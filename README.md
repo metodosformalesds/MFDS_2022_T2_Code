@@ -9,3 +9,7 @@ Contraseña: 1234567890
 Credenciales acceso cuenta paypal de prueba
 correo:sb-yvdfj22324375@personal.example.com
 contraseña: 1234567890
+
+Credenciales de administracion de citas
+usuario : admin
+contraseña : 123456

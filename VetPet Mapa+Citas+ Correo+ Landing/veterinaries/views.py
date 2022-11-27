@@ -119,9 +119,9 @@ class ManageAppointmentTemplateView(ListView):
 #Adrian Robles y Daniel Barajas
 class MapaTemplateView(TemplateView):
     template_name = "mapa.html"
-
+#Adrian Robles Creacion de la Vista de la pagina inicial 
 class LandingTemplateView(TemplateView):
     template_name = "landing.html"
-
+#Adrian Robles Creaciín de la  Vista de la pagina inicial 
 class SelectionView(TemplateView):
     template_name = "selection.html"
